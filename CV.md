@@ -197,7 +197,7 @@ Architected 3 multi-account AWS organizations managing 200+ workloads with gover
 
 **Role: AWS Cloud DevOps Architect (Part-Time)**
 
-**January 2021 - June 2024**
+**January 2021 - September 2023**
 
 ### Project 12.1 Description - Cloud Centre of Expertise / Cloud Operations
 
@@ -283,7 +283,7 @@ Delivered critical analytics platform supporting border operations through AWS c
 
 **Role: AWS Cloud Infrastructure as Code DevOps Engineer & Architect**
 
-**September 2019 - July 2021**
+**September 2019 - January 2021**
 
 ### Project 11.1 Description - Cloud Services Directorate, Cloud Platform Engineering Project
 
