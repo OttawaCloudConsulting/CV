@@ -21,6 +21,7 @@ Cloud Architect & DevSecOps Specialist with **15+ years of IT experience** speci
 - **Government Sector Compliance** - ITSG, NIST, HIPAA standards
 - **Enterprise Infrastructure Modernization** - On-premise to cloud solutions
 - **DevSecOps Practices** - Security-first development processes
+- **Platform Engineering** - Kubernetes, GitOps, Infrastructure as Code, developer experience
 
 ### Certifications
 - AWS Certified Solutions Architect - Professional
