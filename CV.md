@@ -23,13 +23,12 @@ CERTIFICATION: Certified Scrum Master (CSM - Scrum Alliance)
 Table of Contents
 
 - [PROFESSIONAL EXPERIENCE](#professional-experience)
-  - [14. Project 14 - SSC - Cloud Platform Engineering / Hosting Services Branch](#14-project-14---ssc---cloud-platform-engineering--hosting-services-branch)
-    - [Project 14.1 Description - Cloud Services Directorate, Cloud Platform Engineering Project](#project-141-description---cloud-services-directorate-cloud-platform-engineering-project)
-    - [Project 14.2 Description - Cloud Services Directorate, Automation and Orchestration Framework](#project-142-description---cloud-services-directorate-automation-and-orchestration-framework)
-  - [13. Project 13 - Agriculture Canada - Cloud Centre of Expertise / Cloud Operations](#13-project-13---agriculture-canada---cloud-centre-of-expertise--cloud-operations)
-    - [Project 13.1 Description - Cloud Centre of Expertise / Cloud Operations](#project-131-description---cloud-centre-of-expertise--cloud-operations)
-  - [12. Project 12 - Canada Border Services Agency - Chief Data Office](#12-project-12---canada-border-services-agency---chief-data-office)
-    - [Project 12.1 Description - DevOps \& AWS Development](#project-121-description---devops--aws-development)
+  - [13. Project 13 - SSC - Cloud Platform Engineering / Hosting Services Branch](#13-project-13---ssc---cloud-platform-engineering--hosting-services-branch)
+    - [Project 13.1 Description - Cloud Services Directorate, Cloud Platform Engineering](#project-131-description---cloud-services-directorate-cloud-platform-engineering)
+    - [Project 13.2 Description - Cloud Services Directorate, Automation and Orchestration Framework](#project-132-description---cloud-services-directorate-automation-and-orchestration-framework)
+  - [12. Project 12 - Agriculture Canada - Cloud Centre of Expertise / Cloud Operations](#12-project-12---agriculture-canada---cloud-centre-of-expertise--cloud-operations)
+    - [Project 12.1 Description - Cloud Centre of Expertise / Cloud Operations](#project-121-description---cloud-centre-of-expertise--cloud-operations)
+    - [Project 12.2 Description - DevOps \& AWS Development](#project-122-description---devops--aws-development)
   - [11. Project 11 - SSC CSD R\&D](#11-project-11---ssc-csd-rd)
     - [Project 11.1 Description - Cloud Services Directorate, Cloud Platform Engineering Project](#project-111-description---cloud-services-directorate-cloud-platform-engineering-project)
   - [10. Project 10 - DND DPDCS SMMS Replacement Project](#10-project-10---dnd-dpdcs-smms-replacement-project)
@@ -71,7 +70,7 @@ Table of Contents
 
 # PROFESSIONAL EXPERIENCE
 
-## 14. Project 14 - SSC - Cloud Platform Engineering / Hosting Services Branch
+## 13. Project 13 - SSC - Cloud Platform Engineering / Hosting Services Branch
 
 **Shared Services Canada**
 
@@ -81,7 +80,7 @@ Table of Contents
 
 **September 2023 - Current**
 
-### Project 14.1 Description - Cloud Services Directorate, Cloud Platform Engineering Project
+### Project 13.1 Description - Cloud Services Directorate, Cloud Platform Engineering
 
 The Cloud Services Platform Engineering team operates within the Hosting Services Branch providing an Enterprise class Tenancy within the Amazon Web Services (AWS) Cloud, supporting AWS ASEA (Secure Accelerator) and AWS LZA (Landing Zone Accelerator) platform designs.
 
@@ -127,9 +126,7 @@ Successfully architected and deployed enterprise-class GitOps platform serving m
 - **Servers:** Kubernetes (kind, k3d, kubeadm), AWS Linux, CentOS, CIS Hardened Images
 - **Languages:** Bash, Python 3.x, Typescript, Golang, Terraform, Crossplane, Helm, CDK, CDK8s
 
-### Project 14.2 Description - Cloud Services Directorate, Automation and Orchestration Framework
-
-**July 2016 - Current (Ottawa Cloud Consulting - Federally Incorporated)**
+### Project 13.2 Description - Cloud Services Directorate, Automation and Orchestration Framework
 
 The Cloud Services Directorate requires comprehensive automation and orchestration frameworks to support enterprise-scale cloud deployments across multiple government departments and regulated sectors. This initiative focuses on developing scalable, compliant, and secure cloud automation solutions through Ottawa Cloud Consulting's federally incorporated consulting services.
 
@@ -192,7 +189,7 @@ Architected 3 multi-account AWS organizations managing 200+ workloads with gover
 - **Languages:** Python, Golang, Typescript, Bash, YAML, JSON, KCL
 - **Package Management:** OCI Bundles, Helm Charts, Docker Images
 
-## 13. Project 13 - Agriculture Canada - Cloud Centre of Expertise / Cloud Operations
+## 12. Project 12 - Agriculture Canada - Cloud Centre of Expertise / Cloud Operations
 
 **Agriculture Canada**
 
@@ -202,7 +199,7 @@ Architected 3 multi-account AWS organizations managing 200+ workloads with gover
 
 **January 2021 - June 2024**
 
-### Project 13.1 Description - Cloud Centre of Expertise / Cloud Operations
+### Project 12.1 Description - Cloud Centre of Expertise / Cloud Operations
 
 The AAFC Cloud Centre of Expertise (CCoE) are focused on providing a secure and scalable managed public cloud environment to internal business users. The AWS Cloud environment is implemented using standard AWS Landing Zone foundations with layers of Infrastructure as Code governance resources deployed to meet both Operational and Security requirements, as well as achieve full ATO status for production workloads.
 
@@ -242,22 +239,12 @@ Achieved full ATO (Authority to Operate) status for Agriculture Canada's AWS Clo
 - **Applications:** Microsoft Active Directory, Bash, Azure DevOps Git, Azure DevOps Pipelines, CloudFormation, Checkov Security Scanning (BridgeCrew/Prisma), TerraScan Security Scanning (Tenable)
 - **Servers:** Microsoft Windows 2019, AWS Linux, CentOS, CIS Hardened Images
 
-## 12. Project 12 - Canada Border Services Agency - Chief Data Office
+### Project 12.2 Description - DevOps & AWS Development
 
-**CBSA**
-
-**CDO - Analytics Solution Division**
-
-**Role: AWS Cloud DevOps Specialist**
-
-**November 2021 - To November 2023**
-
-### Project 12.1 Description - DevOps & AWS Development
-
-The CDO Analytics team are focused on designing, developing and deploying applications for data analysis that operate in the AWS Cloud to meet departmental analytical requirements on Low Value Shipments (LVS), CARM, TCMS, RTA, and ASSA.
+The Analytics team are focused on designing, developing and deploying applications for data analysis that operate in the AWS Cloud to meet departmental analytical requirements provided data.
 
 **Project Outcomes:**
-Delivered critical analytics platform supporting border operations through AWS cloud-native architecture for Low Value Shipments (LVS), CARM, and TCMS systems. Implemented comprehensive DevSecOps pipeline with automated security scanning and supply chain management, enabling secure data analysis capabilities for national border security operations.
+Delivered critical analytics platform supporting border operations through AWS cloud-native architecture for client workload systems. Implemented comprehensive DevSecOps pipeline with automated security scanning and supply chain management, enabling secure data analysis capabilities.
 
 **Tasks Performed**:
 
@@ -268,7 +255,7 @@ Delivered critical analytics platform supporting border operations through AWS c
   - Infrastructure As Code (IAC) - AWS CDK, AWS SDK, AWS CLI Scripting
 - CI/CD Pipelines - AWS CodeCommit, AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy
 - Implementation and maintenance of CI/CD AWS Resources meeting best practices and agile deployment.
-- Security and Governance reporting on Code and IaC to support Dev**Sec**Ops compliance.
+- Security and Governance reporting on Code and IaC to support DevSecOps compliance.
 - Continuous improvement of Deployment Practices and Release Management:
   - Source Code Control - GIT & AWS CodeCommit
   - Development Practices - AWS Cloud9 and integrations for development team
