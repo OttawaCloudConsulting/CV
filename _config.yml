@@ -1,0 +1,21 @@
+# GitHub Pages Configuration
+theme: jekyll-theme-minimal
+title: Christian Turner
+description: Senior Cloud Architect & DevSecOps Specialist - CV & Project Portfolio
+show_downloads: true
+google_analytics: false
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Full CV
+    url: /CV.html
+  - title: Resume
+    url: /Resume.html
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
