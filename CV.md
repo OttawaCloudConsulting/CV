@@ -5,17 +5,28 @@
 *Senior Cloud Architect & DevSecOps Specialist specializing in AWS cloud transformation,*  
 *government sector compliance, and enterprise infrastructure modernization*
 
-| **Role Description** | Cloud Architect & DevSecOps Specialist |
-| --- | --- |
-| **Resource Profile** | Mr. Turner is a Senior Architect and Technology Consultant with over 15 years of experience in IT. He has extensive experience across multiple vertical and lateral markets and organizations, with a focus on managing change and transforming Infrastructure and IT Business Systems holistically, working with all areas of the technology stacks.<br><br>Mr. Turner's expertise in the private sector includes successful project execution and complex migrations to the public cloud, particularly AWS, since 2011. He has worked with highly secure organizations in the Canadian Federal Government, USA Utilities markets, and Health Care markets, ensuring compliance with ITSG, NIST, and HIPAA standards.<br><br>He excels in innovating and architecting on-premise, hybrid, and cloud solutions, with a strong emphasis on AWS Cloud services. His proficiency in DevSecOps practices ensures the integration of security into every phase of the development process, enhancing the overall security posture of the solutions.<br><br>Mr. Turner drives the implementation of changes to support tracking metrics and KPIs for departmental improvement. He clearly defines vision, strategy, and objectives for change initiatives, ensuring strategic alignment of multiple technical facets with corporate goals.<br><br>His experience includes the transformation and integration of Agile processes and methodologies. As a Subject Matter Expert, he works directly with staff, management, senior management, and executives to achieve project success and organizational goals. |
+## Professional Profile
 
-**Language** English  
+**Role Description:** Cloud Architect & DevSecOps Specialist
+
+**Resource Profile:**
+
+Mr. Turner is a Senior Architect and Technology Consultant with over 15 years of Platform Engineering and IT experience. He has extensive experience across multiple vertical and lateral markets and organizations, with a focus on managing change and transforming Infrastructure and IT Business Systems holistically, working with all areas of the technology stacks.
+
+Mr. Turner's expertise in the private sector includes successful project execution and complex migrations to the public cloud, particularly AWS, since 2011. He has worked with highly secure organizations in the Canadian Federal Government, USA Utilities markets, and Health Care markets, ensuring compliance with ITSG, NIST, and HIPAA standards.
+
+He excels in innovating and architecting on-premise, hybrid, and cloud solutions, with a strong emphasis on AWS Cloud services. His proficiency in DevSecOps practices ensures the integration of security into every phase of the development process, enhancing the overall security posture of the solutions.
+
+Mr. Turner drives the implementation of changes to support tracking metrics and KPIs for departmental improvement. He clearly defines vision, strategy, and objectives for change initiatives, ensuring strategic alignment of multiple technical facets with corporate goals.
+
+His experience includes the transformation and integration of Agile processes and methodologies. As a Subject Matter Expert, he works directly with staff, management, senior management, and executives to achieve project success and organizational goals.
+
+**Language:** English  
 
 **Professional Development**
 
 CERTIFICATION: AWS Certified Solutions Architect - Associate  
 CERTIFICATION: AWS Certified Solutions Architect - Professional
-
 CERTIFICATION: AWS Certified Developer - Associate  
 CERTIFICATION: AWS Certified SysOps Administrator - Associate  
 CERTIFICATION: Certified Scrum Master (CSM - Scrum Alliance)
