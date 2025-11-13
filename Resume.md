@@ -21,12 +21,12 @@ Senior AWS Cloud Platform Engineer and DevSecOps specialist with 14+ years desig
 
 ## Core Competencies
 
-• AWS Architecture, Design & Development
-• Security by Design
-• Automation, CI/CD, and Pipelines
-• Scalability, Redundancy & Availability
-• DevSecOps and GitOps
-• Application Modernization
+- AWS Architecture, Design & Development
+- Security by Design
+- Automation, CI/CD, and Pipelines
+- Scalability, Redundancy & Availability
+- DevSecOps and GitOps
+- Application Modernization
 
 ---
 
