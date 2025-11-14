@@ -54,13 +54,12 @@ Senior AWS Cloud Platform Engineer and DevSecOps specialist with 14+ years desig
 
 ## Certifications
 
-- AWS Certified Solutions Architect - Professional
-- AWS Certified Solutions Architect - Associate
-- AWS Certified Developer - Associate
-- AWS Certified SysOps Administrator - Associate
-- Certified Scrum Master (Scrum Alliance)
+| | | |
+|---|---|---|
+| [![AWS Certified Developer Associate](./assets/images/aws-certified-developer-associate.png){: width="75" height="75" }](./assets/certificates/AWS-Certified-Developer-Associate.pdf) | [![AWS Certified Solutions Architect Associate](./assets/images/aws-certified-solutions-architect-associate.png){: width="75" height="75" }](./assets/certificates/AWS-Certified-Solutions-Architect-Associate.pdf) | [![AWS Certified Solutions Architect Professional](./assets/images/aws-certified-solutions-architect-professional.png){: width="75" height="75" }](./assets/certificates/AWS-Certified-Solutions-Architect-Professional.pdf) |
+| [![AWS Certified SysOps Administrator Associate](./assets/images/aws-certified-sysops-administrator-associate.png){: width="75" height="75" }](./assets/certificates/AWS-Certified-SysOps-Administrator-Associate.pdf) | [![Certified Scrum Master](./assets/images/scum-alliance-certified-scrum-master.png){: width="75" height="75" }](./assets/certificates/Certified-Scrum-Master.pdf) | |
 
-*[View certificate details →](./assets/certificates/README.md)*
+*[View all certificate details →](./assets/certificates/README.md)*
 
 ---
 
