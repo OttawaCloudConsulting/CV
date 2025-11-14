@@ -28,8 +28,7 @@ His experience includes the transformation and integration of Agile processes an
 CERTIFICATION: [AWS Certified SysOps Administrator - Associate](./assets/certificates/AWS%20Certified%20SysOps%20Administrator%20-%20Associate.pdf)
 CERTIFICATION: [AWS Certified Solutions Architect - Associate](./assets/certificates/AWS%20Certified%20Solutions%20Architect%20-%20Associate.pdf)
 CERTIFICATION: [AWS Certified Solutions Architect - Professional](./assets/certificates/AWS%20Certified%20Solutions%20Architect%20-%20Professional.pdf)
-CERTIFICATION: [AWS Certified Developer - Associate](./assets/certificates/AWS%20Certified%20Solutions%20Architect%20-%20Associate.pdf)
-
+CERTIFICATION: [AWS Certified Developer - Associate](./assets/certificates/AWS%20Certified%20Solutions%20Architect%20-%20Associate.pdf) 
 CERTIFICATION: [Certified Scrum Master (CSM - Scrum Alliance)](./assets/certificates/Scrum%20Alliance%20-%20Certified%20ScrumMaster.pdf)
 
 Table of Contents
