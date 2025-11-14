@@ -1,0 +1,44 @@
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.atom/
+.project
+.classpath
+*.iml
+
+# Build and dependency files
+node_modules/
+*.gem
+Gemfile.lock
+_site/
+.bundle/
+vendor/
+
+# Jekyll-specific files
+.jekyll-cache/
+.jekyll-metadata
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# OS temp files
+.Spotlight-V100
+.Trashes
+ehthumbs.db
