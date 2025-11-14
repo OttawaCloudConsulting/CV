@@ -1,0 +1,276 @@
+{
+  "validator": {
+    "version": "1.0",
+    "description": "Project JSON validation rules for CV portfolio projects",
+    "author": "Project Management",
+    "created": "2025-11-14"
+  },
+  "rules": {
+    "format": [
+      {
+        "name": "valid_json",
+        "description": "File must be valid JSON",
+        "type": "error",
+        "jq_check": "empty"
+      },
+      {
+        "name": "root_key_exists",
+        "description": "Must have root key 'project'",
+        "type": "error",
+        "jq_check": ".project"
+      }
+    ],
+    "required_fields": [
+      {
+        "field": ".project.number",
+        "description": "Project number is required",
+        "type": "error"
+      },
+      {
+        "field": ".project.title",
+        "description": "Project title is required",
+        "type": "error"
+      },
+      {
+        "field": ".project.client",
+        "description": "Client object is required",
+        "type": "error"
+      },
+      {
+        "field": ".project.client.name",
+        "description": "Client name is required",
+        "type": "error"
+      },
+      {
+        "field": ".project.role",
+        "description": "Role is required",
+        "type": "error"
+      },
+      {
+        "field": ".project.challenge",
+        "description": "Challenge object is required",
+        "type": "error"
+      },
+      {
+        "field": ".project.challenge.summary",
+        "description": "Challenge summary is required",
+        "type": "error"
+      },
+      {
+        "field": ".project.solution",
+        "description": "Solution object is required",
+        "type": "error"
+      },
+      {
+        "field": ".project.solution.summary",
+        "description": "Solution summary is required",
+        "type": "error"
+      },
+      {
+        "field": ".project.solution.deliverables",
+        "description": "Solution deliverables array is required",
+        "type": "error"
+      },
+      {
+        "field": ".project.outcomes",
+        "description": "Outcomes array is required",
+        "type": "error"
+      },
+      {
+        "field": ".project.technologies",
+        "description": "Technologies array is required",
+        "type": "error"
+      }
+    ],
+    "type_validation": [
+      {
+        "field": ".project.number",
+        "expected_type": "number",
+        "description": "Project number must be a number",
+        "type": "error"
+      },
+      {
+        "field": ".project.title",
+        "expected_type": "string",
+        "description": "Project title must be a string",
+        "type": "error"
+      },
+      {
+        "field": ".project.client",
+        "expected_type": "object",
+        "description": "Client must be an object",
+        "type": "error"
+      },
+      {
+        "field": ".project.client.name",
+        "expected_type": "string",
+        "description": "Client name must be a string",
+        "type": "error"
+      },
+      {
+        "field": ".project.client.department",
+        "expected_type": "string",
+        "description": "Client department must be a string",
+        "type": "error"
+      },
+      {
+        "field": ".project.client.team",
+        "expected_type": "string",
+        "description": "Client team must be a string",
+        "type": "error"
+      },
+      {
+        "field": ".project.role",
+        "expected_type": "string",
+        "description": "Role must be a string",
+        "type": "error"
+      },
+      {
+        "field": ".project.challenge.summary",
+        "expected_type": "string",
+        "description": "Challenge summary must be a string",
+        "type": "error"
+      },
+      {
+        "field": ".project.solution.summary",
+        "expected_type": "string",
+        "description": "Solution summary must be a string",
+        "type": "error"
+      },
+      {
+        "field": ".project.solution.deliverables",
+        "expected_type": "array",
+        "description": "Deliverables must be an array",
+        "type": "error"
+      },
+      {
+        "field": ".project.outcomes",
+        "expected_type": "array",
+        "description": "Outcomes must be an array",
+        "type": "error"
+      },
+      {
+        "field": ".project.technologies",
+        "expected_type": "array",
+        "description": "Technologies must be an array",
+        "type": "error"
+      }
+    ],
+    "content_validation": [
+      {
+        "field": ".project.number",
+        "check": "greater_than_zero",
+        "description": "Project number must be greater than 0",
+        "type": "error"
+      },
+      {
+        "field": ".project.title",
+        "check": "non_empty_string",
+        "description": "Project title cannot be empty",
+        "type": "error"
+      },
+      {
+        "field": ".project.client.name",
+        "check": "non_empty_string",
+        "description": "Client name cannot be empty",
+        "type": "error"
+      },
+      {
+        "field": ".project.role",
+        "check": "non_empty_string",
+        "description": "Role cannot be empty",
+        "type": "error"
+      },
+      {
+        "field": ".project.challenge.summary",
+        "check": "non_empty_string",
+        "description": "Challenge summary cannot be empty",
+        "type": "error"
+      },
+      {
+        "field": ".project.solution.summary",
+        "check": "non_empty_string",
+        "description": "Solution summary cannot be empty",
+        "type": "error"
+      },
+      {
+        "field": ".project.solution.deliverables",
+        "check": "non_empty_array",
+        "description": "Deliverables array must contain at least 1 item",
+        "type": "error"
+      },
+      {
+        "field": ".project.outcomes",
+        "check": "non_empty_array",
+        "description": "Outcomes array must contain at least 1 item",
+        "type": "error"
+      },
+      {
+        "field": ".project.technologies",
+        "check": "non_empty_array",
+        "description": "Technologies array must contain at least 1 item",
+        "type": "error"
+      }
+    ],
+    "constraint_validation": [
+      {
+        "field": ".project.number",
+        "constraint": "valid_decimal",
+        "description": "Project number must be valid decimal (e.g., 13, 2.1, 1.2)",
+        "type": "error"
+      },
+      {
+        "field": ".project.number",
+        "constraint": "within_range",
+        "min": 0,
+        "max": 999.9,
+        "description": "Project number must be between 0 and 999.9 (supports future growth)",
+        "type": "error"
+      },
+      {
+        "field": ".project.solution.deliverables",
+        "check": "all_non_empty_strings",
+        "description": "All deliverables must be non-empty strings",
+        "type": "error"
+      },
+      {
+        "field": ".project.outcomes",
+        "check": "all_non_empty_strings",
+        "description": "All outcomes must be non-empty strings",
+        "type": "error"
+      },
+      {
+        "field": ".project.outcomes",
+        "check": "emoji_prefix",
+        "prefix": "✅",
+        "description": "All outcomes should start with ✅ emoji",
+        "type": "error"
+      },
+      {
+        "field": ".project.technologies",
+        "check": "has_required_keys",
+        "required_keys": ["category", "items"],
+        "description": "Each technology object must have 'category' and 'items' keys",
+        "type": "error"
+      },
+      {
+        "field": ".project.technologies[].category",
+        "check": "non_empty_string",
+        "description": "Technology category must be non-empty string",
+        "type": "error"
+      },
+      {
+        "field": ".project.technologies[].items",
+        "check": "non_empty_array",
+        "description": "Technology items array must contain at least 1 item",
+        "type": "error"
+      },
+      {
+        "field": ".project.technologies[].items",
+        "check": "all_non_empty_strings",
+        "description": "All technology items must be non-empty strings",
+        "type": "error"
+      }
+    ]
+  }
+}

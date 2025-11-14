@@ -1,0 +1,32 @@
+{
+  "project": {
+    "number": 99,
+    "title": "[Client Redacted] - Test Invalid Project",
+    "client": {
+      "name": "[Client Redacted]",
+      "department": "",
+      "team": ""
+    },
+    "role": "Test Engineer",
+    "challenge": {
+      "summary": "This is a test project with missing outcomes"
+    },
+    "solution": {
+      "summary": "Testing solution",
+      "deliverables": [
+        "Item 1",
+        ""
+      ]
+    },
+    "outcomes": [
+      "Outcome without emoji",
+      ""
+    ],
+    "technologies": [
+      {
+        "category": "Test",
+        "items": ["Tech1"]
+      }
+    ]
+  }
+}
