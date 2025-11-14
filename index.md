@@ -17,6 +17,7 @@ Welcome to my professional CV and portfolio. Choose an option below:
 ## Quick Profile
 
 Cloud Architect & DevSecOps Specialist with **15+ years of IT experience** specializing in:
+
 - **AWS Cloud Transformation** - Migration and architecture
 - **Government Sector Compliance** - ITSG, NIST, HIPAA standards
 - **Enterprise Infrastructure Modernization** - On-premise to cloud solutions
@@ -24,14 +25,16 @@ Cloud Architect & DevSecOps Specialist with **15+ years of IT experience** speci
 - **Platform Engineering** - Kubernetes, GitOps, Infrastructure as Code, developer experience
 
 ### Certifications
-- AWS Certified Solutions Architect - Professional
-- AWS Certified Solutions Architect - Associate
-- AWS Certified Developer - Associate
-- AWS Certified SysOps Administrator - Associate
-- Certified Scrum Master (CSM)
+
+- [AWS Certified Solutions Architect - Professional](./certificates/AWS Certified Solutions Architect - Professional.pdf)
+- [AWS Certified Solutions Architect - Associate](./certificates/AWS Certified Solutions Architect - Associate.pdf)
+- [AWS Certified Developer - Associate](./certificates/AWS Certified Developer - Associate.pdf)
+- [AWS Certified SysOps Administrator - Associate](./certificates/AWS Certified SysOps Administrator - Associate.pdf)
+- [Certified Scrum Master (CSM)](./certificates/Scrum Alliance - Certified ScrumMaster.pdf)
 
 ---
 
 **Contact & Links**
+
 - GitHub: [OttawaCloudConsulting](https://github.com/OttawaCloudConsulting)
 - Last Updated: November 2025
