@@ -16,7 +16,7 @@ Welcome to my professional CV and portfolio. Choose an option below:
 
 ## Quick Profile
 
-Cloud Architect & DevSecOps Specialist with **15+ years of IT experience** specializing in:
+Cloud Architect & DevSecOps Specialist and Platform Engineer with **15+ years of IT experience** specializing in:
 
 - **AWS Cloud Transformation** - Migration and architecture
 - **Government Sector Compliance** - ITSG, NIST, HIPAA standards
@@ -26,15 +26,20 @@ Cloud Architect & DevSecOps Specialist with **15+ years of IT experience** speci
 
 ### Certifications
 
-- [AWS Certified Solutions Architect - Professional](./certificates/AWS Certified Solutions Architect - Professional.pdf)
-- [AWS Certified Solutions Architect - Associate](./certificates/AWS Certified Solutions Architect - Associate.pdf)
-- [AWS Certified Developer - Associate](./certificates/AWS Certified Developer - Associate.pdf)
-- [AWS Certified SysOps Administrator - Associate](./certificates/AWS Certified SysOps Administrator - Associate.pdf)
-- [Certified Scrum Master (CSM)](./certificates/Scrum Alliance - Certified ScrumMaster.pdf)
+- [AWS Certified Solutions Architect - Associate](./assets/certificates/AWS%20Certified%20Solutions%20Architect%20-%20Associate.pdf)
+- [AWS Certified Solutions Architect - Professional](./assets/certificates/AWS%20Certified%20Solutions%20Architect%20-%20Professional.pdf)
+- [AWS Certified Developer - Associate](./assets/certificates/AWS%20Certified%20Developer%20-%20Associate.pdf)
+- [AWS Certified SysOps Administrator - Associate](./assets/certificates/AWS%20Certified%20SysOps%20Administrator%20-%20Associate.pdf)
+- [Certified Scrum Master (CSM)](./assets/certificates/Scrum%20Alliance%20-%20Certified%20ScrumMaster.pdf)
 
 ---
 
 **Contact & Links**
 
 - GitHub: [OttawaCloudConsulting](https://github.com/OttawaCloudConsulting)
-- Last Updated: November 2025
+- Website: [https://www.OttawaCloudConsulting.com](https://ottawacloudconsulting.com)
+- Upwork Profile: [Christian Turner Upwork Profile](https://www.upwork.com/freelancers/~01d25d63900af96d9d)
+
+---
+
+Last Updated: November 2025

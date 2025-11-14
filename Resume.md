@@ -10,7 +10,7 @@ title: Christian Turner - Resume
 | 📞 (613) 796-3300                                             | 📧 <CTurner@OttawaCloudConsulting.com>              |
 | ------------------------------------------------------------ | -------------------------------------------------- |
 | 🔗 [LinkedIn](https://linkedin.com/in/Christian-Turner-CloudPro) | 🐙 [GitHub](https://github.com/OttawaCloudConsulting) |
-| 📄 [Resume - MS Word .docx format](./Christian_Turner-Resume_2025.docx) | 📕 [Resume - Adobe PDF format](./Christian_Turner-Resume_2025.pdf) |
+| 📄 [Resume - MS Word .docx format](./assets/documents/Christian_Turner-Resume_2025.docx) | 📕 [Resume - Adobe PDF format](./assets/documents/Christian_Turner-Resume_2025.pdf) |
 
 ---
 
@@ -60,7 +60,7 @@ Senior AWS Cloud Platform Engineer and DevSecOps specialist with 14+ years desig
 - AWS Certified SysOps Administrator - Associate
 - Certified Scrum Master (Scrum Alliance)
 
-*[View certificate details →](./certificates/README.md)*
+*[View certificate details →](./assets/certificates/README.md)*
 
 ---
 
