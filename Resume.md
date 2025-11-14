@@ -9,7 +9,8 @@ title: Christian Turner - Resume
 
 | 📞 (613) 796-3300                                             | 📧 <CTurner@OttawaCloudConsulting.com>              |
 | ------------------------------------------------------------ | -------------------------------------------------- |
-| 🔗 [LinkedIn](https://linkedin.com/in/Christian-Turner-CloudPro) | [GitHub](https://github.com/OttawaCloudConsulting) |
+| 🔗 [LinkedIn](https://linkedin.com/in/Christian-Turner-CloudPro) | 🐙 [GitHub](https://github.com/OttawaCloudConsulting) |
+| 📄 [Resume - MS Word .docx format](./Christian_Turner-Resume_2025.docx) | 📕 [Resume - Adobe PDF format](./Christian_Turner-Resume_2025.pdf) |
 
 ---
 
