@@ -1,0 +1,50 @@
+{
+  "project": {
+    "number": 6,
+    "title": "[Client Redacted] - Cloud Service Delivery",
+    "client": {
+      "name": "[Client Redacted]",
+      "department": "",
+      "team": ""
+    },
+    "role": "Office 365 & Cloud Delivery Manager",
+    "challenge": {
+      "summary": "Manage and harmonize cloud services during mergers and acquisitions while consolidating multiple Managed Service Providers (MSPs) and ensuring consistency across integrated entities."
+    },
+    "solution": {
+      "summary": "Strategic cloud service management initiatives:",
+      "deliverables": [
+        "Vendor management and consolidation of MSPs",
+        "Cloud integration and standardization (Azure, Office 365)",
+        "Service Level Agreement renegotiation",
+        "Training and change management for staff and end-users",
+        "Governance model establishment for centralized management"
+      ]
+    },
+    "outcomes": [
+      "✅ Enhanced service efficiency and consistency across organization",
+      "✅ Significant cost savings through MSP consolidation",
+      "✅ Improved vendor relationships and responsiveness",
+      "✅ Successful integration post-merger/acquisition",
+      "✅ Minimal disruption to ongoing operations"
+    ],
+    "technologies": [
+      {
+        "category": "Public Cloud",
+        "items": ["Microsoft Azure", "Office 365"]
+      },
+      {
+        "category": "Cloud Services",
+        "items": ["Azure ExpressRoute", "Azure InTune MDM"]
+      },
+      {
+        "category": "Identity",
+        "items": ["Azure Active Directory"]
+      },
+      {
+        "category": "Languages",
+        "items": ["Microsoft PowerShell"]
+      }
+    ]
+  }
+}

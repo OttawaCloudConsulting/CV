@@ -1,0 +1,64 @@
+{
+  "project": {
+    "number": 1.1,
+    "title": "[Client Redacted] - IT Integration of Automated Production Systems",
+    "client": {
+      "name": "[Client Redacted]",
+      "department": "",
+      "team": ""
+    },
+    "role": "Operations and Infrastructure Management",
+    "challenge": {
+      "summary": "Integrate $500M enterprise with fully automated smart-factory production systems while managing ERP/MRP integration and supporting \"lights-out\" manufacturing operations."
+    },
+    "solution": {
+      "summary": "Strategic approach to smart-factory IT integration:",
+      "deliverables": [
+        "GE Fanuc Smart Automation and SCADA systems integration",
+        "Automated data transfer to centralized AS/400 systems",
+        "Lawson Movex (M3) and Info BPCS ERP/MRP integration",
+        "SNMP monitoring of smart-factory and IT infrastructure",
+        "Fail-over testing and documentation for non-technical staff",
+        "US DOD NOFORN classification compliance"
+      ]
+    },
+    "outcomes": [
+      "✅ Successful smart-factory integration with minimal downtime",
+      "✅ Automated data transfer and system integration",
+      "✅ Lights-out manufacturing operations enabled",
+      "✅ 60% growth in organizational staff supported",
+      "✅ Multi-location payroll consolidation achieved",
+      "✅ US DOD compliance maintained (NOFORN classification)"
+    ],
+    "technologies": [
+      {
+        "category": "Automation",
+        "items": ["GE Fanuc Smart Automation", "SCADA systems"]
+      },
+      {
+        "category": "ERP/MRP",
+        "items": ["Lawson MOVEX (M3)", "Info BPCS", "Infor Syteline"]
+      },
+      {
+        "category": "Infrastructure",
+        "items": ["Windows 2003", "Windows 2008", "AS/400", "IBM WebSphere"]
+      },
+      {
+        "category": "Applications",
+        "items": ["SharePoint", "Salesforce", "MS SQL", "MySQL", "Oracle"]
+      },
+      {
+        "category": "Networking",
+        "items": ["Cisco Catalyst", "Cisco IOS Routers"]
+      },
+      {
+        "category": "Security",
+        "items": ["Cisco ASA", "Nagios", "SolarWinds"]
+      },
+      {
+        "category": "Monitoring",
+        "items": ["SNMP monitoring", "remote infrastructure management"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "project": {
+    "number": 13,
+    "title": "[Client Redacted] - Cloud Platform Engineering",
+    "client": {
+      "name": "[Client Redacted]",
+      "department": "Cloud Hosting Services Branch",
+      "team": "Platform Engineering"
+    },
+    "role": "AWS Cloud Platform Engineer/Architect",
+    "challenge": {
+      "summary": "Organizational environment requires automated client/workload facilitation with maximum automation and low-touch onboarding and support processes."
+    },
+    "solution": {
+      "summary": "Architect, design, and deploy comprehensive automation framework utilizing:",
+      "deliverables": [
+        "Kubernetes with ArgoCD & Crossplane",
+        "GitOps-based infrastructure orchestration",
+        "Centralized DevOps orchestration platform",
+        "Deterministic automation workflows"
+      ]
+    },
+    "outcomes": [
+      "✅ Automation of processes and migration from Click-Ops to GitOps-based workflows",
+      "✅ 30% improvement in deployment frequency",
+      "✅ 60% reduction in Kubernetes onboarding time",
+      "✅ 99.9% uptime across 3 production EKS clusters",
+      "✅ 75% reduction in deployment errors through standardization"
+    ],
+    "technologies": [
+      {
+        "category": "Container Orchestration",
+        "items": [
+          "AWS EKS",
+          "Kubernetes",
+          "Docker"
+        ]
+      },
+      {
+        "category": "GitOps & CI/CD",
+        "items": [
+          "ArgoCD",
+          "Argo Workflows",
+          "Argo Events",
+          "Azure DevOps"
+        ]
+      },
+      {
+        "category": "Infrastructure as Code",
+        "items": [
+          "Terraform",
+          "Crossplane",
+          "Helm",
+          "CDK",
+          "CDK8s"
+        ]
+      },
+      {
+        "category": "Security & Compliance",
+        "items": [
+          "AWS IAM",
+          "IRSA",
+          "RBAC",
+          "NIST 800-53",
+          "ITSG standards"
+        ]
+      },
+      {
+        "category": "Languages",
+        "items": [
+          "Python",
+          "Golang",
+          "Typescript",
+          "Bash"
+        ]
+      }
+    ]
+  }
+}

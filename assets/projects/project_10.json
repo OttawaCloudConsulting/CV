@@ -1,0 +1,60 @@
+{
+  "project": {
+    "number": 10,
+    "title": "[Client Redacted] - Cloud Platform Engineering R&D",
+    "client": {
+      "name": "[Client Redacted]",
+      "department": "Cloud Services Directorate",
+      "team": ""
+    },
+    "role": "AWS Cloud DevSecOps Engineering & Architecture",
+    "challenge": {
+      "summary": "Automate the CSD Landing Zone Accelerator by integrating AWS Landing Zone customization and SAA Security Guard Rails while ensuring strict security standards for Authority to Operate (ATO)."
+    },
+    "solution": {
+      "summary": "Key strategic and technical steps:",
+      "deliverables": [
+        "Needs analysis and architectural design with PoC implementation",
+        "Infrastructure as Code development (AWS CLI, SDK/API, CloudFormation, Terraform)",
+        "CI/CD implementation (CodePipeline, CodeCommit, CodeBuild, CodeDeploy, GitLab, GitHub)",
+        "IT Security Program aligned with ITSG standards",
+        "SSO Federation design with Azure Active Directory",
+        "Access Control Program ensuring appropriate RBAC"
+      ]
+    },
+    "outcomes": [
+      "✅ Automated and secure cloud environment with streamlined CSD Landing Zone",
+      "✅ Infrastructure scalability and reusability across teams",
+      "✅ Robust security posture meeting all ITSG standards",
+      "✅ Effective knowledge transfer and documentation across organization",
+      "✅ First team to achieve ATO using AWS Secure Environment Accelerator",
+      "✅ Foundational architecture adopted across [Client Redacted] for government-wide deployment"
+    ],
+    "technologies": [
+      {
+        "category": "Public Cloud",
+        "items": ["Amazon AWS"]
+      },
+      {
+        "category": "Infrastructure as Code",
+        "items": ["AWS CloudFormation", "Terraform", "AWS CLI"]
+      },
+      {
+        "category": "Source Control",
+        "items": ["GitLab", "GitHub", "AWS CodeCommit"]
+      },
+      {
+        "category": "CI/CD",
+        "items": ["AWS CodePipeline", "CodeBuild", "CodeDeploy"]
+      },
+      {
+        "category": "Compliance",
+        "items": ["ITSG-22", "ITSG-33", "ITSG-38", "AWS security guardrails"]
+      },
+      {
+        "category": "Identity",
+        "items": ["Azure Active Directory SSO", "AWS IAM", "RBAC"]
+      }
+    ]
+  }
+}

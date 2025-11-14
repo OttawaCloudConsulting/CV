@@ -1,0 +1,57 @@
+{
+  "project": {
+    "number": 8.1,
+    "title": "[Client Redacted] - Office 365 & Skype for Business Migration",
+    "client": {
+      "name": "[Client Redacted]",
+      "department": "",
+      "team": ""
+    },
+    "role": "Cloud Architecture",
+    "challenge": {
+      "summary": "Migrate on-premises communication systems to cloud platform ensuring zero downtime, enhanced security, and compliance with public sector standards."
+    },
+    "solution": {
+      "summary": "Strategic approach to communication systems migration:",
+      "deliverables": [
+        "Cloud environment preparation and configuration",
+        "Data migration using Microsoft native tools",
+        "Security and compliance adjustments within Office 365",
+        "Comprehensive training and post-migration support"
+      ]
+    },
+    "outcomes": [
+      "✅ Enhanced communication capabilities with cloud-based systems",
+      "✅ Increased reliability and scalability of services",
+      "✅ Secure and compliant environment meeting government standards",
+      "✅ Successful cloud transition with zero downtime",
+      "✅ Smooth transition with minimal operational disruption"
+    ],
+    "technologies": [
+      {
+        "category": "Public Cloud",
+        "items": ["Microsoft Office 365", "Cloudflare"]
+      },
+      {
+        "category": "Security",
+        "items": ["Azure Security Center", "Azure Policy", "Blueprints"]
+      },
+      {
+        "category": "Databases",
+        "items": ["PostgreSQL"]
+      },
+      {
+        "category": "Monitoring",
+        "items": ["Azure Monitor", "Application Insights"]
+      },
+      {
+        "category": "Applications",
+        "items": ["Java", "Tomcat", "Apache", "Elasticsearch"]
+      },
+      {
+        "category": "Languages",
+        "items": ["PowerShell", "Azure CLI"]
+      }
+    ]
+  }
+}

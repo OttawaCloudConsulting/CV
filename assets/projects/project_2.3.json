@@ -1,0 +1,71 @@
+{
+  "project": {
+    "number": 2.3,
+    "title": "[Client Redacted] - Corporate Private Cloud (Data Centre Architecture)",
+    "client": {
+      "name": "[Client Redacted]",
+      "department": "GeoSpatial Engineering",
+      "team": ""
+    },
+    "role": "Operations and Infrastructure Architect",
+    "challenge": {
+      "summary": "Design and deploy scalable GIS SaaS platform serving 500+ global clients across 15 countries while managing massive data ingestion (1-2 TB/day) and ensuring 99.5% uptime."
+    },
+    "solution": {
+      "summary": "Strategic approach to corporate private cloud architecture:",
+      "deliverables": [
+        "Multi-petabyte data handling solution",
+        "NexentaStor software-defined storage cluster",
+        "Automated data archiving and retention management",
+        "Integration with AWS for off-site replication"
+      ]
+    },
+    "outcomes": [
+      "✅ Market-leading SaaS platform serving 500+ global clients",
+      "✅ 99.5% platform uptime across 15 countries",
+      "✅ 1-2 TB/day automated data ingestion pipeline",
+      "✅ 99.8% data processing reliability",
+      "✅ 50% improvement in engineering processing timelines",
+      "✅ 8 production and engineering environments supporting 25+ staff",
+      "✅ Successfully migrated 750TB+ of mission-critical data"
+    ],
+    "technologies": [
+      {
+        "category": "Public Cloud",
+        "items": ["Amazon AWS", "RackSpace Cloud", "Microsoft Azure", "Google GCP"]
+      },
+      {
+        "category": "Data Management",
+        "items": ["1-2 TB/day ingestion", "PostgreSQL/PostGIS"]
+      },
+      {
+        "category": "Storage",
+        "items": ["NexentaStor Software-defined Storage", "Cloud-bursting"]
+      },
+      {
+        "category": "Private Data Centre",
+        "items": ["Rogers Tier 2", "ATT Tier 3"]
+      },
+      {
+        "category": "Applications",
+        "items": ["GIS Platforms", "SharePoint", "QuickBase", "Salesforce"]
+      },
+      {
+        "category": "Monitoring",
+        "items": ["New Relic", "Nagios", "SolarWinds", "Observium"]
+      },
+      {
+        "category": "Databases",
+        "items": ["PostgreSQL", "PostGIS", "MySQL", "MS SQL"]
+      },
+      {
+        "category": "Backup",
+        "items": ["UniTrends Enterprise Backup", "Veaam Backup"]
+      },
+      {
+        "category": "CI/CD",
+        "items": ["Hudson-Jenkins", "Visual SVN"]
+      }
+    ]
+  }
+}

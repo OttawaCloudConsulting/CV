@@ -1,0 +1,62 @@
+{
+  "project": {
+    "number": 3.1,
+    "title": "[Client Redacted] - Operations Virtualization",
+    "client": {
+      "name": "[Client Redacted]",
+      "department": "",
+      "team": ""
+    },
+    "role": "Operations and Infrastructure Architect",
+    "challenge": {
+      "summary": "Modernize infrastructure from unique physical hardware per server (8 servers at <20% utilization) while implementing security compliance and reducing operational overhead."
+    },
+    "solution": {
+      "summary": "Strategic approach to infrastructure virtualization:",
+      "deliverables": [
+        "Infrastructure migration to fully virtualized environment",
+        "VLAN segregation for operations, POS, web, CCTV, and building automation",
+        "HP ProCurve and Cisco switching with Sophos UTM",
+        "Citrix XenServer clustering with replicated NAS storage"
+      ]
+    },
+    "outcomes": [
+      "✅ Increased IT agility and operational efficiency",
+      "✅ Reduced infrastructure costs through virtualization",
+      "✅ Improved disaster recovery capabilities",
+      "✅ Enhanced system performance and reliability",
+      "✅ Reduced IT management overhead for distributed workforce",
+      "✅ Maintained PCI-DSS compliance through modernization"
+    ],
+    "technologies": [
+      {
+        "category": "Virtualization",
+        "items": ["Citrix XenServer", "VMware 5.5"]
+      },
+      {
+        "category": "Networking",
+        "items": ["HP ProCurve", "Cisco Switches", "Sophos UTM"]
+      },
+      {
+        "category": "Storage",
+        "items": ["NAS storage clustering", "RAID"]
+      },
+      {
+        "category": "Terminal Services",
+        "items": ["Windows 2012 R2 RDS", "Wyse Terminal Hardware"]
+      },
+      {
+        "category": "Security",
+        "items": ["PCI-DSS compliance", "Syslog-NG"]
+      },
+      {
+        "category": "Monitoring",
+        "items": ["ManageEngine OpManager", "SolarWinds"]
+      },
+      {
+        "category": "Applications",
+        "items": ["Active Directory", "SpiceWorks Helpdesk", "SysAid ITIL"]
+      }
+    ]
+  }
+}

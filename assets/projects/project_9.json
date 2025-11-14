@@ -1,0 +1,74 @@
+{
+  "project": {
+    "number": 9,
+    "title": "[Client Redacted] - SMMS Replacement Project",
+    "client": {
+      "name": "[Client Redacted]",
+      "department": "Search And Rescue Application Replacement",
+      "team": ""
+    },
+    "role": "Cloud Architect – Resilient Systems",
+    "challenge": {
+      "summary": "Modernize critical Search and Rescue operations systems with zero downtime migration to cloud infrastructure while integrating live data interfaces for GIS applications and maintaining strict [Client Redacted] security requirements."
+    },
+    "solution": {
+      "summary": "Infrastructure and application modernization strategy:",
+      "deliverables": [
+        "Application design for AWS Cloud-native services",
+        "Containerization and migration to serverless core infrastructure",
+        "Docker/ECS container architecture and PostgreSQL integration",
+        "Auto-scaling for containers and EC2 instances",
+        "CloudWatch and EventBridge-based event-driven architecture",
+        "Security implementation meeting ITSG and [Client Redacted] compliance",
+        "Staged implementation testing with inline remediation",
+        "Infrastructure as Code deployment via Service Catalog"
+      ]
+    },
+    "outcomes": [
+      "✅ Zero downtime migration of critical SAR system to AWS cloud",
+      "✅ Containerized architecture with Docker/ECS ensuring 24/7 availability",
+      "✅ Enhanced operational efficiency for Search and Rescue operations",
+      "✅ Integrated GIS and real-time data capabilities",
+      "✅ Robust infrastructure resilience reducing downtime",
+      "✅ Scalable IT infrastructure adaptable to future needs"
+    ],
+    "technologies": [
+      {
+        "category": "Public Cloud",
+        "items": ["Amazon AWS"]
+      },
+      {
+        "category": "Container Orchestration",
+        "items": ["Docker", "ECS", "ECR"]
+      },
+      {
+        "category": "Compute & Storage",
+        "items": ["EC2", "ECS", "S3", "EFS", "RDS"]
+      },
+      {
+        "category": "Infrastructure as Code",
+        "items": ["CloudFormation", "Terraform", "Service Catalog"]
+      },
+      {
+        "category": "Monitoring",
+        "items": ["CloudWatch", "EventBridge", "CloudTrail"]
+      },
+      {
+        "category": "Networking",
+        "items": ["VPC", "Route 53", "Load Balancers", "Transit Gateway"]
+      },
+      {
+        "category": "Security",
+        "items": ["IAM", "GuardDuty", "WAF & Shield", "Inspector", "Certificate Manager"]
+      },
+      {
+        "category": "Databases",
+        "items": ["PostgreSQL", "RDS"]
+      },
+      {
+        "category": "Applications",
+        "items": ["Java", "Tomcat", "Apache"]
+      }
+    ]
+  }
+}

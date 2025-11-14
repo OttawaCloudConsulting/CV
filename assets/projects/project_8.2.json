@@ -1,0 +1,57 @@
+{
+  "project": {
+    "number": 8.2,
+    "title": "[Client Redacted] - Server Workload Migration to Azure",
+    "client": {
+      "name": "[Client Redacted]",
+      "department": "",
+      "team": ""
+    },
+    "role": "Cloud Architecture",
+    "challenge": {
+      "summary": "Migrate on-premises server workloads to cloud platform ensuring zero downtime, enhanced security, and compliance with public sector standards."
+    },
+    "solution": {
+      "summary": "Strategic approach to server workload migration:",
+      "deliverables": [
+        "Robust cloud architecture design in Azure",
+        "Security and compliance configuration (Azure Security Center, Policy, Blueprints)",
+        "Phased migration minimizing disruption",
+        "Performance optimization with Azure Monitor and Application Insights"
+      ]
+    },
+    "outcomes": [
+      "✅ Enhanced communication capabilities with cloud-based systems",
+      "✅ Increased reliability and scalability of services",
+      "✅ Secure and compliant environment meeting government standards",
+      "✅ Successful cloud transition with zero downtime",
+      "✅ Smooth transition with minimal operational disruption"
+    ],
+    "technologies": [
+      {
+        "category": "Public Cloud",
+        "items": ["Microsoft Azure", "Cloudflare"]
+      },
+      {
+        "category": "Security",
+        "items": ["Azure Security Center", "Azure Policy", "Blueprints"]
+      },
+      {
+        "category": "Databases",
+        "items": ["PostgreSQL"]
+      },
+      {
+        "category": "Monitoring",
+        "items": ["Azure Monitor", "Application Insights"]
+      },
+      {
+        "category": "Applications",
+        "items": ["Java", "Tomcat", "Apache", "Elasticsearch"]
+      },
+      {
+        "category": "Languages",
+        "items": ["PowerShell", "Azure CLI"]
+      }
+    ]
+  }
+}

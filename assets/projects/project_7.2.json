@@ -1,0 +1,58 @@
+{
+  "project": {
+    "number": 7.2,
+    "title": "[Client Redacted] - Atlassian JIRA Cybersecurity Task Management",
+    "client": {
+      "name": "[Client Redacted]",
+      "department": "Security Management and Governance",
+      "team": ""
+    },
+    "role": "Senior Business Analyst / Technical Architect",
+    "challenge": {
+      "summary": "Design systems to efficiently manage and track security tasks, integrate with existing platforms, and meet rigorous compliance and security standards."
+    },
+    "solution": {
+      "summary": "Strategic approach to cybersecurity task management:",
+      "deliverables": [
+        "JIRA customization aligned with team workflows",
+        "Integration with Confluence and communication platforms",
+        "Refined cybersecurity workflows for task tracking",
+        "Training and change management programs"
+      ]
+    },
+    "outcomes": [
+      "✅ Streamlined security task management and tracking",
+      "✅ Enhanced data security and compliance posture",
+      "✅ Improved collaboration and reporting capabilities",
+      "✅ Successful system adoption across teams",
+      "✅ Centralized platform providing visibility and control",
+      "✅ Faster incident response times and better collaboration"
+    ],
+    "technologies": [
+      {
+        "category": "Collaboration",
+        "items": ["Atlassian JIRA", "Confluence", "HipChat"]
+      },
+      {
+        "category": "Infrastructure",
+        "items": ["VMWare ESXI 6", "CentOS 7"]
+      },
+      {
+        "category": "Databases",
+        "items": ["PostgreSQL"]
+      },
+      {
+        "category": "Application Stack",
+        "items": ["NGINX (Proxy/Load Balancer)", "custom JIRA/Confluence instances"]
+      },
+      {
+        "category": "Security",
+        "items": ["SSL encryption", "LUKS encrypted data volumes"]
+      },
+      {
+        "category": "Backup",
+        "items": ["Automated Bash scripts to remote backup server"]
+      }
+    ]
+  }
+}

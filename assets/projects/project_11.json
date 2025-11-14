@@ -1,0 +1,63 @@
+{
+  "project": {
+    "number": 11,
+    "title": "[Client Redacted] - DevOps & AWS Development",
+    "client": {
+      "name": "[Client Redacted]",
+      "department": "Analytics Solution Division",
+      "team": ""
+    },
+    "role": "AWS Cloud DevSecOps Specialist",
+    "challenge": {
+      "summary": "Create scalable, secure Internal Developer Platform applications on AWS Cloud that meet analytical needs of multiple departmental projects while maintaining high security and compliance standards."
+    },
+    "solution": {
+      "summary": "Strategic DevOps practices and AWS technologies:",
+      "deliverables": [
+        "Needs analysis and architectural design with PoC implementation",
+        "Infrastructure as Code using AWS CDK, SDK, and CLI",
+        "CI/CD pipelines (AWS CodeCommit, CodePipeline, CodeBuild, CodeDeploy)",
+        "Security and governance implementation on code and IaC",
+        "Advanced deployment practices with SonarQube and JFROG Artifactory",
+        "Serverless and event-driven architecture design"
+      ]
+    },
+    "outcomes": [
+      "✅ Robust automation and continuous enhancement of deployment processes",
+      "✅ Secure, compliant, agile development environment",
+      "✅ Streamlined operations reducing time-to-market",
+      "✅ High security and compliance standards maintained",
+      "✅ Automated pipeline processes improving development efficiency"
+    ],
+    "technologies": [
+      {
+        "category": "Public Cloud",
+        "items": ["Amazon AWS"]
+      },
+      {
+        "category": "Infrastructure as Code",
+        "items": ["AWS CDK", "AWS SDK", "AWS CLI", "Terraform"]
+      },
+      {
+        "category": "CI/CD",
+        "items": ["AWS CodeCommit", "CodePipeline", "CodeBuild", "CodeDeploy"]
+      },
+      {
+        "category": "Security Scanning",
+        "items": ["Code security scanning", "IaC security scanning"]
+      },
+      {
+        "category": "Package Management",
+        "items": ["JFROG Artifactory", "SonarQube"]
+      },
+      {
+        "category": "Serverless",
+        "items": ["AWS Lambda", "Step Functions", "EventBridge", "SQS", "SNS"]
+      },
+      {
+        "category": "Languages",
+        "items": ["Python", "Bash", "YAML"]
+      }
+    ]
+  }
+}

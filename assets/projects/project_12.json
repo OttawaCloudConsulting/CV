@@ -1,0 +1,55 @@
+{
+  "project": {
+    "number": 12,
+    "title": "[Client Redacted] - Cloud Centre of Expertise",
+    "client": {
+      "name": "[Client Redacted]",
+      "department": "Information Services Branch",
+      "team": "Cloud Ops"
+    },
+    "role": "AWS Cloud DevSecOps Architect & Platform Engineer",
+    "challenge": {
+      "summary": "Implement a secure and scalable managed public cloud environment using AWS Landing Zone foundations while meeting operational and security requirements and achieving full Authority to Operate (ATO) for production workloads."
+    },
+    "solution": {
+      "summary": "Comprehensive strategic and technical approach:",
+      "deliverables": [
+        "Architectural design and strategy in collaboration with AWS team",
+        "Infrastructure as Code development using Terraform, AWS SDK, and AWS CLI",
+        "CI/CD pipeline implementation (AWS CodeBuild, CodeDeploy, Azure Pipelines)",
+        "IT Security Program establishment meeting ITSG standards",
+        "SSO Federation integration with Azure Active Directory",
+        "Automated security and governance compliance tooling"
+      ]
+    },
+    "outcomes": [
+      "✅ Full ATO (Authority to Operate) status achieved",
+      "✅ Secure, scalable managed cloud environment for internal business users",
+      "✅ Enhanced security posture exceeding GoC ITSG requirements",
+      "✅ Streamlined development and operations through integrated DevOps practices",
+      "✅ Azure AD SSO federation enabling secure identity management"
+    ],
+    "technologies": [
+      {
+        "category": "Public Cloud",
+        "items": ["Amazon AWS", "Azure DevOps", "Azure Active Directory"]
+      },
+      {
+        "category": "Infrastructure as Code",
+        "items": ["Terraform", "AWS SDK", "AWS CLI", "CloudFormation"]
+      },
+      {
+        "category": "CI/CD",
+        "items": ["AWS CodeBuild", "CodeDeploy", "Azure Pipelines"]
+      },
+      {
+        "category": "Security",
+        "items": ["AWS IAM", "Azure AD SSO", "Checkov", "TerraScan"]
+      },
+      {
+        "category": "Compliance",
+        "items": ["ITSG-22", "ITSG-33", "ITSG-38", "TBS cloud guardrails"]
+      }
+    ]
+  }
+}

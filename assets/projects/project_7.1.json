@@ -1,0 +1,58 @@
+{
+  "project": {
+    "number": 7.1,
+    "title": "[Client Redacted] - SharePoint 2016 Security Management System",
+    "client": {
+      "name": "[Client Redacted]",
+      "department": "Security Management and Governance",
+      "team": ""
+    },
+    "role": "Senior Business Analyst / Technical Architect",
+    "challenge": {
+      "summary": "Design systems to efficiently manage and track security tasks, integrate with existing platforms, and meet rigorous compliance and security standards."
+    },
+    "solution": {
+      "summary": "Strategic approach to security management system design:",
+      "deliverables": [
+        "Custom SharePoint environment with lists, workflows, and forms",
+        "Integration with existing IT infrastructure",
+        "Advanced security features for sensitive information",
+        "Comprehensive training for adoption"
+      ]
+    },
+    "outcomes": [
+      "✅ Streamlined security task management and tracking",
+      "✅ Enhanced data security and compliance posture",
+      "✅ Improved collaboration and reporting capabilities",
+      "✅ Successful system adoption across teams",
+      "✅ Centralized platform providing visibility and control",
+      "✅ Faster incident response times and better collaboration"
+    ],
+    "technologies": [
+      {
+        "category": "Collaboration",
+        "items": ["SharePoint 2016"]
+      },
+      {
+        "category": "Infrastructure",
+        "items": ["VMWare ESXI 6", "CentOS 7"]
+      },
+      {
+        "category": "Databases",
+        "items": ["PostgreSQL"]
+      },
+      {
+        "category": "Application Stack",
+        "items": ["NGINX (Proxy/Load Balancer)", "custom SharePoint instances"]
+      },
+      {
+        "category": "Security",
+        "items": ["SSL encryption", "LUKS encrypted data volumes"]
+      },
+      {
+        "category": "Backup",
+        "items": ["Automated Bash scripts to remote backup server"]
+      }
+    ]
+  }
+}

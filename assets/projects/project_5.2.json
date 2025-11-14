@@ -1,0 +1,59 @@
+{
+  "project": {
+    "number": 5.2,
+    "title": "[Client Redacted] - Office 365 Migration from Exchange & Domino",
+    "client": {
+      "name": "[Client Redacted]",
+      "department": "",
+      "team": ""
+    },
+    "role": "DevOps and Architecture",
+    "challenge": {
+      "summary": "Reorganize software development team from unstructured, chaotic environment to fluid Agile and Scrum-based team while modernizing infrastructure and deployment processes."
+    },
+    "solution": {
+      "summary": "Strategic approach to communication systems migration:",
+      "deliverables": [
+        "Unified communication strategy transitioning to Office 365",
+        "Hybrid migration approach for phased user transition",
+        "Custom solutions for legacy system data handling",
+        "Extensive training and support programs"
+      ]
+    },
+    "outcomes": [
+      "✅ Improved project management and tracking",
+      "✅ Enhanced collaboration and team efficiency",
+      "✅ Infrastructure reliability supporting robust development",
+      "✅ Positive cultural shift toward collaboration",
+      "✅ Streamlined communication systems",
+      "✅ Reduced IT overhead",
+      "✅ Improved user experience with modern email platform"
+    ],
+    "technologies": [
+      {
+        "category": "CI/CD",
+        "items": ["Jenkins", "Git", "Atlassian JIRA", "Atlassian Confluence"]
+      },
+      {
+        "category": "Cloud",
+        "items": ["Amazon AWS (EC2, S3, AutoScaling, Elastic Load Balancing)"]
+      },
+      {
+        "category": "Infrastructure as Code",
+        "items": ["Terraform"]
+      },
+      {
+        "category": "Applications",
+        "items": ["IBM WebSphere", "Java", ".NET", "DB2"]
+      },
+      {
+        "category": "Migration Tools",
+        "items": ["BitTitan MigrationWiz"]
+      },
+      {
+        "category": "Monitoring",
+        "items": ["ManageEngine OpManager"]
+      }
+    ]
+  }
+}

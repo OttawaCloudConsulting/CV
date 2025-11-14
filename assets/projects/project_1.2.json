@@ -1,0 +1,64 @@
+{
+  "project": {
+    "number": 1.2,
+    "title": "[Client Redacted] - ADP Payroll Systems Migration",
+    "client": {
+      "name": "[Client Redacted]",
+      "department": "",
+      "team": ""
+    },
+    "role": "Operations and Infrastructure Management",
+    "challenge": {
+      "summary": "Consolidate and migrate ADP payroll operations across 9 locations with distributed workforce, while supporting legacy smart-factory infrastructure and integrating with centralized ERP systems."
+    },
+    "solution": {
+      "summary": "Strategic approach to payroll system consolidation and migration:",
+      "deliverables": [
+        "ADP payroll system implementation and migration across 9 locations",
+        "Citrix Desktop streaming for distributed workforce access",
+        "Active Directory integration for centralized authentication and SSO",
+        "Legacy system decommissioning and data archival",
+        "Fail-over testing and disaster recovery documentation",
+        "Staff training and transition support for new payroll workflows"
+      ]
+    },
+    "outcomes": [
+      "✅ Payroll consolidated across 9 locations into single platform",
+      "✅ Citrix streaming deployment for distributed workforce",
+      "✅ Active Directory integration and SSO implementation",
+      "✅ Improved payroll accuracy and processing time",
+      "✅ Reduced operational complexity and IT overhead",
+      "✅ Seamless transition with zero payroll disruption"
+    ],
+    "technologies": [
+      {
+        "category": "Payroll Systems",
+        "items": ["ADP"]
+      },
+      {
+        "category": "Desktop Virtualization",
+        "items": ["Citrix Desktop Streaming"]
+      },
+      {
+        "category": "Identity Management",
+        "items": ["Active Directory", "Active Directory Federation Services (ADFS)"]
+      },
+      {
+        "category": "Infrastructure",
+        "items": ["Windows 2003", "Windows 2008", "AS/400", "IBM WebSphere"]
+      },
+      {
+        "category": "Networking",
+        "items": ["Cisco Catalyst", "Cisco IOS Routers"]
+      },
+      {
+        "category": "Applications",
+        "items": ["SharePoint", "Salesforce", "MS SQL", "MySQL", "Oracle"]
+      },
+      {
+        "category": "Security",
+        "items": ["Cisco ASA", "Nagios", "SolarWinds"]
+      }
+    ]
+  }
+}
