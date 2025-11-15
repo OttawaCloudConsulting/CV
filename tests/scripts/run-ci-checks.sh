@@ -26,16 +26,14 @@
 set -e
 
 # Colors for output (disabled if not a TTY)
-if [ -t 1 ]; then
+if [[ -t 1 ]]; then
     RED='\033[0;31m'
     GREEN='\033[0;32m'
-    YELLOW='\033[1;33m'
     BLUE='\033[0;34m'
     NC='\033[0m'
 else
     RED=''
     GREEN=''
-    YELLOW=''
     BLUE=''
     NC=''
 fi

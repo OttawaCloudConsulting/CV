@@ -22,19 +22,17 @@
 
 set -e
 
-# Colors for output
-RED='\033[0;31m'
-GREEN='\033[0;32m'
-YELLOW='\033[1;33m'
-BLUE='\033[0;34m'
-NC='\033[0m' # No Color
+# Color codes for output
+readonly RED='\033[0;31m'
+readonly GREEN='\033[0;32m'
+readonly YELLOW='\033[1;33m'
+readonly NC='\033[0m'  # No Color
 
 # Script configuration
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 VALIDATOR_SCRIPT="${SCRIPT_DIR}/../validators/validate-projects.sh"
 PROJECTS_DIR="${SCRIPT_DIR}/../../assets/projects"
 OUTPUT_FORMAT="human"
-VERBOSE=""
 TOTAL_FILES=0
 PASSED_FILES=0
 FAILED_FILES=0
@@ -66,7 +64,7 @@ print_summary() {
         # Output JSON summary
         local failed_json="["
         for i in "${!FAILED_PROJECTS[@]}"; do
-            if [ $i -gt 0 ]; then
+            if [[ "$i" -gt 0 ]]; then
                 failed_json="$failed_json,"
             fi
             failed_json="$failed_json\"${FAILED_PROJECTS[$i]}\""
@@ -123,10 +121,6 @@ main() {
                 OUTPUT_FORMAT="quiet"
                 shift
                 ;;
-            --verbose)
-                VERBOSE="--verbose"
-                shift
-                ;;
             --help)
                 usage
                 exit 0
@@ -172,13 +166,13 @@ main() {
     
     # Validate each file
     while IFS= read -r project_file; do
-        local filename=$(basename "$project_file")
+        local filename
+        filename=$(basename "$project_file")
         
-        # Run validator and capture output
-        local result
-        if result=$(bash "$VALIDATOR_SCRIPT" "$project_file" --quiet 2>&1); then
+        # Run validator and check result
+        if bash "$VALIDATOR_SCRIPT" "$project_file" --quiet >/dev/null 2>&1; then
             ((PASSED_FILES++))
-            if [ "$OUTPUT_FORMAT" != "json" ] && [ "$OUTPUT_FORMAT" != "quiet" ]; then
+            if [[ "$OUTPUT_FORMAT" != "json" ]] && [[ "$OUTPUT_FORMAT" != "quiet" ]]; then
                 echo -e "${GREEN}✓${NC} $filename"
             fi
         else

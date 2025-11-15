@@ -1,0 +1,38 @@
+{
+  "project": {
+    "number": 99,
+    "title": "",
+    "client": {
+      "name": "",
+      "department": "",
+      "team": ""
+    },
+    "role": "",
+    "challenge": {
+      "summary": ""
+    },
+    "solution": {
+      "summary": "",
+      "deliverables": [
+        "",
+        "Item 2",
+        ""
+      ]
+    },
+    "outcomes": [
+      "Missing emoji",
+      "",
+      "Also missing emoji"
+    ],
+    "technologies": [
+      {
+        "category": "Languages",
+        "items": ["", "JavaScript", ""]
+      },
+      {
+        "category": "Frameworks",
+        "items": []
+      }
+    ]
+  }
+}
