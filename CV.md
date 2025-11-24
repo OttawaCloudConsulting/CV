@@ -255,7 +255,7 @@ Achieved full ATO (Authority to Operate) status for Agriculture Canada's AWS Clo
 The Analytics team are focused on designing, developing and deploying applications for data analysis that operate in the AWS Cloud to meet departmental analytical requirements provided data.
 
 **Project Outcomes:**
-Delivered critical analytics platform supporting border operations through AWS cloud-native architecture for client workload systems. Implemented comprehensive DevSecOps pipeline with automated security scanning and supply chain management, enabling secure data analysis capabilities.
+Delivered critical analytics platform supporting analytics operations through AWS cloud-native architecture for client workload systems. Implemented comprehensive DevSecOps pipeline with automated security scanning and supply chain management, enabling secure data analysis capabilities.
 
 **Tasks Performed**:
 
