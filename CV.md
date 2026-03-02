@@ -1,4 +1,7 @@
-**Mr. Christian Turner**
+# **Mr. Christian Turner**
+
+[CTurner@OttawaCloudConsulting.com] | [+1 (613) 796-3300] | [Ottawa, Ontario, Canada]
+[LinkedIn: linkedin.com/in/Christian-Turner-CloudPro] | [GitHub: github.com/OttawaCloudConsulting]
 
 **Comprehensive Technical CV & Project Portfolio**  
 *Detailed technical expertise documentation and project history*  
@@ -7,19 +10,26 @@
 
 ## Professional Profile
 
-**Role Description:** Cloud Architect & DevSecOps Specialist
+Mr. Turner is a Senior Cloud Architect and DevSecOps Specialist with 15+ years of
+AWS-focused platform engineering experience, including nine consecutive years delivering
+cloud solutions to Canadian Federal Government clients. He has achieved Authority to
+Operate (ATO) status on multiple government AWS environments, led enterprise-scale
+Kubernetes and GitOps platform implementations at Shared Services Canada, and holds
+four active AWS certifications including Solutions Architect – Professional. His
+engagements span SSC, Agriculture Canada, and the Department of National Defence,
+with consistent delivery against ITSG-22/33/38, NIST 800-53, and Government of Canada
+cloud guardrail requirements.
 
-**Resource Profile:**
+Mr. Turner operates through Ottawa Cloud Consulting Inc., a federally incorporated consulting
+practice, delivering cloud architecture, DevSecOps, infrastructure automation, and
+compliance-driven platform engineering. His expertise spans AWS-native development,
+multi-account governance, containerized workloads (EKS, Kubernetes), GitOps pipelines
+(ArgoCD, Azure DevOps), and IaC at enterprise scale (Terraform, CDK, CloudFormation).
 
-Mr. Turner is a Senior Architect and Technology Consultant with over 15 years of Platform Engineering and IT experience. He has extensive experience across multiple vertical and lateral markets and organizations, with a focus on managing change and transforming Infrastructure and IT Business Systems holistically, working with all areas of the technology stacks.
-
-Mr. Turner's expertise in the private sector includes successful project execution and complex migrations to the public cloud, particularly AWS, since 2011. He has worked with highly secure organizations in the Canadian Federal Government, USA Utilities markets, and Health Care markets, ensuring compliance with ITSG, NIST, and HIPAA standards.
-
-He excels in innovating and architecting on-premise, hybrid, and cloud solutions, with a strong emphasis on AWS Cloud services. His proficiency in DevSecOps practices ensures the integration of security into every phase of the development process, enhancing the overall security posture of the solutions.
-
-Mr. Turner drives the implementation of changes to support tracking metrics and KPIs for departmental improvement. He clearly defines vision, strategy, and objectives for change initiatives, ensuring strategic alignment of multiple technical facets with corporate goals.
-
-His experience includes the transformation and integration of Agile processes and methodologies. As a Subject Matter Expert, he works directly with staff, management, senior management, and executives to achieve project success and organizational goals.
+His experience includes successful cloud migrations across healthcare, utilities, and
+political sector clients with HIPAA, NIST, and ITSG compliance requirements. As a
+Subject Matter Expert, he engages directly with technical teams, management, and
+executive stakeholders to deliver architecture that is secure, automated, and auditable.
 
 **Language:** English  
 
@@ -28,8 +38,21 @@ His experience includes the transformation and integration of Agile processes an
 - CERTIFICATION: [AWS Certified SysOps Administrator - Associate](./assets/certificates/AWS%20Certified%20SysOps%20Administrator%20-%20Associate.pdf)
 - CERTIFICATION: [AWS Certified Solutions Architect - Associate](./assets/certificates/AWS%20Certified%20Solutions%20Architect%20-%20Associate.pdf)
 - CERTIFICATION: [AWS Certified Solutions Architect - Professional](./assets/certificates/AWS%20Certified%20Solutions%20Architect%20-%20Professional.pdf)
-- CERTIFICATION: [AWS Certified Developer - Associate](./assets/certificates/AWS%20Certified%20Solutions%20Architect%20-%20Associate.pdf)
+- CERTIFICATION: [AWS Certified Developer - Associate](./assets/certificates/AWS%20Certified%20Developer%20-%20Associate.pdf)
 - CERTIFICATION: [Certified Scrum Master (CSM - Scrum Alliance)](./assets/certificates/Scrum%20Alliance%20-%20Certified%20ScrumMaster.pdf)
+
+
+
+## Executive Summary
+
+- **Specialization:** AWS Cloud Architecture, DevSecOps, and Platform Engineering for Canadian Federal Government and regulated sector clients
+- **Government Clients:** Shared Services Canada (SSC), Agriculture Canada, Department of National Defence (DND) — 9+ consecutive years
+- **Compliance Depth:** ITSG-22/33/38, NIST 800-53, Government of Canada Cloud Guardrails, HIPAA; multiple Authority to Operate (ATO) achievements
+- **Cloud Platforms:** AWS (primary, 15+ years), Microsoft Azure, Google Cloud
+- **Current Engagement:** Cloud Platform Engineering, Shared Services Canada — September 2023 to Present
+- **Certifications:** AWS Solutions Architect – Professional, AWS Solutions Architect – Associate, AWS SysOps Administrator – Associate, AWS Developer – Associate, Certified ScrumMaster (CSM)
+- **Consulting Entity:** Ottawa Cloud Consulting (federally incorporated) — Principal Consultant
+- **Availability:** 2-week notice period
 
 Table of Contents
 
@@ -245,14 +268,14 @@ Achieved full ATO (Authority to Operate) status for Agriculture Canada's AWS Clo
 
 **Technical Environment:**
 
-- **Public Cloud:** Amazon AWS Cloud (All Services)
+- **Public Cloud:** Amazon AWS (AWS Organizations, AWS Control Tower, AWS SSO, AWS Config, AWS CloudTrail, AWS GuardDuty, AWS IAM, AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy, AWS CloudFormation, Terraform)
 - **Public Cloud:** Azure DevOps, Azure Active Directory, Azure Sentinel
 - **Applications:** Microsoft Active Directory, Bash, Azure DevOps Git, Azure DevOps Pipelines, CloudFormation, Checkov Security Scanning (BridgeCrew/Prisma), TerraScan Security Scanning (Tenable)
 - **Servers:** Microsoft Windows 2019, AWS Linux, CentOS, CIS Hardened Images
 
 ### Project 12.2 Description - DevOps & AWS Development
 
-The Analytics team are focused on designing, developing and deploying applications for data analysis that operate in the AWS Cloud to meet departmental analytical requirements provided data.
+The Analytics team is focused on designing, developing and deploying applications for data analysis that operate in the AWS Cloud to meet departmental analytical requirements provided data.
 
 **Project Outcomes:**
 Delivered critical analytics platform supporting analytics operations through AWS cloud-native architecture for client workload systems. Implemented comprehensive DevSecOps pipeline with automated security scanning and supply chain management, enabling secure data analysis capabilities.
@@ -278,11 +301,11 @@ Delivered critical analytics platform supporting analytics operations through AW
   - AWS Glue batch job architecture
   - AWS DMS (Database Migration Service)
   - AWS Serverless architecture
-  - AWS Event Drive Architecture design and implementation
+  - AWS Event Driven Architecture design and implementation
 
 **Technical Environment:**
 
-- **Public Cloud:** Amazon AWS Cloud (All Services)
+- **Public Cloud:** Amazon AWS (AWS CDK v1/v2, AWS CodeCommit, AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy, AWS Cloud9, AWS Glue, AWS DMS, AWS Lambda)
 - **Public Cloud:** Azure DevOps
 - **Applications:** Bash, Azure DevOps, Git, Atlassian Jira, Code & IaC Security Scanning, JFROG Artifactory, SonarQube & Dependency Checker, AWS CDK v1.x, AWS CDK v2.x
 
@@ -317,7 +340,7 @@ First team to achieve ATO status using AWS Secure Environment Accelerator (ASEA)
 - GitLab, GitHub
 - Implementation of IT Security Program to meet ITSG-22, ITSG-33 and ITSG-38 and TBS driven cloud guardrails and achieve iATO
 - Design, secure and implementation of SSO Federation with Azure Active Directory
-- Develop and implement Access Control Program and Posture to manage integration of AWS Cloud Identity components, with validated and acceptable RBAC permission scopes based on Actors, Users and System Role requirements
+- Designed and codified the AWS IAM access control framework for the CSD Landing Zone, defining RBAC permission boundaries for cloud operators, workload developers, and automated service roles aligned to ITSG-33 identity requirements and SSO federation with Azure Active Directory.
 - Facilitated requirements gathering with technical team, architecture team, and security team to ensure all process and components are clearly captured and defined. Documentation of outcomes and design are shared with leadership and management.
 - Client Deployment of AWS Native resources to provide governance and generate iATO evidence packages
 - Source Code Management within GitLab
@@ -359,8 +382,8 @@ Successfully modernized critical Search and Rescue operations system with zero d
   - Monitoring - CloudWatch and EventBridge based Event Driven Architecture and response to events
   - Application - Java, Tomcat/Apache, PostgreSQL applications
 - Security Coordination and architectural alignment to required Guidelines (ITSG-33, DND & TSB Cloud Compliance)
-- Implementation if IT Security to meet ITSG controls and achieve iATO
-- Develop and implement Access Control Program and Posture to manage integration of AWS Cloud Identity components, with validated and acceptable RBAC permission scopes based on Actors, Users and System Role requirements.
+- Implementation of IT Security to meet ITSG controls and achieve iATO
+- Engineered the access control posture for the SAR replacement platform, structuring IAM roles and permission scopes for DND operational users, application service accounts, and containerized ECS workloads in accordance with ITSG-33 and DND security directives.
 - Facilitated requirements gathering with technical and systems team, business team and project management, external stakeholders (user base,) and security teams. Worked with CONOPS and ISS (In-Service-Support) teams to ensure all business process components are captured and clearly documented.
 - Review and realign infrastructure as required from continuous development cycles
 - Staged implementation testing of services with inline remediation
@@ -376,20 +399,29 @@ Successfully modernized critical Search and Rescue operations system with zero d
 **Technical Environment:**
 
 - **Public Cloud:** Amazon AWS Cloud, AWS VPC, AWS CloudFront, AWS CloudWatch, AWS CloudTrail, AWS IAM, AWS EC2, AWS ECS, AWS ECR, AWS SES, AWS S3, AWS EFS, AWS RDS, AWS CloudFormation, AWS Service Catalog, AWS Route 53, AWS Systems Manager, AWS Trusted Advisor, AWS VPN, AWS ELB (Load Balancer), AWS ALB (Load Balancer), AWS Transit Gateway, AWS Transit Peering, AWS GuardDuty, AWS WAF & Shield, AWS Inspector, AWS Certificate Manager, AWS Auto-Scaling, AWS EBS Storage, AWS Service Discovery, AWS Transfer Service (SFTP,) AWS Parameter Store, AWS Secrets Store
-- **Applications:** PostgreSQL, Docker Containers, Bash, Terraform 0.12.7***,*** Java 8.x, Tomcat 8.x, Atlassian JIRA, Atlassian Confluence, WSO2, Kafka, PHP, GIT, OpenLDAP, SOGO, ManageEngine Desktop Central, CloudFormation
+- **Applications:** PostgreSQL, Docker Containers, Bash, Terraform 0.12.7, Java 8.x, Tomcat 8.x, Atlassian JIRA, Atlassian Confluence, WSO2, Kafka, PHP, GIT, OpenLDAP, SOGO, ManageEngine Desktop Central, CloudFormation
 - **Servers:** Microsoft Windows 2016, AWS Linux, CentOS 7.x
 
 ## 9. Project 9 - IDS Data Systems (New Democratic Party)
 
 **IDS Data Systems**
 
-**Cloud Architect**
-
 **Role: Cloud Architect**
 
 **November 2018 - January 2019**
 
 This project supplemented the organizations workforce to complete two key cloud migration projects.
+
+**Project Outcomes:**
+
+- Migrated the New Democratic Party of Canada's voice communications infrastructure
+  from Cisco CUCM on-premise telephony to Microsoft Office 365 / Skype for Business
+  at the Ottawa NCR corporate headquarters, delivering with zero voice service
+  interruption.
+- Migrated bespoke voter data workloads from VMware 6 on-premise to Microsoft Azure,
+  implementing Protected B-equivalent security controls for citizen voting information.
+- Delivered both engagements within a combined 8-week window under political
+  operational deadline constraints.
 
 ### Project 9.1 Description - Office 365 Skype Migration - New Democratic Party of Canada
 
@@ -434,7 +466,7 @@ The client was migrating a bespoke server workload, comprised of local database,
   - Azure Storage Accounts, Blob Storage, Block Storage
   - Azure PostgreSQL Database
   - CI/CD Jenkins automation deployment
-  - Java, Sprint and PostgreSQL application
+  - Java, Spring Framework, and PostgreSQL application
   - ELK and ElasticSearch Application
   - Azure CLI, PowerShell and Terraform
 - Staged implementation testing of services with inline remediation
@@ -472,6 +504,17 @@ SSC's role in strengthening cyber and IT security:
 - achieves broader GC IT security outcomes
 - preserves Canada's competitive advantage, economic prosperity, and national security
 
+**Project Outcomes:**
+
+- Replaced Excel-based security assessment tracking for SSC's Security Management &
+  Governance teams with a structured SharePoint 2016 platform, standardizing intake,
+  assessment, and milestone tracking workflows across all GC department audit cycles.
+- Implemented Atlassian JIRA and Confluence for SSC's Cyber Threat Management team,
+  introducing Kanban visualization and Definition of Done standards that improved
+  workload management and reporting visibility for approximately 25 security practitioners.
+- Deployed LUKS-encrypted, SSL-secured JIRA infrastructure with automated daily backups,
+  meeting SSC's Protected B data handling requirements.
+
 ### Project 8.1 Description - SharePoint 2016 Design - July 2018 - February 2019
 
 The client was implementing a SharePoint solution for managing and tracking tasks performed by a number of Security Management and Governance teams. Existing processes relied heavily on Microsoft Excel spreadsheets for reporting, with a non-standardized content.
@@ -494,7 +537,7 @@ The client was implementing JIRA for managing and tracking tasks performed by a 
 - Reviewed the 'as-is' implementation and align it with the work methodologies and requirements for three teams.
 - Created and used a simplified business process mapping and gap analysis strategy and refined key workflows and status types to enable workload management and timely reporting.
 - Implementation of consolidated data project management and reporting system for Cyber Threat Management within CITS.
-- Develop and implement Access Control Program and Posture to manage integration of CTMS Jira Users, with validated and acceptable RBAC permission scopes based on Actors, Users and System Role requirements for project access, and issue access.
+- Defined and implemented JIRA access controls for the Cyber Threat Management team, establishing role-based permission scopes that segregated project visibility, issue access, and administrative functions across three security practitioner teams operating under Protected B data handling requirements.
 - Facilitated requirements gathering with management level to understand scope and high-level business process. Engaged with business onboarding team, implementation team, and threat assessment hunt teams to map all areas of business process and capture all components. Design and document and align with support team and management.
 - Implemented Backlog concepts, daily stand-up meetings, and Kanban for visualization.
 - Standardized concepts and practices:
@@ -510,8 +553,8 @@ The client was implementing JIRA for managing and tracking tasks performed by a 
 
 **Technical Environment:**
 
-- **Applications**: SharePoint 2016, JIRA, HipChat, Confluence, NGINX, Bash
-- **Servers:** VMWare ESXI 6, CentOS 7, PostgreSQL, Windows 2012, GCDOCS, VMWare
+- **Applications:** SharePoint 2016, JIRA, HipChat, Confluence, NGINX, Bash, PostgreSQL
+- **Servers:** VMWare ESXI 6, CentOS 7, Windows 2012, GCDOCS, VMWare
 
 ## 7. Project 7 - Brookfield Renewable Energy Cloud Delivery
 
@@ -520,6 +563,16 @@ The client was implementing JIRA for managing and tracking tasks performed by a 
 **Role: Office 365 & Cloud Delivery Manager**
 
 **September 2017 - December 2017**
+
+**Project Outcomes:**
+
+- Provided governance and oversight for Brookfield Renewable Energy's cloud services
+  (Azure, Office 365) vendor consolidation, successfully transitioning multi-MSP support
+  to SoftChoice with no service interruption across a publicly traded, USA Utilities-
+  regulated environment.
+- Established RBAC and mobile device management (Microsoft InTune) governance framework
+  meeting NIST-equivalent ITSG controls for regulated utility and M&A integration
+  requirements.
 
 ### Project 7.1 Description - Office 365 and Microsoft Azure Cloud Service Delivery Manager
 
@@ -530,13 +583,13 @@ The client was performing extensive internal change, due to growth via Mergers &
 - Provide guidance and governance to the cloud services (Azure and Office365)
 - Provide management and oversight of vendor cloud architecture
 - Oversight and governance for implementation of IT Security to meet NIST controls (eq. ITSG) for both publicly traded organizations and USA Utilities.
-- Provided guidance and governance to Access Control Program and Posture to manage integration of Microsoft Office 365/Azure AD components, with validated and acceptable RBAC permission scopes based on Actors, Users and System Role requirements.
+- Governed the Azure AD and Office 365 access control posture during MSP vendor consolidation, validating RBAC permission scopes for user, administrative, and service roles across M&A-integrated business units operating under NIST-equivalent utility regulatory requirements.
   - Office 365
   - Azure Active Directory
   - Microsoft InTune MDM (Mobile Device Management)
   - Azure VNET, VMs, ExpressRoute, LoadBalancing
 - Provided guidance and governance to Mobile Security Program and Posture to manage roll-out of Microsoft Azure InTune (mobile compliance) system, with validated and acceptable RBAC permission scopes to published applications based on role and responsibility.
-- Facilitated requirements gathering with tiger-team created from all business departments to represent key-users, included technical teams for support and implementation. Map additional processes defined by migration vendor and maintain regular meetings to ensure continuous alignment. Design and document and align with support team and management.
+- Coordinated transition requirements across Brookfield Renewable Energy business departments and SoftChoice support teams, facilitating documentation and governance sign-off for cloud service migration milestones.
 - Oversaw workload and workflow migration to Office365, and Azure Cloud
 - Responsible for performance monitoring via standardized KPI's was required
 - Provided knowledge transfer and training to internal FTE staff
@@ -555,6 +608,19 @@ The client was performing extensive internal change, due to growth via Mergers &
 
 **March 2017 - September 2017**
 
+**Project Outcomes:**
+
+- Restructured Lowe Martin's software development team from unstructured delivery into
+  a functioning Agile/Scrum organization, introducing JIRA-based project management,
+  Definition of Ready/Done standards, and Kanban reporting across IBM WebSphere and
+  Java project streams.
+- Migrated 2,000+ mail objects (user mailboxes, shared mailboxes, group mailboxes,
+  shared calendars, and resources) from a mixed Microsoft Exchange 2010 / Lotus Domino 9
+  environment to Office 365 with SIEM-integrated security controls mapped to ISO
+  security standards.
+- Designed and integrated AWS cloud components (EC2, Auto Scaling, ELB, S3, CloudWatch)
+  for Xerox XMPie Suite deployment supporting print manufacturing workflows.
+
 ### Project 6.1 Description - Dev Ops  
 
 Role: DevOps & Architecture
@@ -571,9 +637,9 @@ The client was performing extensive internal change, which required the re-organ
   - CI/CD Pipeline - Jenkins
 - Project Management of WebSphere Individual Customer Web "Store" for each customer, including templatization of projects, tasks, and standards
 - Configuration and management of Atlassian JIRA and Confluence project and space environments
-- Facilitated requirements gathering with tiger-teams created from customer service teams, sales teams, direct client user representatives and senior management to map business process required for Agile workflow. Engaged with secondary team to drive new-scope requirement of ServiceDesk support, as discovered from Business Process documentation and Mapping. Design and document and align with support team and management.
+- Facilitated Agile workflow requirements with customer service, sales, client, and executive representatives; discovered and documented ServiceDesk support as a net-new scope requirement during business process mapping.
 - Implementation of consolidated data project management and reporting system for GC Client Departments. IT Security and Cyber Protection policies implemented to match ITSG, to meet client requirements.
-- Provided guidance and governance for Access Control Program and Posture to manage integration of Atlassian JIRA components, with validated and acceptable RBAC permission scopes based on Actors, Users and System Role requirements. Roles and users access included division of access to internal staff access, and external client access. Specific security planning considerations were made to restrict access and visibility to ticket contents, metadata, and data where applicable.
+- Architected the Atlassian JIRA permission scheme separating internal staff access from external GC client access, implementing role-based visibility restrictions on ticket contents and metadata to meet ITSG-aligned security requirements for government client project data.
 - Project Planning, Architecture, and Deployment of ITIL based ServiceDesk for integration into manufacturing and Smart-Factory environments
 - Provided knowledge transfer and training to internal FTE staff
 - Project Planning, Architecture and Upgrade Deployment of Xerox XMPie Suite
@@ -606,7 +672,7 @@ The client was performing a planned migration from an on-premise mixed environme
   - Microsoft Skype for Business deployment
 - Exchange Mailbox and Resource migration processes
 - Implementation of IT Security and Cyber Protection Controls to secure and protect public facing mail systems, with relevant log (SIEM) integration. Map to ISO Security Controls.
-- Provide guidance and governance whilst reviewing and implement Access Control Program to manage access to Microsoft Exchange Mail System, with integrated Active Directory Access components, with validated and acceptable RBAC permission scopes based on Actors, Users and System Role requirements for Exchange resource provisioning and access, mailbox access rights, and litigation hold access.
+- Implemented the Exchange Online access control framework governing mailbox provisioning, delegated access rights, litigation hold permissions, and Active Directory Federation Services integration for 2,000+ migrated mail objects, mapped to ISO security controls.
 - PowerShell scripting and automation
 - Migration Review and end user documentation with cross-training and knowledge transfer
 
@@ -623,6 +689,13 @@ The client was performing a planned migration from an on-premise mixed environme
 **Role: Cloud Transformation & Cloud Architect**
 
 **January 2017 - April 2017**
+
+**Project Outcomes:**
+
+- Migrated HighRoads US Exchange environment from multiple M&A-inherited mail servers
+  and domains to a unified Office 365 tenant during IT department restructuring,
+  maintaining HIPAA, NIST, and ISO compliance throughout and enabling full transition
+  to outsourced third-party support with zero mailbox loss.
 
 ### Project 5.1 Description - Exchange Email Cloud Migration
 
@@ -646,17 +719,25 @@ The client was undergoing extensive internal restructuring, right-sizing staffin
 - Exchange Mailbox & Resource Migration & Cutover Process
 - Facilitated requirements gathering with client teams created from multiple sites, with discrete Mail servers and Mail domains from M&A. Align user requirements and processes, including client/user access tools and delegated access types. Gather requirements from executive team for Office365 strategies, permitted apps, and integration into the process. Document complete process, and outcomes to facilitate hand-over to 3<sup>rd</sup> party support vendor.
 - Implementation of IT Security and Cyber Protection Controls to secure and protect public facing mail systems, with relevant log (SIEM) integration. Map to multiple Security Controls - ISO:27001, NIST, and HIPAA.
-- Provide guidance and governance whilst reviewing and implement Access Control Program to manage access to Microsoft Exchange Mail System, with integrated Active Directory Access components, with validated and acceptable RBAC permission scopes based on Actors, Users and System Role requirements for Exchange resource provisioning and access, mailbox access rights, and litigation hold access. Additional scope for non-integrated access to MimeCast cyber security services.
+- Established the Office 365 access control framework for the HighRoads US migration, defining Exchange resource provisioning permissions, mailbox delegation rights, and litigation hold access controls with additional MimeCast integration scoping, aligned to HIPAA, NIST, and ISO:27001 requirements.
 - PowerShell scripting and automation
 - Migration Review and end user documentation
 - Decommission of Exchange Server Services
 - Provide documentation, knowledge transfer, and cross-training
 
+**Project Outcomes:**
+
+- Migrated HighRoads US Atlassian JIRA and Confluence from on-premise to cloud SaaS,
+  including full migration of historical project data, enabling complete deprecation
+  of on-premise Atlassian infrastructure and supporting IT headcount reduction
+  objectives. Migrated legacy application servers to AWS with automated archiving
+  and on-demand restore capability.
+
 ### Project 5.2 Description - Atlassian Project Management Cloud Migration
 
 **March 2017 - April 2017**
 
-Client was migrating all on premise services into cloud/SaaS versions to support a change in internal IT Strategy, and re-org reducing IT head count. The Atlassian JIRA and Confluence product was to be maintained, although utilizing the "on demand" cloud version. Primary objective was to migrate new projects into the cloud version, whilst maintaining legacy/historical projects in the on-premise version as read-only. As the project progressed, we strategized that migrating the historical projects into the cloud was a best fit, as the on-premise version could be fully deprecated, and no additional costs would be incurred with the cloud platform.
+Client was migrating all on premise services into cloud/SaaS versions to support a change in internal IT Strategy, and re-org reducing IT head count. The Atlassian JIRA and Confluence product was to be maintained, although utilizing the "on demand" cloud version. Primary objective was to migrate new projects into the cloud version, whilst maintaining legacy/historical projects in the on-premise version as read-only. As the project progressed, the strategy evolved to migrate historical projects into the cloud as a best fit, as the on-premise version could be fully deprecated, and no additional costs would be incurred with the cloud platform.
 
 **Tasks Performed**:
 
@@ -666,9 +747,9 @@ Client was migrating all on premise services into cloud/SaaS versions to support
 - Test driven change management to remediate cloud feature-function manual configurations
 - Migration process and cut over
 - Bash & SQL Scripting and automation
-- Facilitated requirements gathering with tiger-teams created from the organization as a whole, as a global solution. Facilitate meetings and discovery sessions with development teams, QA teams, professional services teams, internal IT Support, Sales teams, business stake holders (TAM's and Product Owners) and external support vendors. Create business process maps and flows to capture end-to-end process and review with end-users to confirm. Perform gap analysis, and document as defined Workflows for implementation
+- Coordinated migration requirements with development, QA, IT, sales, and executive stakeholders across HighRoads US, capturing end-to-end workflow gaps and documenting Atlassian permission and integration requirements for handover to offshore support.
 - Implementation of IT Security and Cyber Protection Controls to secure and protect project management and development integration system, with relevant log (SIEM) integration. Map to multiple Security Controls - ISO:27001, NIST, and HIPAA. Additional controls required to secure with use of offshore sub-contractors.
-- Develop and implement Access Control Program and Posture to manage integration of CTMS Jira Users, with validated and acceptable RBAC permission scopes based on Actors, Users and System Role requirements for project access, and issue access. Integration of JIRA Directory with Active Directory and assumption of Multi-Factor Authentication
+- Structured the Atlassian JIRA and Confluence access control model for the cloud migration, defining role-based project and issue permissions with Active Directory integration and multi-factor authentication enforcement to secure offshore sub-contractor access alongside internal staff.
 - Migration Review and end user documentation
 - End-User enablement for self-serve operations
 - Migration of on-premise servers into AWS cloud
@@ -678,7 +759,7 @@ Client was migrating all on premise services into cloud/SaaS versions to support
 
 **Technical Environment:**
 
-- **Public Cloud:** Microsoft Office 365, Microsoft Office 365 Compliance, Microsoft Skype for Business, Microsoft Office 365 Compliance, Microsoft SharePoint Online, Amazon AWS Cloud, AWS EC2, AWS RDS, AWS SES, AWS S3, AWS CloudWatch, AWS CloudFormation, AWS CloudTrail, AWS IAM, AWS Certificate Manager, AWS WAF
+- **Public Cloud:** Microsoft Office 365, Microsoft Office 365 Compliance, Microsoft Skype for Business, Microsoft SharePoint Online, Amazon AWS Cloud, AWS EC2, AWS RDS, AWS SES, AWS S3, AWS CloudWatch, AWS CloudFormation, AWS CloudTrail, AWS IAM, AWS Certificate Manager, AWS WAF
 - **Applications:** MySQL, Exchange 2013, Active Directory, PowerShell, Bash, Atlassian JIRA, Atlassian Confluence
 - **Servers:** Microsoft Windows 2008R2, Microsoft Windows 2012, VMWare 5.5, VMWare 6, RedHat 6.5, CentOS 6, CentOS 7
 - **Security:** Fortinet FortiGate, Fortinet FortiGuard, Check Point FW, F5 Big-IP LTM, Syslog-NG, ME EventLog Analyzer
@@ -698,7 +779,7 @@ Migrated 40+ production workloads from VMware to AWS, reducing costs by 35% and 
 
 **December 2015 - December 2016**
 
-Architected and managed the migration and implementation of on-premise systems into the AWS cloud platform. This involved right-sizing systems, provisioning micro-service based architecture and leveraging cloud-based security principles. We realized a significant increase in simplicity to manage, time-to-implement and were able to leverage intelligent AWS native solutions for backup and DR.
+Architected and managed the migration and implementation of on-premise systems into the AWS cloud platform. This involved right-sizing systems, provisioning micro-service based architecture and leveraging cloud-based security principles. The migration realized a significant increase in operational simplicity and deployment speed, leveraging AWS-native solutions for backup and DR.
 
 **Project Outcomes:**
 Successfully migrated 40+ production workloads from VMware to AWS, achieving 35% cost reduction through cloud optimization and improved platform resilience. Implemented AWS-native solutions for backup and DR while transitioning to micro-service based architecture for enhanced scalability and manageability.
@@ -712,14 +793,14 @@ Successfully migrated 40+ production workloads from VMware to AWS, achieving 35%
   - AWS EC2; Elastic Load Balancing, Auto-Scaling Groups, Lambda
   - S3 Storage, Elastic Block Store, Elastic File System
   - AWS RDS, EC2 Oracle (BYOD)
-  - VPC, CloudFront, Routee53
+  - VPC, CloudFront, Route53
   - CloudWatch (Events & Metrics,) CloudTrail, Config, SystemsManager, Trusted Advisor
   - AWS CloudFormation, TerraForm v0.7, SALT, bespoke scripting, GIT, Bamboo, Jenkins
   - Docker - Java/Tomcat Container Applications
 - Market compliance under HIPAA & NIST guidelines
-- Facilitated requirements gathering with tiger-teams created from the organization as a whole, as a primary product solution. Facilitate meetings and discovery sessions with development teams, QA teams, professional services teams, internal IT Support, Sales teams, business stake holders (TAM's and Product Owners,) external support vendors, and customer representatives. Create business process maps to capture discrete processes for client onboarding, client data and solution maintenance, client special projects, and internal process including IT Support, industry audit processes, financial related processes and people related processes. Document and capture flows as required.
+- Convened cross-functional working groups spanning development, QA, professional services, IT support, sales, and customer representatives to map end-to-end SaaS client onboarding, data maintenance, and compliance audit workflows, producing business process documentation that defined migration sequencing and acceptance criteria for 40+ production workloads transitioning to AWS.
 - Implementation of IT Security and Cyber Protection Controls to secure and protect customer facing SaaS solution, with relevant log (SIEM) integration. Map to multiple Security Controls - ISO:27001, NIST, and HIPAA.
-- Develop and implement Access Control Program and Posture to manage integration of External Client directories with application-based permission system, with validated and acceptable RBAC permission scopes based on Actors, Users and System Role requirements for project access, and issue access. Additional integration of IT Systems Administration staff with restricted permission sets to non-client data areas, and de-identified data-based shadow and sandbox systems.
+- Designed the SaaS application access control architecture integrating external client directories with the application permission system, defining actor, user, and system role scopes for project and issue access, with restricted IT administration permissions limited to non-client data areas and de-identified sandbox environments under HIPAA compliance.
 - Review and realign infrastructure with cloud offerings
 - Staged migratory testing of services with inline remediation
 - Internal feedback to development and operations for change coordination
@@ -745,15 +826,15 @@ Introduced comprehensive DevOps and automation practices improving deployment fr
   - AWS EC2; Elastic Load Balancing, Auto-Scaling Groups, Lambda
   - S3 Storage, Elastic Block Store, Elastic File System
   - AWS RDS, EC2 Oracle (BYOD)
-  - VPC, CloudFront, Routee53
+  - VPC, CloudFront, Route53
   - CloudWatch (Events & Metrics,) CloudTrail, Config, SystemsManager, Trusted Advisor
   - AWS CloudFormation, TerraForm v0.7, SALT, bespoke scripting, GIT, Bamboo, Jenkins
   - VMWare 5.5 & 6.0, Citrix XenServer, Redhat RHEV, RedHat RHEL, Redhat Satellite & Moonwalk
   - Docker - Java/Tomcat Container Applications, Syslog-NG, BMC Insights
 - Security Coordination and alignment to required Guidelines (HIPAA & NIST)
 - Implementation of IT Security and Cyber Protection Controls to secure and protect customer facing SaaS solution, with relevant log (SIEM) integration. Map to multiple Security Controls - ISO:27001, NIST, and HIPAA.
-- Develop and implement Access Control Program and Posture to manage integration of External Client directories with application-based permission system, with validated and acceptable RBAC permission scopes based on Actors, Users and System Role requirements for project access, and issue access. Additional integration of IT Systems Administration staff with restricted permission sets to non-client data areas, and de-identified data-based shadow and sandbox systems
-- Facilitated requirements gathering with tiger-teams created from the organization as a whole, as a primary product solution. Facilitate meetings and discovery sessions with development teams, QA teams, professional services teams, internal IT Support, Sales teams, business stake holders (TAM's and Product Owners,) external support vendors, and customer representatives. Create business process maps to capture discrete processes for client onboarding, client data and solution maintenance, client special projects, and internal process including IT Support, industry audit processes, financial related processes and people related processes. Document and capture flows as required
+- Extended the access control posture to the DevOps infrastructure layer, defining RBAC scopes for CI/CD pipeline operators, offshore development team members, and automated deployment service accounts, with client data isolation enforced through permission-restricted sandbox and staging environments.
+- Led discovery sessions across the 15-person offshore engineering team, QA, and operations staff to capture CI/CD pipeline requirements, deployment workflows, and environment provisioning processes, translating findings into standardized DevOps process maps that governed hybrid AWS/on-premise build, test, and release cycles.
 - Review and realign infrastructure as required
 - Staged migratory testing of services with inline remediation
 - Internal feedback to development and operations for change coordination
@@ -784,15 +865,15 @@ Delivered active-passive HIPAA-compliant DR architecture meeting strict NIST RTO
   - AWS EC2; Elastic Load Balancing, Auto-Scaling Groups, Lambda
   - S3 Storage, Elastic Block Store, Elastic File System
   - AWS RDS, EC2 Oracle (BYOD)
-  - VPC, CloudFront, Routee53
+  - VPC, CloudFront, Route53
   - CloudWatch (Events & Metrics,) CloudTrail, Config, SystemsManager, Trusted Advisor
   - AWS CloudFormation, TerraForm v0.7, SALT, bespoke scripting, GIT, Bamboo, Jenkins
   - Docker - Java/Tomcat Container Applications, Oracle WebLogic, Oracle 11, Syslog-NG, BMC Insights
 - Security Coordination and alignment to required Guidelines (HIPAA & NIST)
 - Implementation of IT Security and Cyber Protection Controls to secure and protect customer facing SaaS solution, with relevant log (SIEM) integration into migration target company's data centre. Map to multiple Security Controls - ISO:27001, NIST, and HIPAA.
 - Perform "safe" deconstruction and decommission of legacy data centre and hosted solutions, including safe decommission of data storage and certified destruction client data, hosted application data, and historical log data.
-- Develop and implement Access Control Program and Posture to manage migration and eventual hand-over of systems to purchasing company. Define solution to provide interim access to key personnel, based on RBAC requirements with permissions declining based on a combination of timelines and milestones met. Create new Access Control Program and Posture to support 'post-migration' remaining components. Scope includes physical data centre access and secure building access permission sets.
-- Facilitated requirements gathering with tiger-teams created from purchasing organization and selling organization as a whole, as a primary product solution. Facilitate meetings and discovery sessions with development teams, QA teams, professional services teams, internal IT Support, Sales teams, business stake holders (TAM's and Product Owners,) external support vendors, and customer representatives. Create business process maps to capture discrete processes for client onboarding, client data and solution maintenance, client special projects, and internal process including IT Support, industry audit processes, financial related processes and people related processes. Additional focus for overlapping process to facilitate legal hand-over period for support, and milestones to capture separation of processes from seller to purchaser to ensure release of funds from Escrow. Document and capture flows as required, and report to senior management.
+- Developed the transitional access control program governing system hand-over to the purchasing company, implementing time-bound and milestone-linked RBAC permissions that declined in scope as divestiture milestones were met, covering application access, physical data centre entry, and secure building access through to escrow release.
+- Orchestrated joint requirements sessions between selling and purchasing organizations to map all systems, environments, and processes subject to the asset sale, producing milestone-linked process documentation that tracked separation of services, legal hand-over obligations, and escrow fund release criteria for senior management and legal counsel.
 - Staged migratory testing of services with inline remediation
 - Internal feedback to development and operations for change coordination
 - Internal changes to CI/CD pipeline, automation, and management systems
@@ -807,7 +888,7 @@ Delivered active-passive HIPAA-compliant DR architecture meeting strict NIST RTO
 
 **May 2016 - December 2016**
 
-In Q4 2016 Highroads announced the closure of their Canadian offices, with subsequent planned closure of the Canadian company. IT Operations was to be fully handed over to various outsourced vendors, physical presence within the Ottawa office was to be immediately deprecated and the closure of the data centre supporting the "V1" application was to be planned. Primary objective was to identify all internal IT Operations functions that we carried out purely from the Ottawa office, and relocate those processes and functions to outsourced vendors. Key focus was placed on risk mitigation from lack of presence and established staff.
+In Q4 2016 Highroads announced the closure of their Canadian offices, with subsequent planned closure of the Canadian company. IT Operations was to be fully handed over to various outsourced vendors, physical presence within the Ottawa office was to be immediately deprecated and the closure of the data centre supporting the "V1" application was to be planned. Primary objective was to identify all internal IT Operations functions carried out purely from the Ottawa office, and relocate those processes and functions to outsourced vendors. Key focus was placed on risk mitigation from lack of presence and established staff.
 
 **Project Outcomes:**
 Operationalized 3 hybrid AWS/on-prem architectures supporting 100+ workloads with scalable and secure patterns. Successfully transitioned operations to outsourced vendors while maintaining business continuity and ensuring seamless hand-over of production systems to parent operations in Boston, MA.
@@ -822,14 +903,14 @@ Operationalized 3 hybrid AWS/on-prem architectures supporting 100+ workloads wit
   - AWS EC2; Elastic Load Balancing, Auto-Scaling Groups, Lambda
   - S3 Storage, Elastic Block Store, Elastic File System
   - AWS RDS, EC2 Oracle (BYOD)
-  - VPC, CloudFront, Routee53
+  - VPC, CloudFront, Route53
   - CloudWatch (Events & Metrics,) CloudTrail, Config, SystemsManager, Trusted Advisor
   - AWS CloudFormation, TerraForm v0.7, SALT, bespoke scripting, GIT, Bamboo, Jenkins
   - Docker - Java/Tomcat Container Applications, Oracle WebLogic, Oracle 11, Syslog-NG, BMC Insights
 - Security Coordination and alignment to required Guidelines (HIPAA & NIST)
 - Implementation of IT Security and Cyber Protection Controls to secure and protect customer facing SaaS solution, with relevant log (SIEM) integration. Map to multiple Security Controls - ISO:27001, NIST, and HIPAA. Validation of migrated system, verification to meet HIPAA compliance.
 - Develop and implement Access Control Program and Posture to manage migration and eventual hand-over of systems to parent operations in Boston, MA office. Define solution to provide interim access to key personnel, based on RBAC requirements with permissions declining based on a combination of timelines, milestones met, staff onboarding and lay-off structure. Create new Access Control Program and Posture to support 'post-migration' remaining components. Scope includes physical data centre access and secure building access permission sets
-- Facilitated requirements gathering with tiger-teams created from the organization as a whole, as a primary product solution. Facilitate meetings and discovery sessions with development teams, QA teams, professional services teams, internal IT Support, Sales teams, business stake holders (TAM's and Product Owners,) external support vendors, and customer representatives. Create business process maps to capture discrete processes in migrated, post deprecation environments, for client onboarding, client data and solution maintenance, client special projects, and internal process including IT Support, industry audit processes, financial related processes and people related processes. Document and capture flows as required
+- Facilitated decommission and migration requirements across development, operations, legal, and executive teams at the selling and acquiring organizations, documenting process separation milestones tied to Escrow fund disbursement conditions.
 - Staged migratory testing of services with inline remediation
 - Internal feedback to development and operations for change coordination
 - Internal changes to CI/CD pipeline, automation, and management systems
@@ -841,12 +922,7 @@ Operationalized 3 hybrid AWS/on-prem architectures supporting 100+ workloads wit
 
 **Technical Environment:**
 
-- **Hybrid Architecture:** 3 hybrid AWS/on-prem architectures supporting 100+ workloads with scalable patterns
-- **Migration Scale:** 40+ production workloads migrated from VMware to AWS with 35% cost reduction
 - **Public Cloud:** Amazon AWS (EC2, ELB, Auto-Scaling, Lambda, S3, EBS, EFS, RDS, VPC, CloudFront, Route53, CloudWatch, CloudTrail, Config, Systems Manager), Microsoft Azure, NaviSite Cloud
-- **DevOps Automation:** 50% improvement in deployment frequency with CI/CD pipeline automation
-- **Compliance:** HIPAA-compliant active-passive DR architecture meeting NIST RTO/RPO objectives
-- **Team Collaboration:** Standardized workflows for 15-person off-shore engineering team
 - **Private Data Centre:** Tier3 certified data centres Rogers Data Centres, NaviSite Data Centres
 - **Applications:** Oracle 10g, MS Exchange, Active Directory, OpenLDAP, PingFed Identity Management, Atlassian JIRA, Atlassian Bamboo, Atlassian Confluence, Atlassian HipChat, Nagios Monitoring, SolarWinds Monitoring, OpManager Monitoring, Observium Monitoring, Syslog-NG, UniTrends Enterprise Backup, Microsoft Project 2013, Gerrit GIT, Apache SVN, SALT, Java, Tomcat, Apache, SOLR, IIS, .NET, Azure PowerShell, Azure ARM, AWS CloudFormation
 - **Servers:** RHN Satellite, Windows 2008, Windows 2012, RedHat RHEL / CentOS 5.5/6.0/7, VMWare 5.5, VMWare 6, Citrix XenServer 6.5
@@ -860,11 +936,20 @@ Operationalized 3 hybrid AWS/on-prem architectures supporting 100+ workloads wit
 
 **December 2014 - June 2015**
 
+**Project Outcomes:**
+✅ Delivered three concurrent infrastructure modernization initiatives across Dymon Corporation's storage, healthcare, and construction business lines within a 7-month engagement, consolidating fragmented physical infrastructure into standardized virtualized platforms.
+✅ Achieved PCI-DSS 3.0 and PIPEDA compliance across all Dymon business units through unified security controls spanning POS systems, credit transactions, and healthcare data environments.
+
 ### Project 3.1 Description - Operations Virtualization
 
 **December 2014 - May 2015**
 
-The Dymon corporate infrastructure was operating on unique physical hardware per server and per service. We identified 8 physical servers of identical capacity that were running at less than 20% utilization, in one instance 0% utilization. Switching and network was analyzed, and we identified 3 totally unused Layer 3 switches with zero utilization. An architecture was created to migrate to a fully virtualized infrastructure, segregate corporate traffic with various VLANs to support operations, POS systems, publicly accessible web services, CCTV data, and credit transactions in addition to iSCSI traffic, virtualization traffic, monitoring traffic, and Building Automation traffic.
+The Dymon corporate infrastructure was operating on unique physical hardware per server and per service. Analysis identified 8 physical servers of identical capacity running at less than 20% utilization — in one instance 0% — and 3 Layer 3 switches with zero utilization. An architecture was created to migrate to a fully virtualized infrastructure, segregate corporate traffic with various VLANs to support operations, POS systems, publicly accessible web services, CCTV data, and credit transactions in addition to iSCSI traffic, virtualization traffic, monitoring traffic, and Building Automation traffic.
+
+**Project Outcomes:**
+✅ Consolidated 8 underutilized physical servers (sub-20% utilization) into a Citrix XenServer virtualized cluster, reclaiming 3 unused Layer 3 switches and significantly reducing hardware footprint and operational costs.
+✅ Implemented VLAN-segmented network architecture supporting POS, CCTV, web services, credit transactions, building automation, and iSCSI traffic with PCI-DSS 3.0 compliance.
+✅ Completed full migration with staged testing, inline remediation, legacy hardware decommissioning, and operations staff knowledge transfer documentation.
 
 **Tasks Performed**:
 
@@ -889,7 +974,11 @@ The Dymon corporate infrastructure was operating on unique physical hardware per
 
 **January 2015 - June 2015**
 
-The Dymon Health Care retirement residences were operating with heavily aged systems that incurred excessive amounts of downtimes, ran various operating systems and various versions of software. A frequent churn of nursing staff required unique profiles to be created on each system repeatedly. We identified a number of different solutions, with selection being given to a Terminal Server (RDS) / Thin Client solution where roaming profiles were available to each staff member, and data was centralized into the corporate servers away from the local desktops. Our objective was to leverage technology to reduce the overhead of managing systems, and staff related issues, whilst consolidating services, centralizing data, and incorporating into corporate backups.
+The Dymon Health Care retirement residences were operating with heavily aged systems that incurred excessive amounts of downtimes, ran various operating systems and various versions of software. A frequent churn of nursing staff required unique profiles to be created on each system repeatedly. A number of solutions were evaluated, with the Terminal Server (RDS) / Thin Client model selected to provide roaming profiles for nursing staff while centralizing data on corporate servers. The objective was to reduce system management overhead, address staff churn-related provisioning demands, and consolidate services into corporate backups.
+
+**Project Outcomes:**
+✅ Replaced aging multi-OS desktop infrastructure at Dymon Health Care retirement residences with a centralized Citrix XenServer and Windows 2012 R2 RDS thin client solution, eliminating per-system profile management overhead for frequently rotating nursing staff.
+✅ Centralized user data and roaming profiles onto corporate server infrastructure, incorporating into corporate backup systems and achieving PIPEDA compliance for healthcare data.
 
 **Tasks Performed**:
 
@@ -913,6 +1002,10 @@ The Dymon Health Care retirement residences were operating with heavily aged sys
 
 A vendor driven change to end-user credit transaction PIN pads required Dymon Storage to update their credit transaction software, Line of Business integration module, merchant banking authentication and physical handsets with zero downtime realized to storage facilities. The POS Upgrade object was to replace the PIN pads, upgrade and reconfigure each unit and complete a site within 45 minutes. Pre-testing verification was performed, followed by installation testing a transaction verification of the installation, with post-implementation reporting verified the back-end allocations.
 
+**Project Outcomes:**
+✅ Executed vendor-mandated PIN pad replacement and credit transaction software upgrade across all Dymon Storage facilities with zero downtime to storage operations, meeting the 45-minute per-site completion target.
+✅ Maintained PCI-DSS 3.0 compliance throughout the upgrade cycle, with lab-based PoC testing, transaction verification, and post-implementation back-end allocation reporting.
+
 **Tasks Performed**:
 
 - Stakeholder reporting and meetings with CIO, COO, and Chief Accountant
@@ -928,7 +1021,7 @@ A vendor driven change to end-user credit transaction PIN pads required Dymon St
 
 **Technical Environment:**
 
-- **Public Cloud:** Microsoft Office 35
+- **Public Cloud:** Microsoft Office 365
 - **Private Data Centre:** Physical on-premise locations
 - **Applications:** Active Directory, SpiceWorks Helpdesk, SysAid ITIL Helpdesk, ManageEngine OpManager Monitoring, Symantec Backup Exec, UniTrends Backup, Microsoft Project 2010 Server, Sage Timberline Suite, IIS, .NET, Shift4 Payment Processing, DHL Total Recall ERP
 - **Servers:** Physical Servers, Citrix XenServer, VMWare 5.5, CentOS, Windows 2003, Windows 2008, Windows 2012, Windows 2008 Terminal Services, Windows 2012 RDS
@@ -967,8 +1060,8 @@ Successfully deployed market-leading SaaS platform serving 500+ global insurance
   - "Secure" data links & delivery redirected to On-Premise Datacentre
 - Security Coordination and alignment to required Guidelines (NERC, FISMA & NIST)
 - Implementation of IT Security and Cyber Protection Controls to hosted SaaS platform for US Markets. Compliance required for ISO:27001, NERC and NIST.
-- Facilitated requirements gathering within organization R&D team for new application process. Created tiger team with primary customer, as an early adopter, to drive product and process maps for consumption. Facilitated interactions with internal support teams, development teams, sales and business teams, and finance teams to capture business process requirements. Created documentation and performed transformation functions to move to operational model.
-- Develop and implement Access Control Program and Posture to manage operations access for SAAS application, based on RBAC requirements with integrations from internal departments and external vendor support. Provide guidance and governance for directory creation to support customer access types, with application data management roles.
+- Partnered with the R&D team and a flagship early-adopter insurance client to define SaaS product workflows, data ingestion requirements, and API integration patterns, producing operational process maps that guided the transition from development prototype to production-ready platform serving 500+ global clients.
+- Established the SaaS platform access control framework defining RBAC roles for internal operations, customer-facing application tiers, and external vendor support integrations, with directory structures supporting differentiated client access types and application data management permissions aligned to NERC and NIST requirements.
 - Staged build and deployment of cloud infrastructure and on-premise infrastructure
 - Internal feedback with development and operations for coordination
 - Internal integration to CI/CD pipeline, automation, and management systems
@@ -985,6 +1078,11 @@ Successfully deployed market-leading SaaS platform serving 500+ global insurance
 **May 2012 - September 2012**
 
 The client required the migration of physical data centre from Vancouver On-Premise location to Ottawa Tier 2 Data Center. Architecture migration of 750TB production IBM FC SAN storage, IBM FC SAN & Tivoli System 200TB Backup/Archival Storage, 2000 Windows 2008R2 Servers, and VMWare 5.0 IBM Cluster. An expedited timeline was in place due to the termination of facility contracts, and no local staff. Additional risk was identified due the size of data, and GIS Airborne Acquisition data loss would require the physical re-flight of areas and financial exposure and damage to the organization.
+
+**Project Outcomes:**
+✅ Successfully migrated 750TB production IBM FC SAN, 200TB backup/archival storage, and 2,000 Windows servers plus VMware cluster from Vancouver on-premise facility to Ottawa Tier 2 data centre under an expedited timeline driven by facility contract termination.
+✅ Managed high-risk migration where GIS airborne acquisition data loss would have required physical re-flight of LiDAR areas, delivering within the accelerated schedule with full data integrity preserved.
+✅ Implemented ISO:27001, NERC, and NIST-compliant security controls with RBAC access posture for the migrated production infrastructure stack.
 
 **Tasks Performed**:
 
@@ -1004,8 +1102,8 @@ The client required the migration of physical data centre from Vancouver On-Prem
 - Migratory cut-over including on-site management and advisory with receiving data centre
 - Post-migration management of changes and integrations
 - Implementation of IT Security and Cyber Protection Controls to hosted SaaS platform for US Markets. Compliance required for ISO:27001, NERC and NIST.
-- Facilitated requirements gathering with tiger-teams created from the organization. Facilitate meetings and discovery sessions with development teams, QA teams, professional services teams, internal IT Support, Project Management teams, Sales teams, business stake holders (TAM's and Product Owners,) external support vendors, and customer representatives. Create business process maps to capture discrete processes for field LiDAR acquisition and transfer, QA processes, LiDAR engineering production processes, backup and maintenance processes, data archival processes, and client delivery processes, as affected by the migration. Transform previous process workflow to a new 'post-migration' workflow.
-- Develop and implement Access Control Program and Posture to manage operations access for remote production infrastructure stack, based on RBAC requirements with integrations from internal operations staff, production 'super-user' types, automation systems, and external vendor support. Integration with local directories, and external vendor based ticketing system for automated reactive maintenance.
+- Coordinated migration impact assessments across production, acquisition, sales, PMO, and executive teams to document all LiDAR data processing, QA, archival, and client delivery workflows affected by the Vancouver-to-Ottawa data centre relocation, producing revised post-migration process documentation for 750TB of production data operations.
+- Implemented the post-migration access control posture for the Ottawa data centre, defining RBAC roles for operations staff, LiDAR production super-users, and automated maintenance systems, with directory integration and vendor ticketing system hooks enabling reactive incident response across 750TB of production storage infrastructure.
 - Documentation preparation for Operations staff, Production staff, and Management including cross-training and knowledge transfer
 
 ### Project 2.3 Description - Corporate Private Cloud (Data Centre Architecture)
@@ -1013,6 +1111,11 @@ The client required the migration of physical data centre from Vancouver On-Prem
 **September 2012 - August 2013**
 
 As a multi-petabyte data handling organization, GeoDigital required a robust and richly featured solution for handling data archiving, data retention, and data integrity. Leveraging Tier II and Tier III secure data centres with enterprise scale storage platforms for automated scaling data storage management this project served the identified requirements of all Business Units. The solution had to create and manage a complete 'corporate software directory' of internal tools for workflow maximization based on business requirements, providing fully self-serve managed environments.
+
+**Project Outcomes:**
+✅ Architected and deployed multi-petabyte corporate private cloud leveraging Tier II and III data centres with NexentaStor software-defined storage, automated scaling, and intelligent data-tiering to serve all business unit data archiving, retention, and integrity requirements.
+✅ Delivered fully self-serve managed environments with a corporate software directory, integrated with AWS S3 for off-site replication and storage-bursting, supporting RedHat/CentOS clusters across on-premise and cloud infrastructure.
+✅ Achieved ISO:27001, NERC, FISMA, and NIST compliance for the private cloud platform serving US energy and utilities market clients.
 
 **Tasks Performed**:
 
@@ -1028,8 +1131,8 @@ As a multi-petabyte data handling organization, GeoDigital required a robust and
   - Integration with AWS Cloud for off-site replication and storage-bursting using AWS S3 buckets
 - Security Coordination and alignment to required Guidelines (NERC, FISMA & NIST)
 - Implementation of IT Security and Cyber Protection Controls to hosted SaaS platform for US Markets. Compliance required for ISO:27001, NERC and NIST.
-- Facilitated requirements gathering with tiger-teams created from the organization. Facilitate meetings and discovery sessions with development teams, QA teams, professional services teams, internal IT Support, Project Management teams, Sales teams, business stake holders (TAM's and Product Owners,) external support vendors, and customer representatives. Create business process maps to capture discrete processes for field LiDAR acquisition and transfer, QA processes, LiDAR engineering production processes, backup and maintenance processes, data archival processes, and client delivery processes, as affected by the migration. Transform previous process workflow to a new 'post-migration' workflow.
-- Develop and implement Access Control Program and Posture to manage operations access for remote production infrastructure stack, based on RBAC requirements with integrations from internal operations staff, production 'super-user' types, automation systems, and external vendor support. Integration with local directories, and external vendor based ticketing system for automated reactive maintenance.
+- Engaged all business units to capture data archival, retention, integrity, and self-serve environment provisioning requirements for the corporate private cloud, mapping multi-petabyte storage workflows across LiDAR production, engineering, and field acquisition teams to define tiered storage policies and automated scaling triggers.
+- Defined the private cloud access control model governing self-serve environment provisioning, tiered storage administration, and production workload access, structuring RBAC scopes for operations staff, engineering super-users, and automated scaling systems with integrated directory services and vendor-managed ticketing for reactive maintenance.
 - Vendor Selection Advisory and Vendor Engagement
 - Vendor Management & Project Management
 - Provisioning of supporting infrastructure and data centre services
@@ -1047,6 +1150,10 @@ As a multi-petabyte data handling organization, GeoDigital required a robust and
 
 Due to growth by corporate acquisitions, the client operated multiple physical locations without a centralized standardized IT Infrastructure platform. This project managed the migration from physical servers and unstructured virtual servers, to a standardized virtualization platform leveraging Hyper-V as a single vendor platform. It provided full license management and auditing, ensured right-sizing of resources for daily operations and future growth. Mr. Turner steered strategy to ensure maximization of virtualization platform and resources.
 
+**Project Outcomes:**
+✅ Standardized fragmented IT infrastructure across multiple physical locations (acquired through corporate acquisitions) onto a unified Hyper-V virtualization platform, eliminating unstructured physical and virtual server sprawl.
+✅ Delivered full license management and auditing with right-sized resource allocation for daily operations and future growth, achieving ISO:27001, NERC, and NIST compliance with integrated Active Directory RBAC access controls.
+
 **Tasks Performed**:
 
 - Project Management using hybrid Agile & Waterfall methodologies
@@ -1062,7 +1169,7 @@ Due to growth by corporate acquisitions, the client operated multiple physical l
 - Security Coordination and alignment to required Guidelines (NERC, FISMA & NIST)
 - Implementation of IT Security and Cyber Protection Controls to LiDAR and engineering production IT Infrastructure platform for US Markets. Compliance required for ISO:27001, NERC and NIST.
 - Develop and implement Access Control Program and Posture to manage operations access for remote production infrastructure stack, based on RBAC requirements with integrations from internal operations staff, production 'super-user' types, automation systems. Integrations via Active Directory systems.
-- Facilitated requirements gathering with tiger-teams created from the organization. Facilitate meetings and discovery sessions with development teams, QA teams, professional services teams, internal IT Support, Project Management teams, Sales teams, business stake holders (TAM's and Product Owners,) external support vendors, and customer representatives. Create business process maps to capture discrete processes for field LiDAR acquisition and transfer, QA processes, LiDAR engineering production processes, backup and maintenance processes, data archival processes, and client delivery processes, as affected by the migration.
+- Conducted requirements workshops across LiDAR production, QA, field acquisition, and IT support teams at each acquired physical location to map existing server workloads, storage utilization, and virtualization candidates, producing a consolidated migration plan that defined right-sized Hyper-V resource allocations and standardized infrastructure baselines.
 - Vendor Selection Advisory and Vendor Engagement
 - Vendor Management & Project Management
 - Provisioning of supporting infrastructure and data centre services
@@ -1098,8 +1205,8 @@ Engineered automated 1-2 TB/day data ingestion pipeline improving engineering pr
   - Data replication from AWS to off-shore data analysts in Asia and in-house data analysts in California USA, Minnesota USA, British Columbia CA, & Ottawa CA.
 - Security Coordination and alignment to required Guidelines (NERC, FISMA & NIST)
 - Implementation of IT Security and Cyber Protection Controls to hosted client data processing platform for US Energy and Utilities Markets. Compliance required for ISO:27001 and NIST.
-- Facilitated requirements gathering with tiger-teams created from the organization. Facilitate meetings and discovery sessions with development teams, QA teams, professional services teams, internal IT Support, Project Management teams, Sales teams, business stake holders (TAM's and Product Owners,) external support vendors, and customer representatives. Create business process maps to capture discrete processes for field LiDAR acquisition and transfer, QA processes, LiDAR engineering production processes, backup and maintenance processes, data archival processes, and client delivery processes, as affected by the migration. Transform previous process workflow to a new 'post-migration' workflow.
-- Develop and implement Access Control Program and Posture to manage operations access for remote production infrastructure stack, based on RBAC requirements with integrations from internal operations staff, production 'super-user' types, automation systems, and external vendor support. Integration with offline remote directories, and external vendor based ticketing system for automated reactive maintenance.
+- Gathered requirements from field acquisition teams in Australia, production staff in North America, and offshore data analysts in Asia to define the end-to-end hybrid cloud data pipeline, mapping 1-2 TB/day ingestion, validation, replication, and delivery workflows across RackSpace Sydney, AWS US, and on-premises data centres.
+- Architected the hybrid cloud access control framework spanning RackSpace Sydney, AWS US, and on-premises infrastructure, defining RBAC roles for field acquisition staff, offshore data analysts, and automated replication systems, with offline-capable directory synchronization and vendor ticketing integration for lights-out operations management.
 - Staged build and deployment of cloud infrastructure and on-premise infrastructure
 - Internal feedback with development and operations and GIS Acquisition for coordination
 - Internal integration to CI/CD pipeline, automation, and management systems
@@ -1126,7 +1233,7 @@ The client intended to manage risk and centralize mail management into a streaml
 - PowerShell scripting and automation
 - Implementation of IT Security and Cyber Protection Controls to secure and protect public facing mail systems, with relevant log (SIEM) integration. Map to ISO:27001 and NIST Security Controls
 - Provide guidance and governance whilst reviewing and implement Access Control Program to manage access to Microsoft Exchange Mail System, with integrated Active Directory Access components, with validated and acceptable RBAC permission scopes based on Actors, Users and System Role requirements for Exchange resource provisioning and access, mailbox access rights, and litigation hold access
-- Facilitated requirements gathering with tiger-team created from all business departments to represent key-users, included technical teams for support and implementation. Map additional processes defined by migration vendor and maintain regular meetings to ensure continuous alignment. Design and document and align with support team and management.
+- Coordinated Exchange migration requirements with key users, IT staff, and management across GeoDigital's distributed offices, aligning with migration vendor on process documentation and handover deliverables.
 - Migration Review and end user documentation
 - Decommission of Exchange Server Services
 - Operational support and maintenance
@@ -1138,7 +1245,7 @@ The client intended to manage risk and centralize mail management into a streaml
 - **Data Processing:** 1-2 TB/day automated ingestion pipeline with 99.8% reliability
 - **Platform Scale:** 500+ global clients with 99.5% uptime across 8 production environments
 - **Private Data Centre:** Physical on-premise location, Rogers Tier 2, ATT Tier 3
-- **Applications:** Multiple GIS Platforms, SharePoint, QuickBase, SalesForce, MS SQL, MySQL, MS Exchange 2010, Active Directory, ManageEngine ServiceDesk Pro, ManageEngine OpManager Monitoring, Symantec BackupExec, Veaam Backup, Microsoft Project 2010, VisualSVN
+- **Applications:** Multiple GIS Platforms, SharePoint, QuickBase, SalesForce, MS SQL, MySQL, MS Exchange 2010, Active Directory, ManageEngine ServiceDesk Pro, ManageEngine OpManager Monitoring, Symantec BackupExec, Veeam Backup, Microsoft Project 2010, VisualSVN
 - **Servers:** Windows 2008 R2, Windows 2012, VMWare 5.5, Linux KVM, RedHat RHEV, Microsoft Hyper-V, Citrix XenServer
 - **Networking:** Cisco Catalyst, Cisco IOS Routers, Dell PowerConnect
 - **Security:** Cisco ASA, FortiNet FortiGate, Snort, F5 Big-IP LTM, Nagios, Solar Winds, New Relic Monitoring, ME OpManager Monitoring
@@ -1158,6 +1265,11 @@ The client intended to manage risk and centralize mail management into a streaml
 **January 2010 - March 2011**
 
 Central Wire Industries, as a \$500 million annual revenue enterprise, expanded its operations with purchase of a smart-factory requiring integration of all aspects of automation, including IT Systems, ERP and MRP systems. This project required the introduction of GE Fanuc Smart Automation, and various smart SCADA systems into the manufacturing process, configuration of smart-factory automation platform software, and integration via scheduled interfaces and data transform XML process into centralized AS/400 based Lawson Movex (M3) and Info BPCS ERP/MRP suites.
+
+**Project Outcomes:**
+✅ Integrated GE Fanuc smart-factory automation and SCADA systems into centralized AS/400-based Lawson Movex (M3) and Info BPCS ERP/MRP suites via scheduled XML data-transform interfaces for a $500M annual revenue manufacturer.
+✅ Delivered IT infrastructure supporting "lights-out" manufacturing operations with SNMP monitoring integration, fail-over testing, and on-site documentation verified for comprehension by non-technical skeleton crew personnel.
+✅ Implemented IT security controls meeting US DOD NOFORN classification requirements with ISO:27001 and NIST compliance across manufacturing ERP, data systems, and facility automation platforms.
 
 **Tasks Performed**:
 
@@ -1179,6 +1291,10 @@ Central Wire Industries, as a \$500 million annual revenue enterprise, expanded 
 **January 2010 - March 2011**
 
 The client had expanded its market share and physical locations by an increase of 60% over the previous few years, seeing a growth in staff with the final onboarding of nine physical sites across the United States of America and Canada. ADP was selected as the corporate vendor for providing consolidated payroll services across the company, requiring the implementation of new infrastructure to support a significantly larger application cluster. Corporate directive required that the physical infrastructure be managed from Canada, with HR and Finance Payroll staff operating from USA locations, and corporate finance operating out of Canada.
+
+**Project Outcomes:**
+✅ Consolidated ADP payroll services across 9 physical sites in the United States and Canada following 60% growth in physical locations, delivering cross-border HR and Finance access via Citrix virtualization with infrastructure managed from Canada and end users operating from US locations.
+✅ Implemented RBAC access controls for corporate HR and payroll systems with integrated Active Directory components, meeting ISO:27001 and NIST compliance requirements for financial data security.
 
 **Tasks Performed**:
 
@@ -1222,82 +1338,84 @@ The client had expanded its market share and physical locations by an increase o
 - **AlienVault** - Project 4
 - **Apache** - Projects 2, 8, 9
 - **Apache SVN** - Project 4
-- **ArgoCD** - Projects 14.1, 14.2
-- **Argo Workflows** - Projects 14.1, 14.2
+- **ArgoCD** - Projects 13.1, 13.2
+- **Argo Workflows** - Projects 13.1, 13.2
 - **Atlassian Bamboo** - Project 4
-- **Atlassian Confluence** - Projects 4, 6, 8, 9, 14
+- **Atlassian Confluence** - Projects 4, 5, 6, 8, 10, 13
 - **Atlassian HipChat** - Projects 4, 6
-- **Atlassian JIRA** - Projects 4, 6, 8, 9, 11, 14
-- **AWS (Amazon Web Services)** - Projects 2, 4, 5, 6, 9, 10, 11, 12, 13, 14
+- **Atlassian JIRA** - Projects 4, 5, 6, 8, 10, 13
+- **AWS (Amazon Web Services)** - Projects 2, 4, 5, 6, 9, 10, 11, 12, 13
 - **AWS Certificate Manager** - Projects 10, 11
 - **AWS CloudFormation** - Projects 10, 11, 12, 13
 - **AWS CloudFront** - Projects 6, 10, 11
-- **AWS CloudTrail** - Projects 6, 10, 11, 14.2
-- **AWS CloudWatch** - Projects 6, 10, 11, 14.2
+- **AWS CloudTrail** - Projects 6, 10, 11, 13.2
+- **AWS CloudWatch** - Projects 6, 10, 11, 13.2
 - **AWS CodeBuild** - Project 11
+- **AWS CodeCommit** - Projects 10, 11, 12
+- **AWS CodeDeploy** - Projects 10, 11, 12.1, 12.2
 - **AWS CodePipeline** - Project 11
-- **AWS Config** - Projects 11, 14.2
-- **AWS Control Tower** - Project 14.2
+- **AWS Config** - Projects 11, 13.2
+- **AWS Control Tower** - Project 13.2
 - **AWS ECS** - Project 11
-- **AWS EKS (Elastic Kubernetes Service)** - Projects 14.1, 14.2
-- **AWS GuardDuty** - Projects 11, 14.2
+- **AWS EKS (Elastic Kubernetes Service)** - Projects 13.1, 13.2
+- **AWS GuardDuty** - Projects 11, 13.2
 - **AWS IAM** - Projects 6, 10, 11
-- **AWS Lambda** - Projects 13, 14.2
-- **AWS Organizations** - Projects 11, 14.2
+- **AWS Lambda** - Projects 4, 12, 13, 13.2
+- **AWS Organizations** - Projects 11, 13.2
 - **AWS RDS** - Project 11
 - **AWS S3** - Projects 6, 11
 - **AWS SES** - Projects 6, 11
-- **AWS SSO** - Projects 11, 14.2
+- **AWS SSO** - Projects 11, 13.2
 - **AWS Systems Manager** - Project 11
-- **AWS Transit Gateway** - Projects 11, 14.2
-- **AWS VPC** - Projects 6, 10, 11, 14.2
-- **AWS X-Ray** - Project 14.2
+- **AWS Transit Gateway** - Projects 11, 13.2
+- **AWS VPC** - Projects 6, 10, 11, 13.2
+- **AWS X-Ray** - Project 13.2
 - **Azure** - Projects 4, 7, 8, 12
-- **Azure Active Directory** - Projects 12, 13
+- **Azure Active Directory** - Projects 7, 11, 12, 13
 - **Azure CLI** - Project 8
-- **Azure DevOps** - Projects 11, 12, 13, 14
+- **Azure DevOps** - Projects 11, 12, 13
 - **Azure ExpressRoute** - Project 7
 - **Azure InTune** - Project 7
 - **Azure PowerShell** - Projects 4, 7, 8
 - **Azure Resource Manager (ARM)** - Projects 4, 8
-- **Azure Sentinel** - Project 13
+- **Azure Sentinel** - Project 12.1
 
 **B:**
 
-- **Bash** - Projects 2, 4, 6, 8, 9, 10, 11, 12, 13, 14
+- **Bash** - Projects 2, 4, 6, 8, 9, 10, 11, 12, 13
 - **BitTitan MigrationWiz** - Project 6
 
 **C:**
 
-- **CDK (AWS Cloud Development Kit)** - Projects 11, 14
-- **CDK8s** - Project 14
-- **CentOS** - Projects 3, 4, 8, 9, 10, 11, 12, 13, 14
+- **CDK (AWS Cloud Development Kit)** - Projects 11, 13
+- **CDK8s** - Project 13
+- **CentOS** - Projects 3, 4, 8, 9, 10, 11, 12, 13
 - **Certificate Manager (AWS)** - Projects 10, 11
 - **Check Point** - Projects 4, 6
-- **Checkov Security Scanning** - Projects 12, 13, 14
-- **Cilium** - Project 14.2
+- **Checkov Security Scanning** - Projects 12, 13
+- **Cilium** - Project 13.2
 - **Cisco ASA** - Projects 1, 2
 - **Cisco Catalyst** - Projects 1, 3
 - **Cisco IOS** - Project 1
-- **CIS Hardening** - Projects 12, 13, 14
+- **CIS Hardening** - Projects 12, 13
 - **Citrix XenServer** - Projects 1, 2, 3
 - **CloudFlare** - Projects 8, 9
 - **CloudFormation** - Projects 10, 11, 12, 13
 - **CloudFront** - Projects 6, 10, 11
-- **CloudTrail** - Projects 6, 10, 11, 14.2
-- **CloudWatch** - Projects 6, 10, 11, 14.2
-- **Crossplane** - Projects 14.1, 14.2
+- **CloudTrail** - Projects 6, 10, 11, 13.2
+- **CloudWatch** - Projects 6, 10, 11, 13.2
+- **Crossplane** - Projects 13.1, 13.2
 
 **D:**
 
 - **DB2** - Project 6
-- **Docker** - Projects 9, 14.1, 14.2
-- **Docker Images** - Project 14.2
+- **Docker** - Projects 4, 9, 10, 13.1, 13.2
+- **Docker Images** - Project 13.2
 
 **E:**
 
-- **EKS (Elastic Kubernetes Service)** - Projects 14.1, 14.2
-- **Elasticsearch** - Projects 8, 14.2
+- **EKS (Elastic Kubernetes Service)** - Projects 13.1, 13.2
+- **Elasticsearch** - Projects 9, 13.2
 - **Exchange** - Projects 1, 5, 6
 
 **F:**
@@ -1311,16 +1429,16 @@ The client had expanded its market share and physical locations by an increase o
 
 - **GCDOCS** - Project 8
 - **Gerrit GIT** - Project 4
-- **Git** - Projects 9, 11, 12, 13, 14
-- **GitLab** - Projects 10, 11, 14
+- **Git** - Projects 9, 11, 12, 13
+- **GitLab** - Projects 10, 11
 - **GitHub** - Project 11
-- **GitOps** - Projects 14.1, 14.2
-- **Golang** - Projects 14.1, 14.2
-- **Grafana** - Project 14.2
+- **GitOps** - Projects 13.1, 13.2
+- **Golang** - Projects 13.1, 13.2
+- **Grafana** - Project 13.2
 
 **H:**
 
-- **Helm** - Projects 14.1, 14.2
+- **Helm** - Projects 13.1, 13.2
 - **HIPAA Compliance** - Project 4
 - **HP ProCurve** - Project 2
 
@@ -1329,34 +1447,34 @@ The client had expanded its market share and physical locations by an increase o
 - **IIS** - Project 4
 - **Info BPCS** - Project 1
 - **Infor Syteline** - Project 1
-- **Infrastructure as Code (IaC)** - Projects 10, 11, 12, 13, 14
+- **Infrastructure as Code (IaC)** - Projects 10, 11, 12, 13
 - **ITSG Compliance** - Projects 11, 13
 
 **J:**
 
-- **Java** - Projects 4, 6, 8, 9
-- **Jenkins** - Project 14
-- **JFROG Artifactory** - Project 11
-- **JSON** - Project 14.2
+- **Java** - Projects 4, 6, 9
+- **Jenkins** - Projects 2, 4, 6, 9, 10
+- **JFROG Artifactory** - Project 12.2
+- **JSON** - Project 13.2
 
 **K:**
 
-- **Kafka** - Project 9
-- **KCL (Configuration Language)** - Project 14.2
-- **Kubernetes** - Projects 14.1, 14.2
-- **kubeadm** - Project 14
-- **kind** - Project 14
-- **k3d** - Project 14
+- **Kafka** - Project 10
+- **KCL (Configuration Language)** - Project 13.2
+- **Kubernetes** - Projects 13.1, 13.2
+- **kubeadm** - Project 13
+- **kind** - Project 13
+- **k3d** - Project 13
 
 **L:**
 
 - **Lawson MOVEX (M3)** - Project 1
-- **Load Balancers** - Projects 8, 14.2
+- **Load Balancers** - Projects 8, 13.2
 - **Lotus Domino** - Project 6
 
 **M:**
 
-- **ManageEngine** - Projects 1, 9
+- **ManageEngine** - Projects 1, 9, 10
 - **Microsoft Office 365** - Projects 5, 6, 7, 9
 - **Microsoft PowerShell** - Projects 4, 6, 7, 8
 - **Microsoft Project** - Project 4
@@ -1373,21 +1491,21 @@ The client had expanded its market share and physical locations by an increase o
 
 **O:**
 
-- **OCI Bundles** - Project 14.2
+- **OCI Bundles** - Project 13.2
 - **Office 365** - Projects 5, 6, 7, 9
-- **OpenLDAP** - Projects 4, 9
+- **OpenLDAP** - Projects 4, 9, 10
 - **OpManager** - Projects 1, 2, 9
 - **Oracle** - Projects 1, 4
 
 **P:**
 
-- **PHP** - Project 9
+- **PHP** - Project 10
 - **PingFed Identity Management** - Project 4
-- **PostgreSQL** - Projects 8, 9
+- **PostgreSQL** - Projects 8, 9, 10
 - **PowerShell** - Projects 4, 6, 7, 8
-- **Prisma** - Projects 12, 13, 14
-- **Prometheus** - Project 14.2
-- **Python** - Projects 9, 14.1, 14.2
+- **Prisma** - Projects 12, 13
+- **Prometheus** - Project 13.2
+- **Python** - Projects 9, 13.1, 13.2
 
 **R:**
 
@@ -1404,10 +1522,10 @@ The client had expanded its market share and physical locations by an increase o
 - **SharePoint** - Projects 1, 8
 - **Skype for Business** - Projects 6, 7, 9
 - **Snort** - Projects 1, 2, 4
-- **SOGO** - Project 9
+- **SOGO** - Project 10
 - **SolarWinds** - Projects 1, 2, 4
 - **SOLR** - Project 4
-- **SonarQube** - Project 11
+- **SonarQube** - Project 12.2
 - **Sophos UTM** - Project 2
 - **Splunk** - Project 4
 - **Symantec BackupExec** - Project 1
@@ -1417,9 +1535,9 @@ The client had expanded its market share and physical locations by an increase o
 
 - **Tenable Nessus** - Project 4
 - **TerraScan** - Project 12
-- **Terraform** - Projects 9, 14.1, 14.2
+- **Terraform** - Projects 9, 10, 11, 12.1, 13.1, 13.2
 - **Tomcat** - Projects 4, 6, 8, 9
-- **TypeScript** - Projects 14.1, 14.2
+- **TypeScript** - Projects 13.1, 13.2
 
 **U:**
 
@@ -1435,7 +1553,7 @@ The client had expanded its market share and physical locations by an increase o
 - **WatchGuard** - Project 8
 - **WebSphere** - Project 1
 - **Windows Server** - Projects 1, 2, 3, 4, 7, 10, 11, 12
-- **WSO2** - Project 9
+- **WSO2** - Project 10
 
 **X:**
 
@@ -1443,4 +1561,4 @@ The client had expanded its market share and physical locations by an increase o
 
 **Y:**
 
-- **YAML** - Project 14.2
+- **YAML** - Project 13.2
