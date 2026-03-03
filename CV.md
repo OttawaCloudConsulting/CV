@@ -937,8 +937,8 @@ Operationalized 3 hybrid AWS/on-prem architectures supporting 100+ workloads wit
 **December 2014 - June 2015**
 
 **Project Outcomes:**
-✅ Delivered three concurrent infrastructure modernization initiatives across Dymon Corporation's storage, healthcare, and construction business lines within a 7-month engagement, consolidating fragmented physical infrastructure into standardized virtualized platforms.
-✅ Achieved PCI-DSS 3.0 and PIPEDA compliance across all Dymon business units through unified security controls spanning POS systems, credit transactions, and healthcare data environments.
+- Delivered three concurrent infrastructure modernization initiatives across Dymon Corporation's storage, healthcare, and construction business lines within a 7-month engagement, consolidating fragmented physical infrastructure into standardized virtualized platforms.
+- Achieved PCI-DSS 3.0 and PIPEDA compliance across all Dymon business units through unified security controls spanning POS systems, credit transactions, and healthcare data environments.
 
 ### Project 3.1 Description - Operations Virtualization
 
@@ -947,9 +947,9 @@ Operationalized 3 hybrid AWS/on-prem architectures supporting 100+ workloads wit
 The Dymon corporate infrastructure was operating on unique physical hardware per server and per service. Analysis identified 8 physical servers of identical capacity running at less than 20% utilization — in one instance 0% — and 3 Layer 3 switches with zero utilization. An architecture was created to migrate to a fully virtualized infrastructure, segregate corporate traffic with various VLANs to support operations, POS systems, publicly accessible web services, CCTV data, and credit transactions in addition to iSCSI traffic, virtualization traffic, monitoring traffic, and Building Automation traffic.
 
 **Project Outcomes:**
-✅ Consolidated 8 underutilized physical servers (sub-20% utilization) into a Citrix XenServer virtualized cluster, reclaiming 3 unused Layer 3 switches and significantly reducing hardware footprint and operational costs.
-✅ Implemented VLAN-segmented network architecture supporting POS, CCTV, web services, credit transactions, building automation, and iSCSI traffic with PCI-DSS 3.0 compliance.
-✅ Completed full migration with staged testing, inline remediation, legacy hardware decommissioning, and operations staff knowledge transfer documentation.
+- Consolidated 8 underutilized physical servers (sub-20% utilization) into a Citrix XenServer virtualized cluster, reclaiming 3 unused Layer 3 switches and significantly reducing hardware footprint and operational costs.
+- Implemented VLAN-segmented network architecture supporting POS, CCTV, web services, credit transactions, building automation, and iSCSI traffic with PCI-DSS 3.0 compliance.
+- Completed full migration with staged testing, inline remediation, legacy hardware decommissioning, and operations staff knowledge transfer documentation.
 
 **Tasks Performed**:
 
@@ -977,8 +977,8 @@ The Dymon corporate infrastructure was operating on unique physical hardware per
 The Dymon Health Care retirement residences were operating with heavily aged systems that incurred excessive amounts of downtimes, ran various operating systems and various versions of software. A frequent churn of nursing staff required unique profiles to be created on each system repeatedly. A number of solutions were evaluated, with the Terminal Server (RDS) / Thin Client model selected to provide roaming profiles for nursing staff while centralizing data on corporate servers. The objective was to reduce system management overhead, address staff churn-related provisioning demands, and consolidate services into corporate backups.
 
 **Project Outcomes:**
-✅ Replaced aging multi-OS desktop infrastructure at Dymon Health Care retirement residences with a centralized Citrix XenServer and Windows 2012 R2 RDS thin client solution, eliminating per-system profile management overhead for frequently rotating nursing staff.
-✅ Centralized user data and roaming profiles onto corporate server infrastructure, incorporating into corporate backup systems and achieving PIPEDA compliance for healthcare data.
+- Replaced aging multi-OS desktop infrastructure at Dymon Health Care retirement residences with a centralized Citrix XenServer and Windows 2012 R2 RDS thin client solution, eliminating per-system profile management overhead for frequently rotating nursing staff.
+- Centralized user data and roaming profiles onto corporate server infrastructure, incorporating into corporate backup systems and achieving PIPEDA compliance for healthcare data.
 
 **Tasks Performed**:
 
@@ -1003,8 +1003,8 @@ The Dymon Health Care retirement residences were operating with heavily aged sys
 A vendor driven change to end-user credit transaction PIN pads required Dymon Storage to update their credit transaction software, Line of Business integration module, merchant banking authentication and physical handsets with zero downtime realized to storage facilities. The POS Upgrade object was to replace the PIN pads, upgrade and reconfigure each unit and complete a site within 45 minutes. Pre-testing verification was performed, followed by installation testing a transaction verification of the installation, with post-implementation reporting verified the back-end allocations.
 
 **Project Outcomes:**
-✅ Executed vendor-mandated PIN pad replacement and credit transaction software upgrade across all Dymon Storage facilities with zero downtime to storage operations, meeting the 45-minute per-site completion target.
-✅ Maintained PCI-DSS 3.0 compliance throughout the upgrade cycle, with lab-based PoC testing, transaction verification, and post-implementation back-end allocation reporting.
+- Executed vendor-mandated PIN pad replacement and credit transaction software upgrade across all Dymon Storage facilities with zero downtime to storage operations, meeting the 45-minute per-site completion target.
+- Maintained PCI-DSS 3.0 compliance throughout the upgrade cycle, with lab-based PoC testing, transaction verification, and post-implementation back-end allocation reporting.
 
 **Tasks Performed**:
 
@@ -1080,9 +1080,9 @@ Successfully deployed market-leading SaaS platform serving 500+ global insurance
 The client required the migration of physical data centre from Vancouver On-Premise location to Ottawa Tier 2 Data Center. Architecture migration of 750TB production IBM FC SAN storage, IBM FC SAN & Tivoli System 200TB Backup/Archival Storage, 2000 Windows 2008R2 Servers, and VMWare 5.0 IBM Cluster. An expedited timeline was in place due to the termination of facility contracts, and no local staff. Additional risk was identified due the size of data, and GIS Airborne Acquisition data loss would require the physical re-flight of areas and financial exposure and damage to the organization.
 
 **Project Outcomes:**
-✅ Successfully migrated 750TB production IBM FC SAN, 200TB backup/archival storage, and 2,000 Windows servers plus VMware cluster from Vancouver on-premise facility to Ottawa Tier 2 data centre under an expedited timeline driven by facility contract termination.
-✅ Managed high-risk migration where GIS airborne acquisition data loss would have required physical re-flight of LiDAR areas, delivering within the accelerated schedule with full data integrity preserved.
-✅ Implemented ISO:27001, NERC, and NIST-compliant security controls with RBAC access posture for the migrated production infrastructure stack.
+- Successfully migrated 750TB production IBM FC SAN, 200TB backup/archival storage, and 2,000 Windows servers plus VMware cluster from Vancouver on-premise facility to Ottawa Tier 2 data centre under an expedited timeline driven by facility contract termination.
+- Managed high-risk migration where GIS airborne acquisition data loss would have required physical re-flight of LiDAR areas, delivering within the accelerated schedule with full data integrity preserved.
+- Implemented ISO:27001, NERC, and NIST-compliant security controls with RBAC access posture for the migrated production infrastructure stack.
 
 **Tasks Performed**:
 
@@ -1113,9 +1113,9 @@ The client required the migration of physical data centre from Vancouver On-Prem
 As a multi-petabyte data handling organization, GeoDigital required a robust and richly featured solution for handling data archiving, data retention, and data integrity. Leveraging Tier II and Tier III secure data centres with enterprise scale storage platforms for automated scaling data storage management this project served the identified requirements of all Business Units. The solution had to create and manage a complete 'corporate software directory' of internal tools for workflow maximization based on business requirements, providing fully self-serve managed environments.
 
 **Project Outcomes:**
-✅ Architected and deployed multi-petabyte corporate private cloud leveraging Tier II and III data centres with NexentaStor software-defined storage, automated scaling, and intelligent data-tiering to serve all business unit data archiving, retention, and integrity requirements.
-✅ Delivered fully self-serve managed environments with a corporate software directory, integrated with AWS S3 for off-site replication and storage-bursting, supporting RedHat/CentOS clusters across on-premise and cloud infrastructure.
-✅ Achieved ISO:27001, NERC, FISMA, and NIST compliance for the private cloud platform serving US energy and utilities market clients.
+- Architected and deployed multi-petabyte corporate private cloud leveraging Tier II and III data centres with NexentaStor software-defined storage, automated scaling, and intelligent data-tiering to serve all business unit data archiving, retention, and integrity requirements.
+- Delivered fully self-serve managed environments with a corporate software directory, integrated with AWS S3 for off-site replication and storage-bursting, supporting RedHat/CentOS clusters across on-premise and cloud infrastructure.
+- Achieved ISO:27001, NERC, FISMA, and NIST compliance for the private cloud platform serving US energy and utilities market clients.
 
 **Tasks Performed**:
 
@@ -1151,8 +1151,8 @@ As a multi-petabyte data handling organization, GeoDigital required a robust and
 Due to growth by corporate acquisitions, the client operated multiple physical locations without a centralized standardized IT Infrastructure platform. This project managed the migration from physical servers and unstructured virtual servers, to a standardized virtualization platform leveraging Hyper-V as a single vendor platform. It provided full license management and auditing, ensured right-sizing of resources for daily operations and future growth. Mr. Turner steered strategy to ensure maximization of virtualization platform and resources.
 
 **Project Outcomes:**
-✅ Standardized fragmented IT infrastructure across multiple physical locations (acquired through corporate acquisitions) onto a unified Hyper-V virtualization platform, eliminating unstructured physical and virtual server sprawl.
-✅ Delivered full license management and auditing with right-sized resource allocation for daily operations and future growth, achieving ISO:27001, NERC, and NIST compliance with integrated Active Directory RBAC access controls.
+- Standardized fragmented IT infrastructure across multiple physical locations (acquired through corporate acquisitions) onto a unified Hyper-V virtualization platform, eliminating unstructured physical and virtual server sprawl.
+- Delivered full license management and auditing with right-sized resource allocation for daily operations and future growth, achieving ISO:27001, NERC, and NIST compliance with integrated Active Directory RBAC access controls.
 
 **Tasks Performed**:
 
@@ -1267,9 +1267,9 @@ The client intended to manage risk and centralize mail management into a streaml
 Central Wire Industries, as a \$500 million annual revenue enterprise, expanded its operations with purchase of a smart-factory requiring integration of all aspects of automation, including IT Systems, ERP and MRP systems. This project required the introduction of GE Fanuc Smart Automation, and various smart SCADA systems into the manufacturing process, configuration of smart-factory automation platform software, and integration via scheduled interfaces and data transform XML process into centralized AS/400 based Lawson Movex (M3) and Info BPCS ERP/MRP suites.
 
 **Project Outcomes:**
-✅ Integrated GE Fanuc smart-factory automation and SCADA systems into centralized AS/400-based Lawson Movex (M3) and Info BPCS ERP/MRP suites via scheduled XML data-transform interfaces for a $500M annual revenue manufacturer.
-✅ Delivered IT infrastructure supporting "lights-out" manufacturing operations with SNMP monitoring integration, fail-over testing, and on-site documentation verified for comprehension by non-technical skeleton crew personnel.
-✅ Implemented IT security controls meeting US DOD NOFORN classification requirements with ISO:27001 and NIST compliance across manufacturing ERP, data systems, and facility automation platforms.
+- Integrated GE Fanuc smart-factory automation and SCADA systems into centralized AS/400-based Lawson Movex (M3) and Info BPCS ERP/MRP suites via scheduled XML data-transform interfaces for a $500M annual revenue manufacturer.
+- Delivered IT infrastructure supporting "lights-out" manufacturing operations with SNMP monitoring integration, fail-over testing, and on-site documentation verified for comprehension by non-technical skeleton crew personnel.
+- Implemented IT security controls meeting US DOD NOFORN classification requirements with ISO:27001 and NIST compliance across manufacturing ERP, data systems, and facility automation platforms.
 
 **Tasks Performed**:
 
@@ -1293,8 +1293,8 @@ Central Wire Industries, as a \$500 million annual revenue enterprise, expanded 
 The client had expanded its market share and physical locations by an increase of 60% over the previous few years, seeing a growth in staff with the final onboarding of nine physical sites across the United States of America and Canada. ADP was selected as the corporate vendor for providing consolidated payroll services across the company, requiring the implementation of new infrastructure to support a significantly larger application cluster. Corporate directive required that the physical infrastructure be managed from Canada, with HR and Finance Payroll staff operating from USA locations, and corporate finance operating out of Canada.
 
 **Project Outcomes:**
-✅ Consolidated ADP payroll services across 9 physical sites in the United States and Canada following 60% growth in physical locations, delivering cross-border HR and Finance access via Citrix virtualization with infrastructure managed from Canada and end users operating from US locations.
-✅ Implemented RBAC access controls for corporate HR and payroll systems with integrated Active Directory components, meeting ISO:27001 and NIST compliance requirements for financial data security.
+- Consolidated ADP payroll services across 9 physical sites in the United States and Canada following 60% growth in physical locations, delivering cross-border HR and Finance access via Citrix virtualization with infrastructure managed from Canada and end users operating from US locations.
+- Implemented RBAC access controls for corporate HR and payroll systems with integrated Active Directory components, meeting ISO:27001 and NIST compliance requirements for financial data security.
 
 **Tasks Performed**:
 
