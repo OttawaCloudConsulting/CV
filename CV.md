@@ -494,7 +494,7 @@ The client was migrating a bespoke server workload, comprised of local database,
 
 **January 2018 - February 2019**
 
-Mr. Turner worked as a Senior Business and Technical Architect on several projects within the Cyber and Information Technology Security (CITS) Branch at Shared Services Canada. The CITS branch's focus is to protect the Government of Canada's (GC) systems and networks, as well as Canadians' information from cyber threats. SSC also supports Canada's foreign service, military and law enforcement personnel and contributes to national security by defending government systems and delivering information technology (IT) security services.
+As a Senior Business and Technical Architect, worked on several projects within the Cyber and Information Technology Security (CITS) Branch at Shared Services Canada. The CITS branch's focus is to protect the Government of Canada's (GC) systems and networks, as well as Canadians' information from cyber threats. SSC also supports Canada's foreign service, military and law enforcement personnel and contributes to national security by defending government systems and delivering information technology (IT) security services.
 
 SSC's role in strengthening cyber and IT security:
 
@@ -1148,9 +1148,10 @@ As a multi-petabyte data handling organization, GeoDigital required a robust and
 
 **September 2012 - August 2013**
 
-Due to growth by corporate acquisitions, the client operated multiple physical locations without a centralized standardized IT Infrastructure platform. This project managed the migration from physical servers and unstructured virtual servers, to a standardized virtualization platform leveraging Hyper-V as a single vendor platform. It provided full license management and auditing, ensured right-sizing of resources for daily operations and future growth. Mr. Turner steered strategy to ensure maximization of virtualization platform and resources.
+Due to growth by corporate acquisitions, the client operated multiple physical locations without a centralized standardized IT Infrastructure platform. This project managed the migration from physical servers and unstructured virtual servers, to a standardized virtualization platform leveraging Hyper-V as a single vendor platform. It provided full license management and auditing, ensured right-sizing of resources for daily operations and future growth, steered strategy to ensure maximization of virtualization platform and resources.
 
 **Project Outcomes:**
+
 - Standardized fragmented IT infrastructure across multiple physical locations (acquired through corporate acquisitions) onto a unified Hyper-V virtualization platform, eliminating unstructured physical and virtual server sprawl.
 - Delivered full license management and auditing with right-sized resource allocation for daily operations and future growth, achieving ISO:27001, NERC, and NIST compliance with integrated Active Directory RBAC access controls.
 
