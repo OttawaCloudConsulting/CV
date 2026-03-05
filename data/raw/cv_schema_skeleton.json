@@ -1,0 +1,107 @@
+{
+  "personal": {
+    "name": "",
+    "title": "",
+    "tagline": "",
+    "subtitle": "",
+    "email": "",
+    "phone": "",
+    "location": {
+      "city": "",
+      "province": "",
+      "country": ""
+    },
+    "links": {
+      "linkedin": "",
+      "github": ""
+    },
+    "consulting_entity": ""
+  },
+  "professional_profile": {
+    "summary": [
+      ""
+    ],
+    "language": "",
+    "certifications": [
+      {
+        "name": "",
+        "issuer": "",
+        "certificate_url": ""
+      }
+    ]
+  },
+  "executive_summary": {
+    "specialization": "",
+    "government_clients": "",
+    "compliance_depth": "",
+    "cloud_platforms": "",
+    "current_engagement": "",
+    "certifications": "",
+    "consulting_entity": "",
+    "availability": ""
+  },
+  "projects": [
+    {
+      "number": 0,
+      "title": "",
+      "client": {
+        "name": "",
+        "department": "",
+        "team": ""
+      },
+      "role": "",
+      "date_range": {
+        "start": "",
+        "end": ""
+      },
+      "description": "",
+      "outcomes": [
+        ""
+      ],
+      "technical_environment": [
+        {
+          "category": "",
+          "items": [
+            ""
+          ]
+        }
+      ],
+      "sub_projects": [
+        {
+          "number": "",
+          "title": "",
+          "date_range": {
+            "start": "",
+            "end": ""
+          },
+          "description": "",
+          "outcomes": "",
+          "tasks_performed": [
+            {
+              "task": "",
+              "sub_tasks": [
+                ""
+              ]
+            }
+          ],
+          "technical_environment": [
+            {
+              "category": "",
+              "items": [
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "technology_index": [
+    {
+      "name": "",
+      "project_references": [
+        ""
+      ]
+    }
+  ]
+}
