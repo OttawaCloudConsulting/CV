@@ -8,6 +8,7 @@
       "team": "Platform Engineering"
     },
     "role": "AWS Cloud Platform Engineer/Architect",
+    "date_range": { "start": "Month YYYY", "end": "Month YYYY" },
     "challenge": {
       "summary": "Organizational environment requires automated client/workload facilitation with maximum automation and low-touch onboarding and support processes."
     },

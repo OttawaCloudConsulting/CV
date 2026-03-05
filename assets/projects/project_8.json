@@ -1,0 +1,38 @@
+{
+  "project": {
+    "number": 8,
+    "title": "SSC CITS SMG & CTMS",
+    "client": {
+      "name": "Shared Services Canada",
+      "department": "CITS - Infrastructure Security",
+      "team": ""
+    },
+    "role": "Senior Business / Technical Architect",
+    "date_range": {
+      "start": "January 2018",
+      "end": "February 2019"
+    },
+    "challenge": {
+      "summary": "The client was implementing a SharePoint solution for managing and tracking tasks performed by a number of Security Management and Governance teams. Existing processes relied heavily on Microsoft Excel spreadsheets for reporting, with non-standardized content."
+    },
+    "solution": {
+      "summary": "Delivered comprehensive cloud and infrastructure solutions across:",
+      "deliverables": [
+        "SharePoint 2016 Design",
+        "Atlassian JIRA Implementation"
+      ]
+    },
+    "outcomes": [
+      "✅ Delivered SharePoint 2016 Design engagement",
+      "✅ Delivered Atlassian JIRA Implementation engagement"
+    ],
+    "technologies": [
+      {
+        "category": "Cloud Services",
+        "items": [
+          "Amazon AWS"
+        ]
+      }
+    ]
+  }
+}

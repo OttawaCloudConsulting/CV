@@ -1,59 +1,49 @@
 {
   "project": {
     "number": 5.1,
-    "title": "[Client Redacted] - DevOps and Architecture Enhancement",
+    "title": "Exchange Email Cloud Migration",
     "client": {
-      "name": "[Client Redacted]",
+      "name": "HighRoads (US - Boston, MA)",
       "department": "",
       "team": ""
     },
-    "role": "DevOps and Architecture",
+    "role": "Cloud Transformation & Cloud Architect",
+    "date_range": {
+      "start": "January 2017",
+      "end": "April 2017"
+    },
     "challenge": {
-      "summary": "Reorganize software development team from unstructured, chaotic environment to fluid Agile and Scrum-based team while modernizing infrastructure and deployment processes."
+      "summary": "The client was undergoing extensive internal restructuring, right-sizing staffing and migrating services to the cloud to reduce costs and mitigate risks."
     },
     "solution": {
-      "summary": "Strategic approach to DevOps and infrastructure modernization:",
+      "summary": "Key activities and deliverables:",
       "deliverables": [
-        "Comprehensive Agile and Scrum training",
-        "DevOps implementation with CI/CD pipelines (Jenkins, Git)",
-        "Infrastructure upgrades supporting new tools and workflows",
-        "Cultural transformation toward collaborative project management",
-        "ServiceDesk and smart-factory integration"
+        "Internal directory configuration reviews",
+        "Migration planning and aligning to tool requirements",
+        "Active Directory upgrades & reconfiguration",
+        "Office365 Tenant Creation and Domain planning",
+        "Deployment of Office365 specific features",
+        "Exchange Mailbox & Resource Migration & Cutover Process",
+        "Facilitated requirements gathering with client teams from multiple sites",
+        "Implementation of IT Security and Cyber Protection Controls. Map to ISO:27001, NIST, and HIPAA",
+        "Established the Office 365 access control framework for the HighRoads US migration",
+        "PowerShell scripting and automation",
+        "Migration Review and end user documentation",
+        "Decommission of Exchange Server Services",
+        "Provide documentation, knowledge transfer, and cross-training"
       ]
     },
     "outcomes": [
-      "✅ Improved project management and tracking",
-      "✅ Enhanced collaboration and team efficiency",
-      "✅ Infrastructure reliability supporting robust development",
-      "✅ Positive cultural shift toward collaboration",
-      "✅ Streamlined communication systems",
-      "✅ Reduced IT overhead",
-      "✅ Improved user experience with modern email platform"
+      "✅ Internal directory configuration reviews",
+      "✅ Migration planning and aligning to tool requirements",
+      "✅ Active Directory upgrades & reconfiguration"
     ],
     "technologies": [
       {
-        "category": "CI/CD",
-        "items": ["Jenkins", "Git", "Atlassian JIRA", "Atlassian Confluence"]
-      },
-      {
-        "category": "Cloud",
-        "items": ["Amazon AWS (EC2, S3, AutoScaling, Elastic Load Balancing)"]
-      },
-      {
-        "category": "Infrastructure as Code",
-        "items": ["Terraform"]
-      },
-      {
-        "category": "Applications",
-        "items": ["IBM WebSphere", "Java", ".NET", "DB2"]
-      },
-      {
-        "category": "Migration Tools",
-        "items": ["BitTitan MigrationWiz"]
-      },
-      {
-        "category": "Monitoring",
-        "items": ["ManageEngine OpManager"]
+        "category": "Cloud Services",
+        "items": [
+          "Amazon AWS"
+        ]
       }
     ]
   }

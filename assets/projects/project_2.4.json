@@ -1,70 +1,48 @@
 {
   "project": {
     "number": 2.4,
-    "title": "[Client Redacted] - On-Premise Data Centre Virtualization",
+    "title": "On-Premise Data Centre Virtualization",
     "client": {
-      "name": "[Client Redacted]",
-      "department": "GeoSpatial Engineering",
+      "name": "GeoDigital International (GeoSpatial Engineering)",
+      "department": "",
       "team": ""
     },
     "role": "Operations and Infrastructure Architect",
+    "date_range": {
+      "start": "September 2012",
+      "end": "August 2013"
+    },
     "challenge": {
-      "summary": "Design and deploy scalable GIS SaaS platform serving 500+ global clients across 15 countries while managing massive data ingestion (1-2 TB/day) and ensuring 99.5% uptime."
+      "summary": "Due to growth by corporate acquisitions, the client operated multiple physical locations without a centralized standardized IT Infrastructure platform. This project managed the migration to a standardized Hyper-V virtualization platform."
     },
     "solution": {
-      "summary": "Strategic approach to on-premises data centre virtualization:",
+      "summary": "Key activities and deliverables:",
       "deliverables": [
-        "Migration from physical servers to standardized virtualization",
-        "Hyper-V platform implementation with license management",
-        "NexentaStor storage cluster with intelligent data-tiering",
-        "AWS integration for off-site replication"
+        "Project Management using hybrid Agile & Waterfall methodologies",
+        "Stakeholder reporting and meetings with Executive teams",
+        "Needs analysis, define requirements for project",
+        "Architectural design and structure planning",
+        "Security Coordination and alignment to required Guidelines (NERC, FISMA & NIST)",
+        "Implementation of IT Security and Cyber Protection Controls. Compliance required for ISO:27001, NERC and NIST",
+        "Develop and implement Access Control Program based on RBAC requirements with Active Directory integrations",
+        "Conducted requirements workshops across LiDAR production, QA, field acquisition, and IT support teams",
+        "Vendor Selection Advisory and Vendor Engagement",
+        "Provide final architecture and documentation",
+        "Build, deploy and integrate process",
+        "Project Close-Out",
+        "Documentation preparation for Operations staff"
       ]
     },
     "outcomes": [
-      "✅ Market-leading SaaS platform serving 500+ global clients",
-      "✅ 99.5% platform uptime across 15 countries",
-      "✅ 1-2 TB/day automated data ingestion pipeline",
-      "✅ 99.8% data processing reliability",
-      "✅ 50% improvement in engineering processing timelines",
-      "✅ 8 production and engineering environments supporting 25+ staff",
-      "✅ Successfully migrated 750TB+ of mission-critical data"
+      "✅ Standardized fragmented IT infrastructure across multiple physical locations onto a unified Hyper-V virtualization platform",
+      "✅ Delivered full license management and auditing achieving ISO:27001, NERC, and NIST compliance"
     ],
     "technologies": [
       {
-        "category": "Public Cloud",
-        "items": ["Amazon AWS", "RackSpace Cloud", "Microsoft Azure", "Google GCP"]
-      },
-      {
-        "category": "Data Management",
-        "items": ["1-2 TB/day ingestion", "PostgreSQL/PostGIS"]
-      },
-      {
-        "category": "Storage",
-        "items": ["NexentaStor Software-defined Storage", "Cloud-bursting"]
-      },
-      {
-        "category": "Private Data Centre",
-        "items": ["Rogers Tier 2", "ATT Tier 3"]
-      },
-      {
-        "category": "Applications",
-        "items": ["GIS Platforms", "SharePoint", "QuickBase", "Salesforce"]
-      },
-      {
-        "category": "Monitoring",
-        "items": ["New Relic", "Nagios", "SolarWinds", "Observium"]
-      },
-      {
-        "category": "Databases",
-        "items": ["PostgreSQL", "PostGIS", "MySQL", "MS SQL"]
-      },
-      {
-        "category": "Backup",
-        "items": ["UniTrends Enterprise Backup", "Veaam Backup"]
-      },
-      {
-        "category": "CI/CD",
-        "items": ["Hudson-Jenkins", "Visual SVN"]
+        "category": "Cloud Services",
+        "items": [
+          "Amazon AWS"
+        ]
       }
     ]
   }

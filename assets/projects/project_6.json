@@ -1,49 +1,37 @@
 {
   "project": {
     "number": 6,
-    "title": "[Client Redacted] - Cloud Service Delivery",
+    "title": "Lowe Martin DevOps",
     "client": {
-      "name": "[Client Redacted]",
+      "name": "Lowe Martin Group",
       "department": "",
       "team": ""
     },
-    "role": "Office 365 & Cloud Delivery Manager",
+    "role": "DevOps",
+    "date_range": {
+      "start": "March 2017",
+      "end": "September 2017"
+    },
     "challenge": {
-      "summary": "Manage and harmonize cloud services during mergers and acquisitions while consolidating multiple Managed Service Providers (MSPs) and ensuring consistency across integrated entities."
+      "summary": "The client was performing extensive internal change, which required the re-organization of the Software Development team from an unstructured and chaotic team into a fluid Agile and Scrum based team."
     },
     "solution": {
-      "summary": "Strategic cloud service management initiatives:",
+      "summary": "Delivered comprehensive cloud and infrastructure solutions across:",
       "deliverables": [
-        "Vendor management and consolidation of MSPs",
-        "Cloud integration and standardization (Azure, Office 365)",
-        "Service Level Agreement renegotiation",
-        "Training and change management for staff and end-users",
-        "Governance model establishment for centralized management"
+        "Dev Ops",
+        "Office 365 Migration from Exchange & Domino Environments"
       ]
     },
     "outcomes": [
-      "✅ Enhanced service efficiency and consistency across organization",
-      "✅ Significant cost savings through MSP consolidation",
-      "✅ Improved vendor relationships and responsiveness",
-      "✅ Successful integration post-merger/acquisition",
-      "✅ Minimal disruption to ongoing operations"
+      "✅ Delivered Dev Ops engagement",
+      "✅ Delivered Office 365 Migration from Exchange & Domino Environments engagement"
     ],
     "technologies": [
       {
-        "category": "Public Cloud",
-        "items": ["Microsoft Azure", "Office 365"]
-      },
-      {
         "category": "Cloud Services",
-        "items": ["Azure ExpressRoute", "Azure InTune MDM"]
-      },
-      {
-        "category": "Identity",
-        "items": ["Azure Active Directory"]
-      },
-      {
-        "category": "Languages",
-        "items": ["Microsoft PowerShell"]
+        "items": [
+          "Amazon AWS"
+        ]
       }
     ]
   }

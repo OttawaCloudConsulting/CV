@@ -1,61 +1,46 @@
 {
   "project": {
     "number": 3.1,
-    "title": "[Client Redacted] - Operations Virtualization",
+    "title": "Operations Virtualization",
     "client": {
-      "name": "[Client Redacted]",
+      "name": "Dymon Corporation",
       "department": "",
       "team": ""
     },
     "role": "Operations and Infrastructure Architect",
+    "date_range": {
+      "start": "December 2014",
+      "end": "May 2015"
+    },
     "challenge": {
-      "summary": "Modernize infrastructure from unique physical hardware per server (8 servers at <20% utilization) while implementing security compliance and reducing operational overhead."
+      "summary": "The Dymon corporate infrastructure was operating on unique physical hardware per server and per service. Analysis identified 8 physical servers of identical capacity running at less than 20% utilization."
     },
     "solution": {
-      "summary": "Strategic approach to infrastructure virtualization:",
+      "summary": "Key activities and deliverables:",
       "deliverables": [
-        "Infrastructure migration to fully virtualized environment",
-        "VLAN segregation for operations, POS, web, CCTV, and building automation",
-        "HP ProCurve and Cisco switching with Sophos UTM",
-        "Citrix XenServer clustering with replicated NAS storage"
+        "Stakeholder reporting and meetings with CIO",
+        "Needs analysis, define requirements, and plan migration route",
+        "Review and realign infrastructure plan with budget limitations",
+        "Security Coordination and alignment to required Guidelines (PCI Compliance)",
+        "Implementation of IT Security and Cyber Protection Controls with compliance to PCI-DSS 3.0",
+        "Facilitated requirements gathering within organization with consideration to distributed workforce",
+        "Staged migratory testing of services with inline remediation",
+        "Migration and cut-over processes",
+        "Preparation and planning for decommission of legacy hardware",
+        "Project Close-Out and handover",
+        "Documentation preparation for Operations staff including cross-training and knowledge transfer"
       ]
     },
     "outcomes": [
-      "✅ Increased IT agility and operational efficiency",
-      "✅ Reduced infrastructure costs through virtualization",
-      "✅ Improved disaster recovery capabilities",
-      "✅ Enhanced system performance and reliability",
-      "✅ Reduced IT management overhead for distributed workforce",
-      "✅ Maintained PCI-DSS compliance through modernization"
+      "✅ Consolidated 8 underutilized physical servers into a Citrix XenServer virtualized cluster, reclaiming 3 unused Layer 3 switches",
+      "✅ Implemented VLAN-segmented network architecture with PCI-DSS 3.0 compliance"
     ],
     "technologies": [
       {
-        "category": "Virtualization",
-        "items": ["Citrix XenServer", "VMware 5.5"]
-      },
-      {
-        "category": "Networking",
-        "items": ["HP ProCurve", "Cisco Switches", "Sophos UTM"]
-      },
-      {
-        "category": "Storage",
-        "items": ["NAS storage clustering", "RAID"]
-      },
-      {
-        "category": "Terminal Services",
-        "items": ["Windows 2012 R2 RDS", "Wyse Terminal Hardware"]
-      },
-      {
-        "category": "Security",
-        "items": ["PCI-DSS compliance", "Syslog-NG"]
-      },
-      {
-        "category": "Monitoring",
-        "items": ["ManageEngine OpManager", "SolarWinds"]
-      },
-      {
-        "category": "Applications",
-        "items": ["Active Directory", "SpiceWorks Helpdesk", "SysAid ITIL"]
+        "category": "Cloud Services",
+        "items": [
+          "Amazon AWS"
+        ]
       }
     ]
   }

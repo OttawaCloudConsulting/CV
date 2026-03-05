@@ -1,66 +1,49 @@
 {
   "project": {
     "number": 4.3,
-    "title": "[Client Redacted] - Infrastructure Decommission & Migration",
+    "title": "Infrastructure Decommission & Migration",
     "client": {
-      "name": "[Client Redacted]",
+      "name": "HighRoads Canada Inc. (Ottawa, ON)",
       "department": "",
       "team": ""
     },
-    "role": "DevOps, Operations and Cloud Architect",
+    "role": "DevOps, Operations and Cloud Architect; Project Management",
+    "date_range": {
+      "start": "October 2015",
+      "end": "April 2016"
+    },
     "challenge": {
-      "summary": "Migrate 40+ production workloads from VMware to AWS while implementing DevOps practices, establishing robust infrastructure, and managing complex organizational transitions."
+      "summary": "An asset sale required a project to divest software, development environments, QA environments, staging environments, demo environments, training environments, DR environments, and production environments for the V1 software product."
     },
     "solution": {
-      "summary": "Strategic approach to infrastructure decommission and migration:",
+      "summary": "Key activities and deliverables:",
       "deliverables": [
-        "Strategic planning and secure migration coordination",
-        "Data security measures and vendor coordination",
-        "System testing and validation post-migration",
-        "Compliance with asset sale agreements"
+        "Project Management using Waterfall methodologies",
+        "Stakeholder reporting and meetings with C-Level executives and Board Members",
+        "Needs analysis, define requirements, and plan migration route",
+        "Architectural design and PoC implementation with modernization of infrastructure",
+        "Security Coordination and alignment to required Guidelines (HIPAA & NIST)",
+        "Implementation of IT Security and Cyber Protection Controls. Map to ISO:27001, NIST, and HIPAA",
+        "Perform safe deconstruction and decommission of legacy data centre and hosted solutions",
+        "Developed the transitional access control program governing system hand-over",
+        "Orchestrated joint requirements sessions between selling and purchasing organizations",
+        "Staged migratory testing of services with inline remediation",
+        "Pre-migratory pen-testing and security reporting, load testing, and failure/high-availability testing",
+        "Migration and cut-over processes",
+        "Decommission of legacy hardware, separation of hardware",
+        "Project Close-Out, Stakeholder reporting, Legal/Financial reporting for Escrow fund compliance",
+        "Documentation preparation for Operations staff, Development staff, Management, and external acquiring company"
       ]
     },
     "outcomes": [
-      "✅ 40+ production workloads successfully migrated to AWS",
-      "✅ 35% cost reduction through cloud optimization",
-      "✅ 50% improvement in deployment frequency",
-      "✅ HIPAA-compliant active-passive DR architecture",
-      "✅ Standardized engineering workflows for global teams",
-      "✅ Operational excellence with minimal downtime",
-      "✅ Successful organizational transitions with data integrity"
+      "✅ Delivered active-passive HIPAA-compliant DR architecture meeting strict NIST RTO/RPO objectives while ensuring zero downtime migration of production systems"
     ],
     "technologies": [
       {
-        "category": "Public Cloud",
-        "items": ["Amazon AWS (EC2, RDS, S3, Lambda, VPC, CloudFormation)"]
-      },
-      {
-        "category": "Private Infrastructure",
-        "items": ["VMware 5.5 & 6", "Citrix XenServer", "Hyper-V"]
-      },
-      {
-        "category": "CI/CD",
-        "items": ["Jenkins", "Bamboo", "GitLab", "GitHub"]
-      },
-      {
-        "category": "Infrastructure as Code",
-        "items": ["Terraform", "SALT", "AWS CloudFormation"]
-      },
-      {
-        "category": "Monitoring",
-        "items": ["Nagios", "SolarWinds", "Splunk", "BMC Insights"]
-      },
-      {
-        "category": "Databases",
-        "items": ["Oracle", "MySQL", "PostgreSQL"]
-      },
-      {
-        "category": "Security",
-        "items": ["FortiGate", "CheckPoint", "F5 Big-IP", "Snort"]
-      },
-      {
-        "category": "Applications",
-        "items": ["Java", "Tomcat", "Apache", ".NET", "Oracle WebLogic"]
+        "category": "Cloud Services",
+        "items": [
+          "Amazon AWS"
+        ]
       }
     ]
   }

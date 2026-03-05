@@ -1,7 +1,7 @@
 {
   "project": {
-    "number": 11,
-    "title": "SSC CSD R&D",
+    "number": 11.1,
+    "title": "Cloud Services Directorate, Cloud Platform Engineering Project",
     "client": {
       "name": "Shared Services Canada",
       "department": "Cloud Services Directorate",
@@ -16,9 +16,23 @@
       "summary": "The CSD R&D Project group are focused on generating a set of deployable Infrastructure as Code (IaC) for re-use within SSC and partners. Infrastructure as Code (IaC) supports automation of 'CSD Landing Zone' integrating AWS Landing Zone customisation, SAA Security Guard Rails, and generic multi-purpose tools. Developed and drove success and security achievements to ATO with AWS Secure Environment Accelerator."
     },
     "solution": {
-      "summary": "Delivered comprehensive cloud and infrastructure solutions across:",
+      "summary": "Key activities and deliverables:",
       "deliverables": [
-        "Cloud Services Directorate, Cloud Platform Engineering Project"
+        "Needs analysis, define requirements, and strategize architecture with AWS team",
+        "Architectural design and Proof of Concept (PoC) implementation for design review sessions",
+        "Infrastructure as Code (IaC) Coding",
+        "CI/CD CodePipeline, CodeCommit, CodeBuild, CodeDeploy",
+        "GitLab, GitHub",
+        "Implementation of IT Security Program to meet ITSG-22, ITSG-33 and ITSG-38 and TBS driven cloud guardrails and achieve iATO",
+        "Design, secure and implementation of SSO Federation with Azure Active Directory",
+        "Designed and codified the AWS IAM access control framework for the CSD Landing Zone",
+        "Facilitated requirements gathering with technical team, architecture team, and security team",
+        "Client Deployment of AWS Native resources to provide governance and generate iATO evidence packages",
+        "Source Code Management within GitLab",
+        "DevOps integration with DevOps tooling, methodology, and processes",
+        "Documentation, Knowledge transfer and cross-training with team, new staff and onboarded clients",
+        "Achieve ATO status for AWS Cloud",
+        "Supporting onboarding of workloads (SCED, DX, Vocalls, Email)"
       ]
     },
     "outcomes": [
@@ -60,7 +74,8 @@
           "AWS CodeBuild",
           "AWS CodePipeline",
           "AWS Organizations",
-          "AWS Config"
+          "AWS Config",
+          "AWS Systems Manager"
         ]
       },
       {

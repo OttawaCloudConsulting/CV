@@ -1,66 +1,47 @@
 {
   "project": {
     "number": 4.1,
-    "title": "[Client Redacted] - AWS Cloud Migration for SaaS Platform",
+    "title": "AWS Cloud Migration (In-house custom SaaS platform)",
     "client": {
-      "name": "[Client Redacted]",
+      "name": "HighRoads Canada Inc. (Ottawa, ON)",
       "department": "",
       "team": ""
     },
-    "role": "DevOps, Operations and Cloud Architect",
+    "role": "DevOps, Operations and Cloud Architect; Project Management",
+    "date_range": {
+      "start": "December 2015",
+      "end": "December 2016"
+    },
     "challenge": {
-      "summary": "Migrate 40+ production workloads from VMware to AWS while implementing DevOps practices, establishing robust infrastructure, and managing complex organizational transitions."
+      "summary": "Architected and managed the migration and implementation of on-premise systems into the AWS cloud platform. This involved right-sizing systems, provisioning micro-service based architecture and leveraging cloud-based security principles."
     },
     "solution": {
-      "summary": "Strategic approach to cloud migration for SaaS platform:",
+      "summary": "Key activities and deliverables:",
       "deliverables": [
-        "Cloud architecture design utilizing AWS for scalability",
-        "Phased data migration plan with AWS Database Migration Service",
-        "Security and compliance implementation (IAM, security groups, VPCs)",
-        "Performance monitoring with AWS CloudWatch"
+        "Project Management using Agile methodologies, and hybrid reporting",
+        "Needs analysis, define requirements, and plan migration route",
+        "Architectural design and PoC implementation",
+        "Market compliance under HIPAA & NIST guidelines",
+        "Convened cross-functional working groups spanning development, QA, professional services, IT support, sales, and customer representatives",
+        "Implementation of IT Security and Cyber Protection Controls. Map to ISO:27001, NIST, and HIPAA",
+        "Designed the SaaS application access control architecture",
+        "Review and realign infrastructure with cloud offerings",
+        "Staged migratory testing of services with inline remediation",
+        "Internal feedback to development and operations for change coordination",
+        "Provide final architecture and documentation",
+        "Provide documentation, knowledge transfer, and cross-training",
+        "Migration and cut-over processes"
       ]
     },
     "outcomes": [
-      "✅ 40+ production workloads successfully migrated to AWS",
-      "✅ 35% cost reduction through cloud optimization",
-      "✅ 50% improvement in deployment frequency",
-      "✅ HIPAA-compliant active-passive DR architecture",
-      "✅ Standardized engineering workflows for global teams",
-      "✅ Operational excellence with minimal downtime",
-      "✅ Successful organizational transitions with data integrity"
+      "✅ Successfully migrated 40+ production workloads from VMware to AWS, achieving 35% cost reduction through cloud optimization and improved platform resilience"
     ],
     "technologies": [
       {
-        "category": "Public Cloud",
-        "items": ["Amazon AWS (EC2, RDS, S3, Lambda, VPC, CloudFormation)"]
-      },
-      {
-        "category": "Private Infrastructure",
-        "items": ["VMware 5.5 & 6", "Citrix XenServer", "Hyper-V"]
-      },
-      {
-        "category": "CI/CD",
-        "items": ["Jenkins", "Bamboo", "GitLab", "GitHub"]
-      },
-      {
-        "category": "Infrastructure as Code",
-        "items": ["Terraform", "SALT", "AWS CloudFormation"]
-      },
-      {
-        "category": "Monitoring",
-        "items": ["Nagios", "SolarWinds", "Splunk", "BMC Insights"]
-      },
-      {
-        "category": "Databases",
-        "items": ["Oracle", "MySQL", "PostgreSQL"]
-      },
-      {
-        "category": "Security",
-        "items": ["FortiGate", "CheckPoint", "F5 Big-IP", "Snort"]
-      },
-      {
-        "category": "Applications",
-        "items": ["Java", "Tomcat", "Apache", ".NET", "Oracle WebLogic"]
+        "category": "Cloud Services",
+        "items": [
+          "Amazon AWS"
+        ]
       }
     ]
   }

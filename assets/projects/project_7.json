@@ -1,0 +1,36 @@
+{
+  "project": {
+    "number": 7,
+    "title": "Brookfield Renewable Energy Cloud Delivery",
+    "client": {
+      "name": "Brookfield Renewable Energy",
+      "department": "",
+      "team": ""
+    },
+    "role": "Office 365 & Cloud Delivery Manager",
+    "date_range": {
+      "start": "September 2017",
+      "end": "December 2017"
+    },
+    "challenge": {
+      "summary": "The client was performing extensive internal change, due to growth via Mergers & Acquisition, requiring a change in support vendor. A consolidation of multiple Managed Service Providers was in flight. The primary objective was to provide guidance and governance to the cloud services (Azure and Office365) support vendor, SoftChoice."
+    },
+    "solution": {
+      "summary": "Delivered comprehensive cloud and infrastructure solutions across:",
+      "deliverables": [
+        "Office 365 and Microsoft Azure Cloud Service Delivery Manager"
+      ]
+    },
+    "outcomes": [
+      "✅ Delivered Office 365 and Microsoft Azure Cloud Service Delivery Manager engagement"
+    ],
+    "technologies": [
+      {
+        "category": "Cloud Services",
+        "items": [
+          "Amazon AWS"
+        ]
+      }
+    ]
+  }
+}

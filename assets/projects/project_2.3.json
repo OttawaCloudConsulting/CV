@@ -1,70 +1,50 @@
 {
   "project": {
     "number": 2.3,
-    "title": "[Client Redacted] - Corporate Private Cloud (Data Centre Architecture)",
+    "title": "Corporate Private Cloud (Data Centre Architecture)",
     "client": {
-      "name": "[Client Redacted]",
-      "department": "GeoSpatial Engineering",
+      "name": "GeoDigital International (GeoSpatial Engineering)",
+      "department": "",
       "team": ""
     },
     "role": "Operations and Infrastructure Architect",
+    "date_range": {
+      "start": "September 2012",
+      "end": "August 2013"
+    },
     "challenge": {
-      "summary": "Design and deploy scalable GIS SaaS platform serving 500+ global clients across 15 countries while managing massive data ingestion (1-2 TB/day) and ensuring 99.5% uptime."
+      "summary": "As a multi-petabyte data handling organization, GeoDigital required a robust solution for handling data archiving, data retention, and data integrity."
     },
     "solution": {
-      "summary": "Strategic approach to corporate private cloud architecture:",
+      "summary": "Key activities and deliverables:",
       "deliverables": [
-        "Multi-petabyte data handling solution",
-        "NexentaStor software-defined storage cluster",
-        "Automated data archiving and retention management",
-        "Integration with AWS for off-site replication"
+        "Project Management using hybrid Agile & Waterfall methodologies",
+        "Stakeholder reporting and meetings with Executive teams and operations teams",
+        "Needs analysis, define requirements for project",
+        "Advisory services for technology selection and cloud provider integrations",
+        "Architectural design and lightweight PoC implementation",
+        "Security Coordination and alignment to required Guidelines (NERC, FISMA & NIST)",
+        "Implementation of IT Security and Cyber Protection Controls. Compliance required for ISO:27001, NERC and NIST",
+        "Engaged all business units to capture data archival, retention, and integrity requirements",
+        "Defined the private cloud access control model",
+        "Vendor Selection Advisory and Vendor Engagement",
+        "Vendor Management & Project Management",
+        "Provide final architecture and documentation",
+        "Build, deploy and integrate process",
+        "Project Close-Out",
+        "Documentation preparation for Operations staff"
       ]
     },
     "outcomes": [
-      "✅ Market-leading SaaS platform serving 500+ global clients",
-      "✅ 99.5% platform uptime across 15 countries",
-      "✅ 1-2 TB/day automated data ingestion pipeline",
-      "✅ 99.8% data processing reliability",
-      "✅ 50% improvement in engineering processing timelines",
-      "✅ 8 production and engineering environments supporting 25+ staff",
-      "✅ Successfully migrated 750TB+ of mission-critical data"
+      "✅ Architected and deployed multi-petabyte corporate private cloud leveraging Tier II and III data centres with NexentaStor software-defined storage",
+      "✅ Achieved ISO:27001, NERC, FISMA, and NIST compliance"
     ],
     "technologies": [
       {
-        "category": "Public Cloud",
-        "items": ["Amazon AWS", "RackSpace Cloud", "Microsoft Azure", "Google GCP"]
-      },
-      {
-        "category": "Data Management",
-        "items": ["1-2 TB/day ingestion", "PostgreSQL/PostGIS"]
-      },
-      {
-        "category": "Storage",
-        "items": ["NexentaStor Software-defined Storage", "Cloud-bursting"]
-      },
-      {
-        "category": "Private Data Centre",
-        "items": ["Rogers Tier 2", "ATT Tier 3"]
-      },
-      {
-        "category": "Applications",
-        "items": ["GIS Platforms", "SharePoint", "QuickBase", "Salesforce"]
-      },
-      {
-        "category": "Monitoring",
-        "items": ["New Relic", "Nagios", "SolarWinds", "Observium"]
-      },
-      {
-        "category": "Databases",
-        "items": ["PostgreSQL", "PostGIS", "MySQL", "MS SQL"]
-      },
-      {
-        "category": "Backup",
-        "items": ["UniTrends Enterprise Backup", "Veaam Backup"]
-      },
-      {
-        "category": "CI/CD",
-        "items": ["Hudson-Jenkins", "Visual SVN"]
+        "category": "Cloud Services",
+        "items": [
+          "Amazon AWS"
+        ]
       }
     ]
   }

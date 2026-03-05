@@ -1,54 +1,77 @@
 {
   "project": {
     "number": 12,
-    "title": "[Client Redacted] - Cloud Centre of Expertise",
+    "title": "Agriculture Canada - Cloud Centre of Expertise / Cloud Operations",
     "client": {
-      "name": "[Client Redacted]",
-      "department": "Information Services Branch",
-      "team": "Cloud Ops"
+      "name": "Agriculture Canada",
+      "department": "Cloud Centre of Expertise",
+      "team": "Cloud Operations"
     },
-    "role": "AWS Cloud DevSecOps Architect & Platform Engineer",
+    "role": "AWS Cloud DevOps Architect (Part-Time)",
+    "date_range": {
+      "start": "January 2021",
+      "end": "September 2023"
+    },
     "challenge": {
-      "summary": "Implement a secure and scalable managed public cloud environment using AWS Landing Zone foundations while meeting operational and security requirements and achieving full Authority to Operate (ATO) for production workloads."
+      "summary": "The AAFC Cloud Centre of Expertise (CCoE) are focused on providing a secure and scalable managed public cloud environment to internal business users. The AWS Cloud environment is implemented using standard AWS Landing Zone foundations with layers of Infrastructure as Code governance resources deployed to meet both Operational and Security requirements, as well as achieve full ATO status for production workloads."
     },
     "solution": {
-      "summary": "Comprehensive strategic and technical approach:",
+      "summary": "Delivered comprehensive cloud and infrastructure solutions across:",
       "deliverables": [
-        "Architectural design and strategy in collaboration with AWS team",
-        "Infrastructure as Code development using Terraform, AWS SDK, and AWS CLI",
-        "CI/CD pipeline implementation (AWS CodeBuild, CodeDeploy, Azure Pipelines)",
-        "IT Security Program establishment meeting ITSG standards",
-        "SSO Federation integration with Azure Active Directory",
-        "Automated security and governance compliance tooling"
+        "Cloud Centre of Expertise / Cloud Operations",
+        "DevOps & AWS Development"
       ]
     },
     "outcomes": [
-      "✅ Full ATO (Authority to Operate) status achieved",
-      "✅ Secure, scalable managed cloud environment for internal business users",
-      "✅ Enhanced security posture exceeding GoC ITSG requirements",
-      "✅ Streamlined development and operations through integrated DevOps practices",
-      "✅ Azure AD SSO federation enabling secure identity management"
+      "✅ Achieved full ATO (Authority to Operate) status for Agriculture Canada's AWS Cloud environment, meeting ITSG-22/33/38 requirements",
+      "✅ Successfully implemented automated security and governance compliance tooling that exceeded GoC cloud guardrails, enabling secure cloud adoption across the department with integrated Azure AD SSO federation",
+      "✅ Delivered critical analytics platform supporting analytics operations through AWS cloud-native architecture for client workload systems",
+      "✅ Implemented comprehensive DevSecOps pipeline with automated security scanning and supply chain management, enabling secure data analysis capabilities"
     ],
     "technologies": [
       {
         "category": "Public Cloud",
-        "items": ["Amazon AWS", "Azure DevOps", "Azure Active Directory"]
+        "items": [
+          "Amazon AWS (AWS Organizations, AWS Control Tower, AWS SSO, AWS Config, AWS CloudTrail, AWS GuardDuty, AWS IAM, AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy, AWS CloudFormation, Terraform)",
+          "Amazon AWS (AWS CDK v1/v2, AWS CodeCommit, AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy, AWS Cloud9, AWS Glue, AWS DMS, AWS Lambda)"
+        ]
       },
       {
-        "category": "Infrastructure as Code",
-        "items": ["Terraform", "AWS SDK", "AWS CLI", "CloudFormation"]
+        "category": "Public Cloud (Azure)",
+        "items": [
+          "Azure DevOps",
+          "Azure Active Directory",
+          "Azure Sentinel"
+        ]
       },
       {
-        "category": "CI/CD",
-        "items": ["AWS CodeBuild", "CodeDeploy", "Azure Pipelines"]
+        "category": "Applications",
+        "items": [
+          "Microsoft Active Directory",
+          "Bash",
+          "Azure DevOps Git",
+          "Azure DevOps Pipelines",
+          "CloudFormation",
+          "Checkov Security Scanning (BridgeCrew/Prisma)",
+          "TerraScan Security Scanning (Tenable)",
+          "Azure DevOps",
+          "Git",
+          "Atlassian Jira",
+          "Code & IaC Security Scanning",
+          "JFROG Artifactory",
+          "SonarQube & Dependency Checker",
+          "AWS CDK v1.x",
+          "AWS CDK v2.x"
+        ]
       },
       {
-        "category": "Security",
-        "items": ["AWS IAM", "Azure AD SSO", "Checkov", "TerraScan"]
-      },
-      {
-        "category": "Compliance",
-        "items": ["ITSG-22", "ITSG-33", "ITSG-38", "TBS cloud guardrails"]
+        "category": "Servers",
+        "items": [
+          "Microsoft Windows 2019",
+          "AWS Linux",
+          "CentOS",
+          "CIS Hardened Images"
+        ]
       }
     ]
   }

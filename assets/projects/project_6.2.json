@@ -1,0 +1,46 @@
+{
+  "project": {
+    "number": 6.2,
+    "title": "Office 365 Migration from Exchange & Domino Environments",
+    "client": {
+      "name": "Lowe Martin Group",
+      "department": "",
+      "team": ""
+    },
+    "role": "DevOps",
+    "date_range": {
+      "start": "March 2017",
+      "end": "September 2017"
+    },
+    "challenge": {
+      "summary": "The client was performing a planned migration from an on-premise mixed environment of Microsoft Exchange 2010 and Lotus Domino 9 to a completely hosted Office 365 environment. The quantity of mail objects was 2000+."
+    },
+    "solution": {
+      "summary": "Key activities and deliverables:",
+      "deliverables": [
+        "Internal directory configuration reviews",
+        "Migration planning and aligning to tool requirements",
+        "Deployment of Office365 specific features",
+        "Lotus Domino Migration to Exchange & Manual Migration processes",
+        "Exchange Mailbox and Resource migration processes",
+        "Implementation of IT Security and Cyber Protection Controls with SIEM integration. Map to ISO Security Controls",
+        "Implemented the Exchange Online access control framework for 2,000+ migrated mail objects",
+        "PowerShell scripting and automation",
+        "Migration Review and end user documentation with cross-training and knowledge transfer"
+      ]
+    },
+    "outcomes": [
+      "✅ Internal directory configuration reviews",
+      "✅ Migration planning and aligning to tool requirements",
+      "✅ Deployment of Office365 specific features"
+    ],
+    "technologies": [
+      {
+        "category": "Cloud Services",
+        "items": [
+          "Amazon AWS"
+        ]
+      }
+    ]
+  }
+}

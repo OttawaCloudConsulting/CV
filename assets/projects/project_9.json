@@ -1,73 +1,82 @@
 {
   "project": {
     "number": 9,
-    "title": "[Client Redacted] - SMMS Replacement Project",
+    "title": "IDS Data Systems (New Democratic Party)",
     "client": {
-      "name": "[Client Redacted]",
-      "department": "Search And Rescue Application Replacement",
+      "name": "IDS Data Systems",
+      "department": "",
       "team": ""
     },
-    "role": "Cloud Architect – Resilient Systems",
+    "role": "Cloud Architect",
+    "date_range": {
+      "start": "November 2018",
+      "end": "January 2019"
+    },
     "challenge": {
-      "summary": "Modernize critical Search and Rescue operations systems with zero downtime migration to cloud infrastructure while integrating live data interfaces for GIS applications and maintaining strict [Client Redacted] security requirements."
+      "summary": "The client was migrating from a traditional distributed on-premise phone system to a fully virtualized Office 365 tenanted system."
     },
     "solution": {
-      "summary": "Infrastructure and application modernization strategy:",
+      "summary": "Delivered comprehensive cloud and infrastructure solutions across:",
       "deliverables": [
-        "Application design for AWS Cloud-native services",
-        "Containerization and migration to serverless core infrastructure",
-        "Docker/ECS container architecture and PostgreSQL integration",
-        "Auto-scaling for containers and EC2 instances",
-        "CloudWatch and EventBridge-based event-driven architecture",
-        "Security implementation meeting ITSG and [Client Redacted] compliance",
-        "Staged implementation testing with inline remediation",
-        "Infrastructure as Code deployment via Service Catalog"
+        "Office 365 Skype Migration - New Democratic Party of Canada",
+        "Server Workload Cloud Migration - New Democratic Party of Canada"
       ]
     },
     "outcomes": [
-      "✅ Zero downtime migration of critical SAR system to AWS cloud",
-      "✅ Containerized architecture with Docker/ECS ensuring 24/7 availability",
-      "✅ Enhanced operational efficiency for Search and Rescue operations",
-      "✅ Integrated GIS and real-time data capabilities",
-      "✅ Robust infrastructure resilience reducing downtime",
-      "✅ Scalable IT infrastructure adaptable to future needs"
+      "✅ Delivered Office 365 Skype Migration - New Democratic Party of Canada engagement",
+      "✅ Delivered Server Workload Cloud Migration - New Democratic Party of Canada engagement"
     ],
     "technologies": [
       {
         "category": "Public Cloud",
-        "items": ["Amazon AWS"]
-      },
-      {
-        "category": "Container Orchestration",
-        "items": ["Docker", "ECS", "ECR"]
-      },
-      {
-        "category": "Compute & Storage",
-        "items": ["EC2", "ECS", "S3", "EFS", "RDS"]
-      },
-      {
-        "category": "Infrastructure as Code",
-        "items": ["CloudFormation", "Terraform", "Service Catalog"]
-      },
-      {
-        "category": "Monitoring",
-        "items": ["CloudWatch", "EventBridge", "CloudTrail"]
-      },
-      {
-        "category": "Networking",
-        "items": ["VPC", "Route 53", "Load Balancers", "Transit Gateway"]
-      },
-      {
-        "category": "Security",
-        "items": ["IAM", "GuardDuty", "WAF & Shield", "Inspector", "Certificate Manager"]
-      },
-      {
-        "category": "Databases",
-        "items": ["PostgreSQL", "RDS"]
+        "items": [
+          "Microsoft Office 365",
+          "Microsoft Skype for Business",
+          "Microsoft Office 365 Compliance",
+          "Azure PowerShell",
+          "Microsoft Azure",
+          "Azure Resource Manager (ARM)",
+          "Azure Resource Groups",
+          "Azure Virtual Machines",
+          "Azure Virtual Machine Scale Sets",
+          "Azure Availability Sets",
+          "Azure Images",
+          "Azure Virtual Networks",
+          "Azure Load Balancers",
+          "Azure Network Security Groups",
+          "Azure Application Gateways",
+          "Azure Storage Accounts",
+          "Azure PostgreSQL Database",
+          "Cloudflare DNS",
+          "CloudFlare CDN"
+        ]
       },
       {
         "category": "Applications",
-        "items": ["Java", "Tomcat", "Apache"]
+        "items": [
+          "Java",
+          "Tomcat",
+          "Apache",
+          "Elasticsearch",
+          "PowerShell",
+          "Azure PowerShell",
+          "Azure CLI"
+        ]
+      },
+      {
+        "category": "Servers",
+        "items": [
+          "CentOS 6/7",
+          "Windows 2012 R2",
+          "VMWare 6"
+        ]
+      },
+      {
+        "category": "Security",
+        "items": [
+          "WatchGuard (next-gen firewall)",
+          "Cloudflare WAF"
+        ]
       }
     ]
   }

@@ -1,0 +1,79 @@
+{
+  "project": {
+    "number": 13.1,
+    "title": "Cloud Services Directorate, Cloud Platform Engineering",
+    "client": {
+      "name": "Shared Services Canada",
+      "department": "Hosting Services Branch",
+      "team": "Cloud Platform Engineering"
+    },
+    "role": "AWS Cloud Infrastructure as Code DevOps Engineer & Architect",
+    "date_range": {
+      "start": "September 2023",
+      "end": "Current"
+    },
+    "challenge": {
+      "summary": "The Cloud Services Platform Engineering team operates within the Hosting Services Branch providing an Enterprise class Tenancy within the Amazon Web Services (AWS) Cloud, supporting AWS ASEA (Secure Accelerator) and AWS LZA (Landing Zone Accelerator) platform designs."
+    },
+    "solution": {
+      "summary": "Key activities and deliverables:",
+      "deliverables": [
+        "Needs analysis, defining requirements, defining and maintain deliverable scopes",
+        "AWS and Kubernetes design patterns and architecture",
+        "Design and Delivery Iterations",
+        "Infrastructure as Code development",
+        "Deployment Processes and Implementations",
+        "Security By Design patterns and principles",
+        "Workload and Application Deployment and Support",
+        "Implemented Source Code Management, DevOps Toolings, and DevOps Best Practices"
+      ]
+    },
+    "outcomes": [
+      "✅ Successfully architected and deployed enterprise-class GitOps platform serving multiple government departments through AWS EKS and ArgoCD",
+      "✅ Established Infrastructure as Code standards using Terraform and Crossplane, enabling rapid deployment of NIST 800-53 compliant workloads across SSC's AWS Landing Zone Accelerator platform"
+    ],
+    "technologies": [
+      {
+        "category": "Public Cloud",
+        "items": [
+          "Amazon AWS Cloud",
+          "Azure DevOps"
+        ]
+      },
+      {
+        "category": "Applications",
+        "items": [
+          "Azure DevOps Git",
+          "ArgoCD",
+          "Argo Workflows",
+          "Checkov Security Scanning",
+          "JIRA",
+          "Confluence"
+        ]
+      },
+      {
+        "category": "Servers",
+        "items": [
+          "Kubernetes (kind, k3d, kubeadm)",
+          "AWS Linux",
+          "CentOS",
+          "CIS Hardened Images"
+        ]
+      },
+      {
+        "category": "Languages",
+        "items": [
+          "Bash",
+          "Python 3.x",
+          "Typescript",
+          "Golang",
+          "Terraform",
+          "Crossplane",
+          "Helm",
+          "CDK",
+          "CDK8s"
+        ]
+      }
+    ]
+  }
+}

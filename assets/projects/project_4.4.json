@@ -1,66 +1,48 @@
 {
   "project": {
     "number": 4.4,
-    "title": "[Client Redacted] - Operations Decommission & Migration",
+    "title": "Operations Decommission & Migration",
     "client": {
-      "name": "[Client Redacted]",
+      "name": "HighRoads Canada Inc. (Ottawa, ON)",
       "department": "",
       "team": ""
     },
-    "role": "DevOps, Operations and Cloud Architect",
+    "role": "DevOps, Operations and Cloud Architect; Project Management",
+    "date_range": {
+      "start": "May 2016",
+      "end": "December 2016"
+    },
     "challenge": {
-      "summary": "Migrate 40+ production workloads from VMware to AWS while implementing DevOps practices, establishing robust infrastructure, and managing complex organizational transitions."
+      "summary": "In Q4 2016 Highroads announced the closure of their Canadian offices. IT Operations was to be fully handed over to various outsourced vendors."
     },
     "solution": {
-      "summary": "Strategic approach to operations decommission and migration:",
+      "summary": "Key activities and deliverables:",
       "deliverables": [
-        "Vendor coordination for IT operations handover",
-        "Infrastructure migration to cloud services",
-        "Data security and compliance maintenance",
-        "Documentation and knowledge transfer"
+        "Project Management using Waterfall methodologies",
+        "Stakeholder reporting and meetings with C-Level executives and Board Members",
+        "Needs analysis, define requirements, and plan migration route",
+        "Review and realign infrastructure with cloud offerings",
+        "Security Coordination and alignment to required Guidelines (HIPAA & NIST)",
+        "Implementation of IT Security and Cyber Protection Controls. Validation of migrated system for HIPAA compliance",
+        "Develop and implement Access Control Program for migration and hand-over to parent operations in Boston, MA",
+        "Facilitated decommission and migration requirements across development, operations, legal, and executive teams",
+        "Staged migratory testing of services with inline remediation",
+        "Provide final architecture and documentation",
+        "Migration and cut-over processes",
+        "Preparation and planning for decommission of legacy hardware",
+        "Project Close-Out and handover",
+        "Documentation preparation for Operations staff, Development staff, Management, and external outsourced support company"
       ]
     },
     "outcomes": [
-      "✅ 40+ production workloads successfully migrated to AWS",
-      "✅ 35% cost reduction through cloud optimization",
-      "✅ 50% improvement in deployment frequency",
-      "✅ HIPAA-compliant active-passive DR architecture",
-      "✅ Standardized engineering workflows for global teams",
-      "✅ Operational excellence with minimal downtime",
-      "✅ Successful organizational transitions with data integrity"
+      "✅ Operationalized 3 hybrid AWS/on-prem architectures supporting 100+ workloads with scalable and secure patterns"
     ],
     "technologies": [
       {
-        "category": "Public Cloud",
-        "items": ["Amazon AWS (EC2, RDS, S3, Lambda, VPC, CloudFormation)"]
-      },
-      {
-        "category": "Private Infrastructure",
-        "items": ["VMware 5.5 & 6", "Citrix XenServer", "Hyper-V"]
-      },
-      {
-        "category": "CI/CD",
-        "items": ["Jenkins", "Bamboo", "GitLab", "GitHub"]
-      },
-      {
-        "category": "Infrastructure as Code",
-        "items": ["Terraform", "SALT", "AWS CloudFormation"]
-      },
-      {
-        "category": "Monitoring",
-        "items": ["Nagios", "SolarWinds", "Splunk", "BMC Insights"]
-      },
-      {
-        "category": "Databases",
-        "items": ["Oracle", "MySQL", "PostgreSQL"]
-      },
-      {
-        "category": "Security",
-        "items": ["FortiGate", "CheckPoint", "F5 Big-IP", "Snort"]
-      },
-      {
-        "category": "Applications",
-        "items": ["Java", "Tomcat", "Apache", ".NET", "Oracle WebLogic"]
+        "category": "Cloud Services",
+        "items": [
+          "Amazon AWS"
+        ]
       }
     ]
   }

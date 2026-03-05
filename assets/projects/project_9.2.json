@@ -1,0 +1,88 @@
+{
+  "project": {
+    "number": 9.2,
+    "title": "Server Workload Cloud Migration - New Democratic Party of Canada",
+    "client": {
+      "name": "IDS Data Systems",
+      "department": "",
+      "team": ""
+    },
+    "role": "Cloud Architect",
+    "date_range": {
+      "start": "November 2018",
+      "end": "January 2019"
+    },
+    "challenge": {
+      "summary": "The client was migrating a bespoke server workload, comprised of local database, compute functions, and public accessibility into the public cloud from traditional on-premise VMWare 6 infrastructure. The cloud transformation platform selected was Microsoft Azure."
+    },
+    "solution": {
+      "summary": "Key activities and deliverables:",
+      "deliverables": [
+        "Project Management using Agile methodologies, and hybrid reporting",
+        "Needs analysis, define requirements, and strategize high level Cloud Architecture",
+        "Architectural design and PoC implementation with modernization of infrastructure",
+        "Staged implementation testing of services with inline remediation",
+        "Internal feedback to development vendor and client IT operations for change coordination",
+        "Implementation of IT Security and Cyber Protection to meet required Security Controls for data system maintaining voting citizen information, equivalent to Protected B data",
+        "PowerShell and Azure CLI based deployment automation, change management, and smoke tests",
+        "Provide final architecture and documentation for production blue-green deployment",
+        "Pre-migratory testing and security reporting, and failure/high-availability testing",
+        "Knowledge transfer and cross-training with internal teams and support vendor"
+      ]
+    },
+    "outcomes": [
+      "✅ Project Management using Agile methodologies, and hybrid reporting",
+      "✅ Needs analysis, define requirements, and strategize high level Cloud Architecture",
+      "✅ Architectural design and PoC implementation with modernization of infrastructure"
+    ],
+    "technologies": [
+      {
+        "category": "Public Cloud",
+        "items": [
+          "Microsoft Azure",
+          "Azure Resource Manager (ARM)",
+          "Azure Resource Groups",
+          "Azure Virtual Machines",
+          "Azure Virtual Machine Scale Sets",
+          "Azure Availability Sets",
+          "Azure Images",
+          "Azure Virtual Networks",
+          "Azure Load Balancers",
+          "Azure Network Security Groups",
+          "Azure Application Gateways",
+          "Azure Storage Accounts",
+          "Azure PostgreSQL Database",
+          "Cloudflare DNS",
+          "CloudFlare CDN"
+        ]
+      },
+      {
+        "category": "Applications",
+        "items": [
+          "Java",
+          "Tomcat",
+          "Apache",
+          "Elasticsearch",
+          "PowerShell",
+          "Azure PowerShell",
+          "Azure CLI"
+        ]
+      },
+      {
+        "category": "Servers",
+        "items": [
+          "CentOS 6/7",
+          "Windows 2012 R2",
+          "VMWare 6"
+        ]
+      },
+      {
+        "category": "Security",
+        "items": [
+          "WatchGuard (next-gen firewall)",
+          "Cloudflare WAF"
+        ]
+      }
+    ]
+  }
+}

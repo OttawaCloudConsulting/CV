@@ -1,66 +1,44 @@
 {
   "project": {
     "number": 4.2,
-    "title": "[Client Redacted] - SaaS System DevOps Infrastructure",
+    "title": "SaaS System: DevOps Infrastructure",
     "client": {
-      "name": "[Client Redacted]",
+      "name": "HighRoads Canada Inc. (Ottawa, ON)",
       "department": "",
       "team": ""
     },
-    "role": "DevOps, Operations and Cloud Architect",
+    "role": "DevOps, Operations and Cloud Architect; Project Management",
+    "date_range": {
+      "start": "June 2015",
+      "end": "September 2016"
+    },
     "challenge": {
-      "summary": "Migrate 40+ production workloads from VMware to AWS while implementing DevOps practices, establishing robust infrastructure, and managing complex organizational transitions."
+      "summary": "A traditional hosted customer facing CMS system was in production. Highroads was designing a new V2 system as a fully SaaS product with both web GUI access and customer available API access."
     },
     "solution": {
-      "summary": "Strategic approach to SaaS DevOps infrastructure:",
+      "summary": "Key activities and deliverables:",
       "deliverables": [
-        "Cloud infrastructure setup on AWS",
-        "CI/CD pipelines (Jenkins, GitHub, Bamboo)",
-        "Monitoring tools (Nagios, Splunk)",
-        "Security protocols and regulatory compliance"
+        "Project Management using Agile methodologies, and hybrid reporting",
+        "Needs analysis, define requirements, and plan migration route",
+        "Architectural design and PoC implementation with modernization of infrastructure",
+        "Security Coordination and alignment to required Guidelines (HIPAA & NIST)",
+        "Implementation of IT Security and Cyber Protection Controls. Map to ISO:27001, NIST, and HIPAA",
+        "Extended the access control posture to the DevOps infrastructure layer",
+        "Led discovery sessions across the 15-person offshore engineering team, QA, and operations staff",
+        "Pre-migratory pen-testing and security reporting, load testing, and failure/high-availability testing",
+        "Migration and cut-over processes",
+        "Documentation preparation for Operations staff, Development staff, and Management"
       ]
     },
     "outcomes": [
-      "✅ 40+ production workloads successfully migrated to AWS",
-      "✅ 35% cost reduction through cloud optimization",
-      "✅ 50% improvement in deployment frequency",
-      "✅ HIPAA-compliant active-passive DR architecture",
-      "✅ Standardized engineering workflows for global teams",
-      "✅ Operational excellence with minimal downtime",
-      "✅ Successful organizational transitions with data integrity"
+      "✅ Introduced comprehensive DevOps and automation practices improving deployment frequency by 50% and eliminating manual deployment steps through CI/CD pipeline implementation"
     ],
     "technologies": [
       {
-        "category": "Public Cloud",
-        "items": ["Amazon AWS (EC2, RDS, S3, Lambda, VPC, CloudFormation)"]
-      },
-      {
-        "category": "Private Infrastructure",
-        "items": ["VMware 5.5 & 6", "Citrix XenServer", "Hyper-V"]
-      },
-      {
-        "category": "CI/CD",
-        "items": ["Jenkins", "Bamboo", "GitLab", "GitHub"]
-      },
-      {
-        "category": "Infrastructure as Code",
-        "items": ["Terraform", "SALT", "AWS CloudFormation"]
-      },
-      {
-        "category": "Monitoring",
-        "items": ["Nagios", "SolarWinds", "Splunk", "BMC Insights"]
-      },
-      {
-        "category": "Databases",
-        "items": ["Oracle", "MySQL", "PostgreSQL"]
-      },
-      {
-        "category": "Security",
-        "items": ["FortiGate", "CheckPoint", "F5 Big-IP", "Snort"]
-      },
-      {
-        "category": "Applications",
-        "items": ["Java", "Tomcat", "Apache", ".NET", "Oracle WebLogic"]
+        "category": "Cloud Services",
+        "items": [
+          "Amazon AWS"
+        ]
       }
     ]
   }

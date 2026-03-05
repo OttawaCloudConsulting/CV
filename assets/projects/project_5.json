@@ -1,0 +1,38 @@
+{
+  "project": {
+    "number": 5,
+    "title": "HighRoads US Cloud Migration",
+    "client": {
+      "name": "HighRoads (US - Boston, MA)",
+      "department": "",
+      "team": ""
+    },
+    "role": "Cloud Transformation & Cloud Architect",
+    "date_range": {
+      "start": "January 2017",
+      "end": "April 2017"
+    },
+    "challenge": {
+      "summary": "The client was undergoing extensive internal restructuring, right-sizing staffing and migrating services to the cloud to reduce costs and mitigate risks."
+    },
+    "solution": {
+      "summary": "Delivered comprehensive cloud and infrastructure solutions across:",
+      "deliverables": [
+        "Exchange Email Cloud Migration",
+        "Atlassian Project Management Cloud Migration"
+      ]
+    },
+    "outcomes": [
+      "✅ Delivered Exchange Email Cloud Migration engagement",
+      "✅ Delivered Atlassian Project Management Cloud Migration engagement"
+    ],
+    "technologies": [
+      {
+        "category": "Cloud Services",
+        "items": [
+          "Amazon AWS"
+        ]
+      }
+    ]
+  }
+}

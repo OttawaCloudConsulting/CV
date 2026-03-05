@@ -47,6 +47,21 @@
         "type": "error"
       },
       {
+        "field": ".project.date_range",
+        "description": "Date range object is required",
+        "type": "error"
+      },
+      {
+        "field": ".project.date_range.start",
+        "description": "Date range start is required",
+        "type": "error"
+      },
+      {
+        "field": ".project.date_range.end",
+        "description": "Date range end is required",
+        "type": "error"
+      },
+      {
         "field": ".project.challenge",
         "description": "Challenge object is required",
         "type": "error"
@@ -126,6 +141,24 @@
         "type": "error"
       },
       {
+        "field": ".project.date_range",
+        "expected_type": "object",
+        "description": "Date range must be an object",
+        "type": "error"
+      },
+      {
+        "field": ".project.date_range.start",
+        "expected_type": "string",
+        "description": "Date range start must be a string",
+        "type": "error"
+      },
+      {
+        "field": ".project.date_range.end",
+        "expected_type": "string",
+        "description": "Date range end must be a string",
+        "type": "error"
+      },
+      {
         "field": ".project.challenge.summary",
         "expected_type": "string",
         "description": "Challenge summary must be a string",
@@ -179,6 +212,18 @@
         "field": ".project.role",
         "check": "non_empty_string",
         "description": "Role cannot be empty",
+        "type": "error"
+      },
+      {
+        "field": ".project.date_range.start",
+        "check": "non_empty_string",
+        "description": "Date range start cannot be empty",
+        "type": "error"
+      },
+      {
+        "field": ".project.date_range.end",
+        "check": "non_empty_string",
+        "description": "Date range end cannot be empty",
         "type": "error"
       },
       {

@@ -1,56 +1,42 @@
 {
   "project": {
     "number": 8.1,
-    "title": "[Client Redacted] - Office 365 & Skype for Business Migration",
+    "title": "SharePoint 2016 Design",
     "client": {
-      "name": "[Client Redacted]",
-      "department": "",
+      "name": "Shared Services Canada",
+      "department": "CITS - Infrastructure Security",
       "team": ""
     },
-    "role": "Cloud Architecture",
+    "role": "Senior Business / Technical Architect",
+    "date_range": {
+      "start": "July 2018",
+      "end": "February 2019"
+    },
     "challenge": {
-      "summary": "Migrate on-premises communication systems to cloud platform ensuring zero downtime, enhanced security, and compliance with public sector standards."
+      "summary": "The client was implementing a SharePoint solution for managing and tracking tasks performed by a number of Security Management and Governance teams. Existing processes relied heavily on Microsoft Excel spreadsheets for reporting, with non-standardized content."
     },
     "solution": {
-      "summary": "Strategic approach to communication systems migration:",
+      "summary": "Key activities and deliverables:",
       "deliverables": [
-        "Cloud environment preparation and configuration",
-        "Data migration using Microsoft native tools",
-        "Security and compliance adjustments within Office 365",
-        "Comprehensive training and post-migration support"
+        "Review the 'as-is' implementation and align it with the work methodologies and requirements for all SM&G teams",
+        "Using a simplified business process mapping and gap analysis strategy, created and refined key workflows to track the process from Business Intake, through Security Assessment (SA) process, and completion with milestone tracking and funding recovery tracking",
+        "Helped to design the system to standardize meta-data types and vernacular, enforcing data integrity and data value",
+        "Implementation of consolidated data project management and reporting system for Security Assessment and Audit of projects across all GC departments",
+        "Facilitated requirements gathering with management and Director level to understand scope and high-level business process",
+        "Provided knowledge transfer and training to internal FTE staff"
       ]
     },
     "outcomes": [
-      "✅ Enhanced communication capabilities with cloud-based systems",
-      "✅ Increased reliability and scalability of services",
-      "✅ Secure and compliant environment meeting government standards",
-      "✅ Successful cloud transition with zero downtime",
-      "✅ Smooth transition with minimal operational disruption"
+      "✅ Review the 'as-is' implementation and align it with the work methodologies and requirements for all SM&G teams",
+      "✅ Using a simplified business process mapping and gap analysis strategy, created and refined key workflows to track the process from Business Intake, through Security Assessment (SA) process, and completion with milestone tracking and funding recovery tracking",
+      "✅ Helped to design the system to standardize meta-data types and vernacular, enforcing data integrity and data value"
     ],
     "technologies": [
       {
-        "category": "Public Cloud",
-        "items": ["Microsoft Office 365", "Cloudflare"]
-      },
-      {
-        "category": "Security",
-        "items": ["Azure Security Center", "Azure Policy", "Blueprints"]
-      },
-      {
-        "category": "Databases",
-        "items": ["PostgreSQL"]
-      },
-      {
-        "category": "Monitoring",
-        "items": ["Azure Monitor", "Application Insights"]
-      },
-      {
-        "category": "Applications",
-        "items": ["Java", "Tomcat", "Apache", "Elasticsearch"]
-      },
-      {
-        "category": "Languages",
-        "items": ["PowerShell", "Azure CLI"]
+        "category": "Cloud Services",
+        "items": [
+          "Amazon AWS"
+        ]
       }
     ]
   }

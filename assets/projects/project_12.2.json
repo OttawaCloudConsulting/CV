@@ -1,0 +1,64 @@
+{
+  "project": {
+    "number": 12.2,
+    "title": "DevOps & AWS Development",
+    "client": {
+      "name": "Agriculture Canada",
+      "department": "Cloud Centre of Expertise",
+      "team": "Cloud Operations"
+    },
+    "role": "AWS Cloud DevOps Architect (Part-Time)",
+    "date_range": {
+      "start": "January 2021",
+      "end": "September 2023"
+    },
+    "challenge": {
+      "summary": "The Analytics team is focused on designing, developing and deploying applications for data analysis that operate in the AWS Cloud to meet departmental analytical requirements provided data."
+    },
+    "solution": {
+      "summary": "Key activities and deliverables:",
+      "deliverables": [
+        "Needs analysis, define requirements, and strategize architecture with AWS team",
+        "Architectural design and Proof of Concept (PoC) implementation for design review sessions",
+        "Infrastructure as Code (IaC) Coding and review",
+        "CI/CD Pipelines - AWS CodeCommit, AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy",
+        "Implementation and maintenance of CI/CD AWS Resources meeting best practices and agile deployment",
+        "Security and Governance reporting on Code and IaC to support DevSecOps compliance",
+        "Continuous improvement of Deployment Practices and Release Management",
+        "Developer Tasks"
+      ]
+    },
+    "outcomes": [
+      "✅ Delivered critical analytics platform supporting analytics operations through AWS cloud-native architecture for client workload systems",
+      "✅ Implemented comprehensive DevSecOps pipeline with automated security scanning and supply chain management, enabling secure data analysis capabilities"
+    ],
+    "technologies": [
+      {
+        "category": "Public Cloud",
+        "items": [
+          "Amazon AWS (AWS CDK v1/v2, AWS CodeCommit, AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy, AWS Cloud9, AWS Glue, AWS DMS, AWS Lambda)"
+        ]
+      },
+      {
+        "category": "Public Cloud (Azure)",
+        "items": [
+          "Azure DevOps"
+        ]
+      },
+      {
+        "category": "Applications",
+        "items": [
+          "Bash",
+          "Azure DevOps",
+          "Git",
+          "Atlassian Jira",
+          "Code & IaC Security Scanning",
+          "JFROG Artifactory",
+          "SonarQube & Dependency Checker",
+          "AWS CDK v1.x",
+          "AWS CDK v2.x"
+        ]
+      }
+    ]
+  }
+}

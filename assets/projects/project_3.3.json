@@ -1,61 +1,45 @@
 {
   "project": {
     "number": 3.3,
-    "title": "[Client Redacted] - POS Infrastructure System Upgrade",
+    "title": "Sales Software & POS Infrastructure System Upgrade",
     "client": {
-      "name": "[Client Redacted]",
+      "name": "Dymon Corporation",
       "department": "",
       "team": ""
     },
     "role": "Operations and Infrastructure Architect",
+    "date_range": {
+      "start": "May 2015",
+      "end": "June 2015"
+    },
     "challenge": {
-      "summary": "Modernize infrastructure from unique physical hardware per server (8 servers at <20% utilization) while implementing security compliance and reducing operational overhead."
+      "summary": "A vendor driven change to end-user credit transaction PIN pads required Dymon Storage to update their credit transaction software, Line of Business integration module, merchant banking authentication and physical handsets with zero downtime."
     },
     "solution": {
-      "summary": "Strategic approach to POS infrastructure modernization:",
+      "summary": "Key activities and deliverables:",
       "deliverables": [
-        "PIN pad replacement and credit transaction software update",
-        "Zero downtime modernization across storage facilities",
-        "Line of business integration and merchant banking updates",
-        "PCI-DSS 3.0 compliance maintenance"
+        "Stakeholder reporting and meetings with CIO, COO, and Chief Accountant",
+        "Needs analysis, define requirements, and plan transformation",
+        "Security Coordination and advisory process",
+        "Lab-based PoC testing",
+        "Migration and cut-over processes",
+        "Implementation of IT Security and Cyber Protection Controls with compliance to PCI-DSS 3.0",
+        "Facilitated requirements gathering within organization with healthcare operations",
+        "Map high-level business processes and engage with key team-leads for gap analysis",
+        "Project Close-Out and handover",
+        "Documentation preparation for Operations staff including cross-training and knowledge transfer"
       ]
     },
     "outcomes": [
-      "✅ Increased IT agility and operational efficiency",
-      "✅ Reduced infrastructure costs through virtualization",
-      "✅ Improved disaster recovery capabilities",
-      "✅ Enhanced system performance and reliability",
-      "✅ Reduced IT management overhead for distributed workforce",
-      "✅ Maintained PCI-DSS compliance through modernization"
+      "✅ Executed vendor-mandated PIN pad replacement and credit transaction software upgrade across all Dymon Storage facilities with zero downtime",
+      "✅ Maintained PCI-DSS 3.0 compliance throughout the upgrade cycle"
     ],
     "technologies": [
       {
-        "category": "Virtualization",
-        "items": ["Citrix XenServer", "VMware 5.5"]
-      },
-      {
-        "category": "Networking",
-        "items": ["HP ProCurve", "Cisco Switches", "Sophos UTM"]
-      },
-      {
-        "category": "Storage",
-        "items": ["NAS storage clustering", "RAID"]
-      },
-      {
-        "category": "Terminal Services",
-        "items": ["Windows 2012 R2 RDS", "Wyse Terminal Hardware"]
-      },
-      {
-        "category": "Security",
-        "items": ["PCI-DSS compliance", "Syslog-NG"]
-      },
-      {
-        "category": "Monitoring",
-        "items": ["ManageEngine OpManager", "SolarWinds"]
-      },
-      {
-        "category": "Applications",
-        "items": ["Active Directory", "SpiceWorks Helpdesk", "SysAid ITIL"]
+        "category": "Cloud Services",
+        "items": [
+          "Amazon AWS"
+        ]
       }
     ]
   }

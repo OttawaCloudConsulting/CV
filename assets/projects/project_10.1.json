@@ -1,7 +1,7 @@
 {
   "project": {
-    "number": 10,
-    "title": "DND DPDCS SMMS Replacement Project",
+    "number": 10.1,
+    "title": "SMMS Search and Rescue Replacement Project",
     "client": {
       "name": "Department of National Defence",
       "department": "DPDCS",
@@ -16,9 +16,24 @@
       "summary": "This project will replace the current SARMASTER software and hardware while providing reliable backup Site capability. It will provide interface capability to accept 'live data' and the Geographic Information System (GIS). Lastly, the software will include long term support to ensure continued SAR operational readiness."
     },
     "solution": {
-      "summary": "Delivered comprehensive cloud and infrastructure solutions across:",
+      "summary": "Key activities and deliverables:",
       "deliverables": [
-        "SMMS Search and Rescue Replacement Project"
+        "Project Management using Agile methodologies, and hybrid reporting",
+        "Needs analysis, define requirements, and strategize high level Cloud Architecture",
+        "Architectural design and PoC implementation with modernization of infrastructure",
+        "Security Coordination and architectural alignment to required Guidelines (ITSG-33, DND & TSB Cloud Compliance)",
+        "Implementation of IT Security to meet ITSG controls and achieve iATO",
+        "Engineered the access control posture for the SAR replacement platform",
+        "Facilitated requirements gathering with technical and systems team, business team and project management, external stakeholders, and security teams",
+        "Review and realign infrastructure as required from continuous development cycles",
+        "Staged implementation testing of services with inline remediation",
+        "Internal feedback to development and operations for change coordination",
+        "Integration to CI/CD pipeline, automation, and management systems",
+        "Infrastructure as Code (IaC) deliverables in CloudFormation, deployed as Service Catalog Products",
+        "Provide final architecture and documentation",
+        "Pre-migratory testing and security reporting, and failure/high-availability testing",
+        "Migration and cut-over processes",
+        "Documentation, knowledge transfer and cross-training with Operations staff, Development staff, and Management"
       ]
     },
     "outcomes": [

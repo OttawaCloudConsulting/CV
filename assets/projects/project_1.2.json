@@ -1,63 +1,51 @@
 {
   "project": {
     "number": 1.2,
-    "title": "[Client Redacted] - ADP Payroll Systems Migration",
+    "title": "ADP Payroll Systems Migration (Citrix Virtualization, Platform Upgrade, Database Migration)",
     "client": {
-      "name": "[Client Redacted]",
-      "department": "",
+      "name": "Central Wire Industries",
+      "department": "Infrastructure & Operations",
       "team": ""
     },
     "role": "Operations and Infrastructure Management",
+    "date_range": {
+      "start": "January 2010",
+      "end": "March 2011"
+    },
     "challenge": {
-      "summary": "Consolidate and migrate ADP payroll operations across 9 locations with distributed workforce, while supporting legacy smart-factory infrastructure and integrating with centralized ERP systems."
+      "summary": "The client had expanded its market share and physical locations by 60%, onboarding nine physical sites across the United States and Canada. ADP was selected for consolidated payroll services."
     },
     "solution": {
-      "summary": "Strategic approach to payroll system consolidation and migration:",
+      "summary": "Key activities and deliverables:",
       "deliverables": [
-        "ADP payroll system implementation and migration across 9 locations",
-        "Citrix Desktop streaming for distributed workforce access",
-        "Active Directory integration for centralized authentication and SSO",
-        "Legacy system decommissioning and data archival",
-        "Fail-over testing and disaster recovery documentation",
-        "Staff training and transition support for new payroll workflows"
+        "Project Management using waterfall methodologies",
+        "Needs analysis, define requirements, and vendors requirements",
+        "Vendor Management and advisory services for integration",
+        "Architectural design and implementation planning",
+        "Security Coordination and alignment for finance and payroll requirements",
+        "Vendor Engagement and coordination",
+        "Provisioning of supporting infrastructure and Citrix Desktop streaming services",
+        "Staged integration of new services with existing infrastructure, and inline remediation",
+        "Cutover and migration of data and access",
+        "Facilitated requirements gathering between HR teams, finance teams, executives, external vendors and IT teams",
+        "Implementation of IT Security and Cyber Protection Controls. Compliance required for ISO:27001 and NIST",
+        "Provide guidance and governance for Access Control Program for Corporate HR and Payroll systems with RBAC",
+        "Provide final architecture and documentation",
+        "Build, deploy and integrate process",
+        "Project Close-Out",
+        "Documentation preparation and training for Operations staff, HR Staff, and Finance Staff"
       ]
     },
     "outcomes": [
-      "✅ Payroll consolidated across 9 locations into single platform",
-      "✅ Citrix streaming deployment for distributed workforce",
-      "✅ Active Directory integration and SSO implementation",
-      "✅ Improved payroll accuracy and processing time",
-      "✅ Reduced operational complexity and IT overhead",
-      "✅ Seamless transition with zero payroll disruption"
+      "✅ Consolidated ADP payroll services across 9 physical sites in the United States and Canada following 60% growth, delivering cross-border HR and Finance access via Citrix virtualization",
+      "✅ Implemented RBAC access controls meeting ISO:27001 and NIST compliance"
     ],
     "technologies": [
       {
-        "category": "Payroll Systems",
-        "items": ["ADP"]
-      },
-      {
-        "category": "Desktop Virtualization",
-        "items": ["Citrix Desktop Streaming"]
-      },
-      {
-        "category": "Identity Management",
-        "items": ["Active Directory", "Active Directory Federation Services (ADFS)"]
-      },
-      {
-        "category": "Infrastructure",
-        "items": ["Windows 2003", "Windows 2008", "AS/400", "IBM WebSphere"]
-      },
-      {
-        "category": "Networking",
-        "items": ["Cisco Catalyst", "Cisco IOS Routers"]
-      },
-      {
-        "category": "Applications",
-        "items": ["SharePoint", "Salesforce", "MS SQL", "MySQL", "Oracle"]
-      },
-      {
-        "category": "Security",
-        "items": ["Cisco ASA", "Nagios", "SolarWinds"]
+        "category": "Cloud Services",
+        "items": [
+          "Amazon AWS"
+        ]
       }
     ]
   }

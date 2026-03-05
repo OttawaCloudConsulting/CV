@@ -1,70 +1,50 @@
 {
   "project": {
     "number": 2.6,
-    "title": "[Client Redacted] - Office 365 Cloud Migration",
+    "title": "Office 365 Cloud Migration",
     "client": {
-      "name": "[Client Redacted]",
-      "department": "GeoSpatial Engineering",
+      "name": "GeoDigital International (GeoSpatial Engineering)",
+      "department": "",
       "team": ""
     },
     "role": "Operations and Infrastructure Architect",
+    "date_range": {
+      "start": "September 2011",
+      "end": "December 2012"
+    },
     "challenge": {
-      "summary": "Design and deploy scalable GIS SaaS platform serving 500+ global clients across 15 countries while managing massive data ingestion (1-2 TB/day) and ensuring 99.5% uptime."
+      "summary": "The client intended to manage risk and centralize mail management into a streamlined cloud platform after growth through mergers and acquisitions."
     },
     "solution": {
-      "summary": "Strategic approach to Office 365 cloud migration:",
+      "summary": "Key activities and deliverables:",
       "deliverables": [
-        "Consolidation of multiple Exchange and Lotus Domino systems",
-        "Zero-mailbox-loss migration strategy",
-        "Active Directory design and reconfiguration",
-        "Phased user migration and end-user training"
+        "Project Management using hybrid Agile and waterfall methodologies",
+        "Internal directory configuration reviews",
+        "Migration planning and aligning to tool requirements",
+        "Active Directory upgrades & reconfiguration",
+        "Office365 Tenant Creation and Domain planning",
+        "Deployment of Office365 specific features",
+        "Exchange Mailbox & Resource Migration & Cutover Process",
+        "PowerShell scripting and automation",
+        "Implementation of IT Security and Cyber Protection Controls. Map to ISO:27001 and NIST",
+        "Provide guidance and governance for Access Control Program for Microsoft Exchange Mail System",
+        "Coordinated Exchange migration requirements with key users, IT staff, and management",
+        "Migration Review and end user documentation",
+        "Decommission of Exchange Server Services",
+        "Operational support and maintenance"
       ]
     },
     "outcomes": [
-      "✅ Market-leading SaaS platform serving 500+ global clients",
-      "✅ 99.5% platform uptime across 15 countries",
-      "✅ 1-2 TB/day automated data ingestion pipeline",
-      "✅ 99.8% data processing reliability",
-      "✅ 50% improvement in engineering processing timelines",
-      "✅ 8 production and engineering environments supporting 25+ staff",
-      "✅ Successfully migrated 750TB+ of mission-critical data"
+      "✅ Project Management using hybrid Agile and waterfall methodologies",
+      "✅ Internal directory configuration reviews",
+      "✅ Migration planning and aligning to tool requirements"
     ],
     "technologies": [
       {
-        "category": "Public Cloud",
-        "items": ["Amazon AWS", "RackSpace Cloud", "Microsoft Azure", "Google GCP"]
-      },
-      {
-        "category": "Data Management",
-        "items": ["1-2 TB/day ingestion", "PostgreSQL/PostGIS"]
-      },
-      {
-        "category": "Storage",
-        "items": ["NexentaStor Software-defined Storage", "Cloud-bursting"]
-      },
-      {
-        "category": "Private Data Centre",
-        "items": ["Rogers Tier 2", "ATT Tier 3"]
-      },
-      {
-        "category": "Applications",
-        "items": ["GIS Platforms", "SharePoint", "QuickBase", "Salesforce"]
-      },
-      {
-        "category": "Monitoring",
-        "items": ["New Relic", "Nagios", "SolarWinds", "Observium"]
-      },
-      {
-        "category": "Databases",
-        "items": ["PostgreSQL", "PostGIS", "MySQL", "MS SQL"]
-      },
-      {
-        "category": "Backup",
-        "items": ["UniTrends Enterprise Backup", "Veaam Backup"]
-      },
-      {
-        "category": "CI/CD",
-        "items": ["Hudson-Jenkins", "Visual SVN"]
+        "category": "Cloud Services",
+        "items": [
+          "Amazon AWS"
+        ]
       }
     ]
   }

@@ -1,0 +1,48 @@
+{
+  "project": {
+    "number": 6.1,
+    "title": "Dev Ops",
+    "client": {
+      "name": "Lowe Martin Group",
+      "department": "",
+      "team": ""
+    },
+    "role": "DevOps",
+    "date_range": {
+      "start": "March 2017",
+      "end": "September 2017"
+    },
+    "challenge": {
+      "summary": "The client was performing extensive internal change, which required the re-organization of the Software Development team from an unstructured and chaotic team into a fluid Agile and Scrum based team."
+    },
+    "solution": {
+      "summary": "Key activities and deliverables:",
+      "deliverables": [
+        "Project Management using Agile & Scrum techniques",
+        "Project Management of IBM WebSphere, Java, and UIX projects",
+        "Project Management of WebSphere Individual Customer Web Store for each customer",
+        "Configuration and management of Atlassian JIRA and Confluence project and space environments",
+        "Facilitated Agile workflow requirements with customer service, sales, client, and executive representatives",
+        "Implementation of consolidated data project management and reporting system for GC Client Departments",
+        "Architected the Atlassian JIRA permission scheme separating internal staff access from external GC client access",
+        "Project Planning, Architecture, and Deployment of ITIL based ServiceDesk",
+        "Provided knowledge transfer and training to internal FTE staff",
+        "Project Planning, Architecture and Upgrade Deployment of Xerox XMPie Suite",
+        "AWS Cloud Solution for Imagery Hosting"
+      ]
+    },
+    "outcomes": [
+      "✅ Project Management using Agile & Scrum techniques",
+      "✅ Project Management of IBM WebSphere, Java, and UIX projects",
+      "✅ Project Management of WebSphere Individual Customer Web Store for each customer"
+    ],
+    "technologies": [
+      {
+        "category": "Cloud Services",
+        "items": [
+          "Amazon AWS"
+        ]
+      }
+    ]
+  }
+}

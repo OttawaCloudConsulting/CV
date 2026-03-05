@@ -1,0 +1,128 @@
+# **{{ personal.name }}**
+
+[{{ personal.email }}] | [{{ personal.phone }}] | [{{ personal.location.city }}, {{ personal.location.province }}, {{ personal.location.country }}]
+[LinkedIn: {{ personal.links.linkedin }}] | [GitHub: {{ personal.links.github }}]
+
+**{{ personal.tagline }}**
+*{{ personal.subtitle }}*
+*{{ personal.title }} specializing in AWS cloud transformation,*
+*government sector compliance, and enterprise infrastructure modernization*
+
+## Professional Profile
+
+{% for para in profile.summary %}
+{{ para }}
+
+{% endfor %}
+**Language:** {{ profile.language }}
+
+**Professional Development**
+
+{% for cert in profile.certifications %}
+- CERTIFICATION: [{{ cert.name }}]({{ cert.certificate_url | replace(' ', '%20') }})
+{% endfor %}
+
+
+## Executive Summary
+
+- **Specialization:** {{ executive.specialization }}
+- **Government Clients:** {{ executive.government_clients }}
+- **Compliance Depth:** {{ executive.compliance_depth }}
+- **Cloud Platforms:** {{ executive.cloud_platforms }}
+- **Current Engagement:** {{ executive.current_engagement }}
+- **Certifications:** {{ executive.certifications }}
+- **Consulting Entity:** {{ executive.consulting_entity }}
+- **Availability:** {{ executive.availability }}
+
+Table of Contents
+
+- [PROFESSIONAL EXPERIENCE](#professional-experience)
+{% for group in groups %}
+  - [{{ group._number_str }}. Project {{ group._number_str }} - {{ group.title }}](#{{ ("" ~ group._number_str ~ ". Project " ~ group._number_str ~ " - " ~ group.title) | anchor }})
+{% for sub in group.sub_projects %}
+    - [Project {{ number_to_str(sub.number) }} Description - {{ sub.title }}](#{{ ("Project " ~ number_to_str(sub.number) ~ " Description - " ~ sub.title) | anchor }})
+{% endfor %}
+{% endfor %}
+- [TECHNOLOGY INDEX](#technology-index)
+
+# PROFESSIONAL EXPERIENCE
+
+{% for group in groups %}
+## {{ group._number_str }}. Project {{ group._number_str }} - {{ group.title }}
+
+**{{ group.client.name }}**
+
+{% if group.client.department %}
+**{{ group.client.department }}**
+
+{% endif %}
+{% if group.client.team %}
+**{{ group.client.team }}**
+
+{% endif %}
+**Role: {{ group.role }}**
+
+**{{ group.date_range.start }} - {{ group.date_range.end }}**
+
+{% if not group.sub_projects %}
+{{ group.challenge.summary }}
+
+{{ group.solution.summary }}
+
+{% for d in group.solution.deliverables %}
+- {{ d }}
+{% endfor %}
+
+**Project Outcomes:**
+
+{% for o in group.outcomes %}
+{{ o }}
+{% endfor %}
+
+**Technical Environment:**
+
+{% for t in group.technologies %}
+- **{{ t.category }}:** {{ t['items'] | join(', ') }}
+{% endfor %}
+
+{% else %}
+{% for sub in group.sub_projects %}
+### Project {{ number_to_str(sub.number) }} Description - {{ sub.title }}
+
+**{{ sub.date_range.start }} - {{ sub.date_range.end }}**
+
+{{ sub.challenge.summary }}
+
+{{ sub.solution.summary }}
+
+{% for d in sub.solution.deliverables %}
+- {{ d }}
+{% endfor %}
+
+**Project Outcomes:**
+
+{% for o in sub.outcomes %}
+{{ o }}
+{% endfor %}
+
+**Technical Environment:**
+
+{% for t in sub.technologies %}
+- **{{ t.category }}:** {{ t['items'] | join(', ') }}
+{% endfor %}
+
+{% endfor %}
+{% endif %}
+{% endfor %}
+
+# TECHNOLOGY INDEX
+
+{% for letter, entries in tech_index.items() %}
+**{{ letter }}:**
+
+{% for tech, nums in entries %}
+- **{{ tech }}** - {% if nums | length == 1 %}Project {{ nums[0] }}{% else %}Projects {{ nums | join(', ') }}{% endif %}
+
+{% endfor %}
+
+{% endfor %}

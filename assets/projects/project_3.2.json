@@ -1,61 +1,44 @@
 {
   "project": {
     "number": 3.2,
-    "title": "[Client Redacted] - Remote Desktop Services (RDS) / Thin Client",
+    "title": "Remote Desktop Services (RDS) / Thin Client Implementation",
     "client": {
-      "name": "[Client Redacted]",
+      "name": "Dymon Corporation",
       "department": "",
       "team": ""
     },
     "role": "Operations and Infrastructure Architect",
+    "date_range": {
+      "start": "January 2015",
+      "end": "June 2015"
+    },
     "challenge": {
-      "summary": "Modernize infrastructure from unique physical hardware per server (8 servers at <20% utilization) while implementing security compliance and reducing operational overhead."
+      "summary": "The Dymon Health Care retirement residences were operating with heavily aged systems. A Terminal Server (RDS) / Thin Client model was selected to provide roaming profiles for nursing staff while centralizing data on corporate servers."
     },
     "solution": {
-      "summary": "Strategic approach to RDS and thin client deployment:",
+      "summary": "Key activities and deliverables:",
       "deliverables": [
-        "Terminal Server (RDS) / Thin Client solution deployment",
-        "Roaming profiles for healthcare staff",
-        "Data centralization into corporate servers",
-        "Citrix XenServer virtualization cluster"
+        "Stakeholder reporting and meetings with CIO & Health Care COO",
+        "Needs analysis, define requirements, and plan transformation",
+        "Security Coordination and advisory process",
+        "Staged migratory testing of services with inline remediation",
+        "Migration and cut-over processes",
+        "Implementation of IT Security and Cyber Protection Controls with compliance to Canadian PIPEDA",
+        "Preparation and planning for repurposing or decommission of legacy hardware",
+        "Project Close-Out and handover",
+        "Documentation preparation for Operations staff including knowledge transfer and cross-training"
       ]
     },
     "outcomes": [
-      "✅ Increased IT agility and operational efficiency",
-      "✅ Reduced infrastructure costs through virtualization",
-      "✅ Improved disaster recovery capabilities",
-      "✅ Enhanced system performance and reliability",
-      "✅ Reduced IT management overhead for distributed workforce",
-      "✅ Maintained PCI-DSS compliance through modernization"
+      "✅ Replaced aging multi-OS desktop infrastructure with centralized Citrix XenServer and Windows 2012 R2 RDS thin client solution",
+      "✅ Centralized user data and roaming profiles achieving PIPEDA compliance for healthcare data"
     ],
     "technologies": [
       {
-        "category": "Virtualization",
-        "items": ["Citrix XenServer", "VMware 5.5"]
-      },
-      {
-        "category": "Networking",
-        "items": ["HP ProCurve", "Cisco Switches", "Sophos UTM"]
-      },
-      {
-        "category": "Storage",
-        "items": ["NAS storage clustering", "RAID"]
-      },
-      {
-        "category": "Terminal Services",
-        "items": ["Windows 2012 R2 RDS", "Wyse Terminal Hardware"]
-      },
-      {
-        "category": "Security",
-        "items": ["PCI-DSS compliance", "Syslog-NG"]
-      },
-      {
-        "category": "Monitoring",
-        "items": ["ManageEngine OpManager", "SolarWinds"]
-      },
-      {
-        "category": "Applications",
-        "items": ["Active Directory", "SpiceWorks Helpdesk", "SysAid ITIL"]
+        "category": "Cloud Services",
+        "items": [
+          "Amazon AWS"
+        ]
       }
     ]
   }

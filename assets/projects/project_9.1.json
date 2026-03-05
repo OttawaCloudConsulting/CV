@@ -1,0 +1,51 @@
+{
+  "project": {
+    "number": 9.1,
+    "title": "Office 365 Skype Migration - New Democratic Party of Canada",
+    "client": {
+      "name": "IDS Data Systems",
+      "department": "",
+      "team": ""
+    },
+    "role": "Cloud Architect",
+    "date_range": {
+      "start": "November 2018",
+      "end": "January 2019"
+    },
+    "challenge": {
+      "summary": "The client was migrating from a traditional distributed on-premise phone system to a fully virtualized Office 365 tenanted system."
+    },
+    "solution": {
+      "summary": "Key activities and deliverables:",
+      "deliverables": [
+        "Internal directory configuration reviews",
+        "Migration planning and aligning to tool requirements",
+        "Deployment of Office365 specific features to support Skype for Business",
+        "Manage migration settings and deprecation of Cisco CUCM",
+        "Implementation of IT Security and Cyber Protection to meet required Security Controls for Voice and Unified Communication Systems",
+        "Facilitated requirements gathering with client technical and support teams, governance and security teams, key user stakeholders, and management",
+        "Office 365 user configurations",
+        "Office 365, Skype for Business, and Microsoft Teams Security and Policy writing",
+        "PowerShell scripting and automation",
+        "Migration Review and end user documentation",
+        "Knowledge transfer and cross-training with internal teams and onboarded client"
+      ]
+    },
+    "outcomes": [
+      "✅ Internal directory configuration reviews",
+      "✅ Migration planning and aligning to tool requirements",
+      "✅ Deployment of Office365 specific features to support Skype for Business"
+    ],
+    "technologies": [
+      {
+        "category": "Public Cloud",
+        "items": [
+          "Microsoft Office 365",
+          "Microsoft Skype for Business",
+          "Microsoft Office 365 Compliance",
+          "Azure PowerShell"
+        ]
+      }
+    ]
+  }
+}

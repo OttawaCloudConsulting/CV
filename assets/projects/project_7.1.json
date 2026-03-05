@@ -1,57 +1,46 @@
 {
   "project": {
     "number": 7.1,
-    "title": "[Client Redacted] - SharePoint 2016 Security Management System",
+    "title": "Office 365 and Microsoft Azure Cloud Service Delivery Manager",
     "client": {
-      "name": "[Client Redacted]",
-      "department": "Security Management and Governance",
+      "name": "Brookfield Renewable Energy",
+      "department": "",
       "team": ""
     },
-    "role": "Senior Business Analyst / Technical Architect",
+    "role": "Office 365 & Cloud Delivery Manager",
+    "date_range": {
+      "start": "September 2017",
+      "end": "December 2017"
+    },
     "challenge": {
-      "summary": "Design systems to efficiently manage and track security tasks, integrate with existing platforms, and meet rigorous compliance and security standards."
+      "summary": "The client was performing extensive internal change, due to growth via Mergers & Acquisition, requiring a change in support vendor. A consolidation of multiple Managed Service Providers was in flight. The primary objective was to provide guidance and governance to the cloud services (Azure and Office365) support vendor, SoftChoice."
     },
     "solution": {
-      "summary": "Strategic approach to security management system design:",
+      "summary": "Key activities and deliverables:",
       "deliverables": [
-        "Custom SharePoint environment with lists, workflows, and forms",
-        "Integration with existing IT infrastructure",
-        "Advanced security features for sensitive information",
-        "Comprehensive training for adoption"
+        "Provide guidance and governance to the cloud services (Azure and Office365)",
+        "Provide management and oversight of vendor cloud architecture",
+        "Oversight and governance for implementation of IT Security to meet NIST controls (eq. ITSG)",
+        "Governed the Azure AD and Office 365 access control posture during MSP vendor consolidation",
+        "Provided guidance and governance to Mobile Security Program and Posture to manage roll-out of Microsoft Azure InTune",
+        "Coordinated transition requirements across Brookfield Renewable Energy business departments and SoftChoice support teams",
+        "Oversaw workload and workflow migration to Office365, and Azure Cloud",
+        "Responsible for performance monitoring via standardized KPIs",
+        "Provided knowledge transfer and training to internal FTE staff",
+        "Day-to-day management of internal requests and tickets, including Active Directory, on-premise E-mail, and Cisco CUCM"
       ]
     },
     "outcomes": [
-      "✅ Streamlined security task management and tracking",
-      "✅ Enhanced data security and compliance posture",
-      "✅ Improved collaboration and reporting capabilities",
-      "✅ Successful system adoption across teams",
-      "✅ Centralized platform providing visibility and control",
-      "✅ Faster incident response times and better collaboration"
+      "✅ Provide guidance and governance to the cloud services (Azure and Office365)",
+      "✅ Provide management and oversight of vendor cloud architecture",
+      "✅ Oversight and governance for implementation of IT Security to meet NIST controls (eq. ITSG)"
     ],
     "technologies": [
       {
-        "category": "Collaboration",
-        "items": ["SharePoint 2016"]
-      },
-      {
-        "category": "Infrastructure",
-        "items": ["VMWare ESXI 6", "CentOS 7"]
-      },
-      {
-        "category": "Databases",
-        "items": ["PostgreSQL"]
-      },
-      {
-        "category": "Application Stack",
-        "items": ["NGINX (Proxy/Load Balancer)", "custom SharePoint instances"]
-      },
-      {
-        "category": "Security",
-        "items": ["SSL encryption", "LUKS encrypted data volumes"]
-      },
-      {
-        "category": "Backup",
-        "items": ["Automated Bash scripts to remote backup server"]
+        "category": "Cloud Services",
+        "items": [
+          "Amazon AWS"
+        ]
       }
     ]
   }

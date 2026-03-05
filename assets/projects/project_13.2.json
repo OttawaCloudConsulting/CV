@@ -1,7 +1,7 @@
 {
   "project": {
-    "number": 13,
-    "title": "SSC - Cloud Platform Engineering / Hosting Services Branch",
+    "number": 13.2,
+    "title": "Cloud Services Directorate, Automation and Orchestration Framework",
     "client": {
       "name": "Shared Services Canada",
       "department": "Hosting Services Branch",
@@ -13,18 +13,25 @@
       "end": "Current"
     },
     "challenge": {
-      "summary": "The Cloud Services Platform Engineering team operates within the Hosting Services Branch providing an Enterprise class Tenancy within the Amazon Web Services (AWS) Cloud, supporting AWS ASEA (Secure Accelerator) and AWS LZA (Landing Zone Accelerator) platform designs."
+      "summary": "The Cloud Services Directorate requires comprehensive automation and orchestration frameworks to support enterprise-scale cloud deployments across multiple government departments and regulated sectors. This initiative focuses on developing scalable, compliant, and secure cloud automation solutions through Ottawa Cloud Consulting's federally incorporated consulting services."
     },
     "solution": {
-      "summary": "Delivered comprehensive cloud and infrastructure solutions across:",
+      "summary": "Key activities and deliverables:",
       "deliverables": [
-        "Cloud Services Directorate, Cloud Platform Engineering",
-        "Cloud Services Directorate, Automation and Orchestration Framework"
+        "Needs analysis, architecture design, and implementation of multi-account AWS organizations",
+        "Design and implementation of Service Control Policies (SCPs) and governance frameworks",
+        "Identity and Access Management (IAM) model architecture with compliance baselines",
+        "GitOps automation framework development and implementation",
+        "Serverless and event-driven architecture design and implementation",
+        "Production EKS cluster engineering and management",
+        "Crossplane and KCL provisioning framework development",
+        "Developer experience optimization and Golden Path creation",
+        "Observability and monitoring implementation",
+        "Documentation and knowledge management",
+        "Compliance and security framework alignment"
       ]
     },
     "outcomes": [
-      "✅ Successfully architected and deployed enterprise-class GitOps platform serving multiple government departments through AWS EKS and ArgoCD",
-      "✅ Established Infrastructure as Code standards using Terraform and Crossplane, enabling rapid deployment of NIST 800-53 compliant workloads across SSC's AWS Landing Zone Accelerator platform",
       "✅ Architected 3 multi-account AWS organizations managing 200+ workloads with governance, SCPs, identity models, and compliance baselines aligned to NIST, CIS, and ITSG",
       "✅ Improved deployment frequency by 30% through GitOps automation with ArgoCD and Azure DevOps, managing over 50 microservices",
       "✅ Designed 30+ serverless, event-driven, and containerized workloads reducing operational overhead by 40% and infrastructure costs by $25K annually",
@@ -34,52 +41,12 @@
       {
         "category": "Public Cloud",
         "items": [
-          "Amazon AWS Cloud",
-          "Azure DevOps",
           "Amazon AWS Organizations",
           "AWS Control Tower",
           "AWS SSO",
           "AWS Config",
           "AWS CloudTrail",
           "AWS GuardDuty"
-        ]
-      },
-      {
-        "category": "Applications",
-        "items": [
-          "Azure DevOps Git",
-          "ArgoCD",
-          "Argo Workflows",
-          "Checkov Security Scanning",
-          "JIRA",
-          "Confluence"
-        ]
-      },
-      {
-        "category": "Servers",
-        "items": [
-          "Kubernetes (kind, k3d, kubeadm)",
-          "AWS Linux",
-          "CentOS",
-          "CIS Hardened Images"
-        ]
-      },
-      {
-        "category": "Languages",
-        "items": [
-          "Bash",
-          "Python 3.x",
-          "Typescript",
-          "Golang",
-          "Terraform",
-          "Crossplane",
-          "Helm",
-          "CDK",
-          "CDK8s",
-          "Python",
-          "YAML",
-          "JSON",
-          "KCL"
         ]
       },
       {
@@ -149,6 +116,18 @@
           "Grafana",
           "AWS X-Ray",
           "ElasticSearch"
+        ]
+      },
+      {
+        "category": "Languages",
+        "items": [
+          "Python",
+          "Golang",
+          "Typescript",
+          "Bash",
+          "YAML",
+          "JSON",
+          "KCL"
         ]
       },
       {

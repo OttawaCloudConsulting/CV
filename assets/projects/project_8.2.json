@@ -1,56 +1,48 @@
 {
   "project": {
     "number": 8.2,
-    "title": "[Client Redacted] - Server Workload Migration to Azure",
+    "title": "Atlassian JIRA Implementation",
     "client": {
-      "name": "[Client Redacted]",
-      "department": "",
+      "name": "Shared Services Canada",
+      "department": "CITS - Infrastructure Security",
       "team": ""
     },
-    "role": "Cloud Architecture",
+    "role": "Senior Business / Technical Architect",
+    "date_range": {
+      "start": "January 2018",
+      "end": "May 2018"
+    },
     "challenge": {
-      "summary": "Migrate on-premises server workloads to cloud platform ensuring zero downtime, enhanced security, and compliance with public sector standards."
+      "summary": "The client was implementing JIRA for managing and tracking tasks performed by a number of Cyber Security teams. In addition to the JIRA implementation there were complimentary integrated implementations of Confluence and HipChat."
     },
     "solution": {
-      "summary": "Strategic approach to server workload migration:",
+      "summary": "Key activities and deliverables:",
       "deliverables": [
-        "Robust cloud architecture design in Azure",
-        "Security and compliance configuration (Azure Security Center, Policy, Blueprints)",
-        "Phased migration minimizing disruption",
-        "Performance optimization with Azure Monitor and Application Insights"
+        "Reviewed the 'as-is' implementation and align it with the work methodologies and requirements for three teams",
+        "Created and used a simplified business process mapping and gap analysis strategy and refined key workflows and status types",
+        "Implementation of consolidated data project management and reporting system for Cyber Threat Management within CITS",
+        "Defined and implemented JIRA access controls for the Cyber Threat Management team, establishing role-based permission scopes",
+        "Facilitated requirements gathering with management level to understand scope and high-level business process",
+        "Implemented Backlog concepts, daily stand-up meetings, and Kanban for visualization",
+        "Standardized concepts and practices",
+        "Created and deployed an HA infrastructure into a VMWare ESXI 6 environment",
+        "Infrastructure was architected using NGINX as a Proxy/Load Balancer with JIRA, Confluence and HipChat instances, backed by PostgreSQL on CentOS 7",
+        "All data volumes were LUKS encrypted, and traffic encrypted with SSL and properly signed certificates",
+        "Backups were performed daily via Bash Scripts capturing application, data, and database to a remote backup server",
+        "Provided knowledge transfer and training to internal FTE staff"
       ]
     },
     "outcomes": [
-      "✅ Enhanced communication capabilities with cloud-based systems",
-      "✅ Increased reliability and scalability of services",
-      "✅ Secure and compliant environment meeting government standards",
-      "✅ Successful cloud transition with zero downtime",
-      "✅ Smooth transition with minimal operational disruption"
+      "✅ Reviewed the 'as-is' implementation and align it with the work methodologies and requirements for three teams",
+      "✅ Created and used a simplified business process mapping and gap analysis strategy and refined key workflows and status types",
+      "✅ Implementation of consolidated data project management and reporting system for Cyber Threat Management within CITS"
     ],
     "technologies": [
       {
-        "category": "Public Cloud",
-        "items": ["Microsoft Azure", "Cloudflare"]
-      },
-      {
-        "category": "Security",
-        "items": ["Azure Security Center", "Azure Policy", "Blueprints"]
-      },
-      {
-        "category": "Databases",
-        "items": ["PostgreSQL"]
-      },
-      {
-        "category": "Monitoring",
-        "items": ["Azure Monitor", "Application Insights"]
-      },
-      {
-        "category": "Applications",
-        "items": ["Java", "Tomcat", "Apache", "Elasticsearch"]
-      },
-      {
-        "category": "Languages",
-        "items": ["PowerShell", "Azure CLI"]
+        "category": "Cloud Services",
+        "items": [
+          "Amazon AWS"
+        ]
       }
     ]
   }
