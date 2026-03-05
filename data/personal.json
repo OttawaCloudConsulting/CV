@@ -1,0 +1,65 @@
+{
+  "personal": {
+    "name": "Mr. Christian Turner",
+    "title": "Senior Cloud Architect & DevSecOps Specialist",
+    "tagline": "Comprehensive Technical CV & Project Portfolio",
+    "subtitle": "Detailed technical expertise documentation and project history",
+    "email": "CTurner@OttawaCloudConsulting.com",
+    "phone": "+1 (613) 796-3300",
+    "location": {
+      "city": "Ottawa",
+      "province": "Ontario",
+      "country": "Canada"
+    },
+    "links": {
+      "linkedin": "linkedin.com/in/Christian-Turner-CloudPro",
+      "github": "github.com/OttawaCloudConsulting"
+    },
+    "consulting_entity": "Ottawa Cloud Consulting Inc."
+  },
+  "professional_profile": {
+    "summary": [
+      "Mr. Turner is a Senior Cloud Architect and DevSecOps Specialist with 15+ years of AWS-focused platform engineering experience, including nine consecutive years delivering cloud solutions to Canadian Federal Government clients. He has achieved Authority to Operate (ATO) status on multiple government AWS environments, led enterprise-scale Kubernetes and GitOps platform implementations at Shared Services Canada, and holds four active AWS certifications including Solutions Architect – Professional. His engagements span SSC, Agriculture Canada, and the Department of National Defence, with consistent delivery against ITSG-22/33/38, NIST 800-53, and Government of Canada cloud guardrail requirements.",
+      "Mr. Turner operates through Ottawa Cloud Consulting Inc., a federally incorporated consulting practice, delivering cloud architecture, DevSecOps, infrastructure automation, and compliance-driven platform engineering. His expertise spans AWS-native development, multi-account governance, containerized workloads (EKS, Kubernetes), GitOps pipelines (ArgoCD, Azure DevOps), and IaC at enterprise scale (Terraform, CDK, CloudFormation).",
+      "His experience includes successful cloud migrations across healthcare, utilities, and political sector clients with HIPAA, NIST, and ITSG compliance requirements. As a Subject Matter Expert, he engages directly with technical teams, management, and executive stakeholders to deliver architecture that is secure, automated, and auditable."
+    ],
+    "language": "English",
+    "certifications": [
+      {
+        "name": "AWS Certified SysOps Administrator - Associate",
+        "issuer": "Amazon Web Services",
+        "certificate_url": "./assets/certificates/AWS Certified SysOps Administrator - Associate.pdf"
+      },
+      {
+        "name": "AWS Certified Solutions Architect - Associate",
+        "issuer": "Amazon Web Services",
+        "certificate_url": "./assets/certificates/AWS Certified Solutions Architect - Associate.pdf"
+      },
+      {
+        "name": "AWS Certified Solutions Architect - Professional",
+        "issuer": "Amazon Web Services",
+        "certificate_url": "./assets/certificates/AWS Certified Solutions Architect - Professional.pdf"
+      },
+      {
+        "name": "AWS Certified Developer - Associate",
+        "issuer": "Amazon Web Services",
+        "certificate_url": "./assets/certificates/AWS Certified Developer - Associate.pdf"
+      },
+      {
+        "name": "Certified Scrum Master (CSM - Scrum Alliance)",
+        "issuer": "Scrum Alliance",
+        "certificate_url": "./assets/certificates/Scrum Alliance - Certified ScrumMaster.pdf"
+      }
+    ]
+  },
+  "executive_summary": {
+    "specialization": "AWS Cloud Architecture, DevSecOps, and Platform Engineering for Canadian Federal Government and regulated sector clients",
+    "government_clients": "Shared Services Canada (SSC), Agriculture Canada, Department of National Defence (DND) — 9+ consecutive years",
+    "compliance_depth": "ITSG-22/33/38, NIST 800-53, Government of Canada Cloud Guardrails, HIPAA; multiple Authority to Operate (ATO) achievements",
+    "cloud_platforms": "AWS (primary, 15+ years), Microsoft Azure, Google Cloud",
+    "current_engagement": "Cloud Platform Engineering, Shared Services Canada — September 2023 to Present",
+    "certifications": "AWS Solutions Architect – Professional, AWS Solutions Architect – Associate, AWS SysOps Administrator – Associate, AWS Developer – Associate, Certified ScrumMaster (CSM)",
+    "consulting_entity": "Ottawa Cloud Consulting (federally incorporated) — Principal Consultant",
+    "availability": "2-week notice period"
+  }
+}
