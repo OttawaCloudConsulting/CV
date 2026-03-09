@@ -1,7 +1,7 @@
 # **Mr. Christian Turner**
 
-[CTurner@OttawaCloudConsulting.com] | [+1 (613) 796-3300] | [Ottawa, Ontario, Canada]
-[LinkedIn: linkedin.com/in/Christian-Turner-CloudPro] | [GitHub: github.com/OttawaCloudConsulting] | [NotebookLM: notebooklm.google.com/notebook/896df009-4d5f-4c6a-afad-95c6b77aeebe]
+[CTurner@OttawaCloudConsulting.com](mailto:CTurner@OttawaCloudConsulting.com) | +1 (613) 796-3300 | Ottawa, Ontario, Canada
+LinkedIn: [linkedin.com/in/Christian-Turner-CloudPro](https://linkedin.com/in/Christian-Turner-CloudPro) | GitHub: [github.com/OttawaCloudConsulting](https://github.com/OttawaCloudConsulting) | [NotebookLM](https://notebooklm.google.com/notebook/896df009-4d5f-4c6a-afad-95c6b77aeebe)
 
 **Comprehensive Technical CV & Project Portfolio**
 *Cloud Architecture | DevSecOps | Infrastructure Automation | Agentic Engineering*
