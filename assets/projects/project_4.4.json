@@ -39,13 +39,20 @@
       ]
     },
     "outcomes": [
-      "✅ Operationalized 3 hybrid AWS/on-prem architectures supporting 100+ workloads with scalable and secure patterns"
+      "✅ Completed full operational handover of 100+ production workloads across 3 hybrid AWS/on-premises architectures to outsourced vendors and parent US operations within the mandated Q4 2016 timeline, with all systems validated against HIPAA compliance requirements"
     ],
     "technologies": [
       {
-        "category": "Cloud Services",
+        "category": "Identity & Access",
         "items": [
-          "Amazon AWS"
+          "RBAC"
+        ]
+      },
+      {
+        "category": "Compliance Frameworks",
+        "items": [
+          "HIPAA",
+          "NIST"
         ]
       }
     ]

@@ -16,7 +16,7 @@
       "end": "January 2019"
     },
     "challenge": {
-      "summary": "The client was migrating from a traditional distributed on-premise phone system to a fully virtualized Office 365 tenanted system."
+      "summary": "IDS Data Systems required concurrent delivery of two cloud transformation workstreams for the New Democratic Party of Canada: migration of the NDP's distributed on-premises Cisco CUCM phone system to Office 365 Skype for Business, and migration of a bespoke citizen-data server workload from VMware 6 to Microsoft Azure — both requiring Protected B-equivalent security controls and completion within a three-month window."
     },
     "solution": {
       "summary": "Delivered comprehensive cloud and infrastructure solutions across:",
@@ -26,8 +26,8 @@
       ]
     },
     "outcomes": [
-      "✅ Delivered Office 365 Skype Migration - New Democratic Party of Canada engagement",
-      "✅ Delivered Server Workload Cloud Migration - New Democratic Party of Canada engagement"
+      "✅ Migrated the NDP's distributed Cisco CUCM phone infrastructure to a fully cloud-hosted Office 365 Skype for Business environment, meeting security controls for unified communications systems and completing transition within a three-month window",
+      "✅ Delivered a production-ready Azure cloud architecture for NDP citizen-data workloads meeting Protected B-equivalent security requirements, validated through HA and failover testing and deployed via blue-green model on a three-month schedule"
     ],
     "technologies": [
       {

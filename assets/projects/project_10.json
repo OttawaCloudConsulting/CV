@@ -16,7 +16,7 @@
       "end": "December 2020"
     },
     "challenge": {
-      "summary": "This project will replace the current SARMASTER software and hardware while providing reliable backup Site capability. It will provide interface capability to accept 'live data' and the Geographic Information System (GIS). Lastly, the software will include long term support to ensure continued SAR operational readiness."
+      "summary": "DND's DPDCS division operated on the aging SARMASTER platform for national Search and Rescue management — a legacy system that lacked cloud resilience, GIS integration, live-data interface capability, and a credible long-term support path. The replacement initiative required a modern cloud architecture capable of 24/7 availability, real-time data integration, and full compliance with ITSG-33, DND, and TSB cloud security standards to achieve iATO."
     },
     "solution": {
       "summary": "Delivered comprehensive cloud and infrastructure solutions across:",
@@ -81,11 +81,10 @@
           "WSO2",
           "Kafka",
           "PHP",
-          "GIT",
+          "Git",
           "OpenLDAP",
           "SOGO",
-          "ManageEngine Desktop Central",
-          "CloudFormation"
+          "ManageEngine Desktop Central"
         ]
       },
       {

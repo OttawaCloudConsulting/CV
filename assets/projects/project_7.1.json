@@ -17,34 +17,44 @@
       "end": "December 2017"
     },
     "challenge": {
-      "summary": "The client was performing extensive internal change, due to growth via Mergers & Acquisition, requiring a change in support vendor. A consolidation of multiple Managed Service Providers was in flight. The primary objective was to provide guidance and governance to the cloud services (Azure and Office365) support vendor, SoftChoice."
+      "summary": "Brookfield Renewable Energy was executing a live MSP vendor consolidation while maintaining operational continuity across a globally distributed renewable energy portfolio. The primary risk was maintaining governance over Azure AD and Office 365 access posture during a period when vendor accountability was divided and configurations were actively being transitioned between SoftChoice and the outgoing MSP."
     },
     "solution": {
       "summary": "Key activities and deliverables:",
       "deliverables": [
-        "Provide guidance and governance to the cloud services (Azure and Office365)",
-        "Provide management and oversight of vendor cloud architecture",
-        "Oversight and governance for implementation of IT Security to meet NIST controls (eq. ITSG)",
+        "Governed cloud service delivery and provided architectural guidance across Azure and Office 365 environments",
+        "Directed and oversaw the SoftChoice vendor cloud architecture throughout the MSP consolidation",
+        "Established and enforced IT Security governance aligned to NIST controls (equivalent to ITSG) across the cloud environment",
         "Governed the Azure AD and Office 365 access control posture during MSP vendor consolidation",
-        "Provided guidance and governance to Mobile Security Program and Posture to manage roll-out of Microsoft Azure InTune",
+        "Directed the Microsoft Intune mobile security program rollout, establishing device management governance across the Brookfield user population during the MSP transition",
         "Coordinated transition requirements across Brookfield Renewable Energy business departments and SoftChoice support teams",
         "Oversaw workload and workflow migration to Office365, and Azure Cloud",
         "Responsible for performance monitoring via standardized KPIs",
         "Provided knowledge transfer and training to internal FTE staff",
-        "Day-to-day management of internal requests and tickets, including Active Directory, on-premise E-mail, and Cisco CUCM"
+        "Governed day-to-day IT operations and service requests — including Active Directory, on-premises email, and Cisco CUCM — maintaining continuity across the user base during the MSP vendor transition"
       ]
     },
     "outcomes": [
-      "✅ Provide guidance and governance to the cloud services (Azure and Office365)",
-      "✅ Provide management and oversight of vendor cloud architecture",
-      "✅ Oversight and governance for implementation of IT Security to meet NIST controls (eq. ITSG)"
+      "✅ Maintained cloud service continuity and sustained KPI-measured performance throughout the SoftChoice MSP vendor transition, preventing disruption to Brookfield's globally distributed operations",
+      "✅ Secured Azure AD and Office 365 access posture during the MSP consolidation, governing access controls across a multi-country user base",
+      "✅ Successfully oversaw the rollout of the Microsoft Intune mobile security program, extending device management governance to the Brookfield user population"
     ],
     "technologies": [
       {
         "category": "Cloud Services",
-        "items": [
-          "Amazon AWS"
-        ]
+        "items": ["Microsoft Azure", "Office 365", "Azure Active Directory"]
+      },
+      {
+        "category": "Mobile & Device Management",
+        "items": ["Microsoft Intune"]
+      },
+      {
+        "category": "Telephony",
+        "items": ["Cisco CUCM"]
+      },
+      {
+        "category": "Compliance Frameworks",
+        "items": ["NIST"]
       }
     ]
   }

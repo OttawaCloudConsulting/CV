@@ -16,7 +16,7 @@
       "end": "Current"
     },
     "challenge": {
-      "summary": "The Cloud Services Platform Engineering team operates within the Hosting Services Branch providing an Enterprise class Tenancy within the Amazon Web Services (AWS) Cloud, supporting AWS ASEA (Secure Accelerator) and AWS LZA (Landing Zone Accelerator) platform designs."
+      "summary": "SSC's Hosting Services Branch required delivery of an enterprise-class, multi-department AWS cloud tenancy across two concurrent engineering workstreams — a Kubernetes/EKS GitOps platform and a cloud automation and orchestration framework — meeting Security By Design requirements aligned to NIST 800-53 and ITSG controls, at a scale (200+ workloads, multiple GoC departments) with no existing EKS or GitOps baseline in place at engagement start."
     },
     "solution": {
       "summary": "Delivered comprehensive cloud and infrastructure solutions across:",
@@ -151,7 +151,7 @@
           "Prometheus",
           "Grafana",
           "AWS X-Ray",
-          "ElasticSearch"
+          "Elasticsearch"
         ]
       },
       {

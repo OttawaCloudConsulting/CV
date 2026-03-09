@@ -17,23 +17,21 @@
       "end": "September 2023"
     },
     "challenge": {
-      "summary": "The Analytics team is focused on designing, developing and deploying applications for data analysis that operate in the AWS Cloud to meet departmental analytical requirements provided data."
+      "summary": "The AAFC Analytics team required cloud-native application development on AWS to support departmental data analysis workloads, with a mature DevSecOps pipeline providing automated code and IaC security scanning, supply chain management, and compliant CI/CD deployment practices consistent with GoC security requirements."
     },
     "solution": {
       "summary": "Key activities and deliverables:",
       "deliverables": [
-        "Needs analysis, define requirements, and strategize architecture with AWS team",
-        "Architectural design and Proof of Concept (PoC) implementation for design review sessions",
-        "Infrastructure as Code (IaC) Coding and review",
+        "Infrastructure as Code (IaC) development and review using AWS CDK v1/v2",
         "CI/CD Pipelines - AWS CodeCommit, AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy",
         "Implementation and maintenance of CI/CD AWS Resources meeting best practices and agile deployment",
         "Security and Governance reporting on Code and IaC to support DevSecOps compliance",
         "Continuous improvement of Deployment Practices and Release Management",
-        "Developer Tasks"
+        "CDK v1 to v2 migration and IaC development for analytics application stack"
       ]
     },
     "outcomes": [
-      "✅ Delivered critical analytics platform supporting analytics operations through AWS cloud-native architecture for client workload systems",
+      "✅ Delivered a cloud-native analytics platform on AWS for Agriculture Canada's departmental data analysis workloads, leveraging AWS Glue, DMS, Lambda, and CDK v2 with a fully automated CI/CD pipeline providing continuous delivery and auditable deployment history",
       "✅ Implemented comprehensive DevSecOps pipeline with automated security scanning and supply chain management, enabling secure data analysis capabilities"
     ],
     "technologies": [

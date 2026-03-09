@@ -43,6 +43,27 @@
         "items": [
           "Amazon AWS"
         ]
+      },
+      {
+        "category": "CI/CD",
+        "items": [
+          "Jenkins",
+          "Git"
+        ]
+      },
+      {
+        "category": "Containerization",
+        "items": [
+          "Docker"
+        ]
+      },
+      {
+        "category": "Compliance Frameworks",
+        "items": [
+          "HIPAA",
+          "NIST",
+          "ISO:27001"
+        ]
       }
     ]
   }

@@ -17,7 +17,7 @@
       "end": "April 2017"
     },
     "challenge": {
-      "summary": "Client was migrating all on premise services into cloud/SaaS versions to support a change in internal IT Strategy, and re-org reducing IT head count."
+      "summary": "HighRoads US was executing an IT strategy shift to eliminate on-premises infrastructure, migrating all internal services to cloud and SaaS platforms as part of an organizational restructuring that would reduce internal IT headcount. Atlassian JIRA and Confluence — both running on-premises — required production-grade migration to cloud versions with full configuration remediation, access control redesign, and an archiving solution for legacy system lookups post-decommission."
     },
     "solution": {
       "summary": "Key activities and deliverables:",
@@ -40,16 +40,26 @@
       ]
     },
     "outcomes": [
-      "✅ Project Management using Waterfall methodologies",
-      "✅ Migration planning and needs analysis",
-      "✅ Production application upgrade path process"
+      "✅ Successfully migrated HighRoads US Atlassian JIRA and Confluence from on-premises to cloud/SaaS, completing all configuration remediation and access control definition within the engagement window",
+      "✅ Delivered AWS-hosted archiving solution for legacy system lookups, enabling on-premises server decommission while preserving historical data access",
+      "✅ Enabled IT headcount reduction by transitioning on-premises Atlassian administration responsibilities to the cloud vendor"
     ],
     "technologies": [
       {
+        "category": "Project Management & Collaboration",
+        "items": ["Atlassian JIRA", "Atlassian Confluence"]
+      },
+      {
         "category": "Cloud Services",
-        "items": [
-          "Amazon AWS"
-        ]
+        "items": ["Amazon AWS"]
+      },
+      {
+        "category": "Scripting & Automation",
+        "items": ["Bash", "SQL"]
+      },
+      {
+        "category": "Compliance Frameworks",
+        "items": ["HIPAA", "NIST", "ISO:27001"]
       }
     ]
   }

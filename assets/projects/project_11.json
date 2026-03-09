@@ -16,7 +16,7 @@
       "end": "January 2021"
     },
     "challenge": {
-      "summary": "The CSD R&D Project group are focused on generating a set of deployable Infrastructure as Code (IaC) for re-use within SSC and partners. Infrastructure as Code (IaC) supports automation of 'CSD Landing Zone' integrating AWS Landing Zone customisation, SAA Security Guard Rails, and generic multi-purpose tools. Developed and drove success and security achievements to ATO with AWS Secure Environment Accelerator."
+      "summary": "SSC's Cloud Services Directorate R&D group needed to establish a reusable, government-grade AWS cloud foundation — codified entirely as Infrastructure as Code — capable of meeting ITSG-22, ITSG-33, and ITSG-38 security requirements and achieving ATO status using the newly available AWS Secure Environment Accelerator. No prior government team had achieved ATO through ASEA, making this both a technical delivery challenge and a compliance pathfinding exercise."
     },
     "solution": {
       "summary": "Delivered comprehensive cloud and infrastructure solutions across:",
@@ -26,7 +26,7 @@
     },
     "outcomes": [
       "✅ First team to achieve ATO status using AWS Secure Environment Accelerator (ASEA), establishing reusable Infrastructure as Code templates for government-wide adoption",
-      "✅ Created foundational 'CSD Landing Zone' architecture that became the standard for SSC cloud deployments, supporting critical workloads including SCED, DX, and Email systems"
+      "✅ Created foundational 'CSD Landing Zone' architecture that became the standard for SSC cloud deployments, supporting critical workloads including SCED, DX, Vocalls, and Email systems"
     ],
     "technologies": [
       {

@@ -19,20 +19,32 @@
       "summary": "The client was performing extensive internal change, due to growth via Mergers & Acquisition, requiring a change in support vendor. A consolidation of multiple Managed Service Providers was in flight. The primary objective was to provide guidance and governance to the cloud services (Azure and Office365) support vendor, SoftChoice."
     },
     "solution": {
-      "summary": "Delivered comprehensive cloud and infrastructure solutions across:",
+      "summary": "Provided governance, vendor oversight, and architectural direction for Azure and Office 365 environments during an active MSP consolidation:",
       "deliverables": [
         "Office 365 and Microsoft Azure Cloud Service Delivery Manager"
       ]
     },
     "outcomes": [
-      "✅ Delivered Office 365 and Microsoft Azure Cloud Service Delivery Manager engagement"
+      "✅ Maintained cloud service continuity and sustained KPI-measured performance throughout the SoftChoice MSP vendor transition, preventing disruption to Brookfield's globally distributed operations",
+      "✅ Secured Azure AD and Office 365 access posture during the MSP consolidation, governing access controls across a multi-country user base",
+      "✅ Successfully oversaw the rollout of the Microsoft Intune mobile security program, extending device management governance to the Brookfield user population"
     ],
     "technologies": [
       {
         "category": "Cloud Services",
-        "items": [
-          "Amazon AWS"
-        ]
+        "items": ["Microsoft Azure", "Office 365", "Azure Active Directory"]
+      },
+      {
+        "category": "Mobile & Device Management",
+        "items": ["Microsoft Intune"]
+      },
+      {
+        "category": "Telephony",
+        "items": ["Cisco CUCM"]
+      },
+      {
+        "category": "Compliance Frameworks",
+        "items": ["NIST"]
       }
     ]
   }

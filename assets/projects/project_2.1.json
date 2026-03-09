@@ -44,7 +44,23 @@
       {
         "category": "Cloud Services",
         "items": [
-          "Amazon AWS"
+          "Amazon AWS",
+          "RackSpace"
+        ]
+      },
+      {
+        "category": "Identity & Access",
+        "items": [
+          "RBAC"
+        ]
+      },
+      {
+        "category": "Compliance Frameworks",
+        "items": [
+          "ISO:27001",
+          "NERC",
+          "FISMA",
+          "NIST"
         ]
       }
     ]

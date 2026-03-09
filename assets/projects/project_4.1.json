@@ -44,7 +44,24 @@
       {
         "category": "Cloud Services",
         "items": [
-          "Amazon AWS"
+          "Amazon AWS",
+          "AWS EC2",
+          "AWS VPC",
+          "AWS RDS"
+        ]
+      },
+      {
+        "category": "Virtualization",
+        "items": [
+          "VMware"
+        ]
+      },
+      {
+        "category": "Compliance Frameworks",
+        "items": [
+          "HIPAA",
+          "NIST",
+          "ISO:27001"
         ]
       }
     ]

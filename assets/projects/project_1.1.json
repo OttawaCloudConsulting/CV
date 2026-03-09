@@ -37,15 +37,37 @@
       ]
     },
     "outcomes": [
-      "✅ Integrated GE Fanuc smart-factory automation and SCADA systems into centralized AS/400-based Lawson Movex (M3) and Info BPCS ERP/MRP suites",
-      "✅ Delivered IT infrastructure supporting lights-out manufacturing operations",
+      "✅ Delivered IT infrastructure enabling fully automated lights-out manufacturing operations at the Fond du Lac facility, integrating GE Fanuc SCADA systems with centralized AS/400-based Lawson Movex and Info BPCS ERP/MRP suites",
       "✅ Implemented IT security controls meeting US DOD NOFORN classification with ISO:27001 and NIST compliance"
     ],
     "technologies": [
       {
-        "category": "Cloud Services",
+        "category": "ERP/MRP Systems",
         "items": [
-          "Amazon AWS"
+          "Lawson Movex (M3)",
+          "Info BPCS"
+        ]
+      },
+      {
+        "category": "Automation & SCADA",
+        "items": [
+          "GE Fanuc",
+          "SCADA",
+          "SNMP"
+        ]
+      },
+      {
+        "category": "Infrastructure",
+        "items": [
+          "IBM AS/400"
+        ]
+      },
+      {
+        "category": "Compliance Frameworks",
+        "items": [
+          "US DOD NOFORN",
+          "ISO:27001",
+          "NIST"
         ]
       }
     ]

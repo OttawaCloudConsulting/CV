@@ -43,9 +43,31 @@
     ],
     "technologies": [
       {
-        "category": "Cloud Services",
+        "category": "Storage",
         "items": [
-          "Amazon AWS"
+          "IBM FC SAN"
+        ]
+      },
+      {
+        "category": "Virtualization",
+        "items": [
+          "VMware 5.0",
+          "IBM Cluster"
+        ]
+      },
+      {
+        "category": "Infrastructure",
+        "items": [
+          "Windows Server 2008 R2",
+          "Ottawa Tier 2 Data Centre"
+        ]
+      },
+      {
+        "category": "Compliance Frameworks",
+        "items": [
+          "ISO:27001",
+          "NERC",
+          "NIST"
         ]
       }
     ]

@@ -153,6 +153,21 @@ def build_project_groups(projects):
                 "_synthesised": True,
                 "sub_projects": subs,
             }
+
+        # Assemble role_overview deliverables and outcomes from sub-project parentsummary
+        if subs and "role_overview" in group:
+            group["role_overview"] = dict(group["role_overview"])  # don't mutate original
+            group["role_overview"]["deliverables"] = [
+                s["parentsummary"]["deliverables"]
+                for s in subs
+                if s.get("parentsummary", {}).get("deliverables")
+            ]
+            group["role_overview"]["outcomes"] = [
+                s["parentsummary"]["outcomes"]
+                for s in subs
+                if s.get("parentsummary", {}).get("outcomes")
+            ]
+
         groups.append(group)
 
     return groups

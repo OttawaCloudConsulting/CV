@@ -23,7 +23,7 @@
       "summary": "Key activities and deliverables:",
       "deliverables": [
         "Project Management using Agile & Scrum techniques",
-        "Project Management of IBM WebSphere, Java, and UIX projects",
+        "Project Management of IBM WebSphere, Java, and UI/UX projects",
         "Project Management of WebSphere Individual Customer Web Store for each customer",
         "Configuration and management of Atlassian JIRA and Confluence project and space environments",
         "Facilitated Agile workflow requirements with customer service, sales, client, and executive representatives",
@@ -36,16 +36,22 @@
       ]
     },
     "outcomes": [
-      "✅ Project Management using Agile & Scrum techniques",
-      "✅ Project Management of IBM WebSphere, Java, and UIX projects",
-      "✅ Project Management of WebSphere Individual Customer Web Store for each customer"
+      "✅ Transformed the Lowe Martin software development team from an unstructured model to a structured Agile and Scrum delivery organization with standardized sprint cadences and backlog management",
+      "✅ Deployed Atlassian JIRA with a permission scheme segregating internal staff access from Government of Canada client access, enabling compliant multi-client project management",
+      "✅ Established an ITIL-based ServiceDesk and AWS cloud imagery hosting platform, improving IT service structure and reducing manual image distribution overhead"
     ],
     "technologies": [
       {
-        "category": "Cloud Services",
-        "items": [
-          "Amazon AWS"
-        ]
+        "category": "Project Management & Collaboration",
+        "items": ["Atlassian JIRA", "Atlassian Confluence", "ITIL ServiceDesk"]
+      },
+      {
+        "category": "Development Platforms",
+        "items": ["IBM WebSphere", "Java"]
+      },
+      {
+        "category": "Print & Media Platforms",
+        "items": ["Xerox XMPie"]
       }
     ]
   }

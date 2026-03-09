@@ -17,13 +17,11 @@
       "end": "December 2020"
     },
     "challenge": {
-      "summary": "This project will replace the current SARMASTER software and hardware while providing reliable backup Site capability. It will provide interface capability to accept 'live data' and the Geographic Information System (GIS). Lastly, the software will include long term support to ensure continued SAR operational readiness."
+      "summary": "The technical challenge was to architect a containerized, cloud-native replacement for SARMASTER on AWS — capable of 24/7 high availability for life-safety SAR operations, real-time GIS and live-data interface integration, backup site capability, and full alignment to ITSG-33, DND, and TSB security standards sufficient to achieve iATO within a 22-month delivery timeline."
     },
     "solution": {
       "summary": "Key activities and deliverables:",
       "deliverables": [
-        "Project Management using Agile methodologies, and hybrid reporting",
-        "Needs analysis, define requirements, and strategize high level Cloud Architecture",
         "Architectural design and PoC implementation with modernization of infrastructure",
         "Security Coordination and architectural alignment to required Guidelines (ITSG-33, DND & TSB Cloud Compliance)",
         "Implementation of IT Security to meet ITSG controls and achieve iATO",
@@ -97,11 +95,10 @@
           "WSO2",
           "Kafka",
           "PHP",
-          "GIT",
+          "Git",
           "OpenLDAP",
           "SOGO",
-          "ManageEngine Desktop Central",
-          "CloudFormation"
+          "ManageEngine Desktop Central"
         ]
       },
       {

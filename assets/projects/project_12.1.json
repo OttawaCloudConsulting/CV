@@ -17,21 +17,18 @@
       "end": "September 2023"
     },
     "challenge": {
-      "summary": "The AAFC Cloud Centre of Expertise (CCoE) are focused on providing a secure and scalable managed public cloud environment to internal business users. The AWS Cloud environment is implemented using standard AWS Landing Zone foundations with layers of Infrastructure as Code governance resources deployed to meet both Operational and Security requirements, as well as achieve full ATO status for production workloads."
+      "summary": "The Cloud Operations workstream needed to design and implement IaC-driven governance and compliance tooling that met ITSG-22, ITSG-33, and ITSG-38 requirements across the AAFC AWS Landing Zone environment — including automated security posture management, Azure AD SSO federation, and full ATO evidence packages for production workloads — on a part-time engagement model requiring disciplined delivery management across a 32-month period."
     },
     "solution": {
       "summary": "Key activities and deliverables:",
       "deliverables": [
-        "Needs analysis, define requirements, and strategize architecture with AWS team",
-        "Architectural design and Proof of Concept (PoC) implementation for design review sessions",
-        "Infrastructure as Code (IaC) Coding and review",
-        "CI/CD CodePipeline, Azure DevOps Repos, Azure Pipelines/AWS CodeBuild, CodeDeploy",
+        "Infrastructure as Code (IaC) development and review",
+        "CI/CD pipeline implementation via Azure DevOps Repos, Azure Pipelines, AWS CodeBuild, and CodeDeploy",
         "Implementation of IT Security Program to meet ITSG-22, ITSG-33 and ITSG-38 and TBS driven cloud guardrails and achieve Full ATO",
-        "Secure, implement and support SSO Federation to Azure Active Directory",
-        "Develop and implement Security Control Systems and Posture Management to manage integration of AWS Cloud Identity components, validating against ITSG Controls",
+        "Implemented and secured SSO Federation to Azure Active Directory, enabling centralized identity management across the AAFC AWS Landing Zone",
+        "Developed and implemented Security Control Systems and Posture Management for AWS Cloud Identity components, validating continuously against ITSG Controls",
         "Design and integration of automated Security and Governance compliance tooling, meeting and exceeding GoC ITSG requirements",
         "Facilitated requirements gathering with technical team, architecture team, and security team",
-        "Support client workloads",
         "Source Code Management within Azure DevOps (Git) Repos",
         "DevOps integration with DevOps tooling, methodology, and processes",
         "Documentation, Knowledge transfer and cross-training with team, new staff and onboarded clients"

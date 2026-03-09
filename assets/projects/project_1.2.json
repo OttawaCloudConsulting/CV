@@ -33,7 +33,7 @@
         "Cutover and migration of data and access",
         "Facilitated requirements gathering between HR teams, finance teams, executives, external vendors and IT teams",
         "Implementation of IT Security and Cyber Protection Controls. Compliance required for ISO:27001 and NIST",
-        "Provide guidance and governance for Access Control Program for Corporate HR and Payroll systems with RBAC",
+        "Designed and governed the RBAC-based Access Control Program for Corporate HR and Payroll systems, ensuring ISO:27001 and NIST compliance across all nine sites",
         "Provide final architecture and documentation",
         "Build, deploy and integrate process",
         "Project Close-Out",
@@ -46,9 +46,29 @@
     ],
     "technologies": [
       {
-        "category": "Cloud Services",
+        "category": "Virtualization",
         "items": [
-          "Amazon AWS"
+          "Citrix Desktop Streaming"
+        ]
+      },
+      {
+        "category": "Payroll Platform",
+        "items": [
+          "ADP"
+        ]
+      },
+      {
+        "category": "Identity & Access",
+        "items": [
+          "Active Directory",
+          "RBAC"
+        ]
+      },
+      {
+        "category": "Compliance Frameworks",
+        "items": [
+          "ISO:27001",
+          "NIST"
         ]
       }
     ]

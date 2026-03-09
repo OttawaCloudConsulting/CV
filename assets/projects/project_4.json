@@ -37,7 +37,37 @@
       {
         "category": "Cloud Services",
         "items": [
-          "Amazon AWS"
+          "Amazon AWS",
+          "AWS EC2",
+          "AWS VPC",
+          "AWS RDS"
+        ]
+      },
+      {
+        "category": "Virtualization",
+        "items": [
+          "VMware"
+        ]
+      },
+      {
+        "category": "CI/CD",
+        "items": [
+          "Jenkins",
+          "Git"
+        ]
+      },
+      {
+        "category": "Containerization",
+        "items": [
+          "Docker"
+        ]
+      },
+      {
+        "category": "Compliance Frameworks",
+        "items": [
+          "HIPAA",
+          "NIST",
+          "ISO:27001"
         ]
       }
     ]

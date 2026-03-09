@@ -28,7 +28,7 @@
         "Lab-based PoC testing",
         "Migration and cut-over processes",
         "Implementation of IT Security and Cyber Protection Controls with compliance to PCI-DSS 3.0",
-        "Facilitated requirements gathering within organization with healthcare operations",
+        "Facilitated requirements gathering within organization with key business unit leads",
         "Map high-level business processes and engage with key team-leads for gap analysis",
         "Project Close-Out and handover",
         "Documentation preparation for Operations staff including cross-training and knowledge transfer"
@@ -40,9 +40,16 @@
     ],
     "technologies": [
       {
-        "category": "Cloud Services",
+        "category": "Payment Systems",
         "items": [
-          "Amazon AWS"
+          "ADP PIN Pads",
+          "POS"
+        ]
+      },
+      {
+        "category": "Compliance Frameworks",
+        "items": [
+          "PCI-DSS 3.0"
         ]
       }
     ]

@@ -45,9 +45,26 @@
     ],
     "technologies": [
       {
-        "category": "Cloud Services",
+        "category": "Storage",
         "items": [
-          "Amazon AWS"
+          "NexentaStor",
+          "IBM SAN"
+        ]
+      },
+      {
+        "category": "Data Centre",
+        "items": [
+          "Tier II Data Centre",
+          "Tier III Data Centre"
+        ]
+      },
+      {
+        "category": "Compliance Frameworks",
+        "items": [
+          "ISO:27001",
+          "NERC",
+          "FISMA",
+          "NIST"
         ]
       }
     ]

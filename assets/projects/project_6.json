@@ -7,7 +7,7 @@
       "department": "",
       "team": ""
     },
-    "role": "DevOps",
+    "role": "DevOps Architect & Agile Delivery Lead",
     "role_overview": {
       "summary": "Lowe Martin Group is an Ottawa-based commercial printing and marketing services company serving both private sector clients and Government of Canada departments. Christian served as DevOps practitioner across two simultaneous workstreams, driving the transformation of the software development organization from an unstructured delivery model to an Agile and Scrum-based team while concurrently migrating the organization's on-premises mixed email environment — spanning Microsoft Exchange 2010 and Lotus Domino 9 — to Office 365. Both workstreams were executed over the same six-month engagement period."
     },
@@ -19,22 +19,45 @@
       "summary": "The client was performing extensive internal change, which required the re-organization of the Software Development team from an unstructured and chaotic team into a fluid Agile and Scrum based team."
     },
     "solution": {
-      "summary": "Delivered comprehensive cloud and infrastructure solutions across:",
+      "summary": "Delivered two simultaneous workstreams: an Agile transformation of the software development organization and a full dual-platform email migration to Office 365:",
       "deliverables": [
         "Dev Ops",
         "Office 365 Migration from Exchange & Domino Environments"
       ]
     },
     "outcomes": [
-      "✅ Delivered Dev Ops engagement",
-      "✅ Delivered Office 365 Migration from Exchange & Domino Environments engagement"
+      "✅ Transformed the Lowe Martin software development organization from an unstructured model to a structured Agile and Scrum delivery team with standardized tooling, sprint cadences, and GC-client-segregated JIRA environments",
+      "✅ Completed full migration of 2,000+ mail objects from a mixed Microsoft Exchange 2010 and Lotus Domino 9 environment to Office 365, decommissioning both legacy on-premises mail systems",
+      "✅ Established ITIL-based ServiceDesk, AWS cloud imagery hosting, and SIEM-integrated security controls, delivering measurable operational governance improvements across both workstreams"
     ],
     "technologies": [
       {
+        "category": "Email & Collaboration",
+        "items": ["Microsoft Office 365", "Exchange Online", "Microsoft Exchange 2010", "Lotus Domino 9"]
+      },
+      {
+        "category": "Project Management & Collaboration",
+        "items": ["Atlassian JIRA", "Atlassian Confluence", "ITIL ServiceDesk"]
+      },
+      {
+        "category": "Development Platforms",
+        "items": ["IBM WebSphere", "Java"]
+      },
+      {
         "category": "Cloud Services",
-        "items": [
-          "Amazon AWS"
-        ]
+        "items": ["Amazon AWS"]
+      },
+      {
+        "category": "Security & Monitoring",
+        "items": ["SIEM"]
+      },
+      {
+        "category": "Scripting & Automation",
+        "items": ["PowerShell"]
+      },
+      {
+        "category": "Print & Media Platforms",
+        "items": ["Xerox XMPie"]
       }
     ]
   }

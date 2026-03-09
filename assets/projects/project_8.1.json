@@ -24,23 +24,29 @@
       "deliverables": [
         "Review the 'as-is' implementation and align it with the work methodologies and requirements for all SM&G teams",
         "Using a simplified business process mapping and gap analysis strategy, created and refined key workflows to track the process from Business Intake, through Security Assessment (SA) process, and completion with milestone tracking and funding recovery tracking",
-        "Helped to design the system to standardize meta-data types and vernacular, enforcing data integrity and data value",
+        "Designed and enforced a standardized metadata schema and controlled vocabulary across the SharePoint system, eliminating non-standardized content and ensuring data integrity and reporting consistency",
         "Implementation of consolidated data project management and reporting system for Security Assessment and Audit of projects across all GC departments",
         "Facilitated requirements gathering with management and Director level to understand scope and high-level business process",
         "Provided knowledge transfer and training to internal FTE staff"
       ]
     },
     "outcomes": [
-      "✅ Review the 'as-is' implementation and align it with the work methodologies and requirements for all SM&G teams",
-      "✅ Using a simplified business process mapping and gap analysis strategy, created and refined key workflows to track the process from Business Intake, through Security Assessment (SA) process, and completion with milestone tracking and funding recovery tracking",
-      "✅ Helped to design the system to standardize meta-data types and vernacular, enforcing data integrity and data value"
+      "✅ Designed and delivered a SharePoint 2016 project management system replacing Excel-based ad hoc reporting for SSC Security Management and Governance teams across all Government of Canada departments",
+      "✅ Standardized SM&G metadata schema and enforced data integrity, eliminating non-standardized content that had previously prevented consolidated reporting",
+      "✅ Implemented Business Intake through Security Assessment milestone tracking and funding recovery workflows, providing end-to-end visibility into the SA process lifecycle for the first time"
     ],
     "technologies": [
       {
-        "category": "Cloud Services",
-        "items": [
-          "Amazon AWS"
-        ]
+        "category": "Collaboration Platforms",
+        "items": ["SharePoint 2016"]
+      },
+      {
+        "category": "Directory Services",
+        "items": ["Active Directory"]
+      },
+      {
+        "category": "Scripting & Automation",
+        "items": ["PowerShell"]
       }
     ]
   }

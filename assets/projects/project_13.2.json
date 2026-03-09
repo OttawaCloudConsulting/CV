@@ -17,7 +17,7 @@
       "end": "Current"
     },
     "challenge": {
-      "summary": "The Cloud Services Directorate requires comprehensive automation and orchestration frameworks to support enterprise-scale cloud deployments across multiple government departments and regulated sectors. This initiative focuses on developing scalable, compliant, and secure cloud automation solutions through Ottawa Cloud Consulting's federally incorporated consulting services."
+      "summary": "At engagement start, SSC's Cloud Services Directorate had no standardized automation and orchestration framework for enterprise-scale multi-account AWS deployments across government departments — no established serverless workload patterns, no GitOps-driven developer tooling, no governance-aligned EKS cluster standard, and no Crossplane-based IaC provisioning model. The engagement required delivering a comprehensive, NIST/CIS/ITSG-aligned automation framework from the ground up within a live production environment serving multiple federal tenants."
     },
     "solution": {
       "summary": "Key activities and deliverables:",
@@ -30,9 +30,8 @@
         "Production EKS cluster engineering and management",
         "Crossplane and KCL provisioning framework development",
         "Developer experience optimization and Golden Path creation",
-        "Observability and monitoring implementation",
-        "Documentation and knowledge management",
-        "Compliance and security framework alignment"
+        "Deployed observability stack using CloudWatch, Prometheus, Grafana, and AWS X-Ray across 30+ production workloads, providing unified metrics, dashboards, and distributed tracing",
+        "Automated compliance evidence generation aligned to NIST 800-53, CIS Controls, and ITSG standards across multi-account governance boundaries"
       ]
     },
     "outcomes": [
@@ -119,7 +118,7 @@
           "Prometheus",
           "Grafana",
           "AWS X-Ray",
-          "ElasticSearch"
+          "Elasticsearch"
         ]
       },
       {

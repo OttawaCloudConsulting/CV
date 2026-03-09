@@ -36,9 +36,37 @@
     ],
     "technologies": [
       {
-        "category": "Cloud Services",
+        "category": "Virtualization",
         "items": [
-          "Amazon AWS"
+          "Citrix XenServer",
+          "Windows Server 2012 R2 RDS"
+        ]
+      },
+      {
+        "category": "Networking",
+        "items": [
+          "VLAN",
+          "Layer 3 Switching"
+        ]
+      },
+      {
+        "category": "End-User Computing",
+        "items": [
+          "Thin Client"
+        ]
+      },
+      {
+        "category": "Payment Systems",
+        "items": [
+          "ADP PIN Pads",
+          "POS"
+        ]
+      },
+      {
+        "category": "Compliance Frameworks",
+        "items": [
+          "PCI-DSS 3.0",
+          "PIPEDA"
         ]
       }
     ]

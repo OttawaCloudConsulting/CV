@@ -17,7 +17,7 @@
       "end": "April 2017"
     },
     "challenge": {
-      "summary": "The client was undergoing extensive internal restructuring, right-sizing staffing and migrating services to the cloud to reduce costs and mitigate risks."
+      "summary": "HighRoads US required a full Exchange to Office 365 mailbox migration to be completed within a compressed three-month window under HIPAA, NIST, and ISO:27001 compliance requirements, with Active Directory reconfiguration required before mailbox cutover could proceed."
     },
     "solution": {
       "summary": "Key activities and deliverables:",
@@ -38,16 +38,22 @@
       ]
     },
     "outcomes": [
-      "✅ Internal directory configuration reviews",
-      "✅ Migration planning and aligning to tool requirements",
-      "✅ Active Directory upgrades & reconfiguration"
+      "✅ Migrated HighRoads US email infrastructure to Office 365, consolidating all corporate mailboxes and resources onto a cloud-hosted platform within the three-month engagement window",
+      "✅ Established access control framework aligned to HIPAA, NIST, and ISO:27001 standards, replacing uncontrolled on-premises permission models",
+      "✅ Decommissioned on-premises Exchange Server services, eliminating associated infrastructure operating costs"
     ],
     "technologies": [
       {
-        "category": "Cloud Services",
-        "items": [
-          "Amazon AWS"
-        ]
+        "category": "Email & Collaboration",
+        "items": ["Microsoft Office 365", "Exchange Online", "Active Directory"]
+      },
+      {
+        "category": "Scripting & Automation",
+        "items": ["PowerShell"]
+      },
+      {
+        "category": "Compliance Frameworks",
+        "items": ["HIPAA", "NIST", "ISO:27001"]
       }
     ]
   }

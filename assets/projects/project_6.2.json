@@ -34,16 +34,26 @@
       ]
     },
     "outcomes": [
-      "✅ Internal directory configuration reviews",
-      "✅ Migration planning and aligning to tool requirements",
-      "✅ Deployment of Office365 specific features"
+      "✅ Completed full mail platform consolidation of 2,000+ mail objects from a mixed Exchange 2010 and Lotus Domino 9 environment to Office 365, decommissioning both legacy on-premises mail systems",
+      "✅ Implemented SIEM-integrated security controls aligned to ISO security standards across the migrated Office 365 environment",
+      "✅ Delivered the Exchange Online access control framework for 2,000+ migrated mail objects via PowerShell automation, establishing a governed and auditable permission model"
     ],
     "technologies": [
       {
-        "category": "Cloud Services",
-        "items": [
-          "Amazon AWS"
-        ]
+        "category": "Email & Collaboration",
+        "items": ["Microsoft Office 365", "Exchange Online", "Microsoft Exchange 2010", "Lotus Domino 9"]
+      },
+      {
+        "category": "Security & Monitoring",
+        "items": ["SIEM"]
+      },
+      {
+        "category": "Scripting & Automation",
+        "items": ["PowerShell"]
+      },
+      {
+        "category": "Directory Services",
+        "items": ["Active Directory"]
       }
     ]
   }

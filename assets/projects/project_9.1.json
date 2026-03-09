@@ -17,7 +17,7 @@
       "end": "January 2019"
     },
     "challenge": {
-      "summary": "The client was migrating from a traditional distributed on-premise phone system to a fully virtualized Office 365 tenanted system."
+      "summary": "The NDP's on-premises Cisco CUCM unified communications environment required full migration to Office 365 Skype for Business, including security policy alignment for voice and UC systems, Office 365 tenant configuration, and managed deprecation of the existing Cisco infrastructure — all within a three-month engagement window."
     },
     "solution": {
       "summary": "Key activities and deliverables:",
@@ -36,9 +36,8 @@
       ]
     },
     "outcomes": [
-      "✅ Internal directory configuration reviews",
-      "✅ Migration planning and aligning to tool requirements",
-      "✅ Deployment of Office365 specific features to support Skype for Business"
+      "✅ Successfully transitioned the NDP's voice and unified communications infrastructure from on-premises Cisco CUCM to Office 365 Skype for Business, with zero reported service disruption to end users",
+      "✅ Implemented security controls for voice and unified communications meeting the required GoC-equivalent security posture, enabling a fully virtualized tenanted communications environment"
     ],
     "technologies": [
       {

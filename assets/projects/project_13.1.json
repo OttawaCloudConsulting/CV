@@ -17,19 +17,18 @@
       "end": "Current"
     },
     "challenge": {
-      "summary": "The Cloud Services Platform Engineering team operates within the Hosting Services Branch providing an Enterprise class Tenancy within the Amazon Web Services (AWS) Cloud, supporting AWS ASEA (Secure Accelerator) and AWS LZA (Landing Zone Accelerator) platform designs."
+      "summary": "SSC's Hosting Services Branch required an enterprise-class Kubernetes/EKS GitOps platform capable of supporting multi-department government workload onboarding at scale, meeting Security By Design requirements aligned to NIST 800-53 and ITSG controls, with no existing EKS standard or GitOps baseline in place at engagement start."
     },
     "solution": {
       "summary": "Key activities and deliverables:",
       "deliverables": [
-        "Needs analysis, defining requirements, defining and maintain deliverable scopes",
-        "AWS and Kubernetes design patterns and architecture",
-        "Design and Delivery Iterations",
-        "Infrastructure as Code development",
-        "Deployment Processes and Implementations",
-        "Security By Design patterns and principles",
-        "Workload and Application Deployment and Support",
-        "Implemented Source Code Management, DevOps Toolings, and DevOps Best Practices"
+        "Needs analysis, architecture design, and iterative delivery of EKS-based GitOps platform for multi-department government workload onboarding",
+        "EKS cluster architecture design using managed node groups, IRSA, Cilium CNI, and Security By Design principles aligned to NIST 800-53",
+        "Infrastructure as Code delivery using Terraform and Crossplane for cluster provisioning, with KCL-based configuration composition and GitOps-managed state via ArgoCD",
+        "GitOps deployment model implementation with ArgoCD, managing workload promotion across development, staging, and production EKS clusters",
+        "Security By Design implementation: RBAC, IRSA, pod security standards, OPA/Gatekeeper policies, and CIS Kubernetes benchmark alignment",
+        "Workload onboarding support and developer Golden Path tooling to reduce Kubernetes adoption friction across government teams",
+        "Source code management, DevOps pipeline integration, and operational documentation via Azure DevOps"
       ]
     },
     "outcomes": [
@@ -45,12 +44,63 @@
         ]
       },
       {
+        "category": "Container Orchestration",
+        "items": [
+          "Amazon EKS",
+          "Docker",
+          "Kubernetes",
+          "Helm"
+        ]
+      },
+      {
+        "category": "GitOps & CI/CD",
+        "items": [
+          "ArgoCD",
+          "Argo Workflows",
+          "Azure DevOps",
+          "Git"
+        ]
+      },
+      {
+        "category": "Infrastructure as Code",
+        "items": [
+          "Terraform",
+          "Crossplane",
+          "KCL",
+          "CloudFormation"
+        ]
+      },
+      {
+        "category": "Security & Compliance",
+        "items": [
+          "AWS IAM",
+          "IRSA",
+          "RBAC",
+          "CIS Controls",
+          "NIST Frameworks",
+          "Checkov Security Scanning"
+        ]
+      },
+      {
+        "category": "Observability",
+        "items": [
+          "Prometheus",
+          "Grafana",
+          "CloudWatch"
+        ]
+      },
+      {
+        "category": "Networking",
+        "items": [
+          "Cilium",
+          "AWS VPC"
+        ]
+      },
+      {
         "category": "Applications",
         "items": [
           "Azure DevOps Git",
-          "ArgoCD",
           "Argo Workflows",
-          "Checkov Security Scanning",
           "JIRA",
           "Confluence"
         ]
@@ -71,11 +121,12 @@
           "Python 3.x",
           "Typescript",
           "Golang",
-          "Terraform",
-          "Crossplane",
           "Helm",
           "CDK",
-          "CDK8s"
+          "CDK8s",
+          "YAML",
+          "JSON",
+          "KCL"
         ]
       }
     ]

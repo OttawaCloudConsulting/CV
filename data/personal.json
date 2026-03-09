@@ -28,27 +28,42 @@
       {
         "name": "AWS Certified SysOps Administrator - Associate",
         "issuer": "Amazon Web Services",
-        "certificate_url": "./assets/certificates/AWS Certified SysOps Administrator - Associate.pdf"
+        "certificate_url": "./assets/certificates/AWS Certified SysOps Administrator - Associate.pdf",
+        "date_issued": "",
+        "date_expires": "August 2028",
+        "credential_id": ""
       },
       {
         "name": "AWS Certified Solutions Architect - Associate",
         "issuer": "Amazon Web Services",
-        "certificate_url": "./assets/certificates/AWS Certified Solutions Architect - Associate.pdf"
+        "certificate_url": "./assets/certificates/AWS Certified Solutions Architect - Associate.pdf",
+        "date_issued": "",
+        "date_expires": "June 2027",
+        "credential_id": ""
       },
       {
         "name": "AWS Certified Solutions Architect - Professional",
         "issuer": "Amazon Web Services",
-        "certificate_url": "./assets/certificates/AWS Certified Solutions Architect - Professional.pdf"
+        "certificate_url": "./assets/certificates/AWS Certified Solutions Architect - Professional.pdf",
+        "date_issued": "",
+        "date_expires": "June 2027",
+        "credential_id": ""
       },
       {
         "name": "AWS Certified Developer - Associate",
         "issuer": "Amazon Web Services",
-        "certificate_url": "./assets/certificates/AWS Certified Developer - Associate.pdf"
+        "certificate_url": "./assets/certificates/AWS Certified Developer - Associate.pdf",
+        "date_issued": "",
+        "date_expires": "July 2028",
+        "credential_id": ""
       },
       {
         "name": "Certified Scrum Master (CSM - Scrum Alliance)",
         "issuer": "Scrum Alliance",
-        "certificate_url": "./assets/certificates/Scrum Alliance - Certified ScrumMaster.pdf"
+        "certificate_url": "./assets/certificates/Scrum Alliance - Certified ScrumMaster.pdf",
+        "date_issued": "",
+        "date_expires": "August 2028",
+        "credential_id": ""
       }
     ]
   },
@@ -58,7 +73,6 @@
     "compliance_depth": "ITSG-22/33/38, NIST 800-53, Government of Canada Cloud Guardrails, HIPAA; multiple Authority to Operate (ATO) achievements",
     "cloud_platforms": "AWS (primary, 15+ years), Microsoft Azure, Google Cloud",
     "current_engagement": "Cloud Platform Engineering, Shared Services Canada — September 2023 to Present",
-    "certifications": "AWS Solutions Architect – Professional, AWS Solutions Architect – Associate, AWS SysOps Administrator – Associate, AWS Developer – Associate, Certified ScrumMaster (CSM)",
     "consulting_entity": "Ottawa Cloud Consulting (federally incorporated) — Principal Consultant",
     "availability": "2-week notice period"
   }

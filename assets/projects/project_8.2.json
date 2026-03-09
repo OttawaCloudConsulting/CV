@@ -37,16 +37,30 @@
       ]
     },
     "outcomes": [
-      "✅ Reviewed the 'as-is' implementation and align it with the work methodologies and requirements for three teams",
-      "✅ Created and used a simplified business process mapping and gap analysis strategy and refined key workflows and status types",
-      "✅ Implementation of consolidated data project management and reporting system for Cyber Threat Management within CITS"
+      "✅ Delivered a fully operational JIRA-based Cyber Threat Management platform with integrated Confluence and HipChat, adopted by three CITS teams for day-to-day threat work tracking",
+      "✅ Architected and deployed an HA infrastructure on VMware ESXi 6 with NGINX load balancing, LUKS-encrypted data volumes, and SSL-secured traffic, meeting government infrastructure security requirements",
+      "✅ Established role-based JIRA access controls and Kanban-based Agile workflows, replacing ad hoc processes with a standardized, visible work management model for the Cyber Threat Management teams"
     ],
     "technologies": [
       {
-        "category": "Cloud Services",
-        "items": [
-          "Amazon AWS"
-        ]
+        "category": "Project Management & Collaboration",
+        "items": ["Atlassian JIRA", "Atlassian Confluence", "HipChat"]
+      },
+      {
+        "category": "Infrastructure",
+        "items": ["VMware ESXi 6", "NGINX", "CentOS 7"]
+      },
+      {
+        "category": "Database",
+        "items": ["PostgreSQL"]
+      },
+      {
+        "category": "Security",
+        "items": ["LUKS Encryption", "SSL/TLS"]
+      },
+      {
+        "category": "Scripting & Automation",
+        "items": ["Bash"]
       }
     ]
   }

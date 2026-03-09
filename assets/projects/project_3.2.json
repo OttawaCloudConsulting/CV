@@ -39,9 +39,22 @@
     ],
     "technologies": [
       {
-        "category": "Cloud Services",
+        "category": "Virtualization",
         "items": [
-          "Amazon AWS"
+          "Citrix XenServer",
+          "Windows Server 2012 R2 RDS"
+        ]
+      },
+      {
+        "category": "End-User Computing",
+        "items": [
+          "Thin Client"
+        ]
+      },
+      {
+        "category": "Compliance Frameworks",
+        "items": [
+          "PIPEDA"
         ]
       }
     ]

@@ -41,9 +41,22 @@
     ],
     "technologies": [
       {
-        "category": "Cloud Services",
+        "category": "Virtualization",
         "items": [
-          "Amazon AWS"
+          "Citrix XenServer"
+        ]
+      },
+      {
+        "category": "Networking",
+        "items": [
+          "VLAN",
+          "Layer 3 Switching"
+        ]
+      },
+      {
+        "category": "Compliance Frameworks",
+        "items": [
+          "PCI-DSS 3.0"
         ]
       }
     ]
