@@ -4,19 +4,17 @@
 [LinkedIn: linkedin.com/in/Christian-Turner-CloudPro] | [GitHub: github.com/OttawaCloudConsulting]
 
 **Comprehensive Technical CV & Project Portfolio**
-*Detailed technical expertise documentation and project history*
+*Cloud Architecture | DevSecOps | Infrastructure Automation | Agentic Engineering*
 *Senior Cloud Architect & DevSecOps Specialist specializing in AWS cloud transformation,*
 *government sector compliance, and enterprise infrastructure modernization*
 
 ## Professional Profile
 
-Mr. Turner is a Senior Cloud Architect and DevSecOps Specialist with 15+ years of AWS-focused platform engineering experience, including nine consecutive years delivering cloud solutions to Canadian Federal Government clients. He has achieved Authority to Operate (ATO) status on multiple government AWS environments, led enterprise-scale Kubernetes and GitOps platform implementations at Shared Services Canada, and holds four active AWS certifications including Solutions Architect – Professional. His engagements span SSC, Agriculture Canada, and the Department of National Defence, with consistent delivery against ITSG-22/33/38, NIST 800-53, and Government of Canada cloud guardrail requirements.
+Mr. Turner is a Senior Cloud Architect and DevSecOps Specialist with 15+ years of AWS-focused platform engineering experience, including nine consecutive years delivering cloud solutions to Canadian Federal Government clients. He has achieved Authority to Operate (ATO) status on multiple government AWS environments, implemented CI/CD automation frameworks at the platform level across multiple AWS Organizations tenants at Shared Services Canada, and holds four active AWS certifications including Solutions Architect – Professional. His engagements span Government of Canada departments holistically — including SSC, Agriculture Canada, and the Department of National Defence — as well as private sector clients with a focus on start-up and innovation organizations.
 
-Mr. Turner operates through Ottawa Cloud Consulting Inc., a federally incorporated consulting practice, delivering cloud architecture, DevSecOps, infrastructure automation, and compliance-driven platform engineering. His expertise spans AWS-native development, multi-account governance, containerized workloads (EKS, Kubernetes), GitOps pipelines (ArgoCD, Azure DevOps), and IaC at enterprise scale (Terraform, CDK, CloudFormation).
+His expertise spans AWS-native development, multi-account governance, containerized workloads (EKS, Kubernetes), GitOps pipelines (ArgoCD, Azure DevOps), IaC at enterprise scale (Terraform, CDK, CloudFormation), and AI and Agentic Engineering — including the design and deployment of autonomous agent workflows and LLM-integrated automation pipelines. Delivery is consistently aligned to ITSG-22/33/38, NIST 800-53, and Government of Canada cloud guardrail requirements.
 
 His experience includes successful cloud migrations across healthcare, utilities, and political sector clients with HIPAA, NIST, and ITSG compliance requirements. As a Subject Matter Expert, he engages directly with technical teams, management, and executive stakeholders to deliver architecture that is secure, automated, and auditable.
-
-**Language:** English
 
 **Professional Development**
 
@@ -34,7 +32,6 @@ His experience includes successful cloud migrations across healthcare, utilities
 - **Compliance Depth:** ITSG-22/33/38, NIST 800-53, Government of Canada Cloud Guardrails, HIPAA; multiple Authority to Operate (ATO) achievements
 - **Cloud Platforms:** AWS (primary, 15+ years), Microsoft Azure, Google Cloud
 - **Current Engagement:** Cloud Platform Engineering, Shared Services Canada — September 2023 to Present
-- **Consulting Entity:** Ottawa Cloud Consulting (federally incorporated) — Principal Consultant
 - **Availability:** 2-week notice period
 
 ## Table of Contents
@@ -83,17 +80,14 @@ His experience includes successful cloud migrations across healthcare, utilities
   - [1. Project 1 - Central Wire Industries Infrastructure Manager](#1-project-1---central-wire-industries-infrastructure-manager)
     - [Project 1.1 — IT Integration of fully automated production systems (Fond du Lac, Wisconsin)](#project-11-it-integration-of-fully-automated-production-systems-fond-du-lac-wisconsin)
     - [Project 1.2 — ADP Payroll Systems Migration (Citrix Virtualization, Platform Upgrade, Database Migration)](#project-12-adp-payroll-systems-migration-citrix-virtualization-platform-upgrade-database-migration)
-- [TECHNOLOGY INDEX](#technology-index)
+- [TECHNOLOGY INDEX](./TECHNOLOGY_INDEX.md)
 
 # PROFESSIONAL EXPERIENCE
 
 ## 13. Project 13 - SSC - Cloud Platform Engineering / Hosting Services Branch
 
-**Shared Services Canada**
+**Shared Services Canada | Hosting Services Branch | Cloud Platform Engineering**
 
-**Hosting Services Branch**
-
-**Cloud Platform Engineering**
 
 **Role: AWS Cloud Infrastructure as Code DevOps Engineer & Architect**
 
@@ -129,8 +123,8 @@ SSC's Hosting Services Branch required an enterprise-class Kubernetes/EKS GitOps
 
 **Project Outcomes:**
 
-- ✅ Successfully architected and deployed enterprise-class GitOps platform serving multiple government departments through AWS EKS and ArgoCD
-- ✅ Established Infrastructure as Code standards using Terraform and Crossplane, enabling rapid deployment of NIST 800-53 compliant workloads across SSC's AWS Landing Zone Accelerator platform
+- Successfully architected and deployed enterprise-class GitOps platform serving multiple government departments through AWS EKS and ArgoCD
+- Established Infrastructure as Code standards using Terraform and Crossplane, enabling rapid deployment of NIST 800-53 compliant workloads across SSC's AWS Landing Zone Accelerator platform
 
 **Technical Environment:**
 
@@ -166,10 +160,10 @@ At engagement start, SSC's Cloud Services Directorate had no standardized automa
 
 **Project Outcomes:**
 
-- ✅ Architected 3 multi-account AWS organizations managing 200+ workloads with governance, SCPs, identity models, and compliance baselines aligned to NIST, CIS, and ITSG
-- ✅ Improved deployment frequency by 30% through GitOps automation with ArgoCD and Azure DevOps, managing over 50 microservices
-- ✅ Designed 30+ serverless, event-driven, and containerized workloads reducing operational overhead by 40% and infrastructure costs by $25K annually
-- ✅ Engineered 3 production EKS clusters achieving 99.9% uptime while reducing Kubernetes onboarding time by over 60% through deterministic automation and developer Golden Paths
+- Architected 3 multi-account AWS organizations managing 200+ workloads with governance, SCPs, identity models, and compliance baselines aligned to NIST, CIS, and ITSG
+- Improved deployment frequency by 30% through GitOps automation with ArgoCD and Azure DevOps, managing over 50 microservices
+- Designed 30+ serverless, event-driven, and containerized workloads reducing operational overhead by 40% and infrastructure costs by $25K annually
+- Engineered 3 production EKS clusters achieving 99.9% uptime while reducing Kubernetes onboarding time by over 60% through deterministic automation and developer Golden Paths
 
 **Technical Environment:**
 
@@ -186,11 +180,8 @@ At engagement start, SSC's Cloud Services Directorate had no standardized automa
 
 ## 12. Project 12 - Agriculture Canada - Cloud Centre of Expertise / Cloud Operations
 
-**Agriculture Canada**
+**Agriculture Canada | Cloud Centre of Expertise | Cloud Operations**
 
-**Cloud Centre of Expertise**
-
-**Cloud Operations**
 
 **Role: AWS Cloud DevOps Architect (Part-Time)**
 
@@ -229,8 +220,8 @@ The Cloud Operations workstream needed to design and implement IaC-driven govern
 
 **Project Outcomes:**
 
-- ✅ Achieved full ATO (Authority to Operate) status for Agriculture Canada's AWS Cloud environment, meeting ITSG-22/33/38 requirements
-- ✅ Successfully implemented automated security and governance compliance tooling that exceeded GoC cloud guardrails, enabling secure cloud adoption across the department with integrated Azure AD SSO federation
+- Achieved full ATO (Authority to Operate) status for Agriculture Canada's AWS Cloud environment, meeting ITSG-22/33/38 requirements
+- Successfully implemented automated security and governance compliance tooling that exceeded GoC cloud guardrails, enabling secure cloud adoption across the department with integrated Azure AD SSO federation
 
 **Technical Environment:**
 
@@ -256,8 +247,8 @@ The AAFC Analytics team required cloud-native application development on AWS to 
 
 **Project Outcomes:**
 
-- ✅ Delivered a cloud-native analytics platform on AWS for Agriculture Canada's departmental data analysis workloads, leveraging AWS Glue, DMS, Lambda, and CDK v2 with a fully automated CI/CD pipeline providing continuous delivery and auditable deployment history
-- ✅ Implemented comprehensive DevSecOps pipeline with automated security scanning and supply chain management, enabling secure data analysis capabilities
+- Delivered a cloud-native analytics platform on AWS for Agriculture Canada's departmental data analysis workloads, leveraging AWS Glue, DMS, Lambda, and CDK v2 with a fully automated CI/CD pipeline providing continuous delivery and auditable deployment history
+- Implemented comprehensive DevSecOps pipeline with automated security scanning and supply chain management, enabling secure data analysis capabilities
 
 **Technical Environment:**
 
@@ -267,11 +258,8 @@ The AAFC Analytics team required cloud-native application development on AWS to 
 
 ## 11. Project 11 - SSC CSD R&D
 
-**Shared Services Canada**
+**Shared Services Canada | Cloud Services Directorate | Cloud Platform Engineering**
 
-**Cloud Services Directorate**
-
-**Cloud Platform Engineering**
 
 **Role: AWS Cloud Infrastructure as Code DevOps Engineer & Architect**
 
@@ -311,8 +299,8 @@ The specific technical challenge was to design, code, and deploy the CSD Landing
 
 **Project Outcomes:**
 
-- ✅ First team to achieve ATO status using AWS Secure Environment Accelerator (ASEA), establishing reusable Infrastructure as Code templates for government-wide adoption
-- ✅ Created foundational 'CSD Landing Zone' architecture that became the standard for SSC cloud deployments, supporting critical workloads including SCED, DX, Vocalls, and Email systems
+- First team to achieve ATO status using AWS Secure Environment Accelerator (ASEA), establishing reusable Infrastructure as Code templates for government-wide adoption
+- Created foundational 'CSD Landing Zone' architecture that became the standard for SSC cloud deployments, supporting critical workloads including SCED, DX, Vocalls, and Email systems
 
 **Technical Environment:**
 
@@ -322,11 +310,8 @@ The specific technical challenge was to design, code, and deploy the CSD Landing
 
 ## 10. Project 10 - DND DPDCS SMMS Replacement Project
 
-**Department of National Defence**
+**Department of National Defence | DPDCS | SMMS Replacement Project**
 
-**DPDCS**
-
-**SMMS Replacement Project**
 
 **Role: Cloud Architect - Resilient Systems**
 
@@ -367,8 +352,8 @@ The technical challenge was to architect a containerized, cloud-native replaceme
 
 **Project Outcomes:**
 
-- ✅ Successfully modernized critical Search and Rescue operations system with zero downtime migration to AWS cloud infrastructure
-- ✅ Delivered containerized architecture using Docker/ECS with PostgreSQL, ensuring 24/7 availability for life-saving SAR operations across Canada while meeting stringent DND security requirements
+- Successfully modernized critical Search and Rescue operations system with zero downtime migration to AWS cloud infrastructure
+- Delivered containerized architecture using Docker/ECS with PostgreSQL, ensuring 24/7 availability for life-saving SAR operations across Canada while meeting stringent DND security requirements
 
 **Technical Environment:**
 
@@ -379,6 +364,7 @@ The technical challenge was to architect a containerized, cloud-native replaceme
 ## 9. Project 9 - IDS Data Systems (New Democratic Party)
 
 **IDS Data Systems**
+
 
 **Role: Cloud Architect**
 
@@ -418,8 +404,8 @@ The NDP's on-premises Cisco CUCM unified communications environment required ful
 
 **Project Outcomes:**
 
-- ✅ Successfully transitioned the NDP's voice and unified communications infrastructure from on-premises Cisco CUCM to Office 365 Skype for Business, with zero reported service disruption to end users
-- ✅ Implemented security controls for voice and unified communications meeting the required GoC-equivalent security posture, enabling a fully virtualized tenanted communications environment
+- Successfully transitioned the NDP's voice and unified communications infrastructure from on-premises Cisco CUCM to Office 365 Skype for Business, with zero reported service disruption to end users
+- Implemented security controls for voice and unified communications meeting the required GoC-equivalent security posture, enabling a fully virtualized tenanted communications environment
 
 **Technical Environment:**
 
@@ -444,8 +430,8 @@ The NDP's bespoke server workload — comprising a local database, compute servi
 
 **Project Outcomes:**
 
-- ✅ Delivered a fully migrated, production-hardened Azure workload architecture with PostgreSQL, Java/Tomcat application stack, and public-facing services — transitioning entirely off legacy VMware 6 within a three-month engagement
-- ✅ Achieved Protected B-equivalent security compliance for citizen voting data through implemented WAF, NSG, and Azure Application Gateway controls, validated by pre-migration security assessment
+- Delivered a fully migrated, production-hardened Azure workload architecture with PostgreSQL, Java/Tomcat application stack, and public-facing services — transitioning entirely off legacy VMware 6 within a three-month engagement
+- Achieved Protected B-equivalent security compliance for citizen voting data through implemented WAF, NSG, and Azure Application Gateway controls, validated by pre-migration security assessment
 
 **Technical Environment:**
 
@@ -456,9 +442,8 @@ The NDP's bespoke server workload — comprising a local database, compute servi
 
 ## 8. Project 8 - SSC CITS SMG & CTMS
 
-**Shared Services Canada**
+**Shared Services Canada | CITS - Infrastructure Security**
 
-**CITS - Infrastructure Security**
 
 **Role: Senior Business / Technical Architect**
 
@@ -493,9 +478,9 @@ The client was implementing a SharePoint solution for managing and tracking task
 
 **Project Outcomes:**
 
-- ✅ Designed and delivered a SharePoint 2016 project management system replacing Excel-based ad hoc reporting for SSC Security Management and Governance teams across all Government of Canada departments
-- ✅ Standardized SM&G metadata schema and enforced data integrity, eliminating non-standardized content that had previously prevented consolidated reporting
-- ✅ Implemented Business Intake through Security Assessment milestone tracking and funding recovery workflows, providing end-to-end visibility into the SA process lifecycle for the first time
+- Designed and delivered a SharePoint 2016 project management system replacing Excel-based ad hoc reporting for SSC Security Management and Governance teams across all Government of Canada departments
+- Standardized SM&G metadata schema and enforced data integrity, eliminating non-standardized content that had previously prevented consolidated reporting
+- Implemented Business Intake through Security Assessment milestone tracking and funding recovery workflows, providing end-to-end visibility into the SA process lifecycle for the first time
 
 **Technical Environment:**
 
@@ -526,9 +511,9 @@ The client was implementing JIRA for managing and tracking tasks performed by a 
 
 **Project Outcomes:**
 
-- ✅ Delivered a fully operational JIRA-based Cyber Threat Management platform with integrated Confluence and HipChat, adopted by three CITS teams for day-to-day threat work tracking
-- ✅ Architected and deployed an HA infrastructure on VMware ESXi 6 with NGINX load balancing, LUKS-encrypted data volumes, and SSL-secured traffic, meeting government infrastructure security requirements
-- ✅ Established role-based JIRA access controls and Kanban-based Agile workflows, replacing ad hoc processes with a standardized, visible work management model for the Cyber Threat Management teams
+- Delivered a fully operational JIRA-based Cyber Threat Management platform with integrated Confluence and HipChat, adopted by three CITS teams for day-to-day threat work tracking
+- Architected and deployed an HA infrastructure on VMware ESXi 6 with NGINX load balancing, LUKS-encrypted data volumes, and SSL-secured traffic, meeting government infrastructure security requirements
+- Established role-based JIRA access controls and Kanban-based Agile workflows, replacing ad hoc processes with a standardized, visible work management model for the Cyber Threat Management teams
 
 **Technical Environment:**
 
@@ -541,6 +526,7 @@ The client was implementing JIRA for managing and tracking tasks performed by a 
 ## 7. Project 7 - Brookfield Renewable Energy Cloud Delivery
 
 **Brookfield Renewable Energy**
+
 
 **Role: Office 365 & Cloud Delivery Manager**
 
@@ -577,9 +563,9 @@ Brookfield Renewable Energy was executing a live MSP vendor consolidation while 
 
 **Project Outcomes:**
 
-- ✅ Maintained cloud service continuity and sustained KPI-measured performance throughout the SoftChoice MSP vendor transition, preventing disruption to Brookfield's globally distributed operations
-- ✅ Secured Azure AD and Office 365 access posture during the MSP consolidation, governing access controls across a multi-country user base
-- ✅ Successfully oversaw the rollout of the Microsoft Intune mobile security program, extending device management governance to the Brookfield user population
+- Maintained cloud service continuity and sustained KPI-measured performance throughout the SoftChoice MSP vendor transition, preventing disruption to Brookfield's globally distributed operations
+- Secured Azure AD and Office 365 access posture during the MSP consolidation, governing access controls across a multi-country user base
+- Successfully oversaw the rollout of the Microsoft Intune mobile security program, extending device management governance to the Brookfield user population
 
 **Technical Environment:**
 
@@ -591,6 +577,7 @@ Brookfield Renewable Energy was executing a live MSP vendor consolidation while 
 ## 6. Project 6 - Lowe Martin DevOps
 
 **Lowe Martin Group**
+
 
 **Role: DevOps Architect & Agile Delivery Lead**
 
@@ -630,9 +617,9 @@ The client was performing extensive internal change, which required the re-organ
 
 **Project Outcomes:**
 
-- ✅ Transformed the Lowe Martin software development team from an unstructured model to a structured Agile and Scrum delivery organization with standardized sprint cadences and backlog management
-- ✅ Deployed Atlassian JIRA with a permission scheme segregating internal staff access from Government of Canada client access, enabling compliant multi-client project management
-- ✅ Established an ITIL-based ServiceDesk and AWS cloud imagery hosting platform, improving IT service structure and reducing manual image distribution overhead
+- Transformed the Lowe Martin software development team from an unstructured model to a structured Agile and Scrum delivery organization with standardized sprint cadences and backlog management
+- Deployed Atlassian JIRA with a permission scheme segregating internal staff access from Government of Canada client access, enabling compliant multi-client project management
+- Established an ITIL-based ServiceDesk and AWS cloud imagery hosting platform, improving IT service structure and reducing manual image distribution overhead
 
 **Technical Environment:**
 
@@ -660,9 +647,9 @@ The client was performing a planned migration from an on-premise mixed environme
 
 **Project Outcomes:**
 
-- ✅ Completed full mail platform consolidation of 2,000+ mail objects from a mixed Exchange 2010 and Lotus Domino 9 environment to Office 365, decommissioning both legacy on-premises mail systems
-- ✅ Implemented SIEM-integrated security controls aligned to ISO security standards across the migrated Office 365 environment
-- ✅ Delivered the Exchange Online access control framework for 2,000+ migrated mail objects via PowerShell automation, establishing a governed and auditable permission model
+- Completed full mail platform consolidation of 2,000+ mail objects from a mixed Exchange 2010 and Lotus Domino 9 environment to Office 365, decommissioning both legacy on-premises mail systems
+- Implemented SIEM-integrated security controls aligned to ISO security standards across the migrated Office 365 environment
+- Delivered the Exchange Online access control framework for 2,000+ migrated mail objects via PowerShell automation, establishing a governed and auditable permission model
 
 **Technical Environment:**
 
@@ -674,6 +661,7 @@ The client was performing a planned migration from an on-premise mixed environme
 ## 5. Project 5 - HighRoads US Cloud Migration
 
 **HighRoads (US - Boston, MA)**
+
 
 **Role: Cloud Transformation & Cloud Architect**
 
@@ -715,9 +703,9 @@ HighRoads US required a full Exchange to Office 365 mailbox migration to be comp
 
 **Project Outcomes:**
 
-- ✅ Migrated HighRoads US email infrastructure to Office 365, consolidating all corporate mailboxes and resources onto a cloud-hosted platform within the three-month engagement window
-- ✅ Established access control framework aligned to HIPAA, NIST, and ISO:27001 standards, replacing uncontrolled on-premises permission models
-- ✅ Decommissioned on-premises Exchange Server services, eliminating associated infrastructure operating costs
+- Migrated HighRoads US email infrastructure to Office 365, consolidating all corporate mailboxes and resources onto a cloud-hosted platform within the three-month engagement window
+- Established access control framework aligned to HIPAA, NIST, and ISO:27001 standards, replacing uncontrolled on-premises permission models
+- Decommissioned on-premises Exchange Server services, eliminating associated infrastructure operating costs
 
 **Technical Environment:**
 
@@ -751,9 +739,9 @@ HighRoads US was executing an IT strategy shift to eliminate on-premises infrast
 
 **Project Outcomes:**
 
-- ✅ Successfully migrated HighRoads US Atlassian JIRA and Confluence from on-premises to cloud/SaaS, completing all configuration remediation and access control definition within the engagement window
-- ✅ Delivered AWS-hosted archiving solution for legacy system lookups, enabling on-premises server decommission while preserving historical data access
-- ✅ Enabled IT headcount reduction by transitioning on-premises Atlassian administration responsibilities to the cloud vendor
+- Successfully migrated HighRoads US Atlassian JIRA and Confluence from on-premises to cloud/SaaS, completing all configuration remediation and access control definition within the engagement window
+- Delivered AWS-hosted archiving solution for legacy system lookups, enabling on-premises server decommission while preserving historical data access
+- Enabled IT headcount reduction by transitioning on-premises Atlassian administration responsibilities to the cloud vendor
 
 **Technical Environment:**
 
@@ -765,6 +753,7 @@ HighRoads US was executing an IT strategy shift to eliminate on-premises infrast
 ## 4. Project 4 - HighRoads Canada Inc. Infrastructure Operations Manager
 
 **HighRoads Canada Inc. (Ottawa, ON)**
+
 
 **Role: DevOps, Operations and Cloud Architect; Project Management**
 
@@ -810,7 +799,7 @@ Architected and managed the migration and implementation of on-premise systems i
 
 **Project Outcomes:**
 
-- ✅ Successfully migrated 40+ production workloads from VMware to AWS, achieving 35% cost reduction through cloud optimization and improved platform resilience
+- Successfully migrated 40+ production workloads from VMware to AWS, achieving 35% cost reduction through cloud optimization and improved platform resilience
 
 **Technical Environment:**
 
@@ -839,7 +828,7 @@ A traditional hosted customer facing CMS system was in production. Highroads was
 
 **Project Outcomes:**
 
-- ✅ Introduced comprehensive DevOps and automation practices improving deployment frequency by 50% and eliminating manual deployment steps through CI/CD pipeline implementation
+- Introduced comprehensive DevOps and automation practices improving deployment frequency by 50% and eliminating manual deployment steps through CI/CD pipeline implementation
 
 **Technical Environment:**
 
@@ -874,7 +863,7 @@ An asset sale required a project to divest software, development environments, Q
 
 **Project Outcomes:**
 
-- ✅ Managed the full divestiture of the HighRoads V1 product infrastructure portfolio — spanning development, QA, staging, demo, training, DR, and production environments — delivering compliant handover documentation, legal and financial escrow reporting, and safe decommission of legacy data centre assets in support of a successful asset sale
+- Managed the full divestiture of the HighRoads V1 product infrastructure portfolio — spanning development, QA, staging, demo, training, DR, and production environments — delivering compliant handover documentation, legal and financial escrow reporting, and safe decommission of legacy data centre assets in support of a successful asset sale
 
 **Technical Environment:**
 
@@ -906,7 +895,7 @@ In Q4 2016 Highroads announced the closure of their Canadian offices. IT Operati
 
 **Project Outcomes:**
 
-- ✅ Completed full operational handover of 100+ production workloads across 3 hybrid AWS/on-premises architectures to outsourced vendors and parent US operations within the mandated Q4 2016 timeline, with all systems validated against HIPAA compliance requirements
+- Completed full operational handover of 100+ production workloads across 3 hybrid AWS/on-premises architectures to outsourced vendors and parent US operations within the mandated Q4 2016 timeline, with all systems validated against HIPAA compliance requirements
 
 **Technical Environment:**
 
@@ -916,6 +905,7 @@ In Q4 2016 Highroads announced the closure of their Canadian offices. IT Operati
 ## 3. Project 3 - Dymon Corporation - Infrastructure Manager
 
 **Dymon Corporation**
+
 
 **Role: Operations and Infrastructure Architect**
 
@@ -957,8 +947,8 @@ The Dymon corporate infrastructure was operating on unique physical hardware per
 
 **Project Outcomes:**
 
-- ✅ Consolidated 8 underutilized physical servers into a Citrix XenServer virtualized cluster, reclaiming 3 unused Layer 3 switches
-- ✅ Implemented VLAN-segmented network architecture with PCI-DSS 3.0 compliance
+- Consolidated 8 underutilized physical servers into a Citrix XenServer virtualized cluster, reclaiming 3 unused Layer 3 switches
+- Implemented VLAN-segmented network architecture with PCI-DSS 3.0 compliance
 
 **Technical Environment:**
 
@@ -986,8 +976,8 @@ The Dymon Health Care retirement residences were operating with heavily aged sys
 
 **Project Outcomes:**
 
-- ✅ Replaced aging multi-OS desktop infrastructure with centralized Citrix XenServer and Windows 2012 R2 RDS thin client solution
-- ✅ Centralized user data and roaming profiles achieving PIPEDA compliance for healthcare data
+- Replaced aging multi-OS desktop infrastructure with centralized Citrix XenServer and Windows 2012 R2 RDS thin client solution
+- Centralized user data and roaming profiles achieving PIPEDA compliance for healthcare data
 
 **Technical Environment:**
 
@@ -1016,8 +1006,8 @@ A vendor driven change to end-user credit transaction PIN pads required Dymon St
 
 **Project Outcomes:**
 
-- ✅ Executed vendor-mandated PIN pad replacement and credit transaction software upgrade across all Dymon Storage facilities with zero downtime
-- ✅ Maintained PCI-DSS 3.0 compliance throughout the upgrade cycle
+- Executed vendor-mandated PIN pad replacement and credit transaction software upgrade across all Dymon Storage facilities with zero downtime
+- Maintained PCI-DSS 3.0 compliance throughout the upgrade cycle
 
 **Technical Environment:**
 
@@ -1027,6 +1017,7 @@ A vendor driven change to end-user credit transaction PIN pads required Dymon St
 ## 2. Project 2 - GeoDigital International Inc. Infrastructure Manager
 
 **GeoDigital International (GeoSpatial Engineering)**
+
 
 **Role: Operations and Infrastructure Architect**
 
@@ -1076,7 +1067,7 @@ GeoDigital created a market pioneering SaaS application utilized by premium US i
 
 **Project Outcomes:**
 
-- ✅ Successfully deployed market-leading SaaS platform serving 500+ global insurance company clients across 15 countries with 99.5% platform uptime
+- Successfully deployed market-leading SaaS platform serving 500+ global insurance company clients across 15 countries with 99.5% platform uptime
 
 **Technical Environment:**
 
@@ -1109,7 +1100,7 @@ The client required the migration of physical data centre from Vancouver On-Prem
 
 **Project Outcomes:**
 
-- ✅ Successfully migrated 750TB production IBM FC SAN, 200TB backup/archival storage, and 2,000 Windows servers from Vancouver to Ottawa Tier 2 data centre under an expedited timeline with full data integrity preserved
+- Successfully migrated 750TB production IBM FC SAN, 200TB backup/archival storage, and 2,000 Windows servers from Vancouver to Ottawa Tier 2 data centre under an expedited timeline with full data integrity preserved
 
 **Technical Environment:**
 
@@ -1144,8 +1135,8 @@ As a multi-petabyte data handling organization, GeoDigital required a robust sol
 
 **Project Outcomes:**
 
-- ✅ Architected and deployed multi-petabyte corporate private cloud leveraging Tier II and III data centres with NexentaStor software-defined storage
-- ✅ Achieved ISO:27001, NERC, FISMA, and NIST compliance
+- Architected and deployed multi-petabyte corporate private cloud leveraging Tier II and III data centres with NexentaStor software-defined storage
+- Achieved ISO:27001, NERC, FISMA, and NIST compliance
 
 **Technical Environment:**
 
@@ -1177,8 +1168,8 @@ Due to growth by corporate acquisitions, the client operated multiple physical l
 
 **Project Outcomes:**
 
-- ✅ Standardized fragmented IT infrastructure across multiple physical locations onto a unified Hyper-V virtualization platform
-- ✅ Delivered full license management and auditing achieving ISO:27001, NERC, and NIST compliance
+- Standardized fragmented IT infrastructure across multiple physical locations onto a unified Hyper-V virtualization platform
+- Delivered full license management and auditing achieving ISO:27001, NERC, and NIST compliance
 
 **Technical Environment:**
 
@@ -1210,8 +1201,8 @@ The client expanded operations into the Australasia region. Leveraging public cl
 
 **Project Outcomes:**
 
-- ✅ Engineered automated 1-2 TB/day data ingestion pipeline improving engineering processing timelines by 50% through multi-cloud architecture
-- ✅ Achieved 99.8% data processing reliability across global cloud partners
+- Engineered automated 1-2 TB/day data ingestion pipeline improving engineering processing timelines by 50% through multi-cloud architecture
+- Achieved 99.8% data processing reliability across global cloud partners
 
 **Technical Environment:**
 
@@ -1245,9 +1236,9 @@ The client intended to manage risk and centralize mail management into a streaml
 
 **Project Outcomes:**
 
-- ✅ Migrated all Exchange mailboxes and resources to Office 365, consolidating post-merger email infrastructure from multiple acquired entities into a single centralized tenant
-- ✅ Delivered ISO:27001 and NIST-aligned access controls for the Exchange mail system, replacing fragmented legacy mail permissions across the merged organization
-- ✅ Decommissioned legacy on-premise Exchange infrastructure, reducing operational overhead and eliminating ongoing licensing and maintenance costs
+- Migrated all Exchange mailboxes and resources to Office 365, consolidating post-merger email infrastructure from multiple acquired entities into a single centralized tenant
+- Delivered ISO:27001 and NIST-aligned access controls for the Exchange mail system, replacing fragmented legacy mail permissions across the merged organization
+- Decommissioned legacy on-premise Exchange infrastructure, reducing operational overhead and eliminating ongoing licensing and maintenance costs
 
 **Technical Environment:**
 
@@ -1258,9 +1249,8 @@ The client intended to manage risk and centralize mail management into a streaml
 
 ## 1. Project 1 - Central Wire Industries Infrastructure Manager
 
-**Central Wire Industries**
+**Central Wire Industries | Infrastructure & Operations**
 
-**Infrastructure & Operations**
 
 **Role: Operations and Infrastructure Management**
 
@@ -1301,8 +1291,8 @@ Central Wire Industries, as a $500 million annual revenue enterprise, expanded i
 
 **Project Outcomes:**
 
-- ✅ Delivered IT infrastructure enabling fully automated lights-out manufacturing operations at the Fond du Lac facility, integrating GE Fanuc SCADA systems with centralized AS/400-based Lawson Movex and Info BPCS ERP/MRP suites
-- ✅ Implemented IT security controls meeting US DOD NOFORN classification with ISO:27001 and NIST compliance
+- Delivered IT infrastructure enabling fully automated lights-out manufacturing operations at the Fond du Lac facility, integrating GE Fanuc SCADA systems with centralized AS/400-based Lawson Movex and Info BPCS ERP/MRP suites
+- Implemented IT security controls meeting US DOD NOFORN classification with ISO:27001 and NIST compliance
 
 **Technical Environment:**
 
@@ -1338,8 +1328,8 @@ The client had expanded its market share and physical locations by 60%, onboardi
 
 **Project Outcomes:**
 
-- ✅ Consolidated ADP payroll services across 9 physical sites in the United States and Canada following 60% growth, delivering cross-border HR and Finance access via Citrix virtualization
-- ✅ Implemented RBAC access controls meeting ISO:27001 and NIST compliance
+- Consolidated ADP payroll services across 9 physical sites in the United States and Canada following 60% growth, delivering cross-border HR and Finance access via Citrix virtualization
+- Implemented RBAC access controls meeting ISO:27001 and NIST compliance
 
 **Technical Environment:**
 
@@ -1347,297 +1337,6 @@ The client had expanded its market share and physical locations by 60%, onboardi
 - **Payroll Platform:** ADP
 - **Identity & Access:** Active Directory, RBAC
 - **Compliance Frameworks:** ISO:27001, NIST
-
-
-# TECHNOLOGY INDEX
-
-**A:**
-
-- **Active Directory** - Projects 1, 1.2, 2, 2.4, 2.6, 5, 5.1, 6.2, 8, 8.1
-- **ADP** - Projects 1, 1.2
-- **ADP PIN Pads** - Projects 3, 3.3
-- **Amazon AWS** - Projects 2, 2.1, 4, 4.1, 4.2, 5, 5.2, 6
-- **Amazon AWS (AWS CDK v1/v2, AWS CodeCommit, AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy, AWS Cloud9, AWS Glue, AWS DMS, AWS Lambda)** - Projects 12, 12.2
-- **Amazon AWS (AWS Organizations, AWS Control Tower, AWS SSO, AWS Config, AWS CloudTrail, AWS GuardDuty, AWS IAM, AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy, AWS CloudFormation, Terraform)** - Projects 12, 12.1
-- **Amazon AWS Cloud** - Projects 10, 10.1, 11, 11.1, 13, 13.1
-- **Amazon AWS Organizations** - Projects 13, 13.2
-- **Amazon AWS US** - Project 2.5
-- **Amazon EKS** - Projects 13, 13.1, 13.2
-- **Apache** - Projects 9, 9.2
-- **API Gateway** - Projects 13, 13.2
-- **Argo Workflows** - Projects 13, 13.1, 13.2
-- **ArgoCD** - Projects 13, 13.1, 13.2
-- **Atlassian Confluence** - Projects 5, 5.2, 6, 6.1, 8, 8.2, 10, 10.1
-- **Atlassian Jira** - Projects 12, 12.2
-- **Atlassian JIRA** - Projects 5, 5.2, 6, 6.1, 8, 8.2, 10, 10.1
-- **AWS ALB (Load Balancer)** - Projects 10, 10.1, 11, 11.1
-- **AWS Auto-Scaling** - Projects 10, 10.1, 11, 11.1
-- **AWS CDK** - Projects 13, 13.2
-- **AWS CDK v1.x** - Projects 12, 12.2
-- **AWS CDK v2.x** - Projects 12, 12.2
-- **AWS Certificate Manager** - Projects 10, 10.1, 11, 11.1
-- **AWS CloudFormation** - Projects 10, 10.1, 11, 11.1
-- **AWS CloudFront** - Projects 10, 10.1, 11, 11.1
-- **AWS CloudTrail** - Projects 10, 10.1, 11, 11.1, 13, 13.2
-- **AWS CloudWatch** - Projects 10, 10.1, 11, 11.1
-- **AWS CodeBuild** - Projects 11, 11.1
-- **AWS CodePipeline** - Projects 11, 11.1
-- **AWS Config** - Projects 11, 11.1, 13, 13.2
-- **AWS Control Tower** - Projects 13, 13.2
-- **AWS EBS Storage** - Projects 10, 10.1, 11, 11.1
-- **AWS EC2** - Projects 4, 4.1, 10, 10.1, 11, 11.1
-- **AWS ECR** - Projects 10, 10.1
-- **AWS ECS** - Projects 10, 10.1, 11, 11.1
-- **AWS EFS** - Projects 10, 10.1
-- **AWS ELB (Load Balancer)** - Projects 10, 10.1, 11, 11.1
-- **AWS GuardDuty** - Projects 10, 10.1, 11, 11.1, 13, 13.2
-- **AWS IAM** - Projects 10, 10.1, 11, 11.1, 13, 13.1, 13.2
-- **AWS Inspector** - Projects 10, 10.1, 11, 11.1
-- **AWS Lambda** - Projects 13, 13.2
-- **AWS Linux** - Projects 10, 10.1, 11, 11.1, 12, 12.1, 13, 13.1
-- **AWS Managed SSO** - Projects 11, 11.1
-- **AWS Organizations** - Projects 11, 11.1
-- **AWS Parameter Store** - Projects 10, 10.1
-- **AWS RDS** - Projects 4, 4.1, 10, 10.1, 11, 11.1
-- **AWS Route 53** - Projects 10, 10.1, 11, 11.1
-- **AWS S3** - Projects 10, 10.1, 11, 11.1
-- **AWS Secrets Store** - Projects 10, 10.1
-- **AWS Service Catalog** - Projects 10, 10.1, 11, 11.1
-- **AWS Service Discovery** - Projects 10, 10.1
-- **AWS SES** - Projects 10, 10.1, 11, 11.1
-- **AWS SSO** - Projects 13, 13.2
-- **AWS Systems Manager** - Projects 10, 10.1, 11, 11.1
-- **AWS Transfer Service (SFTP)** - Projects 10, 10.1
-- **AWS Transit Gateway** - Projects 10, 10.1, 11, 11.1
-- **AWS Transit Peering** - Projects 10, 10.1, 11, 11.1
-- **AWS Trusted Advisor** - Projects 10, 10.1, 11, 11.1
-- **AWS VPC** - Projects 4, 4.1, 10, 10.1, 11, 11.1, 13, 13.1, 13.2
-- **AWS VPN** - Projects 10, 10.1, 11, 11.1
-- **AWS WAF & Shield** - Projects 10, 10.1, 11, 11.1
-- **AWS X-Ray** - Projects 13, 13.2
-- **Azure Active Directory** - Projects 7, 7.1, 12, 12.1
-- **Azure Application Gateways** - Projects 9, 9.2
-- **Azure Availability Sets** - Projects 9, 9.2
-- **Azure CLI** - Projects 9, 9.2
-- **Azure DevOps** - Projects 12, 12.1, 12.2, 13, 13.1, 13.2
-- **Azure DevOps Git** - Projects 12, 12.1, 13, 13.1
-- **Azure DevOps Pipelines** - Projects 12, 12.1
-- **Azure Images** - Projects 9, 9.2
-- **Azure Load Balancers** - Projects 9, 9.2
-- **Azure Network Security Groups** - Projects 9, 9.2
-- **Azure PostgreSQL Database** - Projects 9, 9.2
-- **Azure PowerShell** - Projects 9, 9.1, 9.2
-- **Azure Resource Groups** - Projects 9, 9.2
-- **Azure Resource Manager (ARM)** - Projects 9, 9.2
-- **Azure Sentinel** - Projects 12, 12.1
-- **Azure Storage Accounts** - Projects 9, 9.2
-- **Azure Virtual Machine Scale Sets** - Projects 9, 9.2
-- **Azure Virtual Machines** - Projects 9, 9.2
-- **Azure Virtual Networks** - Projects 9, 9.2
-
-**B:**
-
-- **Bash** - Projects 5, 5.2, 8, 8.2, 10, 10.1, 11, 11.1, 12, 12.1, 12.2, 13, 13.1, 13.2
-
-**C:**
-
-- **CDK** - Projects 13, 13.1
-- **CDK8s** - Projects 13, 13.1
-- **CentOS** - Projects 12, 12.1, 13, 13.1
-- **CentOS 6/7** - Projects 9, 9.2
-- **CentOS 7** - Projects 8, 8.2
-- **CentOS 7.x** - Projects 10, 10.1
-- **Checkov Security Scanning** - Projects 13, 13.1
-- **Checkov Security Scanning (BridgeCrew/Prisma)** - Projects 12, 12.1
-- **Cilium** - Projects 13, 13.1, 13.2
-- **CIS Controls** - Projects 13, 13.1, 13.2
-- **CIS Hardened Images** - Projects 12, 12.1, 13, 13.1
-- **Cisco CUCM** - Projects 7, 7.1
-- **Citrix Desktop Streaming** - Projects 1, 1.2
-- **Citrix XenServer** - Projects 3, 3.1, 3.2
-- **CloudFlare CDN** - Projects 9, 9.2
-- **Cloudflare DNS** - Projects 9, 9.2
-- **Cloudflare WAF** - Projects 9, 9.2
-- **CloudFormation** - Projects 11, 11.1, 12, 12.1, 13, 13.1, 13.2
-- **CloudWatch** - Projects 13, 13.1, 13.2
-- **Code & IaC Security Scanning** - Projects 12, 12.2
-- **Confluence** - Projects 13, 13.1
-- **Cross-Region Networking** - Project 2.5
-- **Crossplane** - Projects 13, 13.1, 13.2
-
-**D:**
-
-- **Docker** - Projects 4, 4.2, 13, 13.1, 13.2
-- **Docker Containers** - Projects 10, 10.1
-- **Docker Images** - Projects 13, 13.2
-
-**E:**
-
-- **Elasticsearch** - Projects 9, 9.2, 13, 13.2
-- **EventBridge** - Projects 13, 13.2
-- **Exchange Online** - Projects 5, 5.1, 6, 6.2
-
-**F:**
-
-- **FISMA** - Projects 2, 2.1, 2.3, 2.5
-
-**G:**
-
-- **GE Fanuc** - Projects 1, 1.1
-- **Git** - Projects 4, 4.2, 10, 10.1, 12, 12.2, 13, 13.1, 13.2
-- **GitHub** - Projects 11, 11.1
-- **GitLab** - Projects 11, 11.1
-- **Golang** - Projects 13, 13.1, 13.2
-- **Grafana** - Projects 13, 13.1, 13.2
-
-**H:**
-
-- **Helm** - Projects 13, 13.1, 13.2
-- **Helm Charts** - Projects 13, 13.2
-- **HIPAA** - Projects 4, 4.1, 4.2, 4.3, 4.4, 5, 5.1, 5.2
-- **HipChat** - Projects 8, 8.2
-- **Hybrid Cloud** - Project 2.5
-
-**I:**
-
-- **IBM AS/400** - Projects 1, 1.1
-- **IBM Cluster** - Project 2.2
-- **IBM FC SAN** - Projects 2, 2.2
-- **IBM SAN** - Project 2.3
-- **IBM WebSphere** - Projects 6, 6.1
-- **Info BPCS** - Projects 1, 1.1
-- **IRSA** - Projects 13, 13.1, 13.2
-- **ISO:27001** - Projects 1, 1.1, 1.2, 2, 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 4, 4.1, 4.2, 4.3, 5, 5.1, 5.2
-- **ITIL ServiceDesk** - Projects 6, 6.1
-
-**J:**
-
-- **Java** - Projects 6, 6.1, 9, 9.2
-- **Java 8.x** - Projects 10, 10.1
-- **Jenkins** - Projects 4, 4.2
-- **JFROG Artifactory** - Projects 12, 12.2
-- **JIRA** - Projects 13, 13.1
-- **JSON** - Projects 13, 13.1, 13.2
-
-**K:**
-
-- **Kafka** - Projects 10, 10.1
-- **KCL** - Projects 13, 13.1, 13.2
-- **Kubernetes** - Projects 13, 13.1, 13.2
-- **Kubernetes (kind, k3d, kubeadm)** - Projects 13, 13.1
-
-**L:**
-
-- **Lawson Movex (M3)** - Projects 1, 1.1
-- **Layer 3 Switching** - Projects 3, 3.1
-- **Load Balancers** - Projects 13, 13.2
-- **Lotus Domino 9** - Projects 6, 6.2
-- **LUKS Encryption** - Projects 8, 8.2
-
-**M:**
-
-- **ManageEngine Desktop Central** - Projects 10, 10.1
-- **Microsoft Active Directory** - Projects 11, 11.1, 12, 12.1
-- **Microsoft Azure** - Projects 7, 7.1, 9, 9.2
-- **Microsoft Exchange** - Projects 2, 2.6
-- **Microsoft Exchange 2010** - Projects 6, 6.2
-- **Microsoft Hyper-V** - Projects 2, 2.4
-- **Microsoft Intune** - Projects 7, 7.1
-- **Microsoft Office 365** - Projects 2, 2.6, 5, 5.1, 6, 6.2, 9, 9.1
-- **Microsoft Office 365 Compliance** - Projects 9, 9.1
-- **Microsoft Skype for Business** - Projects 9, 9.1
-- **Microsoft Windows 2016** - Projects 10, 10.1
-- **Microsoft Windows 2019** - Projects 11, 11.1, 12, 12.1
-
-**N:**
-
-- **NERC** - Projects 2, 2.1, 2.2, 2.3, 2.4, 2.5
-- **NexentaStor** - Projects 2, 2.3
-- **NGINX** - Projects 8, 8.2
-- **NIST** - Projects 1, 1.1, 1.2, 2, 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 4, 4.1, 4.2, 4.3, 4.4, 5, 5.1, 5.2, 7, 7.1
-- **NIST Frameworks** - Projects 13, 13.1, 13.2
-
-**O:**
-
-- **OCI Bundles** - Projects 13, 13.2
-- **Office 365** - Projects 7, 7.1
-- **OpenLDAP** - Projects 10, 10.1
-- **Ottawa Tier 2 Data Centre** - Project 2.2
-
-**P:**
-
-- **PCI-DSS 3.0** - Projects 3, 3.1, 3.3
-- **PHP** - Projects 10, 10.1
-- **PIPEDA** - Projects 3, 3.2
-- **POS** - Projects 3, 3.3
-- **PostgreSQL** - Projects 8, 8.2, 10, 10.1
-- **PowerShell** - Projects 2, 2.6, 5, 5.1, 6, 6.2, 8, 8.1, 9, 9.2
-- **Prometheus** - Projects 13, 13.1, 13.2
-- **Python** - Projects 13, 13.2
-- **Python 3.x** - Projects 13, 13.1
-
-**R:**
-
-- **RackSpace** - Projects 2, 2.1
-- **RackSpace Sydney** - Project 2.5
-- **RBAC** - Projects 1, 1.2, 2, 2.1, 2.4, 4.4, 13, 13.1, 13.2
-- **Rogers Data Centre** - Project 2.5
-
-**S:**
-
-- **SCADA** - Projects 1, 1.1
-- **Service Control Policies** - Projects 13, 13.2
-- **SharePoint 2016** - Projects 8, 8.1
-- **SIEM** - Projects 6, 6.2
-- **SNMP** - Projects 1, 1.1
-- **SNS** - Projects 13, 13.2
-- **SOGO** - Projects 10, 10.1
-- **SonarQube & Dependency Checker** - Projects 12, 12.2
-- **SQL** - Projects 5, 5.2
-- **SQS** - Projects 13, 13.2
-- **SSL/TLS** - Projects 8, 8.2
-- **Step Functions** - Projects 13, 13.2
-
-**T:**
-
-- **Terraform** - Projects 13, 13.1, 13.2
-- **Terraform 0.12.7** - Projects 10, 10.1
-- **TerraScan Security Scanning (Tenable)** - Projects 12, 12.1
-- **Thin Client** - Projects 3, 3.2
-- **Tier II Data Centre** - Project 2.3
-- **Tier III Data Centre** - Project 2.3
-- **Tomcat** - Projects 9, 9.2
-- **Tomcat 8.x** - Projects 10, 10.1
-- **Transit Gateway** - Projects 13, 13.2
-- **Typescript** - Projects 13, 13.1, 13.2
-
-**U:**
-
-- **US DOD NOFORN** - Projects 1, 1.1
-
-**V:**
-
-- **VLAN** - Projects 3, 3.1
-- **VMware** - Projects 4, 4.1, 4.3
-- **VMware 5.0** - Projects 2, 2.2
-- **VMWare 6** - Projects 9, 9.2
-- **VMware ESXi 6** - Projects 8, 8.2
-
-**W:**
-
-- **WatchGuard (next-gen firewall)** - Projects 9, 9.2
-- **Windows 2012 R2** - Projects 9, 9.2
-- **Windows Server 2008 R2** - Project 2.2
-- **Windows Server 2012 R2 RDS** - Projects 3, 3.2
-- **WSO2** - Projects 10, 10.1
-
-**X:**
-
-- **Xerox XMPie** - Projects 6, 6.1
-
-**Y:**
-
-- **YAML** - Projects 13, 13.1, 13.2
 
 
 ---

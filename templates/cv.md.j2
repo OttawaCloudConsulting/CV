@@ -46,16 +46,9 @@
 {% for group in groups %}
 ## {{ group._number_str }}. Project {{ group._number_str }} - {{ group.title }}
 
-**{{ group.client.name }}**
+**{{ [group.client.name, group.client.department, group.client.team] | select | join(' | ') }}**
 
-{% if group.client.department %}
-**{{ group.client.department }}**
 
-{% endif %}
-{% if group.client.team %}
-**{{ group.client.team }}**
-
-{% endif %}
 **Role: {{ group.role }}**
 
 **{{ group.date_range.start }} - {{ group.date_range.end }}**
