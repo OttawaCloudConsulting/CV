@@ -2,12 +2,11 @@
 
 *Auto-generated from project data. See [CV.md](./CV.md) for full project history.*
 
-{% for letter, entries in tech_index.items() %}
-**{{ letter }}:**
+{% for group_name, entries in grouped_tech_index.items() %}
+## {{ group_name }}
 
 {% for tech, nums in entries %}
-- **{{ tech }}** - {% if nums | length == 1 %}Project {{ nums[0] }}{% else %}Projects {{ nums | join(', ') }}{% endif %}
-
+- **{{ tech }}** — {{ "Project " + nums[0] if nums | length == 1 else "Projects " + nums | join(', ') }}
 {% endfor %}
 
 {% endfor %}
