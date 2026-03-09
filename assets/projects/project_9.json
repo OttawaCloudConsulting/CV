@@ -26,8 +26,8 @@
       ]
     },
     "outcomes": [
-      "✅ Migrated the NDP's distributed Cisco CUCM phone infrastructure to a fully cloud-hosted Office 365 Skype for Business environment, meeting security controls for unified communications systems and completing transition within a three-month window",
-      "✅ Delivered a production-ready Azure cloud architecture for NDP citizen-data workloads meeting Protected B-equivalent security requirements, validated through HA and failover testing and deployed via blue-green model on a three-month schedule"
+      "Migrated the NDP's distributed Cisco CUCM phone infrastructure to a fully cloud-hosted Office 365 Skype for Business environment, meeting security controls for unified communications systems and completing transition within a three-month window",
+      "Delivered a production-ready Azure cloud architecture for NDP citizen-data workloads meeting Protected B-equivalent security requirements, validated through HA and failover testing and deployed via blue-green model on a three-month schedule"
     ],
     "technologies": [
       {

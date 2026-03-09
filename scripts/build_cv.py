@@ -36,6 +36,8 @@ PERSONAL_FILE = REPO_ROOT / "data" / "personal.json"
 TEMPLATES_DIR = REPO_ROOT / "templates"
 DEFAULT_OUTPUT = REPO_ROOT / "CV.md"
 DEFAULT_TEMPLATE = "cv.md.j2"
+TECH_INDEX_OUTPUT = REPO_ROOT / "TECHNOLOGY_INDEX.md"
+TECH_INDEX_TEMPLATE = "tech_index.md.j2"
 
 
 def load_personal():
@@ -253,6 +255,12 @@ def render(output_path=None, template_name=DEFAULT_TEMPLATE):
     out_path.write_text(output, encoding="utf-8")
     print(f"Generated: {out_path}")
     print(f"  Projects: {sum(1 for g in groups for _ in ([g] if not g.get('sub_projects') else g['sub_projects']))} entries across {len(groups)} roles")
+
+    # Render Technology Index as a separate file
+    tech_template = env.get_template(TECH_INDEX_TEMPLATE)
+    tech_output = tech_template.render(tech_index=tech_index)
+    TECH_INDEX_OUTPUT.write_text(tech_output, encoding="utf-8")
+    print(f"Generated: {TECH_INDEX_OUTPUT}")
 
 
 def main():

@@ -285,13 +285,6 @@
         "type": "error"
       },
       {
-        "field": ".project.outcomes",
-        "check": "emoji_prefix",
-        "prefix": "✅",
-        "description": "All outcomes should start with ✅ emoji",
-        "type": "error"
-      },
-      {
         "field": ".project.technologies",
         "check": "has_required_keys",
         "required_keys": ["category", "items"],

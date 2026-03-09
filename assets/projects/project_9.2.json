@@ -33,8 +33,8 @@
       ]
     },
     "outcomes": [
-      "✅ Delivered a fully migrated, production-hardened Azure workload architecture with PostgreSQL, Java/Tomcat application stack, and public-facing services — transitioning entirely off legacy VMware 6 within a three-month engagement",
-      "✅ Achieved Protected B-equivalent security compliance for citizen voting data through implemented WAF, NSG, and Azure Application Gateway controls, validated by pre-migration security assessment"
+      "Delivered a fully migrated, production-hardened Azure workload architecture with PostgreSQL, Java/Tomcat application stack, and public-facing services — transitioning entirely off legacy VMware 6 within a three-month engagement",
+      "Achieved Protected B-equivalent security compliance for citizen voting data through implemented WAF, NSG, and Azure Application Gateway controls, validated by pre-migration security assessment"
     ],
     "technologies": [
       {

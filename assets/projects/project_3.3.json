@@ -35,8 +35,8 @@
       ]
     },
     "outcomes": [
-      "✅ Executed vendor-mandated PIN pad replacement and credit transaction software upgrade across all Dymon Storage facilities with zero downtime",
-      "✅ Maintained PCI-DSS 3.0 compliance throughout the upgrade cycle"
+      "Executed vendor-mandated PIN pad replacement and credit transaction software upgrade across all Dymon Storage facilities with zero downtime",
+      "Maintained PCI-DSS 3.0 compliance throughout the upgrade cycle"
     ],
     "technologies": [
       {

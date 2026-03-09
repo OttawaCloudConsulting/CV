@@ -31,22 +31,28 @@
       ]
     },
     "outcomes": [
-      "✅ Designed and delivered a SharePoint 2016 project management system replacing Excel-based ad hoc reporting for SSC Security Management and Governance teams across all Government of Canada departments",
-      "✅ Standardized SM&G metadata schema and enforced data integrity, eliminating non-standardized content that had previously prevented consolidated reporting",
-      "✅ Implemented Business Intake through Security Assessment milestone tracking and funding recovery workflows, providing end-to-end visibility into the SA process lifecycle for the first time"
+      "Designed and delivered a SharePoint 2016 project management system replacing Excel-based ad hoc reporting for SSC Security Management and Governance teams across all Government of Canada departments",
+      "Standardized SM&G metadata schema and enforced data integrity, eliminating non-standardized content that had previously prevented consolidated reporting",
+      "Implemented Business Intake through Security Assessment milestone tracking and funding recovery workflows, providing end-to-end visibility into the SA process lifecycle for the first time"
     ],
     "technologies": [
       {
         "category": "Collaboration Platforms",
-        "items": ["SharePoint 2016"]
+        "items": [
+          "SharePoint 2016"
+        ]
       },
       {
         "category": "Directory Services",
-        "items": ["Active Directory"]
+        "items": [
+          "Active Directory"
+        ]
       },
       {
         "category": "Scripting & Automation",
-        "items": ["PowerShell"]
+        "items": [
+          "PowerShell"
+        ]
       }
     ]
   }

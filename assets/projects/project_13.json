@@ -26,12 +26,12 @@
       ]
     },
     "outcomes": [
-      "✅ Successfully architected and deployed enterprise-class GitOps platform serving multiple government departments through AWS EKS and ArgoCD",
-      "✅ Established Infrastructure as Code standards using Terraform and Crossplane, enabling rapid deployment of NIST 800-53 compliant workloads across SSC's AWS Landing Zone Accelerator platform",
-      "✅ Architected 3 multi-account AWS organizations managing 200+ workloads with governance, SCPs, identity models, and compliance baselines aligned to NIST, CIS, and ITSG",
-      "✅ Improved deployment frequency by 30% through GitOps automation with ArgoCD and Azure DevOps, managing over 50 microservices",
-      "✅ Designed 30+ serverless, event-driven, and containerized workloads reducing operational overhead by 40% and infrastructure costs by $25K annually",
-      "✅ Engineered 3 production EKS clusters achieving 99.9% uptime while reducing Kubernetes onboarding time by over 60% through deterministic automation and developer Golden Paths"
+      "Successfully architected and deployed enterprise-class GitOps platform serving multiple government departments through AWS EKS and ArgoCD",
+      "Established Infrastructure as Code standards using Terraform and Crossplane, enabling rapid deployment of NIST 800-53 compliant workloads across SSC's AWS Landing Zone Accelerator platform",
+      "Architected 3 multi-account AWS organizations managing 200+ workloads with governance, SCPs, identity models, and compliance baselines aligned to NIST, CIS, and ITSG",
+      "Improved deployment frequency by 30% through GitOps automation with ArgoCD and Azure DevOps, managing over 50 microservices",
+      "Designed 30+ serverless, event-driven, and containerized workloads reducing operational overhead by 40% and infrastructure costs by $25K annually",
+      "Engineered 3 production EKS clusters achieving 99.9% uptime while reducing Kubernetes onboarding time by over 60% through deterministic automation and developer Golden Paths"
     ],
     "technologies": [
       {

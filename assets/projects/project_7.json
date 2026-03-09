@@ -25,26 +25,36 @@
       ]
     },
     "outcomes": [
-      "✅ Maintained cloud service continuity and sustained KPI-measured performance throughout the SoftChoice MSP vendor transition, preventing disruption to Brookfield's globally distributed operations",
-      "✅ Secured Azure AD and Office 365 access posture during the MSP consolidation, governing access controls across a multi-country user base",
-      "✅ Successfully oversaw the rollout of the Microsoft Intune mobile security program, extending device management governance to the Brookfield user population"
+      "Maintained cloud service continuity and sustained KPI-measured performance throughout the SoftChoice MSP vendor transition, preventing disruption to Brookfield's globally distributed operations",
+      "Secured Azure AD and Office 365 access posture during the MSP consolidation, governing access controls across a multi-country user base",
+      "Successfully oversaw the rollout of the Microsoft Intune mobile security program, extending device management governance to the Brookfield user population"
     ],
     "technologies": [
       {
         "category": "Cloud Services",
-        "items": ["Microsoft Azure", "Office 365", "Azure Active Directory"]
+        "items": [
+          "Microsoft Azure",
+          "Office 365",
+          "Azure Active Directory"
+        ]
       },
       {
         "category": "Mobile & Device Management",
-        "items": ["Microsoft Intune"]
+        "items": [
+          "Microsoft Intune"
+        ]
       },
       {
         "category": "Telephony",
-        "items": ["Cisco CUCM"]
+        "items": [
+          "Cisco CUCM"
+        ]
       },
       {
         "category": "Compliance Frameworks",
-        "items": ["NIST"]
+        "items": [
+          "NIST"
+        ]
       }
     ]
   }

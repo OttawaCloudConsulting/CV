@@ -36,22 +36,31 @@
       ]
     },
     "outcomes": [
-      "✅ Transformed the Lowe Martin software development team from an unstructured model to a structured Agile and Scrum delivery organization with standardized sprint cadences and backlog management",
-      "✅ Deployed Atlassian JIRA with a permission scheme segregating internal staff access from Government of Canada client access, enabling compliant multi-client project management",
-      "✅ Established an ITIL-based ServiceDesk and AWS cloud imagery hosting platform, improving IT service structure and reducing manual image distribution overhead"
+      "Transformed the Lowe Martin software development team from an unstructured model to a structured Agile and Scrum delivery organization with standardized sprint cadences and backlog management",
+      "Deployed Atlassian JIRA with a permission scheme segregating internal staff access from Government of Canada client access, enabling compliant multi-client project management",
+      "Established an ITIL-based ServiceDesk and AWS cloud imagery hosting platform, improving IT service structure and reducing manual image distribution overhead"
     ],
     "technologies": [
       {
         "category": "Project Management & Collaboration",
-        "items": ["Atlassian JIRA", "Atlassian Confluence", "ITIL ServiceDesk"]
+        "items": [
+          "Atlassian JIRA",
+          "Atlassian Confluence",
+          "ITIL ServiceDesk"
+        ]
       },
       {
         "category": "Development Platforms",
-        "items": ["IBM WebSphere", "Java"]
+        "items": [
+          "IBM WebSphere",
+          "Java"
+        ]
       },
       {
         "category": "Print & Media Platforms",
-        "items": ["Xerox XMPie"]
+        "items": [
+          "Xerox XMPie"
+        ]
       }
     ]
   }

@@ -40,26 +40,38 @@
       ]
     },
     "outcomes": [
-      "✅ Successfully migrated HighRoads US Atlassian JIRA and Confluence from on-premises to cloud/SaaS, completing all configuration remediation and access control definition within the engagement window",
-      "✅ Delivered AWS-hosted archiving solution for legacy system lookups, enabling on-premises server decommission while preserving historical data access",
-      "✅ Enabled IT headcount reduction by transitioning on-premises Atlassian administration responsibilities to the cloud vendor"
+      "Successfully migrated HighRoads US Atlassian JIRA and Confluence from on-premises to cloud/SaaS, completing all configuration remediation and access control definition within the engagement window",
+      "Delivered AWS-hosted archiving solution for legacy system lookups, enabling on-premises server decommission while preserving historical data access",
+      "Enabled IT headcount reduction by transitioning on-premises Atlassian administration responsibilities to the cloud vendor"
     ],
     "technologies": [
       {
         "category": "Project Management & Collaboration",
-        "items": ["Atlassian JIRA", "Atlassian Confluence"]
+        "items": [
+          "Atlassian JIRA",
+          "Atlassian Confluence"
+        ]
       },
       {
         "category": "Cloud Services",
-        "items": ["Amazon AWS"]
+        "items": [
+          "Amazon AWS"
+        ]
       },
       {
         "category": "Scripting & Automation",
-        "items": ["Bash", "SQL"]
+        "items": [
+          "Bash",
+          "SQL"
+        ]
       },
       {
         "category": "Compliance Frameworks",
-        "items": ["HIPAA", "NIST", "ISO:27001"]
+        "items": [
+          "HIPAA",
+          "NIST",
+          "ISO:27001"
+        ]
       }
     ]
   }

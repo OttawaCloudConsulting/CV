@@ -26,30 +26,47 @@
       ]
     },
     "outcomes": [
-      "✅ Completed full email infrastructure migration to Office 365 and Atlassian JIRA/Confluence migration to cloud/SaaS within a compressed three-month window under HIPAA, NIST, and ISO:27001 compliance requirements",
-      "✅ Decommissioned all on-premises Exchange Server and Atlassian server infrastructure, eliminating associated operating costs and enabling IT headcount reduction",
-      "✅ Delivered compliant access control frameworks across both migrated platforms, replacing uncontrolled on-premises permission models with HIPAA and NIST-aligned controls"
+      "Completed full email infrastructure migration to Office 365 and Atlassian JIRA/Confluence migration to cloud/SaaS within a compressed three-month window under HIPAA, NIST, and ISO:27001 compliance requirements",
+      "Decommissioned all on-premises Exchange Server and Atlassian server infrastructure, eliminating associated operating costs and enabling IT headcount reduction",
+      "Delivered compliant access control frameworks across both migrated platforms, replacing uncontrolled on-premises permission models with HIPAA and NIST-aligned controls"
     ],
     "technologies": [
       {
         "category": "Email & Collaboration",
-        "items": ["Microsoft Office 365", "Exchange Online", "Active Directory"]
+        "items": [
+          "Microsoft Office 365",
+          "Exchange Online",
+          "Active Directory"
+        ]
       },
       {
         "category": "Project Management & Collaboration",
-        "items": ["Atlassian JIRA", "Atlassian Confluence"]
+        "items": [
+          "Atlassian JIRA",
+          "Atlassian Confluence"
+        ]
       },
       {
         "category": "Cloud Services",
-        "items": ["Amazon AWS"]
+        "items": [
+          "Amazon AWS"
+        ]
       },
       {
         "category": "Scripting & Automation",
-        "items": ["PowerShell", "Bash", "SQL"]
+        "items": [
+          "PowerShell",
+          "Bash",
+          "SQL"
+        ]
       },
       {
         "category": "Compliance Frameworks",
-        "items": ["HIPAA", "NIST", "ISO:27001"]
+        "items": [
+          "HIPAA",
+          "NIST",
+          "ISO:27001"
+        ]
       }
     ]
   }

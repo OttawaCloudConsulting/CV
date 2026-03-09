@@ -34,8 +34,8 @@
       ]
     },
     "outcomes": [
-      "✅ Replaced aging multi-OS desktop infrastructure with centralized Citrix XenServer and Windows 2012 R2 RDS thin client solution",
-      "✅ Centralized user data and roaming profiles achieving PIPEDA compliance for healthcare data"
+      "Replaced aging multi-OS desktop infrastructure with centralized Citrix XenServer and Windows 2012 R2 RDS thin client solution",
+      "Centralized user data and roaming profiles achieving PIPEDA compliance for healthcare data"
     ],
     "technologies": [
       {

@@ -31,8 +31,8 @@
       ]
     },
     "outcomes": [
-      "✅ Delivered a cloud-native analytics platform on AWS for Agriculture Canada's departmental data analysis workloads, leveraging AWS Glue, DMS, Lambda, and CDK v2 with a fully automated CI/CD pipeline providing continuous delivery and auditable deployment history",
-      "✅ Implemented comprehensive DevSecOps pipeline with automated security scanning and supply chain management, enabling secure data analysis capabilities"
+      "Delivered a cloud-native analytics platform on AWS for Agriculture Canada's departmental data analysis workloads, leveraging AWS Glue, DMS, Lambda, and CDK v2 with a fully automated CI/CD pipeline providing continuous delivery and auditable deployment history",
+      "Implemented comprehensive DevSecOps pipeline with automated security scanning and supply chain management, enabling secure data analysis capabilities"
     ],
     "technologies": [
       {

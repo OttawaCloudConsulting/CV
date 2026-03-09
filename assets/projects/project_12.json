@@ -26,10 +26,10 @@
       ]
     },
     "outcomes": [
-      "✅ Achieved full ATO (Authority to Operate) status for Agriculture Canada's AWS Cloud environment, meeting ITSG-22/33/38 requirements",
-      "✅ Successfully implemented automated security and governance compliance tooling that exceeded GoC cloud guardrails, enabling secure cloud adoption across the department with integrated Azure AD SSO federation",
-      "✅ Delivered critical analytics platform supporting analytics operations through AWS cloud-native architecture for client workload systems",
-      "✅ Implemented comprehensive DevSecOps pipeline with automated security scanning and supply chain management, enabling secure data analysis capabilities"
+      "Achieved full ATO (Authority to Operate) status for Agriculture Canada's AWS Cloud environment, meeting ITSG-22/33/38 requirements",
+      "Successfully implemented automated security and governance compliance tooling that exceeded GoC cloud guardrails, enabling secure cloud adoption across the department with integrated Azure AD SSO federation",
+      "Delivered critical analytics platform supporting analytics operations through AWS cloud-native architecture for client workload systems",
+      "Implemented comprehensive DevSecOps pipeline with automated security scanning and supply chain management, enabling secure data analysis capabilities"
     ],
     "technologies": [
       {

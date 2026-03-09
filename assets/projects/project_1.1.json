@@ -37,8 +37,8 @@
       ]
     },
     "outcomes": [
-      "✅ Delivered IT infrastructure enabling fully automated lights-out manufacturing operations at the Fond du Lac facility, integrating GE Fanuc SCADA systems with centralized AS/400-based Lawson Movex and Info BPCS ERP/MRP suites",
-      "✅ Implemented IT security controls meeting US DOD NOFORN classification with ISO:27001 and NIST compliance"
+      "Delivered IT infrastructure enabling fully automated lights-out manufacturing operations at the Fond du Lac facility, integrating GE Fanuc SCADA systems with centralized AS/400-based Lawson Movex and Info BPCS ERP/MRP suites",
+      "Implemented IT security controls meeting US DOD NOFORN classification with ISO:27001 and NIST compliance"
     ],
     "technologies": [
       {

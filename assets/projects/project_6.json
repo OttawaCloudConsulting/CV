@@ -26,38 +26,58 @@
       ]
     },
     "outcomes": [
-      "✅ Transformed the Lowe Martin software development organization from an unstructured model to a structured Agile and Scrum delivery team with standardized tooling, sprint cadences, and GC-client-segregated JIRA environments",
-      "✅ Completed full migration of 2,000+ mail objects from a mixed Microsoft Exchange 2010 and Lotus Domino 9 environment to Office 365, decommissioning both legacy on-premises mail systems",
-      "✅ Established ITIL-based ServiceDesk, AWS cloud imagery hosting, and SIEM-integrated security controls, delivering measurable operational governance improvements across both workstreams"
+      "Transformed the Lowe Martin software development organization from an unstructured model to a structured Agile and Scrum delivery team with standardized tooling, sprint cadences, and GC-client-segregated JIRA environments",
+      "Completed full migration of 2,000+ mail objects from a mixed Microsoft Exchange 2010 and Lotus Domino 9 environment to Office 365, decommissioning both legacy on-premises mail systems",
+      "Established ITIL-based ServiceDesk, AWS cloud imagery hosting, and SIEM-integrated security controls, delivering measurable operational governance improvements across both workstreams"
     ],
     "technologies": [
       {
         "category": "Email & Collaboration",
-        "items": ["Microsoft Office 365", "Exchange Online", "Microsoft Exchange 2010", "Lotus Domino 9"]
+        "items": [
+          "Microsoft Office 365",
+          "Exchange Online",
+          "Microsoft Exchange 2010",
+          "Lotus Domino 9"
+        ]
       },
       {
         "category": "Project Management & Collaboration",
-        "items": ["Atlassian JIRA", "Atlassian Confluence", "ITIL ServiceDesk"]
+        "items": [
+          "Atlassian JIRA",
+          "Atlassian Confluence",
+          "ITIL ServiceDesk"
+        ]
       },
       {
         "category": "Development Platforms",
-        "items": ["IBM WebSphere", "Java"]
+        "items": [
+          "IBM WebSphere",
+          "Java"
+        ]
       },
       {
         "category": "Cloud Services",
-        "items": ["Amazon AWS"]
+        "items": [
+          "Amazon AWS"
+        ]
       },
       {
         "category": "Security & Monitoring",
-        "items": ["SIEM"]
+        "items": [
+          "SIEM"
+        ]
       },
       {
         "category": "Scripting & Automation",
-        "items": ["PowerShell"]
+        "items": [
+          "PowerShell"
+        ]
       },
       {
         "category": "Print & Media Platforms",
-        "items": ["Xerox XMPie"]
+        "items": [
+          "Xerox XMPie"
+        ]
       }
     ]
   }

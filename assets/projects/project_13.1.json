@@ -32,8 +32,8 @@
       ]
     },
     "outcomes": [
-      "✅ Successfully architected and deployed enterprise-class GitOps platform serving multiple government departments through AWS EKS and ArgoCD",
-      "✅ Established Infrastructure as Code standards using Terraform and Crossplane, enabling rapid deployment of NIST 800-53 compliant workloads across SSC's AWS Landing Zone Accelerator platform"
+      "Successfully architected and deployed enterprise-class GitOps platform serving multiple government departments through AWS EKS and ArgoCD",
+      "Established Infrastructure as Code standards using Terraform and Crossplane, enabling rapid deployment of NIST 800-53 compliant workloads across SSC's AWS Landing Zone Accelerator platform"
     ],
     "technologies": [
       {

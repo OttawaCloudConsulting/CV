@@ -14,8 +14,6 @@
 {{ para }}
 
 {% endfor %}
-**Language:** {{ profile.language }}
-
 **Professional Development**
 
 {% for cert in profile.certifications %}
@@ -30,7 +28,6 @@
 - **Compliance Depth:** {{ executive.compliance_depth }}
 - **Cloud Platforms:** {{ executive.cloud_platforms }}
 - **Current Engagement:** {{ executive.current_engagement }}
-- **Consulting Entity:** {{ executive.consulting_entity }}
 - **Availability:** {{ executive.availability }}
 
 ## Table of Contents
@@ -42,7 +39,7 @@
     - [Project {{ number_to_str(sub.number) }} — {{ sub.title }}](#{{ ("Project " ~ number_to_str(sub.number) ~ " — " ~ sub.title) | anchor }})
 {% endfor %}
 {% endfor %}
-- [TECHNOLOGY INDEX](#technology-index)
+- [TECHNOLOGY INDEX](./TECHNOLOGY_INDEX.md)
 
 # PROFESSIONAL EXPERIENCE
 
@@ -128,18 +125,6 @@
 
 {% endfor %}
 {% endif %}
-{% endfor %}
-
-# TECHNOLOGY INDEX
-
-{% for letter, entries in tech_index.items() %}
-**{{ letter }}:**
-
-{% for tech, nums in entries %}
-- **{{ tech }}** - {% if nums | length == 1 %}Project {{ nums[0] }}{% else %}Projects {{ nums | join(', ') }}{% endif %}
-
-{% endfor %}
-
 {% endfor %}
 
 ---

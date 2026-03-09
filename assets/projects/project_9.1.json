@@ -36,8 +36,8 @@
       ]
     },
     "outcomes": [
-      "✅ Successfully transitioned the NDP's voice and unified communications infrastructure from on-premises Cisco CUCM to Office 365 Skype for Business, with zero reported service disruption to end users",
-      "✅ Implemented security controls for voice and unified communications meeting the required GoC-equivalent security posture, enabling a fully virtualized tenanted communications environment"
+      "Successfully transitioned the NDP's voice and unified communications infrastructure from on-premises Cisco CUCM to Office 365 Skype for Business, with zero reported service disruption to end users",
+      "Implemented security controls for voice and unified communications meeting the required GoC-equivalent security posture, enabling a fully virtualized tenanted communications environment"
     ],
     "technologies": [
       {

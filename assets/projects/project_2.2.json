@@ -39,7 +39,7 @@
       ]
     },
     "outcomes": [
-      "✅ Successfully migrated 750TB production IBM FC SAN, 200TB backup/archival storage, and 2,000 Windows servers from Vancouver to Ottawa Tier 2 data centre under an expedited timeline with full data integrity preserved"
+      "Successfully migrated 750TB production IBM FC SAN, 200TB backup/archival storage, and 2,000 Windows servers from Vancouver to Ottawa Tier 2 data centre under an expedited timeline with full data integrity preserved"
     ],
     "technologies": [
       {

@@ -39,8 +39,8 @@
       ]
     },
     "outcomes": [
-      "✅ Successfully modernized critical Search and Rescue operations system with zero downtime migration to AWS cloud infrastructure",
-      "✅ Delivered containerized architecture using Docker/ECS with PostgreSQL, ensuring 24/7 availability for life-saving SAR operations across Canada while meeting stringent DND security requirements"
+      "Successfully modernized critical Search and Rescue operations system with zero downtime migration to AWS cloud infrastructure",
+      "Delivered containerized architecture using Docker/ECS with PostgreSQL, ensuring 24/7 availability for life-saving SAR operations across Canada while meeting stringent DND security requirements"
     ],
     "technologies": [
       {

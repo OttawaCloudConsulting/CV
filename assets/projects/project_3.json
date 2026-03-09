@@ -27,12 +27,12 @@
       ]
     },
     "outcomes": [
-      "✅ Consolidated 8 underutilized physical servers into a Citrix XenServer virtualized cluster, reclaiming 3 unused Layer 3 switches",
-      "✅ Implemented VLAN-segmented network architecture with PCI-DSS 3.0 compliance",
-      "✅ Replaced aging multi-OS desktop infrastructure with centralized Citrix XenServer and Windows 2012 R2 RDS thin client solution",
-      "✅ Centralized user data and roaming profiles achieving PIPEDA compliance for healthcare data",
-      "✅ Executed vendor-mandated PIN pad replacement and credit transaction software upgrade across all Dymon Storage facilities with zero downtime",
-      "✅ Maintained PCI-DSS 3.0 compliance throughout the upgrade cycle"
+      "Consolidated 8 underutilized physical servers into a Citrix XenServer virtualized cluster, reclaiming 3 unused Layer 3 switches",
+      "Implemented VLAN-segmented network architecture with PCI-DSS 3.0 compliance",
+      "Replaced aging multi-OS desktop infrastructure with centralized Citrix XenServer and Windows 2012 R2 RDS thin client solution",
+      "Centralized user data and roaming profiles achieving PIPEDA compliance for healthcare data",
+      "Executed vendor-mandated PIN pad replacement and credit transaction software upgrade across all Dymon Storage facilities with zero downtime",
+      "Maintained PCI-DSS 3.0 compliance throughout the upgrade cycle"
     ],
     "technologies": [
       {

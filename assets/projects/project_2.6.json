@@ -39,9 +39,9 @@
       ]
     },
     "outcomes": [
-      "✅ Migrated all Exchange mailboxes and resources to Office 365, consolidating post-merger email infrastructure from multiple acquired entities into a single centralized tenant",
-      "✅ Delivered ISO:27001 and NIST-aligned access controls for the Exchange mail system, replacing fragmented legacy mail permissions across the merged organization",
-      "✅ Decommissioned legacy on-premise Exchange infrastructure, reducing operational overhead and eliminating ongoing licensing and maintenance costs"
+      "Migrated all Exchange mailboxes and resources to Office 365, consolidating post-merger email infrastructure from multiple acquired entities into a single centralized tenant",
+      "Delivered ISO:27001 and NIST-aligned access controls for the Exchange mail system, replacing fragmented legacy mail permissions across the merged organization",
+      "Decommissioned legacy on-premise Exchange infrastructure, reducing operational overhead and eliminating ongoing licensing and maintenance costs"
     ],
     "technologies": [
       {

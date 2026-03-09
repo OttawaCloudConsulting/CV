@@ -38,22 +38,32 @@
       ]
     },
     "outcomes": [
-      "✅ Migrated HighRoads US email infrastructure to Office 365, consolidating all corporate mailboxes and resources onto a cloud-hosted platform within the three-month engagement window",
-      "✅ Established access control framework aligned to HIPAA, NIST, and ISO:27001 standards, replacing uncontrolled on-premises permission models",
-      "✅ Decommissioned on-premises Exchange Server services, eliminating associated infrastructure operating costs"
+      "Migrated HighRoads US email infrastructure to Office 365, consolidating all corporate mailboxes and resources onto a cloud-hosted platform within the three-month engagement window",
+      "Established access control framework aligned to HIPAA, NIST, and ISO:27001 standards, replacing uncontrolled on-premises permission models",
+      "Decommissioned on-premises Exchange Server services, eliminating associated infrastructure operating costs"
     ],
     "technologies": [
       {
         "category": "Email & Collaboration",
-        "items": ["Microsoft Office 365", "Exchange Online", "Active Directory"]
+        "items": [
+          "Microsoft Office 365",
+          "Exchange Online",
+          "Active Directory"
+        ]
       },
       {
         "category": "Scripting & Automation",
-        "items": ["PowerShell"]
+        "items": [
+          "PowerShell"
+        ]
       },
       {
         "category": "Compliance Frameworks",
-        "items": ["HIPAA", "NIST", "ISO:27001"]
+        "items": [
+          "HIPAA",
+          "NIST",
+          "ISO:27001"
+        ]
       }
     ]
   }

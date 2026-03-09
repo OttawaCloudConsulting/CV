@@ -1,0 +1,17 @@
+# TECHNOLOGY INDEX
+
+*Auto-generated from project data. See [CV.md](./CV.md) for full project history.*
+
+{% for letter, entries in tech_index.items() %}
+**{{ letter }}:**
+
+{% for tech, nums in entries %}
+- **{{ tech }}** - {% if nums | length == 1 %}Project {{ nums[0] }}{% else %}Projects {{ nums | join(', ') }}{% endif %}
+
+{% endfor %}
+
+{% endfor %}
+
+---
+
+*Last updated: March 2026*

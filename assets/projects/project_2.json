@@ -30,14 +30,14 @@
       ]
     },
     "outcomes": [
-      "✅ Successfully deployed market-leading SaaS platform serving 500+ global insurance company clients across 15 countries with 99.5% platform uptime",
-      "✅ Successfully migrated 750TB production IBM FC SAN, 200TB backup/archival storage, and 2,000 Windows servers from Vancouver to Ottawa Tier 2 data centre under an expedited timeline with full data integrity preserved",
-      "✅ Architected and deployed multi-petabyte corporate private cloud leveraging Tier II and III data centres with NexentaStor software-defined storage",
-      "✅ Achieved ISO:27001, NERC, FISMA, and NIST compliance",
-      "✅ Standardized fragmented IT infrastructure across multiple physical locations onto a unified Hyper-V virtualization platform",
-      "✅ Delivered full license management and auditing achieving ISO:27001, NERC, and NIST compliance",
-      "✅ Engineered automated 1-2 TB/day data ingestion pipeline improving engineering processing timelines by 50% through multi-cloud architecture",
-      "✅ Achieved 99.8% data processing reliability across global cloud partners"
+      "Successfully deployed market-leading SaaS platform serving 500+ global insurance company clients across 15 countries with 99.5% platform uptime",
+      "Successfully migrated 750TB production IBM FC SAN, 200TB backup/archival storage, and 2,000 Windows servers from Vancouver to Ottawa Tier 2 data centre under an expedited timeline with full data integrity preserved",
+      "Architected and deployed multi-petabyte corporate private cloud leveraging Tier II and III data centres with NexentaStor software-defined storage",
+      "Achieved ISO:27001, NERC, FISMA, and NIST compliance",
+      "Standardized fragmented IT infrastructure across multiple physical locations onto a unified Hyper-V virtualization platform",
+      "Delivered full license management and auditing achieving ISO:27001, NERC, and NIST compliance",
+      "Engineered automated 1-2 TB/day data ingestion pipeline improving engineering processing timelines by 50% through multi-cloud architecture",
+      "Achieved 99.8% data processing reliability across global cloud partners"
     ],
     "technologies": [
       {

@@ -38,8 +38,8 @@
       ]
     },
     "outcomes": [
-      "✅ First team to achieve ATO status using AWS Secure Environment Accelerator (ASEA), establishing reusable Infrastructure as Code templates for government-wide adoption",
-      "✅ Created foundational 'CSD Landing Zone' architecture that became the standard for SSC cloud deployments, supporting critical workloads including SCED, DX, Vocalls, and Email systems"
+      "First team to achieve ATO status using AWS Secure Environment Accelerator (ASEA), establishing reusable Infrastructure as Code templates for government-wide adoption",
+      "Created foundational 'CSD Landing Zone' architecture that became the standard for SSC cloud deployments, supporting critical workloads including SCED, DX, Vocalls, and Email systems"
     ],
     "technologies": [
       {

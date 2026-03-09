@@ -26,34 +26,53 @@
       ]
     },
     "outcomes": [
-      "✅ Designed and delivered a SharePoint 2016 project management system replacing Excel-based ad hoc reporting for SSC Security Management and Governance teams across all Government of Canada departments",
-      "✅ Delivered a fully operational JIRA-based Cyber Threat Management platform with HA infrastructure on VMware ESXi 6, LUKS-encrypted data volumes, and role-based access controls, adopted by three CITS teams",
-      "✅ Replaced ad hoc processes across both security functions with structured, role-controlled platforms, delivering standardized metadata, milestone tracking, and measurable workflow governance for SSC CITS"
+      "Designed and delivered a SharePoint 2016 project management system replacing Excel-based ad hoc reporting for SSC Security Management and Governance teams across all Government of Canada departments",
+      "Delivered a fully operational JIRA-based Cyber Threat Management platform with HA infrastructure on VMware ESXi 6, LUKS-encrypted data volumes, and role-based access controls, adopted by three CITS teams",
+      "Replaced ad hoc processes across both security functions with structured, role-controlled platforms, delivering standardized metadata, milestone tracking, and measurable workflow governance for SSC CITS"
     ],
     "technologies": [
       {
         "category": "Collaboration Platforms",
-        "items": ["SharePoint 2016", "Atlassian JIRA", "Atlassian Confluence", "HipChat"]
+        "items": [
+          "SharePoint 2016",
+          "Atlassian JIRA",
+          "Atlassian Confluence",
+          "HipChat"
+        ]
       },
       {
         "category": "Infrastructure",
-        "items": ["VMware ESXi 6", "NGINX", "CentOS 7"]
+        "items": [
+          "VMware ESXi 6",
+          "NGINX",
+          "CentOS 7"
+        ]
       },
       {
         "category": "Database",
-        "items": ["PostgreSQL"]
+        "items": [
+          "PostgreSQL"
+        ]
       },
       {
         "category": "Security",
-        "items": ["LUKS Encryption", "SSL/TLS"]
+        "items": [
+          "LUKS Encryption",
+          "SSL/TLS"
+        ]
       },
       {
         "category": "Directory Services",
-        "items": ["Active Directory"]
+        "items": [
+          "Active Directory"
+        ]
       },
       {
         "category": "Scripting & Automation",
-        "items": ["PowerShell", "Bash"]
+        "items": [
+          "PowerShell",
+          "Bash"
+        ]
       }
     ]
   }

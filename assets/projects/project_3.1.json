@@ -36,8 +36,8 @@
       ]
     },
     "outcomes": [
-      "✅ Consolidated 8 underutilized physical servers into a Citrix XenServer virtualized cluster, reclaiming 3 unused Layer 3 switches",
-      "✅ Implemented VLAN-segmented network architecture with PCI-DSS 3.0 compliance"
+      "Consolidated 8 underutilized physical servers into a Citrix XenServer virtualized cluster, reclaiming 3 unused Layer 3 switches",
+      "Implemented VLAN-segmented network architecture with PCI-DSS 3.0 compliance"
     ],
     "technologies": [
       {
