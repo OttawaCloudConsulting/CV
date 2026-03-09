@@ -8,6 +8,10 @@
       "team": ""
     },
     "role": "Operations and Infrastructure Architect",
+    "parentsummary": {
+      "deliverables": "Executed a vendor-mandated PIN pad replacement and credit transaction software upgrade across all Dymon Storage facilities, updating merchant banking authentication, Line of Business integration, and physical handsets through a lab-validated, zero-downtime cutover process with PCI-DSS 3.0 compliance maintained throughout.",
+      "outcomes": "Delivered the full credit transaction system refresh across all Dymon Storage locations with zero downtime and maintained PCI-DSS 3.0 compliance through all phases of the upgrade, meeting vendor and regulatory mandates on schedule."
+    },
     "date_range": {
       "start": "May 2015",
       "end": "June 2015"

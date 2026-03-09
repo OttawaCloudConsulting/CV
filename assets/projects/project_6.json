@@ -8,6 +8,9 @@
       "team": ""
     },
     "role": "DevOps",
+    "role_overview": {
+      "summary": "Lowe Martin Group is an Ottawa-based commercial printing and marketing services company serving both private sector clients and Government of Canada departments. Christian served as DevOps practitioner across two simultaneous workstreams, driving the transformation of the software development organization from an unstructured delivery model to an Agile and Scrum-based team while concurrently migrating the organization's on-premises mixed email environment — spanning Microsoft Exchange 2010 and Lotus Domino 9 — to Office 365. Both workstreams were executed over the same six-month engagement period."
+    },
     "date_range": {
       "start": "March 2017",
       "end": "September 2017"

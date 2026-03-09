@@ -8,6 +8,10 @@
       "team": ""
     },
     "role": "Senior Business / Technical Architect",
+    "parentsummary": {
+      "deliverables": "Designed a SharePoint 2016 solution for SSC's Security Management and Governance teams to replace ad hoc Excel-based processes, delivering business process mapping and gap analysis, standardized metadata schema, Business Intake through Security Assessment milestone and funding recovery tracking workflows, and knowledge transfer to internal FTE staff.",
+      "outcomes": "Replaced non-standardized Excel reporting with a structured SharePoint-based project management and reporting system covering Security Assessment and Audit processes across all Government of Canada departments, delivering improved data integrity, consistent metadata, and measurable workflow governance for SM&G teams."
+    },
     "date_range": {
       "start": "July 2018",
       "end": "February 2019"

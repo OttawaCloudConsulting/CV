@@ -8,6 +8,10 @@
       "team": ""
     },
     "role": "DevOps, Operations and Cloud Architect; Project Management",
+    "parentsummary": {
+      "deliverables": "Architected and delivered the migration of 40+ production workloads from VMware on-premises infrastructure to AWS, right-sizing compute and storage to cloud-native microservice patterns, designing the SaaS application access control architecture, and achieving ISO:27001, NIST, and HIPAA compliance across the migrated platform.",
+      "outcomes": "Migrated 40+ production workloads to AWS achieving a 35% cost reduction through cloud optimization and delivering improved platform resilience, with full compliance alignment to ISO:27001, NIST, and HIPAA."
+    },
     "date_range": {
       "start": "December 2015",
       "end": "December 2016"

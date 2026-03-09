@@ -8,6 +8,9 @@
       "team": ""
     },
     "role": "Senior Business / Technical Architect",
+    "role_overview": {
+      "summary": "Shared Services Canada's CITS Infrastructure Security group is responsible for cybersecurity governance and threat management across the Government of Canada's shared IT infrastructure. Christian served as Senior Business and Technical Architect across two sequential workstreams — implementing Atlassian JIRA for the Cyber Threat Management teams, followed by a SharePoint 2016 solution for the Security Management and Governance teams — both replacing Excel-based ad hoc processes with structured, role-controlled project management platforms. The engagement required deep requirements facilitation with government security and management stakeholders and delivered HA-grade infrastructure for the JIRA environment."
+    },
     "date_range": {
       "start": "January 2018",
       "end": "February 2019"

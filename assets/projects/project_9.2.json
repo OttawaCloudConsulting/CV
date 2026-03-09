@@ -8,6 +8,10 @@
       "team": ""
     },
     "role": "Cloud Architect",
+    "parentsummary": {
+      "deliverables": "Architected and delivered the migration of a bespoke server workload — comprising local database, compute, and public-facing services — from on-premises VMware 6 to Microsoft Azure, implementing Protected B-equivalent security controls for citizen voting information, a blue-green production deployment model, PowerShell and Azure CLI automation, and HA/failover-tested architecture using Azure Application Gateway, Scale Sets, and PostgreSQL.",
+      "outcomes": "Delivered a production-ready Azure cloud architecture meeting Protected B-equivalent security requirements for sensitive citizen data, validated through pre-migration security assessment, HA testing, and blue-green deployment — successfully transitioning the NDP's bespoke workload off legacy VMware infrastructure."
+    },
     "date_range": {
       "start": "November 2018",
       "end": "January 2019"

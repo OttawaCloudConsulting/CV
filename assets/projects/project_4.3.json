@@ -8,6 +8,10 @@
       "team": ""
     },
     "role": "DevOps, Operations and Cloud Architect; Project Management",
+    "parentsummary": {
+      "deliverables": "Managed the full divestiture of the HighRoads V1 software product's infrastructure portfolio — spanning development, QA, staging, demo, training, DR, and production environments — orchestrating C-level stakeholder coordination, a transitional access control program, legal and financial escrow reporting, and safe decommission of legacy data centre assets as part of an asset sale.",
+      "outcomes": "Delivered a HIPAA-compliant active-passive DR architecture meeting NIST RTO/RPO objectives, with zero production downtime throughout the migration and decommission lifecycle, satisfying asset sale contractual obligations and escrow compliance requirements."
+    },
     "date_range": {
       "start": "October 2015",
       "end": "April 2016"

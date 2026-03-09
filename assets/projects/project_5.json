@@ -8,6 +8,9 @@
       "team": ""
     },
     "role": "Cloud Transformation & Cloud Architect",
+    "role_overview": {
+      "summary": "HighRoads US is the Boston-based parent operation of the HighRoads enterprise software company, undergoing extensive internal restructuring and headcount right-sizing following the closure of its Canadian offices. Christian served as Cloud Transformation Architect, engaged to complete two final cloud migration workstreams — migrating email infrastructure to Office 365 and Atlassian project management tooling to cloud/SaaS — as part of the organization's broader strategy to eliminate on-premises IT dependencies and reduce operating costs. Both engagements were completed within a compressed three-month window under HIPAA, NIST, and ISO:27001 compliance requirements."
+    },
     "date_range": {
       "start": "January 2017",
       "end": "April 2017"

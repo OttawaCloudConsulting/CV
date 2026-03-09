@@ -8,6 +8,10 @@
       "team": ""
     },
     "role": "DevOps, Operations and Cloud Architect; Project Management",
+    "parentsummary": {
+      "deliverables": "Designed and implemented the DevOps infrastructure and CI/CD pipeline for the HighRoads V2 SaaS platform, modernizing the deployment model from a legacy hosted CMS to a fully cloud-native SaaS product with web GUI and API access, extending HIPAA and NIST-aligned access controls to the DevOps infrastructure layer.",
+      "outcomes": "Introduced comprehensive DevOps and CI/CD automation practices that improved deployment frequency by 50% and eliminated manual deployment steps, enabling the engineering team to deliver the V2 SaaS platform with consistent, repeatable, and secure release processes."
+    },
     "date_range": {
       "start": "June 2015",
       "end": "September 2016"

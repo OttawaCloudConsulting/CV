@@ -8,6 +8,10 @@
       "team": ""
     },
     "role": "DevOps",
+    "parentsummary": {
+      "deliverables": "Executed the migration of 2,000+ mail objects from a mixed on-premises Microsoft Exchange 2010 and Lotus Domino 9 environment to Office 365, performing Lotus Domino to Exchange pre-migration, Exchange Online mailbox and resource migration, SIEM-integrated security controls, and Exchange Online access control framework implementation with PowerShell automation.",
+      "outcomes": "Successfully completed the full mail platform consolidation for 2,000+ objects into Office 365, decommissioning both the Exchange and Domino on-premises environments and delivering a unified, ISO security controls-aligned cloud mail platform with integrated SIEM monitoring."
+    },
     "date_range": {
       "start": "March 2017",
       "end": "September 2017"

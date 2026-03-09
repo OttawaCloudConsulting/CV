@@ -8,6 +8,10 @@
       "team": ""
     },
     "role": "Operations and Infrastructure Architect",
+    "parentsummary": {
+      "deliverables": "Designed and deployed a multi-petabyte corporate private cloud architecture leveraging Tier II and III data centres with NexentaStor software-defined storage, incorporating cross-business-unit data archival and retention policies, an access control model, and alignment to ISO:27001, NERC, FISMA, and NIST.",
+      "outcomes": "Delivered a production-grade private cloud capable of handling multi-petabyte data archiving and retention for a geospatial engineering organization, achieving ISO:27001, NERC, FISMA, and NIST compliance across all storage and access control components."
+    },
     "date_range": {
       "start": "September 2012",
       "end": "August 2013"

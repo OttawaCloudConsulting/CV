@@ -8,6 +8,9 @@
       "team": "Cloud Platform Engineering"
     },
     "role": "AWS Cloud Infrastructure as Code DevOps Engineer & Architect",
+    "role_overview": {
+      "summary": "Shared Services Canada's Cloud Services Directorate (CSD) R&D group is mandated to create reusable, government-grade Infrastructure as Code for adoption across SSC and its federal partner departments. Christian served as AWS Cloud Infrastructure as Code DevOps Engineer and Architect, leading the design and delivery of the CSD Landing Zone — an ASEA-integrated, multi-account AWS architecture with codified security guardrails, SSO federation with Azure Active Directory, and ITSG-22/33/38-aligned controls — culminating in SSC becoming the first team to achieve ATO status using the AWS Secure Environment Accelerator. The engagement also supported the onboarding of critical government workloads including SCED, DX, Vocalls, and Email."
+    },
     "date_range": {
       "start": "September 2019",
       "end": "January 2021"

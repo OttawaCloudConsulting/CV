@@ -8,6 +8,10 @@
       "team": "Cloud Platform Engineering"
     },
     "role": "AWS Cloud Infrastructure as Code DevOps Engineer & Architect",
+    "parentsummary": {
+      "deliverables": "Developed and delivered comprehensive cloud automation and orchestration frameworks for SSC's Cloud Services Directorate, encompassing multi-account AWS Organizations design with Service Control Policies and governance frameworks, IAM identity models with compliance baselines, GitOps automation with ArgoCD and Azure DevOps, production EKS cluster engineering, Crossplane and KCL provisioning frameworks, serverless and event-driven architectures, developer Golden Path tooling, observability via Prometheus and Grafana, and NIST/CIS/ITSG compliance alignment.",
+      "outcomes": "Architected 3 multi-account AWS organizations managing 200+ workloads, improved deployment frequency by 30% through GitOps automation managing 50+ microservices, designed 30+ serverless and containerized workloads reducing operational overhead by 40% and infrastructure costs by $25K annually, and engineered 3 production EKS clusters achieving 99.9% uptime while reducing Kubernetes onboarding time by over 60%."
+    },
     "date_range": {
       "start": "September 2023",
       "end": "Current"

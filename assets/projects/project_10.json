@@ -8,6 +8,9 @@
       "team": "SMMS Replacement Project"
     },
     "role": "Cloud Architect - Resilient Systems",
+    "role_overview": {
+      "summary": "The Department of National Defence's DPDCS division manages critical operational systems supporting Search and Rescue (SAR) coordination across Canada. Christian served as Cloud Architect for Resilient Systems on the SMMS Replacement Project — a high-consequence initiative to replace the legacy SARMASTER software and hardware platform with a modern cloud architecture capable of 24/7 availability, GIS and live data integration, and long-term operational supportability. The engagement required alignment to stringent ITSG-33, DND, and TSB cloud compliance requirements to achieve iATO, and was delivered over a 22-month engagement using Agile methodologies with continuous development cycles."
+    },
     "date_range": {
       "start": "February 2019",
       "end": "December 2020"

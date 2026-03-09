@@ -8,6 +8,10 @@
       "team": ""
     },
     "role": "Cloud Architect",
+    "parentsummary": {
+      "deliverables": "Delivered the full migration from a distributed on-premises Cisco CUCM phone system to an Office 365 Skype for Business environment for the New Democratic Party of Canada, including Office 365 user and policy configuration, Unified Communications security controls, PowerShell automation, and knowledge transfer to client technical teams.",
+      "outcomes": "Successfully migrated the NDP's voice and unified communications infrastructure from on-premises Cisco CUCM to a fully cloud-hosted Office 365 Skype for Business platform, meeting required security controls for voice and unified communications systems and enabling a fully virtualized tenanted communications environment."
+    },
     "date_range": {
       "start": "November 2018",
       "end": "January 2019"

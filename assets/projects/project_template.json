@@ -8,6 +8,13 @@
       "team": "Platform Engineering"
     },
     "role": "AWS Cloud Platform Engineer/Architect",
+    "role_overview": {
+      "summary": "[3-5 sentence role-focused engagement overview: who the client is, what the engagement was, what function Christian performed — NOT a task list. Assembled deliverables/outcomes come from sub-project parentsummary at build time.]"
+    },
+    "parentsummary": {
+      "deliverables": "[1-2 sentence description of what this workstream delivered (for parent rollup)]",
+      "outcomes": "[1-2 sentence description of what this workstream achieved (for parent rollup)]"
+    },
     "date_range": { "start": "Month YYYY", "end": "Month YYYY" },
     "challenge": {
       "summary": "Organizational environment requires automated client/workload facilitation with maximum automation and low-touch onboarding and support processes."

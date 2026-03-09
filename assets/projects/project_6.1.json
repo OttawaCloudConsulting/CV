@@ -8,6 +8,10 @@
       "team": ""
     },
     "role": "DevOps",
+    "parentsummary": {
+      "deliverables": "Transformed the Lowe Martin software development team from an unstructured model to an Agile and Scrum-based delivery organization, standing up Atlassian JIRA and Confluence with a permission scheme separating internal from Government of Canada client access, deploying an ITIL-based ServiceDesk, upgrading the Xerox XMPie suite, and establishing an AWS cloud solution for imagery hosting.",
+      "outcomes": "Delivered a structured Agile delivery framework with consolidated project management and reporting for GC client departments, a functioning ITIL ServiceDesk, and an AWS-hosted imagery platform — enabling the software development team to operate with measurable discipline and client-facing governance."
+    },
     "date_range": {
       "start": "March 2017",
       "end": "September 2017"

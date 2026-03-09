@@ -8,6 +8,9 @@
       "team": "Cloud Platform Engineering"
     },
     "role": "AWS Cloud Infrastructure as Code DevOps Engineer & Architect",
+    "role_overview": {
+      "summary": "Shared Services Canada's Hosting Services Branch Cloud Platform Engineering team delivers and operates an enterprise-class AWS cloud tenancy supporting multiple Government of Canada departments through AWS Secure Environment Accelerator (ASEA) and Landing Zone Accelerator (LZA) platforms. Christian serves as AWS Cloud Infrastructure as Code DevOps Engineer and Architect through Ottawa Cloud Consulting, operating across two concurrent workstreams — the platform engineering track responsible for Kubernetes/EKS GitOps architecture and IaC standards, and the automation and orchestration framework track responsible for multi-account AWS Organizations governance, serverless and event-driven workload design, EKS cluster engineering, and developer Golden Path tooling. This is the current active engagement as of 2026."
+    },
     "date_range": {
       "start": "September 2023",
       "end": "Current"

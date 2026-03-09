@@ -8,6 +8,10 @@
       "team": ""
     },
     "role": "Cloud Transformation & Cloud Architect",
+    "parentsummary": {
+      "deliverables": "Migrated HighRoads' on-premises Atlassian JIRA and Confluence instances to cloud/SaaS versions, executing production application upgrades, test-driven change management, Bash and SQL scripting automation, AWS cloud archiving of legacy systems for historical lookups, and structured access control model definition for the migrated environment.",
+      "outcomes": "Completed the Atlassian cloud migration with full configuration remediation, decommissioned on-premises servers, and established an AWS-hosted archiving solution for legacy system lookups, enabling the organization to reduce internal IT headcount while maintaining operational continuity."
+    },
     "date_range": {
       "start": "March 2017",
       "end": "April 2017"

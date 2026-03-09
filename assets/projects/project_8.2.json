@@ -8,6 +8,10 @@
       "team": ""
     },
     "role": "Senior Business / Technical Architect",
+    "parentsummary": {
+      "deliverables": "Implemented Atlassian JIRA, Confluence, and HipChat for SSC's Cyber Threat Management teams, delivering business process mapping and gap analysis across three teams, Kanban-based Agile workflow adoption, HA infrastructure on VMware ESXi 6 with NGINX load balancing and LUKS-encrypted storage, role-based JIRA access controls, and daily automated backups.",
+      "outcomes": "Delivered a fully operational JIRA-based Cyber Threat Management platform with integrated Confluence and HipChat, replacing ad hoc processes with standardized Agile workflows, role-scoped access controls, and a resilient HA infrastructure — enabling the CITS teams to manage cyber threat work with improved visibility and consistency."
+    },
     "date_range": {
       "start": "January 2018",
       "end": "May 2018"

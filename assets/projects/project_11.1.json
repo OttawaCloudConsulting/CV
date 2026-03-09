@@ -8,6 +8,10 @@
       "team": "Cloud Platform Engineering"
     },
     "role": "AWS Cloud Infrastructure as Code DevOps Engineer & Architect",
+    "parentsummary": {
+      "deliverables": "Designed, coded, and deployed the SSC CSD Landing Zone as reusable Infrastructure as Code, integrating AWS Landing Zone customization, ASEA Security Guard Rails, SSO federation with Azure Active Directory, AWS IAM access control frameworks, CI/CD pipeline via CodePipeline and GitLab, and ITSG-22/33/38 and TBS cloud guardrail-aligned security controls to achieve iATO — supporting onboarding of critical government workloads including SCED, DX, Vocalls, and Email.",
+      "outcomes": "Became the first SSC team to achieve ATO status using the AWS Secure Environment Accelerator, establishing the CSD Landing Zone as the reusable standard architecture for government-wide SSC cloud deployments and successfully onboarding multiple critical government workloads onto the compliant platform."
+    },
     "date_range": {
       "start": "September 2019",
       "end": "January 2021"

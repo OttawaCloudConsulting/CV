@@ -8,6 +8,9 @@
       "team": "Cloud Operations"
     },
     "role": "AWS Cloud DevOps Architect (Part-Time)",
+    "role_overview": {
+      "summary": "Agriculture and Agri-Food Canada's (AAFC) Cloud Centre of Expertise (CCoE) is mandated to deliver a secure, scalable, and governable public cloud environment to support departmental business users and analytics workloads. Christian served as AWS Cloud DevOps Architect on a part-time basis across two concurrent tracks — the Cloud Operations platform team responsible for the managed AWS Landing Zone environment and full ATO achievement, and the Analytics team responsible for cloud-native application development and DevSecOps pipeline delivery. The engagement spanned over two and a half years, delivering ITSG-22/33/38-aligned compliance tooling, Azure AD SSO federation, and a comprehensive DevSecOps pipeline with automated code and IaC security scanning."
+    },
     "date_range": {
       "start": "January 2021",
       "end": "September 2023"

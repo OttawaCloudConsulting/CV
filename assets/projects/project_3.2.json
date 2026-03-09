@@ -8,6 +8,10 @@
       "team": ""
     },
     "role": "Operations and Infrastructure Architect",
+    "parentsummary": {
+      "deliverables": "Replaced aged desktop infrastructure across Dymon Health Care retirement residences with a centralized Citrix XenServer and Windows 2012 R2 RDS thin client solution, delivering roaming profiles for nursing staff and centralized data management with Canadian PIPEDA compliance.",
+      "outcomes": "Modernized end-user computing across healthcare residences, eliminating aging multi-OS desktop infrastructure and centralizing user data and roaming profiles in a PIPEDA-compliant architecture that improved both operational efficiency and regulatory posture."
+    },
     "date_range": {
       "start": "January 2015",
       "end": "June 2015"

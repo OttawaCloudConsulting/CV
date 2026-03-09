@@ -8,6 +8,10 @@
       "team": "SMMS Replacement Project"
     },
     "role": "Cloud Architect - Resilient Systems",
+    "parentsummary": {
+      "deliverables": "Architected and delivered the AWS cloud replacement for the DND SARMASTER Search and Rescue management system, designing containerized ECS/Docker infrastructure with PostgreSQL, implementing ITSG-33 and DND-aligned security controls to achieve iATO, delivering IaC via CloudFormation Service Catalog products, and executing CI/CD pipeline integration with full GIS and live-data interface capability and 24/7 high-availability architecture.",
+      "outcomes": "Modernized Canada's critical Search and Rescue operations management system with zero-downtime migration to AWS, achieving iATO status under stringent DND and TSB security requirements and delivering a containerized 24/7 available architecture supporting life-saving SAR operations across Canada."
+    },
     "date_range": {
       "start": "February 2019",
       "end": "December 2020"

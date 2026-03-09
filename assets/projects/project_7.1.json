@@ -8,6 +8,10 @@
       "team": ""
     },
     "role": "Office 365 & Cloud Delivery Manager",
+    "parentsummary": {
+      "deliverables": "Provided governance, oversight, and advisory services for Brookfield Renewable Energy's Azure and Office 365 cloud environments during a complex MSP vendor consolidation, overseeing the SoftChoice support vendor's cloud architecture, governing the Azure AD and Office 365 access control posture, managing the Microsoft Intune mobile security program rollout, and maintaining day-to-day operational service continuity.",
+      "outcomes": "Successfully governed cloud service continuity and vendor transition during a period of significant M&A-driven organizational change, delivering consistent KPI-measured performance, a secured Azure AD and O365 access posture, and a successfully rolled-out mobile security program via Microsoft Intune."
+    },
     "date_range": {
       "start": "September 2017",
       "end": "December 2017"

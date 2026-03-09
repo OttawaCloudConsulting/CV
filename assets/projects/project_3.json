@@ -8,6 +8,9 @@
       "team": ""
     },
     "role": "Operations and Infrastructure Architect",
+    "role_overview": {
+      "summary": "Dymon Corporation is a diversified Ottawa-based enterprise operating self-storage facilities and healthcare retirement residences. Christian served as Operations and Infrastructure Architect across three concurrent workstreams, delivering a complete infrastructure modernization of the corporate estate and its healthcare division. The engagement addressed chronically underutilized physical infrastructure, aging end-user computing across healthcare facilities, and a vendor-mandated POS and credit transaction system upgrade — all requiring compliance with PCI-DSS 3.0 for the storage business and Canadian PIPEDA for the healthcare operations. All three workstreams were delivered with zero business downtime."
+    },
     "date_range": {
       "start": "December 2014",
       "end": "June 2015"

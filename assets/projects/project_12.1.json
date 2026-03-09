@@ -8,6 +8,10 @@
       "team": "Cloud Operations"
     },
     "role": "AWS Cloud DevOps Architect (Part-Time)",
+    "parentsummary": {
+      "deliverables": "Architected, implemented, and maintained the AAFC Cloud Centre of Expertise managed AWS Landing Zone environment, delivering IaC governance resources, ITSG-22/33/38-aligned security and compliance tooling, automated Security Control Systems and Posture Management, Azure AD SSO federation, and CI/CD pipelines via Azure DevOps and AWS CodePipeline — achieving full ATO status for production workloads.",
+      "outcomes": "Achieved full Authority to Operate (ATO) for Agriculture Canada's AWS Cloud environment, implementing automated security and governance compliance tooling that exceeded GoC cloud guardrails and enabling secure, scalable cloud adoption across the department with integrated Azure AD SSO federation."
+    },
     "date_range": {
       "start": "January 2021",
       "end": "September 2023"

@@ -8,6 +8,10 @@
       "team": ""
     },
     "role": "DevOps, Operations and Cloud Architect; Project Management",
+    "parentsummary": {
+      "deliverables": "Led the full decommission of HighRoads Canadian operations following the company's Q4 2016 office closure, orchestrating the transition of IT operations to outsourced vendors, establishing an access control program for handover to parent operations in Boston, and validating migrated systems against HIPAA compliance requirements.",
+      "outcomes": "Operationalized 3 hybrid AWS/on-premises architectures supporting 100+ workloads with scalable and secure patterns, successfully completing the full operational handover to outsourced vendors and parent US operations within the mandated timeline."
+    },
     "date_range": {
       "start": "May 2016",
       "end": "December 2016"

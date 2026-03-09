@@ -8,6 +8,9 @@
       "team": ""
     },
     "role": "Cloud Architect",
+    "role_overview": {
+      "summary": "IDS Data Systems is a Canadian IT managed services provider engaged by the New Democratic Party of Canada to manage a concurrent cloud transformation covering both unified communications and a bespoke server workload migration. Christian served as Cloud Architect across two simultaneous workstreams, migrating the NDP's distributed on-premises Cisco CUCM phone system to Office 365 Skype for Business and migrating a bespoke citizen-data server workload from VMware to Microsoft Azure. Both engagements required alignment to sensitive security requirements — Protected B equivalent controls for citizen voting information — and were delivered within a compressed three-month window."
+    },
     "date_range": {
       "start": "November 2018",
       "end": "January 2019"

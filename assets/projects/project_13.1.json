@@ -8,6 +8,10 @@
       "team": "Cloud Platform Engineering"
     },
     "role": "AWS Cloud Infrastructure as Code DevOps Engineer & Architect",
+    "parentsummary": {
+      "deliverables": "Designed and delivered the enterprise-class AWS EKS-based GitOps platform for SSC's Hosting Services Branch Cloud Platform Engineering team, implementing Kubernetes architecture patterns with ArgoCD and Argo Workflows, Security By Design controls, Infrastructure as Code development using Terraform and Crossplane, source code management via Azure DevOps, and workload onboarding support across multiple government departments.",
+      "outcomes": "Architected and deployed an enterprise-class GitOps platform serving multiple government departments through AWS EKS and ArgoCD, and established Infrastructure as Code standards using Terraform and Crossplane enabling rapid deployment of NIST 800-53 compliant workloads across SSC's AWS Landing Zone Accelerator platform."
+    },
     "date_range": {
       "start": "September 2023",
       "end": "Current"

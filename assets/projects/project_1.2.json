@@ -8,6 +8,10 @@
       "team": ""
     },
     "role": "Operations and Infrastructure Management",
+    "parentsummary": {
+      "deliverables": "Led the enterprise-wide consolidation of payroll services onto the ADP platform across 9 physical sites in the United States and Canada, delivering Citrix Desktop streaming infrastructure, RBAC access controls for HR and Finance systems, and full ISO:27001 and NIST compliance alignment.",
+      "outcomes": "Consolidated cross-border HR and Finance access via Citrix virtualization following 60% organizational growth, implementing RBAC access controls and achieving ISO:27001 and NIST compliance across all nine sites."
+    },
     "date_range": {
       "start": "January 2010",
       "end": "March 2011"

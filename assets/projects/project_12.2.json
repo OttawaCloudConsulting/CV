@@ -8,6 +8,10 @@
       "team": "Cloud Operations"
     },
     "role": "AWS Cloud DevOps Architect (Part-Time)",
+    "parentsummary": {
+      "deliverables": "Designed, developed, and maintained cloud-native analytics applications for Agriculture Canada's Analytics team, delivering IaC development using AWS CDK v1/v2, AWS CodePipeline-based CI/CD pipelines, DevSecOps security and governance reporting with automated code and IaC scanning via Checkov, Terrascan, SonarQube, and JFROG Artifactory integration, and continuous improvement of deployment practices and release management.",
+      "outcomes": "Delivered a secure, cloud-native analytics platform on AWS supporting Agriculture Canada's departmental data analysis requirements, with a comprehensive DevSecOps pipeline providing automated security scanning and supply chain management enabling consistent, compliant, and auditable deployments."
+    },
     "date_range": {
       "start": "January 2021",
       "end": "September 2023"

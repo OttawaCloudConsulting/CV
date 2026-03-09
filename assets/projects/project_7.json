@@ -8,6 +8,9 @@
       "team": ""
     },
     "role": "Office 365 & Cloud Delivery Manager",
+    "role_overview": {
+      "summary": "Brookfield Renewable Energy is a global renewable power company managing a large and geographically distributed portfolio of hydro, wind, and solar assets. Following significant growth through mergers and acquisitions, the organization was consolidating multiple Managed Service Providers and transitioning cloud services governance to a new vendor, SoftChoice. Christian served as Office 365 and Cloud Delivery Manager, providing governance, vendor oversight, and architectural direction for the Azure and Office 365 environments during this sensitive transition period, while also maintaining day-to-day IT service continuity."
+    },
     "date_range": {
       "start": "September 2017",
       "end": "December 2017"

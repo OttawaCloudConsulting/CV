@@ -8,6 +8,9 @@
       "team": ""
     },
     "role": "Operations and Infrastructure Architect",
+    "role_overview": {
+      "summary": "GeoDigital International is a geospatial engineering firm specializing in LiDAR and aerial data acquisition, operating across North America and expanding into Australasia. Christian served as Operations and Infrastructure Architect over a three-year engagement spanning six workstreams, managing all aspects of the organization's cloud, data centre, and infrastructure strategy during a period of rapid growth through mergers and acquisitions. The engagement covered the full spectrum of infrastructure lifecycle — from flagship SaaS platform architecture on AWS and RackSpace, to multi-petabyte private cloud design, data centre relocation, infrastructure virtualization, hybrid cloud expansion, and Office 365 cloud migration — all delivered against ISO:27001, NERC, FISMA, and NIST compliance frameworks."
+    },
     "date_range": {
       "start": "September 2011",
       "end": "December 2014"
