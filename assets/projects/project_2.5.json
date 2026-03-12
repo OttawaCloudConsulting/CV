@@ -7,7 +7,7 @@
       "department": "",
       "team": ""
     },
-    "role": "Operations and Infrastructure Architect",
+    "role": "IT Infrastructure and Cloud Services Manager",
     "parentsummary": {
       "deliverables": "Designed and deployed a multi-cloud hybrid architecture spanning RackSpace Sydney, AWS US, Rogers colocation, and on-premises infrastructure to support Australasia field data acquisition at 1-2 TB per day, including cross-regional access control frameworks, CI/CD integration, and end-to-end security validation.",
       "outcomes": "Engineered an automated data ingestion and processing pipeline achieving 50% improvement in engineering processing timelines and 99.8% data processing reliability across global cloud partners, enabling GeoDigital's expansion into the Australasia market."

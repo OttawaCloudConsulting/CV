@@ -1,0 +1,58 @@
+{
+  "project": {
+    "number": 2.8,
+    "title": "IT Organizational Modernization — IT Operations and Corporate Applications Restructuring",
+    "client": {
+      "name": "GeoDigital International (GeoSpatial Engineering)",
+      "department": "",
+      "team": ""
+    },
+    "role": "IT Infrastructure and Cloud Services Manager",
+    "parentsummary": {
+      "deliverables": "Led a COO-sponsored restructuring of GeoDigital's 13-person IT function across 8 sites, replacing an unstructured generalist model with two defined functional groups — IT Operations (infrastructure and day-to-day services) and Corporate Applications (SharePoint, Intranet, Finance and HR systems, Information Management) — with roles and responsibilities aligned to individual skill sets and career interests.",
+      "outcomes": "Delivered a measurable improvement in service quality and employee satisfaction through skills-aligned role definition and workload rebalancing; the restructuring created tangible career development pathways, with staff progressing into professional certifications and postgraduate education directly enabled by their newly defined specializations."
+    },
+    "date_range": {
+      "start": "January 2012",
+      "end": "December 2012"
+    },
+    "challenge": {
+      "summary": "GeoDigital's IT function across 8 sites operated without defined roles or organizational structure — staff functioned as generalist 'local IT' regardless of their actual skills, application support staff were inundated with local helpdesk requests outside their function, a specialist helpdesk resource was overloaded with no growth path, and the organization had no framework for career development or skills-based service delivery. Two sites had no onsite IT presence, and management had no visibility into IT team capacity or capability."
+    },
+    "solution": {
+      "summary": "Key activities and deliverables:",
+      "deliverables": [
+        "Conducted capability assessment across 13 IT staff spanning 8 sites to map existing skills, experience, and career development interests",
+        "Designed two-group organizational structure: IT Operations (infrastructure, day-to-day services, helpdesk) and Corporate Applications (SharePoint, Intranet, Finance and HR applications, Information Management)",
+        "Defined formal roles and responsibilities for each position within both groups, aligning accountabilities to individual skill sets rather than physical location",
+        "Restructured workload distribution to route requests to staff with appropriate skills, eliminating the informal 'preferred IT person' model",
+        "Developed career progression frameworks enabling specialization pathways within each functional group",
+        "Engaged COO and Director as executive sponsors; collaborated with HR to formalize role definitions and support organizational change",
+        "Implemented restructuring iteratively throughout 2012, managing transition without service disruption across a 280-user, 8-site organization"
+      ]
+    },
+    "outcomes": [
+      "Restructured 13 IT staff across 8 sites into two defined functional groups — IT Operations (9 staff) and Corporate Applications (2 staff) — with IT Manager and SaaS/Cloud Specialist roles established alongside, replacing an unstructured generalist model",
+      "Service quality improved significantly through skills-aligned workload distribution, reducing misrouted requests and eliminating bottlenecks caused by staff operating outside their areas of competency",
+      "Employee satisfaction and morale increased materially as staff gained defined roles, clear accountabilities, and recognized specialization paths rather than undifferentiated 'local IT' designations",
+      "Demonstrated measurable career development impact: the most junior team member pursued professional certification to qualify as a CCNE-certified network engineer and HPC server specialist; a Corporate Applications team member subsequently achieved an MBA aligned to software systems"
+    ],
+    "technologies": [
+      {
+        "category": "Organizational Frameworks",
+        "items": [
+          "ITIL",
+          "Functional Team Design",
+          "Role Definition and RACI",
+          "Career Development Frameworks"
+        ]
+      },
+      {
+        "category": "Collaboration & Documentation",
+        "items": [
+          "Microsoft SharePoint"
+        ]
+      }
+    ]
+  }
+}

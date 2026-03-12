@@ -7,7 +7,7 @@
       "department": "",
       "team": ""
     },
-    "role": "Operations and Infrastructure Architect",
+    "role": "IT Infrastructure and Cloud Services Manager",
     "parentsummary": {
       "deliverables": "Planned and executed the high-risk physical data centre relocation from Vancouver to an Ottawa Tier 2 facility, managing 750TB IBM FC SAN production storage, 200TB backup/archival storage, 2,000 Windows 2008 R2 servers, and a VMware 5.0 IBM cluster, with full post-migration access control implementation.",
       "outcomes": "Completed the full data centre migration under an expedited timeline with full data integrity preserved, zero data loss, and post-migration access controls deployed, sustaining continuous production operations throughout the transition."

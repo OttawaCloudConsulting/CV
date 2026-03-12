@@ -133,12 +133,12 @@
 
 ## Identity & Access Management
 
-- **Active Directory** — Projects 1, 1.2, 2, 2.4, 2.6, 5, 5.1, 6.2, 8, 8.1
+- **Active Directory** — Projects 1.2, 2, 2.4, 2.6, 2.7, 5, 5.1, 6.2, 8, 8.1
 - **AWS IAM** — Projects 10, 10.1, 11, 11.1, 13, 13.1, 13.2
 - **AWS Managed SSO** — Projects 11, 11.1
 - **AWS SSO** — Projects 13, 13.2
 - **Azure Active Directory** — Projects 7, 7.1, 12, 12.1
-- **Microsoft Active Directory** — Projects 11, 11.1, 12, 12.1
+- **Microsoft Active Directory** — Projects 1, 1.3, 11, 11.1, 12, 12.1
 - **Microsoft Intune** — Projects 7, 7.1
 - **OpenLDAP** — Projects 10, 10.1
 - **RBAC** — Projects 1, 1.2, 2, 2.1, 2.4, 4.4, 13, 13.1, 13.2
@@ -255,10 +255,10 @@
 - **ADP** — Projects 1, 1.2
 - **ADP PIN Pads** — Projects 3, 3.3
 - **GE Fanuc** — Projects 1, 1.1
-- **IBM AS/400** — Projects 1, 1.1
+- **IBM AS/400** — Projects 1, 1.1, 1.3, 1.4
 - **IBM Cluster** — Project 2.2
-- **Info BPCS** — Projects 1, 1.1
-- **Lawson Movex (M3)** — Projects 1, 1.1
+- **Info BPCS** — Project 1.1
+- **Lawson Movex (M3)** — Project 1.1
 - **Ottawa Tier 2 Data Centre** — Project 2.2
 - **POS** — Projects 3, 3.3
 - **RackSpace** — Projects 2, 2.1
@@ -268,6 +268,31 @@
 - **Thin Client** — Projects 3, 3.2
 - **Tier II Data Centre** — Project 2.3
 - **Tier III Data Centre** — Project 2.3
+
+## Uncategorised
+
+- **Avaya Follow-Me** — Projects 1, 1.5
+- **Avaya Intelligent Call Routing** — Projects 1, 1.5
+- **Avaya IP Telephony** — Projects 1, 1.5
+- **Career Development Frameworks** — Project 2.8
+- **Cisco VPN** — Projects 1, 1.3, 1.4, 1.5
+- **Functional Team Design** — Project 2.8
+- **INFOR BPCS** — Projects 1, 1.3
+- **ITIL** — Projects 2, 2.7, 2.8
+- **KPI Reporting** — Projects 2, 2.7
+- **Lawson MOVEX (M3)** — Projects 1, 1.3
+- **LTO-5 Tape Libraries** — Projects 1, 1.4
+- **ManageEngine Asset Management** — Projects 2, 2.7
+- **ManageEngine ServiceDesk** — Projects 2, 2.7
+- **Microsoft DFS (Distributed File System)** — Projects 1, 1.3, 1.4
+- **Microsoft SharePoint** — Projects 2.7, 2.8
+- **Remote Monitoring Agent** — Project 2.7
+- **Role Definition and RACI** — Project 2.8
+- **SLA/SLO Definition** — Projects 2, 2.7
+- **Syteline (decommissioned)** — Projects 1, 1.3
+- **T1 WAN Connectivity** — Projects 1, 1.3, 1.4, 1.5
+- **Veritas Backup Exec** — Projects 1, 1.4
+- **Vital Records Inc. (VRI) Offsite Vaulting** — Projects 1, 1.4
 
 
 ---

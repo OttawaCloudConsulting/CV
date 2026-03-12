@@ -1,0 +1,79 @@
+{
+  "project": {
+    "number": 2.7,
+    "title": "Enterprise Service Management — Helpdesk Implementation and Expansion",
+    "client": {
+      "name": "GeoDigital International (GeoSpatial Engineering)",
+      "department": "",
+      "team": ""
+    },
+    "role": "IT Infrastructure and Cloud Services Manager",
+    "parentsummary": {
+      "deliverables": "Designed and deployed a centralized enterprise service management platform using ManageEngine ServiceDesk across 8 sites, consolidating fragmented ad-hoc IT support into a structured, workflow-driven operation serving 9 agents and approximately 280 end users — then expanded the platform progressively to encompass HR onboarding and termination workflows, Finance purchase order automation, and full IT asset management with remote monitoring and live inventory.",
+      "outcomes": "Replaced uncoordinated, location-siloed IT support with a unified ITSM platform, establishing defined SLAs, skills-based ticket routing, and management reporting; SLA performance data was used as a continuous improvement signal — missed targets triggered structured root-cause investigations that surfaced hiring needs, aging asset risk, and business process changes impacting IT demand."
+    },
+    "date_range": {
+      "start": "January 2012",
+      "end": "December 2012"
+    },
+    "challenge": {
+      "summary": "IT support across GeoDigital's 8 sites operated independently with no centralized tracking, no defined service levels, and no workload coordination. Users routed requests informally to preferred staff members regardless of skill match, creating bottlenecks, inconsistent service quality, and no visibility for management into support demand, agent performance, or recurring issue patterns."
+    },
+    "solution": {
+      "summary": "Key activities and deliverables:",
+      "deliverables": [
+        "Defined service management requirements including SLA/SLO targets, KPI framework, and workload balancing criteria across 8 sites and 9 IT agents",
+        "Deployed ManageEngine ServiceDesk as the centralized ITSM platform, onboarding the full IT team and management with role-appropriate access",
+        "Implemented automated ticket routing based on triage classification, workload weighting, and agent skill profiles to eliminate informal request routing",
+        "Configured management and agent performance reporting dashboards with automated scheduled delivery",
+        "Established SLA monitoring with structured root-cause analysis processes for missed SLA events — identifying underlying causes including organizational growth, aging assets, and business process changes",
+        "Built self-help portal and knowledgebase populated from recurring ticket pattern analysis, reducing repeat contact volume",
+        "Published IT documentation and procedures to SharePoint; delivered Lunch and Learn training sessions for end users and IT staff",
+        "Onboarded Corporate HR into the platform in an agent role, integrating employee onboarding, termination, and approval workflows into the service management system",
+        "Integrated Finance team workflows for Purchase Order automation and approval routing",
+        "Deployed IT Asset Management module including asset tracking, remote agent-based monitoring, remote control capability, and live hardware and software inventorying"
+      ]
+    },
+    "outcomes": [
+      "Consolidated IT support across 8 sites into a single managed platform, eliminating uncoordinated informal request handling for approximately 280 end users served by 9 agents",
+      "Established formal SLA and KPI framework for IT service delivery; SLA miss analysis became an operational diagnostic — used to identify and address organizational growth pressures, aging infrastructure, and business process changes driving increased IT demand",
+      "Extended the platform beyond IT into enterprise service management, integrating HR and Finance workflows and enabling cross-functional process automation within a single service delivery system",
+      "Deployed Asset Management with live remote monitoring and inventory, providing management with full visibility into asset lifecycle status across all locations"
+    ],
+    "technologies": [
+      {
+        "category": "ITSM Platform",
+        "items": [
+          "ManageEngine ServiceDesk"
+        ]
+      },
+      {
+        "category": "Asset Management",
+        "items": [
+          "ManageEngine Asset Management",
+          "Remote Monitoring Agent"
+        ]
+      },
+      {
+        "category": "Collaboration & Documentation",
+        "items": [
+          "Microsoft SharePoint"
+        ]
+      },
+      {
+        "category": "Identity & Access",
+        "items": [
+          "Active Directory"
+        ]
+      },
+      {
+        "category": "Service Management Frameworks",
+        "items": [
+          "ITIL",
+          "SLA/SLO Definition",
+          "KPI Reporting"
+        ]
+      }
+    ]
+  }
+}

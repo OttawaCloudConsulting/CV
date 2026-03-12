@@ -1,0 +1,74 @@
+{
+  "project": {
+    "number": 1.3,
+    "title": "M&A IT Integration — TechAlloy Inc. Acquisition (ArcelorMittal Divestiture)",
+    "client": {
+      "name": "Central Wire Industries",
+      "department": "Infrastructure & Operations",
+      "team": ""
+    },
+    "role": "Operations and Infrastructure Management",
+    "parentsummary": {
+      "deliverables": "Led full IT integration of TechAlloy Inc. following its acquisition from ArcelorMittal, consolidating three new US sites into Central Wire Industries' enterprise footprint — including AD domain migration, ERP consolidation from two Syteline instances onto TechAlloy's mature MOVEX/BPCS platform, WAN connectivity via T1 and Cisco VPN, and Microsoft DFS deployment for distributed file caching across all eight sites.",
+      "outcomes": "Completed M&A IT integration within approximately 13 months, onboarding ~100 additional users and three manufacturing facilities, retiring two legacy Syteline ERP instances and delivering ~$8,000/year in software savings plus ~$12,000 per hardware cycle, with a measurable reduction in operational overhead through adoption of the lower-maintenance AS/400-based platform."
+    },
+    "date_range": {
+      "start": "May 2007",
+      "end": "June 2008"
+    },
+    "challenge": {
+      "summary": "Central Wire Industries acquired TechAlloy Inc. from ArcelorMittal, adding three US manufacturing sites and absorbing a company larger in both headcount and revenue. The acquired entity operated a mature AS/400-based ERP/MRP environment (Lawson MOVEX and INFOR BPCS) that was assessed as technically superior to Central Wire's existing dual Syteline instances. The integration challenge was to consolidate disparate IT environments — including fragmented Active Directory, disconnected WAN infrastructure, and incompatible ERP platforms — into a unified enterprise footprint while minimizing disruption to manufacturing operations across eight sites."
+    },
+    "solution": {
+      "summary": "Key activities and deliverables:",
+      "deliverables": [
+        "Assessed TechAlloy IT environment post-acquisition and recommended adoption of AS/400-based MOVEX/BPCS platform as the enterprise ERP/MRP standard",
+        "Migrated TechAlloy Active Directory users and resources onto the Central Wire Industries domain, consolidating fragmented AD structure across three acquired sites",
+        "Onboarded approximately 100 office and manufacturing staff from TechAlloy sites into the unified Active Directory environment",
+        "Decommissioned two legacy Syteline ERP instances managing five Central Wire factories, migrating all data and operations onto Lawson MOVEX and INFOR BPCS",
+        "Integrated factory telemetry from existing Central Wire facilities into the MOVEX/BPCS ERP/MRP platform",
+        "Designed and deployed WAN connectivity across all eight sites using T1 internet connections and Cisco VPN tunnels",
+        "Implemented Microsoft DFS (Distributed File System) across the WAN to enable file caching and reduce latency impact of T1 bandwidth constraints",
+        "Managed vendor relationships and multi-site coordination across production, IT, and executive stakeholders throughout the integration programme"
+      ]
+    },
+    "outcomes": [
+      "Completed full M&A IT integration of three TechAlloy manufacturing sites within approximately 13 months (May 2007 to June 2008)",
+      "Onboarded approximately 100 additional office and manufacturing users onto the consolidated Central Wire Active Directory domain",
+      "Retired two legacy Syteline ERP instances across five factories, consolidating all manufacturing operations onto the superior AS/400-based Lawson MOVEX and INFOR BPCS platform",
+      "Delivered approximately $8,000 per year in software cost savings and approximately $12,000 per hardware refresh cycle through Syteline decommission",
+      "Reduced operational support overhead significantly by transitioning from high-maintenance Syteline to the lower-maintenance AS/400 environment",
+      "Established enterprise WAN connectivity across eight sites via T1 and Cisco VPN, with Microsoft DFS caching mitigating file access latency"
+    ],
+    "technologies": [
+      {
+        "category": "ERP/MRP Systems",
+        "items": [
+          "Lawson MOVEX (M3)",
+          "INFOR BPCS",
+          "Syteline (decommissioned)"
+        ]
+      },
+      {
+        "category": "Infrastructure",
+        "items": [
+          "IBM AS/400"
+        ]
+      },
+      {
+        "category": "Identity & Access",
+        "items": [
+          "Microsoft Active Directory"
+        ]
+      },
+      {
+        "category": "Networking & WAN",
+        "items": [
+          "Cisco VPN",
+          "T1 WAN Connectivity",
+          "Microsoft DFS (Distributed File System)"
+        ]
+      }
+    ]
+  }
+}

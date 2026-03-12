@@ -1,0 +1,58 @@
+{
+  "project": {
+    "number": 1.5,
+    "title": "Enterprise Telephony Consolidation — Avaya Unified Communications (9-Site Rollout)",
+    "client": {
+      "name": "Central Wire Industries",
+      "department": "Infrastructure & Operations",
+      "team": ""
+    },
+    "role": "Operations and Infrastructure Management",
+    "parentsummary": {
+      "deliverables": "Managed the enterprise-wide replacement of nine independent, unconnected telephony systems with a unified Avaya platform across all Central Wire Industries sites, coordinating centralized vendor procurement and local site installers to deliver standardized handsets, voicemail, inter-site call routing, Follow-Me mobility, and intelligent outbound call routing across the full nine-site footprint.",
+      "outcomes": "Unified enterprise telephony across nine previously disconnected sites, eliminating per-site telephony silos, reducing long-distance and international call costs through intelligent outbound routing, and delivering Follow-Me mobility linking desk phones to staff cell phones."
+    },
+    "date_range": {
+      "start": "May 2009",
+      "end": "July 2009"
+    },
+    "challenge": {
+      "summary": "Central Wire Industries operated nine physical sites — spanning the United States and Canada — each running its own independent telephony system with no inter-site connectivity. Staff could not transfer calls between facilities, there was no unified voicemail or call routing, and the organization was incurring avoidable long-distance and international call charges because outbound calls were not routed through the most cost-effective site. The absence of a unified communications platform created operational friction and unnecessary telecommunications expenditure across the enterprise."
+    },
+    "solution": {
+      "summary": "Key activities and deliverables:",
+      "deliverables": [
+        "Scoped enterprise telephony requirements across all nine sites, encompassing handsets, voicemail, inter-site routing, mobility, and cost optimization objectives",
+        "Coordinated centralized procurement through the Avaya vendor relationship, managing purchasing across the full nine-site deployment",
+        "Managed local site installers across US and Canadian facilities, ensuring consistent configuration and quality of installation at each location",
+        "Deployed standardized Avaya handsets and voicemail across all nine sites",
+        "Configured inter-site call routing, enabling seamless call transfers between all Central Wire Industries facilities for the first time",
+        "Implemented Follow-Me functionality linking desk extensions to staff mobile phones, enabling mobility for management and operational staff",
+        "Configured intelligent outbound call routing to redirect outbound calls through whichever site made the call local, eliminating avoidable long-distance and international call charges"
+      ]
+    },
+    "outcomes": [
+      "Unified enterprise telephony across nine previously disconnected sites within three months, replacing fragmented independent systems with a single Avaya platform",
+      "Enabled inter-site call transfers and unified voicemail across the full nine-site US and Canadian footprint for the first time",
+      "Reduced telecommunications expenditure by eliminating avoidable long-distance and international call charges through intelligent outbound call routing",
+      "Delivered Follow-Me mobility linking desk phones to staff cell phones, improving responsiveness for management and operational staff across all sites"
+    ],
+    "technologies": [
+      {
+        "category": "Unified Communications",
+        "items": [
+          "Avaya IP Telephony",
+          "Avaya Follow-Me",
+          "Avaya Intelligent Call Routing"
+        ]
+      },
+      {
+        "category": "Networking & WAN",
+        "items": [
+          "T1 WAN Connectivity",
+          "Cisco VPN"
+        ]
+      }
+    ]
+  }
+}

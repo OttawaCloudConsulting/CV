@@ -70,16 +70,21 @@ His experience includes successful cloud migrations across healthcare, utilities
     - [Project 3.1 — Operations Virtualization](#project-31-operations-virtualization)
     - [Project 3.2 — Remote Desktop Services (RDS) / Thin Client Implementation](#project-32-remote-desktop-services-rds-thin-client-implementation)
     - [Project 3.3 — Sales Software & POS Infrastructure System Upgrade](#project-33-sales-software-pos-infrastructure-system-upgrade)
-  - [2. Project 2 - GeoDigital International Inc. Infrastructure Manager](#2-project-2---geodigital-international-inc-infrastructure-manager)
+  - [2. Project 2 - GeoDigital International Inc. IT Infrastructure and Cloud Services Manager](#2-project-2---geodigital-international-inc-it-infrastructure-and-cloud-services-manager)
     - [Project 2.1 — PAS - Photo Acquisition Service SaaS Cloud Application](#project-21-pas---photo-acquisition-service-saas-cloud-application)
     - [Project 2.2 — Data Centre Migration (Vancouver, BC - Ottawa, ON)](#project-22-data-centre-migration-vancouver-bc---ottawa-on)
     - [Project 2.3 — Corporate Private Cloud (Data Centre Architecture)](#project-23-corporate-private-cloud-data-centre-architecture)
     - [Project 2.4 — On-Premise Data Centre Virtualization](#project-24-on-premise-data-centre-virtualization)
     - [Project 2.5 — Corporate Hybrid Cloud (Production & Field Acquisition Systems)](#project-25-corporate-hybrid-cloud-production-field-acquisition-systems)
     - [Project 2.6 — Office 365 Cloud Migration](#project-26-office-365-cloud-migration)
+    - [Project 2.7 — Enterprise Service Management — Helpdesk Implementation and Expansion](#project-27-enterprise-service-management-helpdesk-implementation-and-expansion)
+    - [Project 2.8 — IT Organizational Modernization — IT Operations and Corporate Applications Restructuring](#project-28-it-organizational-modernization-it-operations-and-corporate-applications-restructuring)
   - [1. Project 1 - Central Wire Industries Infrastructure Manager](#1-project-1---central-wire-industries-infrastructure-manager)
     - [Project 1.1 — IT Integration of fully automated production systems (Fond du Lac, Wisconsin)](#project-11-it-integration-of-fully-automated-production-systems-fond-du-lac-wisconsin)
     - [Project 1.2 — ADP Payroll Systems Migration (Citrix Virtualization, Platform Upgrade, Database Migration)](#project-12-adp-payroll-systems-migration-citrix-virtualization-platform-upgrade-database-migration)
+    - [Project 1.3 — M&A IT Integration — TechAlloy Inc. Acquisition (ArcelorMittal Divestiture)](#project-13-ma-it-integration-techalloy-inc-acquisition-arcelormittal-divestiture)
+    - [Project 1.4 — Enterprise Backup Standardization & WAN File Services (8-Site LTO-5 / Veritas / DFS Rollout)](#project-14-enterprise-backup-standardization-wan-file-services-8-site-lto-5-veritas-dfs-rollout)
+    - [Project 1.5 — Enterprise Telephony Consolidation — Avaya Unified Communications (9-Site Rollout)](#project-15-enterprise-telephony-consolidation-avaya-unified-communications-9-site-rollout)
 - [TECHNOLOGY INDEX](./TECHNOLOGY_INDEX.md)
 
 # PROFESSIONAL EXPERIENCE
@@ -1014,16 +1019,16 @@ A vendor driven change to end-user credit transaction PIN pads required Dymon St
 - **Payment Systems:** ADP PIN Pads, POS
 - **Compliance Frameworks:** PCI-DSS 3.0
 
-## 2. Project 2 - GeoDigital International Inc. Infrastructure Manager
+## 2. Project 2 - GeoDigital International Inc. IT Infrastructure and Cloud Services Manager
 
 **GeoDigital International (GeoSpatial Engineering)**
 
 
-**Role: Operations and Infrastructure Architect**
+**Role: IT Infrastructure and Cloud Services Manager**
 
 **September 2011 - December 2014**
 
-GeoDigital International is a geospatial engineering firm specializing in LiDAR and aerial data acquisition, operating across North America and expanding into Australasia. Christian served as Operations and Infrastructure Architect over a three-year engagement spanning six workstreams, managing all aspects of the organization's cloud, data centre, and infrastructure strategy during a period of rapid growth through mergers and acquisitions. The engagement covered the full spectrum of infrastructure lifecycle — from flagship SaaS platform architecture on AWS and RackSpace, to multi-petabyte private cloud design, data centre relocation, infrastructure virtualization, hybrid cloud expansion, and Office 365 cloud migration — all delivered against ISO:27001, NERC, FISMA, and NIST compliance frameworks.
+GeoDigital International is a geospatial engineering firm specializing in LiDAR and aerial data acquisition, operating across North America and expanding into Australasia. Christian served as IT Infrastructure and Cloud Services Manager over a three-year engagement spanning eight workstreams, managing all aspects of the organization's cloud, data centre, infrastructure, and IT operations strategy during a period of rapid growth through mergers and acquisitions. The engagement covered the full spectrum of infrastructure lifecycle — from flagship SaaS platform architecture on AWS and RackSpace, to multi-petabyte private cloud design, data centre relocation, infrastructure virtualization, hybrid cloud expansion, Office 365 cloud migration, enterprise service management platform implementation, and IT organizational restructuring — all delivered against ISO:27001, NERC, FISMA, and NIST compliance frameworks.
 
 **Workstream Deliverables:**
 
@@ -1033,6 +1038,8 @@ GeoDigital International is a geospatial engineering firm specializing in LiDAR 
 - Standardized fragmented IT infrastructure across multiple physical locations resulting from corporate acquisitions onto a unified Hyper-V virtualization platform, delivering a cross-location RBAC access control program with Active Directory integration and full license management and auditing.
 - Designed and deployed a multi-cloud hybrid architecture spanning RackSpace Sydney, AWS US, Rogers colocation, and on-premises infrastructure to support Australasia field data acquisition at 1-2 TB per day, including cross-regional access control frameworks, CI/CD integration, and end-to-end security validation.
 - Managed the migration of email and collaboration services from on-premise Exchange to Office 365, encompassing Active Directory upgrades, tenant configuration, Exchange mailbox cutover, PowerShell automation, access control governance for the Exchange mail system, and decommission of legacy Exchange infrastructure across a multi-site organization shaped by mergers and acquisitions.
+- Designed and deployed a centralized enterprise service management platform using ManageEngine ServiceDesk across 8 sites, consolidating fragmented ad-hoc IT support into a structured, workflow-driven operation serving 9 agents and approximately 280 end users — then expanded the platform progressively to encompass HR onboarding and termination workflows, Finance purchase order automation, and full IT asset management with remote monitoring and live inventory.
+- Led a COO-sponsored restructuring of GeoDigital's 13-person IT function across 8 sites, replacing an unstructured generalist model with two defined functional groups — IT Operations (infrastructure and day-to-day services) and Corporate Applications (SharePoint, Intranet, Finance and HR systems, Information Management) — with roles and responsibilities aligned to individual skill sets and career interests.
 
 **Engagement Outcomes:**
 
@@ -1042,6 +1049,8 @@ GeoDigital International is a geospatial engineering firm specializing in LiDAR 
 - Unified disparate physical infrastructure across multiple sites into a single Hyper-V platform, delivering consistent operations, full license compliance, and ISO:27001, NERC, and NIST alignment across the organization.
 - Engineered an automated data ingestion and processing pipeline achieving 50% improvement in engineering processing timelines and 99.8% data processing reliability across global cloud partners, enabling GeoDigital's expansion into the Australasia market.
 - Consolidated post-merger email infrastructure into a centralized Office 365 environment, reducing management risk, improving organizational collaboration, and delivering ISO:27001 and NIST-aligned access controls across the unified mail platform.
+- Replaced uncoordinated, location-siloed IT support with a unified ITSM platform, establishing defined SLAs, skills-based ticket routing, and management reporting; SLA performance data was used as a continuous improvement signal — missed targets triggered structured root-cause investigations that surfaced hiring needs, aging asset risk, and business process changes impacting IT demand.
+- Delivered a measurable improvement in service quality and employee satisfaction through skills-aligned role definition and workload rebalancing; the restructuring created tangible career development pathways, with staff progressing into professional certifications and postgraduate education directly enabled by their newly defined specializations.
 
 ### Project 2.1 — PAS - Photo Acquisition Service SaaS Cloud Application
 
@@ -1247,6 +1256,68 @@ The client intended to manage risk and centralize mail management into a streaml
 - **Languages/Scripting:** PowerShell
 - **Compliance Frameworks:** ISO:27001, NIST
 
+### Project 2.7 — Enterprise Service Management — Helpdesk Implementation and Expansion
+
+**January 2012 - December 2012**
+
+IT support across GeoDigital's 8 sites operated independently with no centralized tracking, no defined service levels, and no workload coordination. Users routed requests informally to preferred staff members regardless of skill match, creating bottlenecks, inconsistent service quality, and no visibility for management into support demand, agent performance, or recurring issue patterns.
+
+**Key activities and deliverables:**
+
+- Defined service management requirements including SLA/SLO targets, KPI framework, and workload balancing criteria across 8 sites and 9 IT agents
+- Deployed ManageEngine ServiceDesk as the centralized ITSM platform, onboarding the full IT team and management with role-appropriate access
+- Implemented automated ticket routing based on triage classification, workload weighting, and agent skill profiles to eliminate informal request routing
+- Configured management and agent performance reporting dashboards with automated scheduled delivery
+- Established SLA monitoring with structured root-cause analysis processes for missed SLA events — identifying underlying causes including organizational growth, aging assets, and business process changes
+- Built self-help portal and knowledgebase populated from recurring ticket pattern analysis, reducing repeat contact volume
+- Published IT documentation and procedures to SharePoint; delivered Lunch and Learn training sessions for end users and IT staff
+- Onboarded Corporate HR into the platform in an agent role, integrating employee onboarding, termination, and approval workflows into the service management system
+- Integrated Finance team workflows for Purchase Order automation and approval routing
+- Deployed IT Asset Management module including asset tracking, remote agent-based monitoring, remote control capability, and live hardware and software inventorying
+
+**Project Outcomes:**
+
+- Consolidated IT support across 8 sites into a single managed platform, eliminating uncoordinated informal request handling for approximately 280 end users served by 9 agents
+- Established formal SLA and KPI framework for IT service delivery; SLA miss analysis became an operational diagnostic — used to identify and address organizational growth pressures, aging infrastructure, and business process changes driving increased IT demand
+- Extended the platform beyond IT into enterprise service management, integrating HR and Finance workflows and enabling cross-functional process automation within a single service delivery system
+- Deployed Asset Management with live remote monitoring and inventory, providing management with full visibility into asset lifecycle status across all locations
+
+**Technical Environment:**
+
+- **ITSM Platform:** ManageEngine ServiceDesk
+- **Asset Management:** ManageEngine Asset Management, Remote Monitoring Agent
+- **Collaboration & Documentation:** Microsoft SharePoint
+- **Identity & Access:** Active Directory
+- **Service Management Frameworks:** ITIL, SLA/SLO Definition, KPI Reporting
+
+### Project 2.8 — IT Organizational Modernization — IT Operations and Corporate Applications Restructuring
+
+**January 2012 - December 2012**
+
+GeoDigital's IT function across 8 sites operated without defined roles or organizational structure — staff functioned as generalist 'local IT' regardless of their actual skills, application support staff were inundated with local helpdesk requests outside their function, a specialist helpdesk resource was overloaded with no growth path, and the organization had no framework for career development or skills-based service delivery. Two sites had no onsite IT presence, and management had no visibility into IT team capacity or capability.
+
+**Key activities and deliverables:**
+
+- Conducted capability assessment across 13 IT staff spanning 8 sites to map existing skills, experience, and career development interests
+- Designed two-group organizational structure: IT Operations (infrastructure, day-to-day services, helpdesk) and Corporate Applications (SharePoint, Intranet, Finance and HR applications, Information Management)
+- Defined formal roles and responsibilities for each position within both groups, aligning accountabilities to individual skill sets rather than physical location
+- Restructured workload distribution to route requests to staff with appropriate skills, eliminating the informal 'preferred IT person' model
+- Developed career progression frameworks enabling specialization pathways within each functional group
+- Engaged COO and Director as executive sponsors; collaborated with HR to formalize role definitions and support organizational change
+- Implemented restructuring iteratively throughout 2012, managing transition without service disruption across a 280-user, 8-site organization
+
+**Project Outcomes:**
+
+- Restructured 13 IT staff across 8 sites into two defined functional groups — IT Operations (9 staff) and Corporate Applications (2 staff) — with IT Manager and SaaS/Cloud Specialist roles established alongside, replacing an unstructured generalist model
+- Service quality improved significantly through skills-aligned workload distribution, reducing misrouted requests and eliminating bottlenecks caused by staff operating outside their areas of competency
+- Employee satisfaction and morale increased materially as staff gained defined roles, clear accountabilities, and recognized specialization paths rather than undifferentiated 'local IT' designations
+- Demonstrated measurable career development impact: the most junior team member pursued professional certification to qualify as a CCNE-certified network engineer and HPC server specialist; a Corporate Applications team member subsequently achieved an MBA aligned to software systems
+
+**Technical Environment:**
+
+- **Organizational Frameworks:** ITIL, Functional Team Design, Role Definition and RACI, Career Development Frameworks
+- **Collaboration & Documentation:** Microsoft SharePoint
+
 ## 1. Project 1 - Central Wire Industries Infrastructure Manager
 
 **Central Wire Industries | Infrastructure & Operations**
@@ -1256,17 +1327,23 @@ The client intended to manage risk and centralize mail management into a streaml
 
 **May 2007 - September 2011**
 
-Central Wire Industries is a $500 million annual revenue wire manufacturing enterprise operating across multiple physical sites in the United States and Canada. Christian served as Operations and Infrastructure Manager, responsible for all aspects of IT infrastructure across the organization's expanded footprint. The engagement spanned smart-factory integration and enterprise-wide payroll system consolidation following a 60% growth period driven by site acquisitions. Christian delivered both projects under waterfall methodology, managing vendor relationships, regulatory compliance requirements spanning US DOD NOFORN, ISO:27001, and NIST, and multi-stakeholder requirements gathering across production, HR, finance, and executive teams. Infrastructure management operations ran continuously from May 2007; the following discrete projects were initiated in January 2010 as the organization formalized project-based delivery for its major technology initiatives.
+Central Wire Industries is a $500 million annual revenue wire manufacturing enterprise operating across multiple physical sites in the United States and Canada. Christian served as Operations and Infrastructure Manager, responsible for all aspects of IT infrastructure across the organization's expanded footprint. The engagement spanned an M&A IT integration following the acquisition of TechAlloy Inc. from ArcelorMittal, enterprise backup standardization, unified communications consolidation, smart-factory integration, and enterprise-wide payroll system consolidation — the latter two following a 60% growth period driven by site acquisitions. Christian delivered all initiatives under waterfall methodology, managing vendor relationships, regulatory compliance requirements spanning US DOD NOFORN, ISO:27001, and NIST, and multi-stakeholder requirements gathering across production, HR, finance, and executive teams. Infrastructure management operations ran continuously from May 2007 across all nine sites in the United States and Canada.
 
 **Workstream Deliverables:**
 
 - Architected and delivered full IT integration of a newly acquired GE Fanuc smart-factory, encompassing SCADA systems, ERP/MRP connectivity to centralized AS/400 infrastructure, SNMP monitoring, and lights-out automation routines across the Fond du Lac, Wisconsin facility.
 - Led the enterprise-wide consolidation of payroll services onto the ADP platform across 9 physical sites in the United States and Canada, delivering Citrix Desktop streaming infrastructure, RBAC access controls for HR and Finance systems, and full ISO:27001 and NIST compliance alignment.
+- Led full IT integration of TechAlloy Inc. following its acquisition from ArcelorMittal, consolidating three new US sites into Central Wire Industries' enterprise footprint — including AD domain migration, ERP consolidation from two Syteline instances onto TechAlloy's mature MOVEX/BPCS platform, WAN connectivity via T1 and Cisco VPN, and Microsoft DFS deployment for distributed file caching across all eight sites.
+- Designed and delivered an enterprise-wide backup standardization programme across all eight manufacturing and office sites, deploying LTO-5 tape libraries with Veritas Backup Exec, a structured weekly-full/daily-incremental backup strategy, and a monthly offsite vaulting arrangement with Vital Records Inc. (VRI) under a 10-year retention and certified destruction policy. Concurrently deployed Microsoft DFS across the WAN to provide distributed file caching across T1-connected sites.
+- Managed the enterprise-wide replacement of nine independent, unconnected telephony systems with a unified Avaya platform across all Central Wire Industries sites, coordinating centralized vendor procurement and local site installers to deliver standardized handsets, voicemail, inter-site call routing, Follow-Me mobility, and intelligent outbound call routing across the full nine-site footprint.
 
 **Engagement Outcomes:**
 
 - Successfully unified smart-factory automation and SCADA systems with corporate Lawson Movex (M3) and Info BPCS ERP/MRP suites, delivering lights-out manufacturing capability and implementing IT security controls meeting US DOD NOFORN classification with ISO:27001 and NIST compliance.
 - Consolidated cross-border HR and Finance access via Citrix virtualization following 60% organizational growth, implementing RBAC access controls and achieving ISO:27001 and NIST compliance across all nine sites.
+- Completed M&A IT integration within approximately 13 months, onboarding ~100 additional users and three manufacturing facilities, retiring two legacy Syteline ERP instances and delivering ~$8,000/year in software savings plus ~$12,000 per hardware cycle, with a measurable reduction in operational overhead through adoption of the lower-maintenance AS/400-based platform.
+- Eliminated ad-hoc, unmanaged backup practices across all eight sites — including at least one site operating with no viable backup media — replacing them with a centralized, policy-driven data protection framework with offsite vaulting, a defined retention lifecycle, and verified recovery capability.
+- Unified enterprise telephony across nine previously disconnected sites, eliminating per-site telephony silos, reducing long-distance and international call costs through intelligent outbound routing, and delivering Follow-Me mobility linking desk phones to staff cell phones.
 
 ### Project 1.1 — IT Integration of fully automated production systems (Fond du Lac, Wisconsin)
 
@@ -1337,6 +1414,96 @@ The client had expanded its market share and physical locations by 60%, onboardi
 - **Payroll Platform:** ADP
 - **Identity & Access:** Active Directory, RBAC
 - **Compliance Frameworks:** ISO:27001, NIST
+
+### Project 1.3 — M&A IT Integration — TechAlloy Inc. Acquisition (ArcelorMittal Divestiture)
+
+**May 2007 - June 2008**
+
+Central Wire Industries acquired TechAlloy Inc. from ArcelorMittal, adding three US manufacturing sites and absorbing a company larger in both headcount and revenue. The acquired entity operated a mature AS/400-based ERP/MRP environment (Lawson MOVEX and INFOR BPCS) that was assessed as technically superior to Central Wire's existing dual Syteline instances. The integration challenge was to consolidate disparate IT environments — including fragmented Active Directory, disconnected WAN infrastructure, and incompatible ERP platforms — into a unified enterprise footprint while minimizing disruption to manufacturing operations across eight sites.
+
+**Key activities and deliverables:**
+
+- Assessed TechAlloy IT environment post-acquisition and recommended adoption of AS/400-based MOVEX/BPCS platform as the enterprise ERP/MRP standard
+- Migrated TechAlloy Active Directory users and resources onto the Central Wire Industries domain, consolidating fragmented AD structure across three acquired sites
+- Onboarded approximately 100 office and manufacturing staff from TechAlloy sites into the unified Active Directory environment
+- Decommissioned two legacy Syteline ERP instances managing five Central Wire factories, migrating all data and operations onto Lawson MOVEX and INFOR BPCS
+- Integrated factory telemetry from existing Central Wire facilities into the MOVEX/BPCS ERP/MRP platform
+- Designed and deployed WAN connectivity across all eight sites using T1 internet connections and Cisco VPN tunnels
+- Implemented Microsoft DFS (Distributed File System) across the WAN to enable file caching and reduce latency impact of T1 bandwidth constraints
+- Managed vendor relationships and multi-site coordination across production, IT, and executive stakeholders throughout the integration programme
+
+**Project Outcomes:**
+
+- Completed full M&A IT integration of three TechAlloy manufacturing sites within approximately 13 months (May 2007 to June 2008)
+- Onboarded approximately 100 additional office and manufacturing users onto the consolidated Central Wire Active Directory domain
+- Retired two legacy Syteline ERP instances across five factories, consolidating all manufacturing operations onto the superior AS/400-based Lawson MOVEX and INFOR BPCS platform
+- Delivered approximately $8,000 per year in software cost savings and approximately $12,000 per hardware refresh cycle through Syteline decommission
+- Reduced operational support overhead significantly by transitioning from high-maintenance Syteline to the lower-maintenance AS/400 environment
+- Established enterprise WAN connectivity across eight sites via T1 and Cisco VPN, with Microsoft DFS caching mitigating file access latency
+
+**Technical Environment:**
+
+- **ERP/MRP Systems:** Lawson MOVEX (M3), INFOR BPCS, Syteline (decommissioned)
+- **Infrastructure:** IBM AS/400
+- **Identity & Access:** Microsoft Active Directory
+- **Networking & WAN:** Cisco VPN, T1 WAN Connectivity, Microsoft DFS (Distributed File System)
+
+### Project 1.4 — Enterprise Backup Standardization & WAN File Services (8-Site LTO-5 / Veritas / DFS Rollout)
+
+**October 2010 - November 2010**
+
+Central Wire Industries had no enterprise backup standard across its eight sites. Each location managed data protection independently and inconsistently, with no centralized oversight, no defined retention policy, and no verified recovery capability. The risk exposure was significant: at least one site was discovered to be running a cleaning tape nightly in place of a live LTO backup tape, meaning no recoverable data existed at that location. The organization had no disaster recovery posture and no offsite data protection for manufacturing, financial, or operational data.
+
+**Key activities and deliverables:**
+
+- Audited existing backup practices across all eight sites, identifying critical gaps including non-functional media and absent recovery procedures
+- Designed and implemented an enterprise backup standard using Veritas Backup Exec with LTO-5 tape libraries deployed at each site
+- Deployed centralized AS/400 backup infrastructure at Head Office for consolidation of mainframe and ERP data
+- Established a structured backup schedule: weekly full backups, daily incremental backups, and discrete monthly full backups
+- Implemented monthly tape rotation to Head Office with offsite vaulting via Vital Records Inc. (VRI), enforcing a 10-year retention policy with certified destruction at end of term
+- Deployed Microsoft DFS (Distributed File System) across the T1 WAN to provide distributed file caching, reducing latency and improving file access reliability across all eight sites
+- Documented backup procedures, rotation schedules, and recovery runbooks for Operations staff across all sites
+
+**Project Outcomes:**
+
+- Standardized enterprise data protection across all eight manufacturing and office sites, eliminating ad-hoc and non-functional backup practices
+- Established offsite vaulting via Vital Records Inc. (VRI) with a 10-year retention policy and certified destruction, providing the organization's first structured disaster recovery data lifecycle
+- Deployed Microsoft DFS across the eight-site WAN, improving distributed file access performance over constrained T1 connections
+- Delivered the full programme — backup standardization and DFS rollout — across eight sites within two months
+
+**Technical Environment:**
+
+- **Backup & Recovery:** Veritas Backup Exec, LTO-5 Tape Libraries, Vital Records Inc. (VRI) Offsite Vaulting
+- **Infrastructure:** IBM AS/400
+- **File Services & WAN:** Microsoft DFS (Distributed File System), T1 WAN Connectivity, Cisco VPN
+
+### Project 1.5 — Enterprise Telephony Consolidation — Avaya Unified Communications (9-Site Rollout)
+
+**May 2009 - July 2009**
+
+Central Wire Industries operated nine physical sites — spanning the United States and Canada — each running its own independent telephony system with no inter-site connectivity. Staff could not transfer calls between facilities, there was no unified voicemail or call routing, and the organization was incurring avoidable long-distance and international call charges because outbound calls were not routed through the most cost-effective site. The absence of a unified communications platform created operational friction and unnecessary telecommunications expenditure across the enterprise.
+
+**Key activities and deliverables:**
+
+- Scoped enterprise telephony requirements across all nine sites, encompassing handsets, voicemail, inter-site routing, mobility, and cost optimization objectives
+- Coordinated centralized procurement through the Avaya vendor relationship, managing purchasing across the full nine-site deployment
+- Managed local site installers across US and Canadian facilities, ensuring consistent configuration and quality of installation at each location
+- Deployed standardized Avaya handsets and voicemail across all nine sites
+- Configured inter-site call routing, enabling seamless call transfers between all Central Wire Industries facilities for the first time
+- Implemented Follow-Me functionality linking desk extensions to staff mobile phones, enabling mobility for management and operational staff
+- Configured intelligent outbound call routing to redirect outbound calls through whichever site made the call local, eliminating avoidable long-distance and international call charges
+
+**Project Outcomes:**
+
+- Unified enterprise telephony across nine previously disconnected sites within three months, replacing fragmented independent systems with a single Avaya platform
+- Enabled inter-site call transfers and unified voicemail across the full nine-site US and Canadian footprint for the first time
+- Reduced telecommunications expenditure by eliminating avoidable long-distance and international call charges through intelligent outbound call routing
+- Delivered Follow-Me mobility linking desk phones to staff cell phones, improving responsiveness for management and operational staff across all sites
+
+**Technical Environment:**
+
+- **Unified Communications:** Avaya IP Telephony, Avaya Follow-Me, Avaya Intelligent Call Routing
+- **Networking & WAN:** T1 WAN Connectivity, Cisco VPN
 
 
 ---

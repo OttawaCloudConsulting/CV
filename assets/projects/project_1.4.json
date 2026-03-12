@@ -1,0 +1,65 @@
+{
+  "project": {
+    "number": 1.4,
+    "title": "Enterprise Backup Standardization & WAN File Services (8-Site LTO-5 / Veritas / DFS Rollout)",
+    "client": {
+      "name": "Central Wire Industries",
+      "department": "Infrastructure & Operations",
+      "team": ""
+    },
+    "role": "Operations and Infrastructure Management",
+    "parentsummary": {
+      "deliverables": "Designed and delivered an enterprise-wide backup standardization programme across all eight manufacturing and office sites, deploying LTO-5 tape libraries with Veritas Backup Exec, a structured weekly-full/daily-incremental backup strategy, and a monthly offsite vaulting arrangement with Vital Records Inc. (VRI) under a 10-year retention and certified destruction policy. Concurrently deployed Microsoft DFS across the WAN to provide distributed file caching across T1-connected sites.",
+      "outcomes": "Eliminated ad-hoc, unmanaged backup practices across all eight sites — including at least one site operating with no viable backup media — replacing them with a centralized, policy-driven data protection framework with offsite vaulting, a defined retention lifecycle, and verified recovery capability."
+    },
+    "date_range": {
+      "start": "October 2010",
+      "end": "November 2010"
+    },
+    "challenge": {
+      "summary": "Central Wire Industries had no enterprise backup standard across its eight sites. Each location managed data protection independently and inconsistently, with no centralized oversight, no defined retention policy, and no verified recovery capability. The risk exposure was significant: at least one site was discovered to be running a cleaning tape nightly in place of a live LTO backup tape, meaning no recoverable data existed at that location. The organization had no disaster recovery posture and no offsite data protection for manufacturing, financial, or operational data."
+    },
+    "solution": {
+      "summary": "Key activities and deliverables:",
+      "deliverables": [
+        "Audited existing backup practices across all eight sites, identifying critical gaps including non-functional media and absent recovery procedures",
+        "Designed and implemented an enterprise backup standard using Veritas Backup Exec with LTO-5 tape libraries deployed at each site",
+        "Deployed centralized AS/400 backup infrastructure at Head Office for consolidation of mainframe and ERP data",
+        "Established a structured backup schedule: weekly full backups, daily incremental backups, and discrete monthly full backups",
+        "Implemented monthly tape rotation to Head Office with offsite vaulting via Vital Records Inc. (VRI), enforcing a 10-year retention policy with certified destruction at end of term",
+        "Deployed Microsoft DFS (Distributed File System) across the T1 WAN to provide distributed file caching, reducing latency and improving file access reliability across all eight sites",
+        "Documented backup procedures, rotation schedules, and recovery runbooks for Operations staff across all sites"
+      ]
+    },
+    "outcomes": [
+      "Standardized enterprise data protection across all eight manufacturing and office sites, eliminating ad-hoc and non-functional backup practices",
+      "Established offsite vaulting via Vital Records Inc. (VRI) with a 10-year retention policy and certified destruction, providing the organization's first structured disaster recovery data lifecycle",
+      "Deployed Microsoft DFS across the eight-site WAN, improving distributed file access performance over constrained T1 connections",
+      "Delivered the full programme — backup standardization and DFS rollout — across eight sites within two months"
+    ],
+    "technologies": [
+      {
+        "category": "Backup & Recovery",
+        "items": [
+          "Veritas Backup Exec",
+          "LTO-5 Tape Libraries",
+          "Vital Records Inc. (VRI) Offsite Vaulting"
+        ]
+      },
+      {
+        "category": "Infrastructure",
+        "items": [
+          "IBM AS/400"
+        ]
+      },
+      {
+        "category": "File Services & WAN",
+        "items": [
+          "Microsoft DFS (Distributed File System)",
+          "T1 WAN Connectivity",
+          "Cisco VPN"
+        ]
+      }
+    ]
+  }
+}
