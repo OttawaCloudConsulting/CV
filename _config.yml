@@ -19,3 +19,14 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+# Development-only files; not web content
+exclude:
+  - CLAUDE.md
+  - Makefile
+  - requirements.txt
+  - docs/
+  - data/
+  - scripts/
+  - templates/
+  - tests/
