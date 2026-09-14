@@ -1,62 +1,87 @@
 {
   "project": {
     "number": 11,
-    "title": "[Client Redacted] - DevOps & AWS Development",
+    "title": "SSC CSD R&D",
     "client": {
-      "name": "[Client Redacted]",
-      "department": "Analytics Solution Division",
-      "team": ""
+      "name": "Shared Services Canada",
+      "department": "Cloud Services Directorate",
+      "team": "Cloud Platform Engineering"
     },
-    "role": "AWS Cloud DevSecOps Specialist",
+    "role": "AWS Cloud Infrastructure as Code DevOps Engineer & Architect",
+    "role_overview": {
+      "summary": "Shared Services Canada's Cloud Services Directorate (CSD) R&D group is mandated to create reusable, government-grade Infrastructure as Code for adoption across SSC and its federal partner departments. Christian served as AWS Cloud Infrastructure as Code DevOps Engineer and Architect, leading the design and delivery of the CSD Landing Zone — an ASEA-integrated, multi-account AWS architecture with codified security guardrails, SSO federation with Azure Active Directory, and ITSG-22/33/38-aligned controls — culminating in SSC becoming the first team to achieve ATO status using the AWS Secure Environment Accelerator. The engagement also supported the onboarding of critical government workloads including SCED, DX, Vocalls, and Email."
+    },
+    "date_range": {
+      "start": "September 2019",
+      "end": "January 2021"
+    },
     "challenge": {
-      "summary": "Create scalable, secure Internal Developer Platform applications on AWS Cloud that meet analytical needs of multiple departmental projects while maintaining high security and compliance standards."
+      "summary": "SSC's Cloud Services Directorate R&D group needed to establish a reusable, government-grade AWS cloud foundation — codified entirely as Infrastructure as Code — capable of meeting ITSG-22, ITSG-33, and ITSG-38 security requirements and achieving ATO status using the newly available AWS Secure Environment Accelerator. No prior government team had achieved ATO through ASEA, making this both a technical delivery challenge and a compliance pathfinding exercise."
     },
     "solution": {
-      "summary": "Strategic DevOps practices and AWS technologies:",
+      "summary": "Delivered comprehensive cloud and infrastructure solutions across:",
       "deliverables": [
-        "Needs analysis and architectural design with PoC implementation",
-        "Infrastructure as Code using AWS CDK, SDK, and CLI",
-        "CI/CD pipelines (AWS CodeCommit, CodePipeline, CodeBuild, CodeDeploy)",
-        "Security and governance implementation on code and IaC",
-        "Advanced deployment practices with SonarQube and JFROG Artifactory",
-        "Serverless and event-driven architecture design"
+        "Cloud Services Directorate, Cloud Platform Engineering Project"
       ]
     },
     "outcomes": [
-      "✅ Robust automation and continuous enhancement of deployment processes",
-      "✅ Secure, compliant, agile development environment",
-      "✅ Streamlined operations reducing time-to-market",
-      "✅ High security and compliance standards maintained",
-      "✅ Automated pipeline processes improving development efficiency"
+      "First team to achieve ATO status using AWS Secure Environment Accelerator (ASEA), establishing reusable Infrastructure as Code templates for government-wide adoption",
+      "Created foundational 'CSD Landing Zone' architecture that became the standard for SSC cloud deployments, supporting critical workloads including SCED, DX, Vocalls, and Email systems"
     ],
     "technologies": [
       {
         "category": "Public Cloud",
-        "items": ["Amazon AWS"]
+        "items": [
+          "Amazon AWS Cloud",
+          "AWS VPC",
+          "AWS CloudFront",
+          "AWS CloudWatch",
+          "AWS CloudTrail",
+          "AWS IAM",
+          "AWS EC2",
+          "AWS ECS",
+          "AWS SES",
+          "AWS S3",
+          "AWS RDS",
+          "AWS CloudFormation",
+          "AWS Service Catalog",
+          "AWS Route 53",
+          "AWS Systems Manager",
+          "AWS Trusted Advisor",
+          "AWS VPN",
+          "AWS ELB (Load Balancer)",
+          "AWS ALB (Load Balancer)",
+          "AWS Transit Gateway",
+          "AWS Transit Peering",
+          "AWS GuardDuty",
+          "AWS WAF & Shield",
+          "AWS Inspector",
+          "AWS Certificate Manager",
+          "AWS Auto-Scaling",
+          "AWS EBS Storage",
+          "AWS Managed SSO",
+          "AWS CodeBuild",
+          "AWS CodePipeline",
+          "AWS Organizations",
+          "AWS Config"
+        ]
       },
       {
-        "category": "Infrastructure as Code",
-        "items": ["AWS CDK", "AWS SDK", "AWS CLI", "Terraform"]
+        "category": "Applications & Development Tools",
+        "items": [
+          "Microsoft Active Directory",
+          "Bash",
+          "GitLab",
+          "GitHub",
+          "CloudFormation"
+        ]
       },
       {
-        "category": "CI/CD",
-        "items": ["AWS CodeCommit", "CodePipeline", "CodeBuild", "CodeDeploy"]
-      },
-      {
-        "category": "Security Scanning",
-        "items": ["Code security scanning", "IaC security scanning"]
-      },
-      {
-        "category": "Package Management",
-        "items": ["JFROG Artifactory", "SonarQube"]
-      },
-      {
-        "category": "Serverless",
-        "items": ["AWS Lambda", "Step Functions", "EventBridge", "SQS", "SNS"]
-      },
-      {
-        "category": "Languages",
-        "items": ["Python", "Bash", "YAML"]
+        "category": "Servers & Operating Systems",
+        "items": [
+          "Microsoft Windows 2019",
+          "AWS Linux"
+        ]
       }
     ]
   }

@@ -1,0 +1,141 @@
+{
+  "project": {
+    "number": 13.2,
+    "title": "Cloud Services Directorate, Automation and Orchestration Framework",
+    "client": {
+      "name": "Shared Services Canada",
+      "department": "Hosting Services Branch",
+      "team": "Cloud Platform Engineering"
+    },
+    "role": "AWS Cloud Infrastructure as Code DevOps Engineer & Architect",
+    "parentsummary": {
+      "deliverables": "Developed and delivered comprehensive cloud automation and orchestration frameworks for SSC's Cloud Services Directorate, encompassing multi-account AWS Organizations design with Service Control Policies and governance frameworks, IAM identity models with compliance baselines, GitOps automation with ArgoCD and Azure DevOps, production EKS cluster engineering, Crossplane and KCL provisioning frameworks, serverless and event-driven architectures, developer Golden Path tooling, observability via Prometheus and Grafana, and NIST/CIS/ITSG compliance alignment.",
+      "outcomes": "Architected 3 multi-account AWS organizations managing 200+ workloads, improved deployment frequency by 30% through GitOps automation managing 50+ microservices, designed 30+ serverless and containerized workloads reducing operational overhead by 40% and infrastructure costs by $25K annually, and engineered 3 production EKS clusters achieving 99.9% uptime while reducing Kubernetes onboarding time by over 60%."
+    },
+    "date_range": {
+      "start": "September 2023",
+      "end": "Current"
+    },
+    "challenge": {
+      "summary": "At engagement start, SSC's Cloud Services Directorate had no standardized automation and orchestration framework for enterprise-scale multi-account AWS deployments across government departments — no established serverless workload patterns, no GitOps-driven developer tooling, no governance-aligned EKS cluster standard, and no Crossplane-based IaC provisioning model. The engagement required delivering a comprehensive, NIST/CIS/ITSG-aligned automation framework from the ground up within a live production environment serving multiple federal tenants."
+    },
+    "solution": {
+      "summary": "Key activities and deliverables:",
+      "deliverables": [
+        "Needs analysis, architecture design, and implementation of multi-account AWS organizations",
+        "Design and implementation of Service Control Policies (SCPs) and governance frameworks",
+        "Identity and Access Management (IAM) model architecture with compliance baselines",
+        "GitOps automation framework development and implementation",
+        "Serverless and event-driven architecture design and implementation",
+        "Production EKS cluster engineering and management",
+        "Crossplane and KCL provisioning framework development",
+        "Developer experience optimization and Golden Path creation",
+        "Deployed observability stack using CloudWatch, Prometheus, Grafana, and AWS X-Ray across 30+ production workloads, providing unified metrics, dashboards, and distributed tracing",
+        "Automated compliance evidence generation aligned to NIST 800-53, CIS Controls, and ITSG standards across multi-account governance boundaries"
+      ]
+    },
+    "outcomes": [
+      "Architected 3 multi-account AWS organizations managing 200+ workloads with governance, SCPs, identity models, and compliance baselines aligned to NIST, CIS, and ITSG",
+      "Improved deployment frequency by 30% through GitOps automation with ArgoCD and Azure DevOps, managing over 50 microservices",
+      "Designed 30+ serverless, event-driven, and containerized workloads reducing operational overhead by 40% and infrastructure costs by $25K annually",
+      "Engineered 3 production EKS clusters achieving 99.9% uptime while reducing Kubernetes onboarding time by over 60% through deterministic automation and developer Golden Paths"
+    ],
+    "technologies": [
+      {
+        "category": "Public Cloud",
+        "items": [
+          "Amazon AWS Organizations",
+          "AWS Control Tower",
+          "AWS SSO",
+          "AWS Config",
+          "AWS CloudTrail",
+          "AWS GuardDuty"
+        ]
+      },
+      {
+        "category": "Containers & Kubernetes",
+        "items": [
+          "Amazon EKS",
+          "Docker",
+          "Kubernetes",
+          "Helm",
+          "OCI Bundles",
+          "Helm Charts",
+          "Docker Images"
+        ]
+      },
+      {
+        "category": "CI/CD & GitOps",
+        "items": [
+          "ArgoCD",
+          "Argo Workflows",
+          "Azure DevOps",
+          "Git"
+        ]
+      },
+      {
+        "category": "Infrastructure as Code",
+        "items": [
+          "Crossplane",
+          "KCL",
+          "Terraform",
+          "AWS CDK",
+          "CloudFormation"
+        ]
+      },
+      {
+        "category": "Serverless & Event-Driven",
+        "items": [
+          "AWS Lambda",
+          "Step Functions",
+          "EventBridge",
+          "SQS",
+          "SNS",
+          "API Gateway"
+        ]
+      },
+      {
+        "category": "Networking & WAN",
+        "items": [
+          "Cilium",
+          "AWS VPC",
+          "Transit Gateway",
+          "Load Balancers"
+        ]
+      },
+      {
+        "category": "Security",
+        "items": [
+          "AWS IAM",
+          "IRSA",
+          "RBAC",
+          "Service Control Policies",
+          "CIS Controls",
+          "NIST Frameworks"
+        ]
+      },
+      {
+        "category": "Observability & Monitoring",
+        "items": [
+          "CloudWatch",
+          "Prometheus",
+          "Grafana",
+          "AWS X-Ray",
+          "Elasticsearch"
+        ]
+      },
+      {
+        "category": "Languages & Scripting",
+        "items": [
+          "Python",
+          "Golang",
+          "Typescript",
+          "Bash",
+          "YAML",
+          "JSON",
+          "KCL"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "project": {
+    "number": 7,
+    "title": "Brookfield Renewable Energy Cloud Delivery",
+    "client": {
+      "name": "Brookfield Renewable Energy",
+      "department": "",
+      "team": ""
+    },
+    "role": "Office 365 & Cloud Delivery Manager",
+    "role_overview": {
+      "summary": "Brookfield Renewable Energy is a global renewable power company managing a large and geographically distributed portfolio of hydro, wind, and solar assets. Following significant growth through mergers and acquisitions, the organization was consolidating multiple Managed Service Providers and transitioning cloud services governance to a new vendor, SoftChoice. Christian served as Office 365 and Cloud Delivery Manager, providing governance, vendor oversight, and architectural direction for the Azure and Office 365 environments during this sensitive transition period, while also maintaining day-to-day IT service continuity."
+    },
+    "date_range": {
+      "start": "September 2017",
+      "end": "December 2017"
+    },
+    "challenge": {
+      "summary": "The client was performing extensive internal change, due to growth via Mergers & Acquisition, requiring a change in support vendor. A consolidation of multiple Managed Service Providers was in flight. The primary objective was to provide guidance and governance to the cloud services (Azure and Office365) support vendor, SoftChoice."
+    },
+    "solution": {
+      "summary": "Provided governance, vendor oversight, and architectural direction for Azure and Office 365 environments during an active MSP consolidation:",
+      "deliverables": [
+        "Office 365 and Microsoft Azure Cloud Service Delivery Manager"
+      ]
+    },
+    "outcomes": [
+      "Maintained cloud service continuity and sustained KPI-measured performance throughout the SoftChoice MSP vendor transition, preventing disruption to Brookfield's globally distributed operations",
+      "Secured Azure AD and Office 365 access posture during the MSP consolidation, governing access controls across a multi-country user base",
+      "Successfully oversaw the rollout of the Microsoft Intune mobile security program, extending device management governance to the Brookfield user population"
+    ],
+    "technologies": [
+      {
+        "category": "Public Cloud",
+        "items": [
+          "Microsoft Azure",
+          "Office 365",
+          "Azure Active Directory"
+        ]
+      },
+      {
+        "category": "End-User Computing",
+        "items": [
+          "Microsoft Intune"
+        ]
+      },
+      {
+        "category": "Unified Communications & Telephony",
+        "items": [
+          "Cisco CUCM"
+        ]
+      },
+      {
+        "category": "Compliance Frameworks",
+        "items": [
+          "NIST"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "project": {
+    "number": 9.2,
+    "title": "Server Workload Cloud Migration - New Democratic Party of Canada",
+    "client": {
+      "name": "IDS Data Systems",
+      "department": "",
+      "team": ""
+    },
+    "role": "Cloud Architect",
+    "parentsummary": {
+      "deliverables": "Architected and delivered the migration of a bespoke server workload — comprising local database, compute, and public-facing services — from on-premises VMware 6 to Microsoft Azure, implementing Protected B-equivalent security controls for citizen voting information, a blue-green production deployment model, PowerShell and Azure CLI automation, and HA/failover-tested architecture using Azure Application Gateway, Scale Sets, and PostgreSQL.",
+      "outcomes": "Delivered a production-ready Azure cloud architecture meeting Protected B-equivalent security requirements for sensitive citizen data, validated through pre-migration security assessment, HA testing, and blue-green deployment — successfully transitioning the NDP's bespoke workload off legacy VMware infrastructure."
+    },
+    "date_range": {
+      "start": "November 2018",
+      "end": "January 2019"
+    },
+    "challenge": {
+      "summary": "The NDP's bespoke server workload — comprising a local database, compute services, and public-facing components — required migration from on-premises VMware 6 infrastructure to Microsoft Azure, with Protected B-equivalent security controls for citizen voting data and a compressed three-month delivery window."
+    },
+    "solution": {
+      "summary": "Key activities and deliverables:",
+      "deliverables": [
+        "Architectural design and PoC implementation with modernization of infrastructure",
+        "Staged implementation testing of services with inline remediation",
+        "Internal feedback to development vendor and client IT operations for change coordination",
+        "Implementation of IT Security and Cyber Protection to meet required Security Controls for data system maintaining voting citizen information, equivalent to Protected B data",
+        "PowerShell and Azure CLI based deployment automation, change management, and smoke tests",
+        "Provide final architecture and documentation for production blue-green deployment",
+        "Pre-migratory testing and security reporting, and failure/high-availability testing",
+        "Knowledge transfer and cross-training with internal teams and support vendor"
+      ]
+    },
+    "outcomes": [
+      "Delivered a fully migrated, production-hardened Azure workload architecture with PostgreSQL, Java/Tomcat application stack, and public-facing services — transitioning entirely off legacy VMware 6 within a three-month engagement",
+      "Achieved Protected B-equivalent security compliance for citizen voting data through implemented WAF, NSG, and Azure Application Gateway controls, validated by pre-migration security assessment"
+    ],
+    "technologies": [
+      {
+        "category": "Public Cloud",
+        "items": [
+          "Microsoft Azure",
+          "Azure Resource Manager (ARM)",
+          "Azure Resource Groups",
+          "Azure Virtual Machines",
+          "Azure Virtual Machine Scale Sets",
+          "Azure Availability Sets",
+          "Azure Images",
+          "Azure Virtual Networks",
+          "Azure Load Balancers",
+          "Azure Network Security Groups",
+          "Azure Application Gateways",
+          "Azure Storage Accounts",
+          "Azure PostgreSQL Database",
+          "Cloudflare DNS",
+          "CloudFlare CDN"
+        ]
+      },
+      {
+        "category": "Applications & Development Tools",
+        "items": [
+          "Java",
+          "Tomcat",
+          "Apache",
+          "Elasticsearch",
+          "PowerShell",
+          "Azure PowerShell",
+          "Azure CLI"
+        ]
+      },
+      {
+        "category": "Servers & Operating Systems",
+        "items": [
+          "CentOS 6/7",
+          "Windows 2012 R2",
+          "VMWare 6"
+        ]
+      },
+      {
+        "category": "Security",
+        "items": [
+          "WatchGuard (next-gen firewall)",
+          "Cloudflare WAF"
+        ]
+      }
+    ]
+  }
+}

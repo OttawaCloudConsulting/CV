@@ -1,0 +1,79 @@
+{
+  "project": {
+    "number": 8,
+    "title": "SSC CITS SMG & CTMS",
+    "client": {
+      "name": "Shared Services Canada",
+      "department": "CITS - Infrastructure Security",
+      "team": ""
+    },
+    "role": "Senior Business / Technical Architect",
+    "role_overview": {
+      "summary": "Shared Services Canada's CITS Infrastructure Security group is responsible for cybersecurity governance and threat management across the Government of Canada's shared IT infrastructure. Christian served as Senior Business and Technical Architect across two sequential workstreams — implementing Atlassian JIRA for the Cyber Threat Management teams, followed by a SharePoint 2016 solution for the Security Management and Governance teams — both replacing Excel-based ad hoc processes with structured, role-controlled project management platforms. The engagement required deep requirements facilitation with government security and management stakeholders and delivered HA-grade infrastructure for the JIRA environment."
+    },
+    "date_range": {
+      "start": "January 2018",
+      "end": "February 2019"
+    },
+    "challenge": {
+      "summary": "SSC CITS required structured work management platforms for two distinct security functions: Cyber Threat Management teams needed a JIRA-based platform with HA infrastructure and role-scoped access controls, while Security Management and Governance teams required a SharePoint 2016 solution to replace fragmented, Excel-based reporting processes. Both workstreams demanded deep requirements facilitation with government security stakeholders and delivery to government-grade infrastructure standards."
+    },
+    "solution": {
+      "summary": "Delivered two sequential structured work management platforms for SSC cybersecurity functions — JIRA for Cyber Threat Management followed by SharePoint 2016 for Security Management and Governance:",
+      "deliverables": [
+        "SharePoint 2016 Design",
+        "Atlassian JIRA Implementation"
+      ]
+    },
+    "outcomes": [
+      "Designed and delivered a SharePoint 2016 project management system replacing Excel-based ad hoc reporting for SSC Security Management and Governance teams across all Government of Canada departments",
+      "Delivered a fully operational JIRA-based Cyber Threat Management platform with HA infrastructure on VMware ESXi 6, LUKS-encrypted data volumes, and role-based access controls, adopted by three CITS teams",
+      "Replaced ad hoc processes across both security functions with structured, role-controlled platforms, delivering standardized metadata, milestone tracking, and measurable workflow governance for SSC CITS"
+    ],
+    "technologies": [
+      {
+        "category": "Collaboration & Productivity",
+        "items": [
+          "SharePoint 2016",
+          "Atlassian JIRA",
+          "Atlassian Confluence",
+          "HipChat"
+        ]
+      },
+      {
+        "category": "Servers & Operating Systems",
+        "items": [
+          "VMware ESXi 6",
+          "NGINX",
+          "CentOS 7"
+        ]
+      },
+      {
+        "category": "Databases",
+        "items": [
+          "PostgreSQL"
+        ]
+      },
+      {
+        "category": "Security",
+        "items": [
+          "LUKS Encryption",
+          "SSL/TLS"
+        ]
+      },
+      {
+        "category": "Identity & Access Management",
+        "items": [
+          "Active Directory"
+        ]
+      },
+      {
+        "category": "Languages & Scripting",
+        "items": [
+          "PowerShell",
+          "Bash"
+        ]
+      }
+    ]
+  }
+}

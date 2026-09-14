@@ -1,0 +1,61 @@
+{
+  "project": {
+    "number": 12.2,
+    "title": "DevOps & AWS Development",
+    "client": {
+      "name": "Agriculture Canada",
+      "department": "Cloud Centre of Expertise",
+      "team": "Cloud Operations"
+    },
+    "role": "AWS Cloud DevOps Architect (Part-Time)",
+    "parentsummary": {
+      "deliverables": "Designed, developed, and maintained cloud-native analytics applications for Agriculture Canada's Analytics team, delivering IaC development using AWS CDK v1/v2, AWS CodePipeline-based CI/CD pipelines, DevSecOps security and governance reporting with automated code and IaC scanning via Checkov, Terrascan, SonarQube, and JFROG Artifactory integration, and continuous improvement of deployment practices and release management.",
+      "outcomes": "Delivered a secure, cloud-native analytics platform on AWS supporting Agriculture Canada's departmental data analysis requirements, with a comprehensive DevSecOps pipeline providing automated security scanning and supply chain management enabling consistent, compliant, and auditable deployments."
+    },
+    "date_range": {
+      "start": "January 2021",
+      "end": "September 2023"
+    },
+    "challenge": {
+      "summary": "The AAFC Analytics team required cloud-native application development on AWS to support departmental data analysis workloads, with a mature DevSecOps pipeline providing automated code and IaC security scanning, supply chain management, and compliant CI/CD deployment practices consistent with GoC security requirements."
+    },
+    "solution": {
+      "summary": "Key activities and deliverables:",
+      "deliverables": [
+        "Infrastructure as Code (IaC) development and review using AWS CDK v1/v2",
+        "CI/CD Pipelines - AWS CodeCommit, AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy",
+        "Implementation and maintenance of CI/CD AWS Resources meeting best practices and agile deployment",
+        "Security and Governance reporting on Code and IaC to support DevSecOps compliance",
+        "Continuous improvement of Deployment Practices and Release Management",
+        "CDK v1 to v2 migration and IaC development for analytics application stack"
+      ]
+    },
+    "outcomes": [
+      "Delivered a cloud-native analytics platform on AWS for Agriculture Canada's departmental data analysis workloads, leveraging AWS Glue, DMS, Lambda, and CDK v2 with a fully automated CI/CD pipeline providing continuous delivery and auditable deployment history",
+      "Implemented comprehensive DevSecOps pipeline with automated security scanning and supply chain management, enabling secure data analysis capabilities"
+    ],
+    "technologies": [
+      {
+        "category": "Public Cloud",
+        "items": [
+          "Amazon AWS (AWS CDK v1/v2, AWS CodeCommit, AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy, AWS Cloud9, AWS Glue, AWS DMS, AWS Lambda)",
+          "Azure DevOps"
+        ]
+      },
+      {
+        "category": "Applications & Development Tools",
+        "items": [
+          "Bash",
+          "Azure DevOps",
+          "Git",
+          "Atlassian Jira",
+          "Code & IaC Security Scanning",
+          "JFROG Artifactory",
+          "SonarQube & Dependency Checker",
+          "AWS CDK v1.x",
+          "AWS CDK v2.x"
+        ]
+      }
+    ]
+  }
+}

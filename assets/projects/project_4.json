@@ -1,0 +1,75 @@
+{
+  "project": {
+    "number": 4,
+    "title": "HighRoads Canada Inc. Infrastructure Operations Manager",
+    "client": {
+      "name": "HighRoads Canada Inc. (Ottawa, ON)",
+      "department": "",
+      "team": ""
+    },
+    "role": "DevOps, Operations and Cloud Architect; Project Management",
+    "role_overview": {
+      "summary": "HighRoads Canada is the Ottawa-based engineering arm of the HighRoads enterprise software company, developing a next-generation SaaS Benefits Management platform for the US healthcare market. Christian served as DevOps, Operations and Cloud Architect and Project Manager across four concurrent workstreams spanning the full lifecycle of the Canadian operation — from greenfield AWS cloud migration and CI/CD platform build, through infrastructure divestiture during an asset sale, to the final decommission of Canadian operations on the company's closure. All work was delivered under HIPAA, NIST, and ISO:27001 compliance requirements governing the US healthcare benefits SaaS product."
+    },
+    "date_range": {
+      "start": "June 2015",
+      "end": "December 2016"
+    },
+    "challenge": {
+      "summary": "Architected and managed the migration and implementation of on-premise systems into the AWS cloud platform. This involved right-sizing systems, provisioning micro-service based architecture and leveraging cloud-based security principles."
+    },
+    "solution": {
+      "summary": "Delivered comprehensive cloud and infrastructure solutions across:",
+      "deliverables": [
+        "AWS Cloud Migration (In-house custom SaaS platform)",
+        "SaaS System: DevOps Infrastructure",
+        "Infrastructure Decommission & Migration",
+        "Operations Decommission & Migration"
+      ]
+    },
+    "outcomes": [
+      "Successfully migrated 40+ production workloads from VMware to AWS, achieving 35% cost reduction through cloud optimization and improved platform resilience",
+      "Introduced comprehensive DevOps and automation practices improving deployment frequency by 50% and eliminating manual deployment steps through CI/CD pipeline implementation",
+      "Delivered active-passive HIPAA-compliant DR architecture meeting strict NIST RTO/RPO objectives while ensuring zero downtime migration of production systems",
+      "Operationalized 3 hybrid AWS/on-prem architectures supporting 100+ workloads with scalable and secure patterns"
+    ],
+    "technologies": [
+      {
+        "category": "Public Cloud",
+        "items": [
+          "Amazon AWS",
+          "AWS EC2",
+          "AWS VPC",
+          "AWS RDS"
+        ]
+      },
+      {
+        "category": "Virtualization",
+        "items": [
+          "VMware"
+        ]
+      },
+      {
+        "category": "CI/CD & GitOps",
+        "items": [
+          "Jenkins",
+          "Git"
+        ]
+      },
+      {
+        "category": "Containers & Kubernetes",
+        "items": [
+          "Docker"
+        ]
+      },
+      {
+        "category": "Compliance Frameworks",
+        "items": [
+          "HIPAA",
+          "NIST",
+          "ISO:27001"
+        ]
+      }
+    ]
+  }
+}

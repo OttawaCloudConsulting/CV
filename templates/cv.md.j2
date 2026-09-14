@@ -1,0 +1,125 @@
+# **{{ personal.name }}**
+
+[{{ personal.email }}](mailto:{{ personal.email }}) | {{ personal.phone }} | {{ personal.location.city }}, {{ personal.location.province }}, {{ personal.location.country }}<br>
+LinkedIn: [{{ personal.links.linkedin }}](https://{{ personal.links.linkedin }}) | GitHub: [{{ personal.links.github }}](https://{{ personal.links.github }}) | [NotebookLM](https://{{ personal.links.notebooklm }})
+
+**{{ personal.tagline }}**
+*{{ personal.subtitle }}*
+*{{ personal.title }} specializing in AWS cloud transformation,*
+*government sector compliance, and enterprise infrastructure modernization*
+
+## Professional Profile
+
+{% for para in profile.summary %}
+{{ para }}
+
+{% endfor %}
+**Professional Development**
+
+{% for cert in profile.certifications %}
+- CERTIFICATION: [{{ cert.name }}]({{ cert.certificate_url | replace(' ', '%20') }}){{ " — Issued: " ~ cert.date_issued if cert.date_issued else "" }}{{ " | Expires: " ~ cert.date_expires if cert.date_expires else "" }}{{ " | ID: " ~ cert.credential_id if cert.credential_id else "" }}
+{% endfor %}
+
+
+## Executive Summary
+
+- **Specialization:** {{ executive.specialization }}
+- **Government Clients:** {{ executive.government_clients }}
+- **Compliance Depth:** {{ executive.compliance_depth }}
+- **Cloud Platforms:** {{ executive.cloud_platforms }}
+- **Current Engagement:** {{ executive.current_engagement }}
+- **Availability:** {{ executive.availability }}
+
+## Table of Contents
+
+- [PROFESSIONAL EXPERIENCE](#professional-experience)
+{% for group in groups %}
+  - [{{ group._number_str }}. Project {{ group._number_str }} - {{ group.title }}](#{{ ("" ~ group._number_str ~ ". Project " ~ group._number_str ~ " - " ~ group.title) | anchor }})
+{% for sub in group.sub_projects %}
+    - [Project {{ number_to_str(sub.number) }} — {{ sub.title }}](#{{ ("Project " ~ number_to_str(sub.number) ~ " — " ~ sub.title) | anchor }})
+{% endfor %}
+{% endfor %}
+- [TECHNOLOGY INDEX](./TECHNOLOGY_INDEX.md)
+
+# PROFESSIONAL EXPERIENCE
+
+{% for group in groups %}
+## {{ group._number_str }}. Project {{ group._number_str }} - {{ group.title }}
+
+**{{ [group.client.name, group.client.department, group.client.team] | select | join(' | ') }}**
+
+
+**Role: {{ group.role }}**
+
+**{{ group.date_range.start }} - {{ group.date_range.end }}**
+
+{% if not group.sub_projects %}
+{{ group.challenge.summary }}
+
+{{ group.solution.summary }}
+
+{% for d in group.solution.deliverables %}
+- {{ d }}
+{% endfor %}
+
+**Project Outcomes:**
+
+{% for o in group.outcomes %}
+{{ o }}
+{% endfor %}
+
+**Technical Environment:**
+
+{% for t in group.technologies %}
+- **{{ t.category }}:** {{ t['items'] | join(', ') }}
+{% endfor %}
+
+{% else %}
+{% if group.role_overview is defined and group.role_overview %}
+{{ group.role_overview.summary }}
+
+**Workstream Deliverables:**
+
+{% for d in group.role_overview.deliverables %}
+- {{ d }}
+{% endfor %}
+
+**Engagement Outcomes:**
+
+{% for o in group.role_overview.outcomes %}
+- {{ o }}
+{% endfor %}
+
+{% endif %}
+{% for sub in group.sub_projects %}
+### Project {{ number_to_str(sub.number) }} — {{ sub.title }}
+
+**{{ sub.date_range.start }} - {{ sub.date_range.end }}**
+
+{{ sub.challenge.summary }}
+
+**{{ sub.solution.summary }}**
+
+{% for d in sub.solution.deliverables %}
+- {{ d }}
+{% endfor %}
+
+**Project Outcomes:**
+
+{% for o in sub.outcomes %}
+- {{ o }}
+{% endfor %}
+
+**Technical Environment:**
+
+{% for t in sub.technologies %}
+- **{{ t.category }}:** {{ t['items'] | join(', ') }}
+{% endfor %}
+
+{% endfor %}
+{% endif %}
+{% endfor %}
+
+---
+
+*Last updated: March 2026*

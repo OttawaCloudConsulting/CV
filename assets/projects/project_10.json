@@ -1,59 +1,100 @@
 {
   "project": {
     "number": 10,
-    "title": "[Client Redacted] - Cloud Platform Engineering R&D",
+    "title": "DND DPDCS SMMS Replacement Project",
     "client": {
-      "name": "[Client Redacted]",
-      "department": "Cloud Services Directorate",
-      "team": ""
+      "name": "Department of National Defence",
+      "department": "DPDCS",
+      "team": "SMMS Replacement Project"
     },
-    "role": "AWS Cloud DevSecOps Engineering & Architecture",
+    "role": "Cloud Architect - Resilient Systems",
+    "role_overview": {
+      "summary": "The Department of National Defence's DPDCS division manages critical operational systems supporting Search and Rescue (SAR) coordination across Canada. Christian served as Cloud Architect for Resilient Systems on the SMMS Replacement Project — a high-consequence initiative to replace the legacy SARMASTER software and hardware platform with a modern cloud architecture capable of 24/7 availability, GIS and live data integration, and long-term operational supportability. The engagement required alignment to stringent ITSG-33, DND, and TSB cloud compliance requirements to achieve iATO, and was delivered over a 22-month engagement using Agile methodologies with continuous development cycles."
+    },
+    "date_range": {
+      "start": "February 2019",
+      "end": "December 2020"
+    },
     "challenge": {
-      "summary": "Automate the CSD Landing Zone Accelerator by integrating AWS Landing Zone customization and SAA Security Guard Rails while ensuring strict security standards for Authority to Operate (ATO)."
+      "summary": "DND's DPDCS division operated on the aging SARMASTER platform for national Search and Rescue management — a legacy system that lacked cloud resilience, GIS integration, live-data interface capability, and a credible long-term support path. The replacement initiative required a modern cloud architecture capable of 24/7 availability, real-time data integration, and full compliance with ITSG-33, DND, and TSB cloud security standards to achieve iATO."
     },
     "solution": {
-      "summary": "Key strategic and technical steps:",
+      "summary": "Delivered comprehensive cloud and infrastructure solutions across:",
       "deliverables": [
-        "Needs analysis and architectural design with PoC implementation",
-        "Infrastructure as Code development (AWS CLI, SDK/API, CloudFormation, Terraform)",
-        "CI/CD implementation (CodePipeline, CodeCommit, CodeBuild, CodeDeploy, GitLab, GitHub)",
-        "IT Security Program aligned with ITSG standards",
-        "SSO Federation design with Azure Active Directory",
-        "Access Control Program ensuring appropriate RBAC"
+        "SMMS Search and Rescue Replacement Project"
       ]
     },
     "outcomes": [
-      "✅ Automated and secure cloud environment with streamlined CSD Landing Zone",
-      "✅ Infrastructure scalability and reusability across teams",
-      "✅ Robust security posture meeting all ITSG standards",
-      "✅ Effective knowledge transfer and documentation across organization",
-      "✅ First team to achieve ATO using AWS Secure Environment Accelerator",
-      "✅ Foundational architecture adopted across [Client Redacted] for government-wide deployment"
+      "Successfully modernized critical Search and Rescue operations infrastructure with zero downtime migration strategy to AWS cloud infrastructure",
+      "Delivered containerized architecture using Docker/ECS with PostgreSQL, ensuring 24/7 availability for life-saving SAR operations across Canada while meeting stringent DND security requirements",
+      "Created Service Catalogue for creating on-demand environments for development, testing, production, and disaster replay, reducing environment provisioning time from weeks to hours"
     ],
     "technologies": [
       {
         "category": "Public Cloud",
-        "items": ["Amazon AWS"]
+        "items": [
+          "Amazon AWS Cloud",
+          "AWS VPC",
+          "AWS CloudFront",
+          "AWS CloudWatch",
+          "AWS CloudTrail",
+          "AWS IAM",
+          "AWS EC2",
+          "AWS ECS",
+          "AWS ECR",
+          "AWS SES",
+          "AWS S3",
+          "AWS EFS",
+          "AWS RDS",
+          "AWS CloudFormation",
+          "AWS Service Catalog",
+          "AWS Route 53",
+          "AWS Systems Manager",
+          "AWS Trusted Advisor",
+          "AWS VPN",
+          "AWS ELB (Load Balancer)",
+          "AWS ALB (Load Balancer)",
+          "AWS Transit Gateway",
+          "AWS Transit Peering",
+          "AWS GuardDuty",
+          "AWS WAF & Shield",
+          "AWS Inspector",
+          "AWS Certificate Manager",
+          "AWS Auto-Scaling",
+          "AWS EBS Storage",
+          "AWS Service Discovery",
+          "AWS Transfer Service (SFTP)",
+          "AWS Parameter Store",
+          "AWS Secrets Store"
+        ]
       },
       {
-        "category": "Infrastructure as Code",
-        "items": ["AWS CloudFormation", "Terraform", "AWS CLI"]
+        "category": "Applications & Development Tools",
+        "items": [
+          "PostgreSQL",
+          "Docker Containers",
+          "Bash",
+          "Terraform 0.12.7",
+          "Java 8.x",
+          "Tomcat 8.x",
+          "Atlassian JIRA",
+          "Atlassian Confluence",
+          "WSO2",
+          "Kafka",
+          "PHP",
+          "Git",
+          "OpenLDAP",
+          "SOGO",
+          "ManageEngine Desktop Central"
+        ]
       },
       {
-        "category": "Source Control",
-        "items": ["GitLab", "GitHub", "AWS CodeCommit"]
-      },
-      {
-        "category": "CI/CD",
-        "items": ["AWS CodePipeline", "CodeBuild", "CodeDeploy"]
-      },
-      {
-        "category": "Compliance",
-        "items": ["ITSG-22", "ITSG-33", "ITSG-38", "AWS security guardrails"]
-      },
-      {
-        "category": "Identity",
-        "items": ["Azure Active Directory SSO", "AWS IAM", "RBAC"]
+        "category": "Servers & Operating Systems",
+        "items": [
+          "Microsoft Windows 2016",
+          "AWS Linux",
+          "CentOS 7.x"
+        ]
       }
     ]
   }

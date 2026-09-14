@@ -1,0 +1,54 @@
+{
+  "project": {
+    "number": 9.1,
+    "title": "Office 365 Skype Migration - New Democratic Party of Canada",
+    "client": {
+      "name": "IDS Data Systems",
+      "department": "",
+      "team": ""
+    },
+    "role": "Cloud Architect",
+    "parentsummary": {
+      "deliverables": "Delivered the full migration from a distributed on-premises Cisco CUCM phone system to an Office 365 Skype for Business environment for the New Democratic Party of Canada, including Office 365 user and policy configuration, Unified Communications security controls, PowerShell automation, and knowledge transfer to client technical teams.",
+      "outcomes": "Successfully migrated the NDP's voice and unified communications infrastructure from on-premises Cisco CUCM to a fully cloud-hosted Office 365 Skype for Business platform, meeting required security controls for voice and unified communications systems and enabling a fully virtualized tenanted communications environment."
+    },
+    "date_range": {
+      "start": "November 2018",
+      "end": "January 2019"
+    },
+    "challenge": {
+      "summary": "The NDP's on-premises Cisco CUCM unified communications environment required full migration to Office 365 Skype for Business, including security policy alignment for voice and UC systems, Office 365 tenant configuration, and managed deprecation of the existing Cisco infrastructure — all within a three-month engagement window."
+    },
+    "solution": {
+      "summary": "Key activities and deliverables:",
+      "deliverables": [
+        "Internal directory configuration reviews",
+        "Migration planning and aligning to tool requirements",
+        "Deployment of Office365 specific features to support Skype for Business",
+        "Manage migration settings and deprecation of Cisco CUCM",
+        "Implementation of IT Security and Cyber Protection to meet required Security Controls for Voice and Unified Communication Systems",
+        "Facilitated requirements gathering with client technical and support teams, governance and security teams, key user stakeholders, and management",
+        "Office 365 user configurations",
+        "Office 365, Skype for Business, and Microsoft Teams Security and Policy writing",
+        "PowerShell scripting and automation",
+        "Migration Review and end user documentation",
+        "Knowledge transfer and cross-training with internal teams and onboarded client"
+      ]
+    },
+    "outcomes": [
+      "Successfully transitioned the NDP's voice and unified communications infrastructure from on-premises Cisco CUCM to Office 365 Skype for Business, with zero reported service disruption to end users",
+      "Implemented security controls for voice and unified communications meeting the required GoC-equivalent security posture, enabling a fully virtualized tenanted communications environment"
+    ],
+    "technologies": [
+      {
+        "category": "Public Cloud",
+        "items": [
+          "Microsoft Office 365",
+          "Microsoft Skype for Business",
+          "Microsoft Office 365 Compliance",
+          "Azure PowerShell"
+        ]
+      }
+    ]
+  }
+}

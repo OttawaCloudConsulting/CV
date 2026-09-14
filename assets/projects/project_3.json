@@ -1,0 +1,74 @@
+{
+  "project": {
+    "number": 3,
+    "title": "Dymon Corporation - Infrastructure Manager",
+    "client": {
+      "name": "Dymon Corporation",
+      "department": "",
+      "team": ""
+    },
+    "role": "Operations and Infrastructure Architect",
+    "role_overview": {
+      "summary": "Dymon Corporation is a diversified Ottawa-based enterprise operating self-storage facilities and healthcare retirement residences. Christian served as Operations and Infrastructure Architect across three concurrent workstreams, delivering a complete infrastructure modernization of the corporate estate and its healthcare division. The engagement addressed chronically underutilized physical infrastructure, aging end-user computing across healthcare facilities, and a vendor-mandated POS and credit transaction system upgrade — all requiring compliance with PCI-DSS 3.0 for the storage business and Canadian PIPEDA for the healthcare operations. All three workstreams were delivered with zero business downtime."
+    },
+    "date_range": {
+      "start": "December 2014",
+      "end": "June 2015"
+    },
+    "challenge": {
+      "summary": "The Dymon corporate infrastructure was operating on unique physical hardware per server and per service. Analysis identified 8 physical servers of identical capacity running at less than 20% utilization."
+    },
+    "solution": {
+      "summary": "Delivered comprehensive cloud and infrastructure solutions across:",
+      "deliverables": [
+        "Operations Virtualization",
+        "Remote Desktop Services (RDS) / Thin Client Implementation",
+        "Sales Software & POS Infrastructure System Upgrade"
+      ]
+    },
+    "outcomes": [
+      "Consolidated 8 underutilized physical servers into a Citrix XenServer virtualized cluster, reclaiming 3 unused Layer 3 switches",
+      "Implemented VLAN-segmented network architecture with PCI-DSS 3.0 compliance",
+      "Replaced aging multi-OS desktop infrastructure with centralized Citrix XenServer and Windows 2012 R2 RDS thin client solution",
+      "Centralized user data and roaming profiles achieving PIPEDA compliance for healthcare data",
+      "Executed vendor-mandated PIN pad replacement and credit transaction software upgrade across all Dymon Storage facilities with zero downtime",
+      "Maintained PCI-DSS 3.0 compliance throughout the upgrade cycle"
+    ],
+    "technologies": [
+      {
+        "category": "Virtualization",
+        "items": [
+          "Citrix XenServer",
+          "Windows Server 2012 R2 RDS"
+        ]
+      },
+      {
+        "category": "Networking & WAN",
+        "items": [
+          "VLAN",
+          "Layer 3 Switching"
+        ]
+      },
+      {
+        "category": "End-User Computing",
+        "items": [
+          "Thin Client"
+        ]
+      },
+      {
+        "category": "Business Applications",
+        "items": [
+          "ADP PIN Pads",
+          "POS"
+        ]
+      },
+      {
+        "category": "Compliance Frameworks",
+        "items": [
+          "PCI-DSS 3.0",
+          "PIPEDA"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "personal": {
+    "name": "Mr. Christian Turner",
+    "title": "Senior Cloud Architect & DevSecOps Specialist",
+    "tagline": "Comprehensive Technical CV & Project Portfolio",
+    "subtitle": "Cloud Architecture | DevSecOps | Infrastructure Automation | Agentic Engineering",
+    "email": "CTurner@OttawaCloudConsulting.com",
+    "phone": "+1 (613) 796-3300",
+    "location": {
+      "city": "Ottawa",
+      "province": "Ontario",
+      "country": "Canada"
+    },
+    "links": {
+      "linkedin": "linkedin.com/in/Christian-Turner-CloudPro",
+      "github": "github.com/OttawaCloudConsulting",
+      "notebooklm": "notebooklm.google.com/notebook/896df009-4d5f-4c6a-afad-95c6b77aeebe"
+    },
+    "consulting_entity": "Ottawa Cloud Consulting Inc."
+  },
+  "professional_profile": {
+    "summary": [
+      "Mr. Turner is a Senior Cloud Architect and DevSecOps Specialist with 15+ years of AWS-focused platform engineering experience, including nine consecutive years delivering cloud solutions to Canadian Federal Government clients. He has achieved Authority to Operate (ATO) status on multiple government AWS environments, implemented CI/CD automation frameworks at the platform level across multiple AWS Organizations tenants at Shared Services Canada, and holds four active AWS certifications including Solutions Architect – Professional. His engagements span Government of Canada departments holistically — including SSC, Agriculture Canada, and the Department of National Defence — as well as private sector clients with a focus on start-up and innovation organizations.",
+      "His expertise spans AWS-native development, multi-account governance, containerized workloads (EKS, Kubernetes), GitOps pipelines (ArgoCD, Azure DevOps), IaC at enterprise scale (Terraform, CDK, CloudFormation), and AI and Agentic Engineering — including the design and deployment of autonomous agent workflows and LLM-integrated automation pipelines. Delivery is consistently aligned to ITSG-22/33/38, NIST 800-53, and Government of Canada cloud guardrail requirements.",
+      "His experience includes successful cloud migrations across healthcare, utilities, and political sector clients with HIPAA, NIST, and ITSG compliance requirements. As a Subject Matter Expert, he engages directly with technical teams, management, and executive stakeholders to deliver architecture that is secure, automated, and auditable."
+    ],
+    "certifications": [
+      {
+        "name": "AWS Certified SysOps Administrator - Associate",
+        "issuer": "Amazon Web Services",
+        "certificate_url": "./assets/certificates/AWS Certified SysOps Administrator - Associate.pdf",
+        "date_issued": "",
+        "date_expires": "August 2028",
+        "credential_id": ""
+      },
+      {
+        "name": "AWS Certified Solutions Architect - Associate",
+        "issuer": "Amazon Web Services",
+        "certificate_url": "./assets/certificates/AWS Certified Solutions Architect - Associate.pdf",
+        "date_issued": "",
+        "date_expires": "June 2027",
+        "credential_id": ""
+      },
+      {
+        "name": "AWS Certified Solutions Architect - Professional",
+        "issuer": "Amazon Web Services",
+        "certificate_url": "./assets/certificates/AWS Certified Solutions Architect - Professional.pdf",
+        "date_issued": "",
+        "date_expires": "June 2027",
+        "credential_id": ""
+      },
+      {
+        "name": "AWS Certified Developer - Associate",
+        "issuer": "Amazon Web Services",
+        "certificate_url": "./assets/certificates/AWS Certified Developer - Associate.pdf",
+        "date_issued": "",
+        "date_expires": "July 2028",
+        "credential_id": ""
+      },
+      {
+        "name": "Certified Scrum Master (CSM - Scrum Alliance)",
+        "issuer": "Scrum Alliance",
+        "certificate_url": "./assets/certificates/Scrum Alliance - Certified ScrumMaster.pdf",
+        "date_issued": "",
+        "date_expires": "August 2028",
+        "credential_id": ""
+      }
+    ]
+  },
+  "executive_summary": {
+    "specialization": "AWS Cloud Architecture, DevSecOps, and Platform Engineering for Canadian Federal Government and regulated sector clients",
+    "government_clients": "Shared Services Canada (SSC), Agriculture Canada, Department of National Defence (DND) — 9+ consecutive years",
+    "compliance_depth": "ITSG-22/33/38, NIST 800-53, Government of Canada Cloud Guardrails, HIPAA; multiple Authority to Operate (ATO) achievements",
+    "cloud_platforms": "AWS (primary, 15+ years), Microsoft Azure, Google Cloud",
+    "current_engagement": "Cloud Platform Engineering, Shared Services Canada — September 2023 to Present",
+    "availability": "2-week notice period"
+  }
+}

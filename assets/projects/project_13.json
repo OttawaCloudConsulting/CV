@@ -1,52 +1,161 @@
 {
   "project": {
     "number": 13,
-    "title": "[Client Redacted] - Cloud Platform Engineering",
+    "title": "SSC - Cloud Platform Engineering / Hosting Services Branch",
     "client": {
-      "name": "[Client Redacted]",
-      "department": "Cloud Hosting Services Branch",
-      "team": "Platform Engineering"
+      "name": "Shared Services Canada",
+      "department": "Hosting Services Branch",
+      "team": "Cloud Platform Engineering"
     },
-    "role": "AWS Cloud Platform Engineer/Architect",
+    "role": "AWS Cloud Infrastructure as Code DevOps Engineer & Architect",
+    "role_overview": {
+      "summary": "Shared Services Canada's Hosting Services Branch Cloud Platform Engineering team delivers and operates an enterprise-class AWS cloud tenancy supporting multiple Government of Canada departments through AWS Secure Environment Accelerator (ASEA) and Landing Zone Accelerator (LZA) platforms. Christian serves as AWS Cloud Infrastructure as Code DevOps Engineer and Architect through Ottawa Cloud Consulting, operating across two concurrent workstreams — the platform engineering track responsible for Kubernetes/EKS GitOps architecture and IaC standards, and the automation and orchestration framework track responsible for multi-account AWS Organizations governance, serverless and event-driven workload design, EKS cluster engineering, and developer Golden Path tooling. This is the current active engagement as of 2026."
+    },
+    "date_range": {
+      "start": "September 2023",
+      "end": "Current"
+    },
     "challenge": {
-      "summary": "Organizational environment requires automated client/workload facilitation with maximum automation and low-touch onboarding and support processes."
+      "summary": "SSC's Hosting Services Branch required delivery of an enterprise-class, multi-department AWS cloud tenancy across two concurrent engineering workstreams — a Kubernetes/EKS GitOps platform and a cloud automation and orchestration framework — meeting Security By Design requirements aligned to NIST 800-53 and ITSG controls, at a scale (200+ workloads, multiple GoC departments) with no existing EKS or GitOps baseline in place at engagement start."
     },
     "solution": {
-      "summary": "Architect, design, and deploy comprehensive automation framework utilizing:",
+      "summary": "Delivered comprehensive cloud and infrastructure solutions across:",
       "deliverables": [
-        "Kubernetes with ArgoCD & Crossplane",
-        "GitOps-based infrastructure orchestration",
-        "Centralized DevOps orchestration platform",
-        "Deterministic automation workflows"
+        "Cloud Services Directorate, Cloud Platform Engineering",
+        "Cloud Services Directorate, Automation and Orchestration Framework"
       ]
     },
     "outcomes": [
-      "✅ Automation of processes and migration from Click-Ops to GitOps-based workflows",
-      "✅ 30% improvement in deployment frequency",
-      "✅ 60% reduction in Kubernetes onboarding time",
-      "✅ 99.9% uptime across 3 production EKS clusters",
-      "✅ 75% reduction in deployment errors through standardization"
+      "Successfully architected and deployed enterprise-class GitOps platform serving multiple government departments through AWS EKS and ArgoCD",
+      "Established Infrastructure as Code standards using Terraform and Crossplane, enabling rapid deployment of NIST 800-53 compliant workloads across SSC's AWS Landing Zone Accelerator platform",
+      "Architected 3 multi-account AWS organizations managing 200+ workloads with governance, SCPs, identity models, and compliance baselines aligned to NIST, CIS, and ITSG",
+      "Improved deployment frequency by 30% through GitOps automation with ArgoCD and Azure DevOps, managing over 50 microservices",
+      "Designed 30+ serverless, event-driven, and containerized workloads reducing operational overhead by 40% and infrastructure costs by $25K annually",
+      "Engineered 3 production EKS clusters achieving 99.9% uptime while reducing Kubernetes onboarding time by over 60% through deterministic automation and developer Golden Paths"
     ],
     "technologies": [
       {
-        "category": "Container Orchestration",
-        "items": ["AWS EKS", "Kubernetes", "Docker"]
+        "category": "Public Cloud",
+        "items": [
+          "Amazon AWS Cloud",
+          "Azure DevOps",
+          "Amazon AWS Organizations",
+          "AWS Control Tower",
+          "AWS SSO",
+          "AWS Config",
+          "AWS CloudTrail",
+          "AWS GuardDuty"
+        ]
       },
       {
-        "category": "GitOps & CI/CD",
-        "items": ["ArgoCD", "Argo Workflows", "Argo Events", "Azure DevOps"]
+        "category": "Applications & Development Tools",
+        "items": [
+          "Azure DevOps Git",
+          "ArgoCD",
+          "Argo Workflows",
+          "Checkov Security Scanning",
+          "JIRA",
+          "Confluence"
+        ]
+      },
+      {
+        "category": "Servers & Operating Systems",
+        "items": [
+          "Kubernetes (kind, k3d, kubeadm)",
+          "AWS Linux",
+          "CentOS",
+          "CIS Hardened Images"
+        ]
+      },
+      {
+        "category": "Languages & Scripting",
+        "items": [
+          "Bash",
+          "Python 3.x",
+          "Typescript",
+          "Golang",
+          "Terraform",
+          "Crossplane",
+          "Helm",
+          "CDK",
+          "CDK8s",
+          "Python",
+          "YAML",
+          "JSON",
+          "KCL"
+        ]
+      },
+      {
+        "category": "Containers & Kubernetes",
+        "items": [
+          "Amazon EKS",
+          "Docker",
+          "Kubernetes",
+          "Helm",
+          "OCI Bundles",
+          "Helm Charts",
+          "Docker Images"
+        ]
+      },
+      {
+        "category": "CI/CD & GitOps",
+        "items": [
+          "ArgoCD",
+          "Argo Workflows",
+          "Azure DevOps",
+          "Git"
+        ]
       },
       {
         "category": "Infrastructure as Code",
-        "items": ["Terraform", "Crossplane", "Helm", "CDK", "CDK8s"]
+        "items": [
+          "Crossplane",
+          "KCL",
+          "Terraform",
+          "AWS CDK",
+          "CloudFormation"
+        ]
       },
       {
-        "category": "Security & Compliance",
-        "items": ["AWS IAM", "IRSA", "RBAC", "NIST 800-53", "ITSG standards"]
+        "category": "Serverless & Event-Driven",
+        "items": [
+          "AWS Lambda",
+          "Step Functions",
+          "EventBridge",
+          "SQS",
+          "SNS",
+          "API Gateway"
+        ]
       },
       {
-        "category": "Languages",
-        "items": ["Python", "Golang", "Typescript", "Bash"]
+        "category": "Networking & WAN",
+        "items": [
+          "Cilium",
+          "AWS VPC",
+          "Transit Gateway",
+          "Load Balancers"
+        ]
+      },
+      {
+        "category": "Security",
+        "items": [
+          "AWS IAM",
+          "IRSA",
+          "RBAC",
+          "Service Control Policies",
+          "CIS Controls",
+          "NIST Frameworks"
+        ]
+      },
+      {
+        "category": "Observability & Monitoring",
+        "items": [
+          "CloudWatch",
+          "Prometheus",
+          "Grafana",
+          "AWS X-Ray",
+          "Elasticsearch"
+        ]
       }
     ]
   }

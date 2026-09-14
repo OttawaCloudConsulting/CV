@@ -1,0 +1,101 @@
+{
+  "project": {
+    "number": 11.1,
+    "title": "Cloud Services Directorate, Cloud Platform Engineering Project",
+    "client": {
+      "name": "Shared Services Canada",
+      "department": "Cloud Services Directorate",
+      "team": "Cloud Platform Engineering"
+    },
+    "role": "AWS Cloud Infrastructure as Code DevOps Engineer & Architect",
+    "parentsummary": {
+      "deliverables": "Designed, coded, and deployed the SSC CSD Landing Zone as reusable Infrastructure as Code, integrating AWS Landing Zone customization, ASEA Security Guard Rails, SSO federation with Azure Active Directory, AWS IAM access control frameworks, CI/CD pipeline via CodePipeline and GitLab, and ITSG-22/33/38 and TBS cloud guardrail-aligned security controls to achieve iATO — supporting onboarding of critical government workloads including SCED, DX, Vocalls, and Email.",
+      "outcomes": "Became the first SSC team to achieve ATO status using the AWS Secure Environment Accelerator, establishing the CSD Landing Zone as the reusable standard architecture for government-wide SSC cloud deployments and successfully onboarding multiple critical government workloads onto the compliant platform."
+    },
+    "date_range": {
+      "start": "September 2019",
+      "end": "January 2021"
+    },
+    "challenge": {
+      "summary": "The specific technical challenge was to design, code, and deploy the CSD Landing Zone entirely as IaC — integrating ASEA Security Guard Rails, multi-account AWS Organizations structures, SSO federation with Azure Active Directory, and ITSG-22/33/38-aligned controls — in a domain where no established government reference architecture or prior ATO precedent existed for the ASEA toolchain."
+    },
+    "solution": {
+      "summary": "Key activities and deliverables:",
+      "deliverables": [
+        "Infrastructure as Code (IaC) development and deployment using CloudFormation and ASEA",
+        "CI/CD CodePipeline, CodeCommit, CodeBuild, CodeDeploy",
+        "GitLab, GitHub",
+        "Implementation of IT Security Program to meet ITSG-22, ITSG-33 and ITSG-38 and TBS driven cloud guardrails and achieve iATO",
+        "Designed, secured, and implemented SSO Federation with Azure Active Directory, establishing centralized identity access management for the CSD Landing Zone",
+        "Designed and codified the AWS IAM access control framework for the CSD Landing Zone",
+        "Facilitated requirements gathering with technical team, architecture team, and security team",
+        "Client Deployment of AWS Native resources to provide governance and generate iATO evidence packages",
+        "Source Code Management within GitLab",
+        "DevOps integration with DevOps tooling, methodology, and processes",
+        "Documentation, Knowledge transfer and cross-training with team, new staff and onboarded clients",
+        "Achieve ATO status for AWS Cloud",
+        "Supporting onboarding of workloads (SCED, DX, Vocalls, Email)"
+      ]
+    },
+    "outcomes": [
+      "First team to achieve ATO status using AWS Secure Environment Accelerator (ASEA), establishing reusable Infrastructure as Code templates for government-wide adoption",
+      "Created foundational 'CSD Landing Zone' architecture that became the standard for SSC cloud deployments, supporting critical workloads including SCED, DX, Vocalls, and Email systems"
+    ],
+    "technologies": [
+      {
+        "category": "Public Cloud",
+        "items": [
+          "Amazon AWS Cloud",
+          "AWS VPC",
+          "AWS CloudFront",
+          "AWS CloudWatch",
+          "AWS CloudTrail",
+          "AWS IAM",
+          "AWS EC2",
+          "AWS ECS",
+          "AWS SES",
+          "AWS S3",
+          "AWS RDS",
+          "AWS CloudFormation",
+          "AWS Service Catalog",
+          "AWS Route 53",
+          "AWS Systems Manager",
+          "AWS Trusted Advisor",
+          "AWS VPN",
+          "AWS ELB (Load Balancer)",
+          "AWS ALB (Load Balancer)",
+          "AWS Transit Gateway",
+          "AWS Transit Peering",
+          "AWS GuardDuty",
+          "AWS WAF & Shield",
+          "AWS Inspector",
+          "AWS Certificate Manager",
+          "AWS Auto-Scaling",
+          "AWS EBS Storage",
+          "AWS Managed SSO",
+          "AWS CodeBuild",
+          "AWS CodePipeline",
+          "AWS Organizations",
+          "AWS Config"
+        ]
+      },
+      {
+        "category": "Applications & Development Tools",
+        "items": [
+          "Microsoft Active Directory",
+          "Bash",
+          "GitLab",
+          "GitHub",
+          "CloudFormation"
+        ]
+      },
+      {
+        "category": "Servers & Operating Systems",
+        "items": [
+          "Microsoft Windows 2019",
+          "AWS Linux"
+        ]
+      }
+    ]
+  }
+}

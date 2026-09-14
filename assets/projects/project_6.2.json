@@ -1,0 +1,71 @@
+{
+  "project": {
+    "number": 6.2,
+    "title": "Office 365 Migration from Exchange & Domino Environments",
+    "client": {
+      "name": "Lowe Martin Group",
+      "department": "",
+      "team": ""
+    },
+    "role": "DevOps",
+    "parentsummary": {
+      "deliverables": "Executed the migration of 2,000+ mail objects from a mixed on-premises Microsoft Exchange 2010 and Lotus Domino 9 environment to Office 365, performing Lotus Domino to Exchange pre-migration, Exchange Online mailbox and resource migration, SIEM-integrated security controls, and Exchange Online access control framework implementation with PowerShell automation.",
+      "outcomes": "Successfully completed the full mail platform consolidation for 2,000+ objects into Office 365, decommissioning both the Exchange and Domino on-premises environments and delivering a unified, ISO security controls-aligned cloud mail platform with integrated SIEM monitoring."
+    },
+    "date_range": {
+      "start": "March 2017",
+      "end": "September 2017"
+    },
+    "challenge": {
+      "summary": "The client was performing a planned migration from an on-premise mixed environment of Microsoft Exchange 2010 and Lotus Domino 9 to a completely hosted Office 365 environment. The quantity of mail objects was 2000+."
+    },
+    "solution": {
+      "summary": "Key activities and deliverables:",
+      "deliverables": [
+        "Internal directory configuration reviews",
+        "Migration planning and aligning to tool requirements",
+        "Deployment of Office365 specific features",
+        "Lotus Domino Migration to Exchange & Manual Migration processes",
+        "Exchange Mailbox and Resource migration processes",
+        "Implementation of IT Security and Cyber Protection Controls with SIEM integration. Map to ISO Security Controls",
+        "Implemented the Exchange Online access control framework for 2,000+ migrated mail objects",
+        "PowerShell scripting and automation",
+        "Migration Review and end user documentation with cross-training and knowledge transfer"
+      ]
+    },
+    "outcomes": [
+      "Completed full mail platform consolidation of 2,000+ mail objects from a mixed Exchange 2010 and Lotus Domino 9 environment to Office 365, decommissioning both legacy on-premises mail systems",
+      "Implemented SIEM-integrated security controls aligned to ISO security standards across the migrated Office 365 environment",
+      "Delivered the Exchange Online access control framework for 2,000+ migrated mail objects via PowerShell automation, establishing a governed and auditable permission model"
+    ],
+    "technologies": [
+      {
+        "category": "Collaboration & Productivity",
+        "items": [
+          "Microsoft Office 365",
+          "Exchange Online",
+          "Microsoft Exchange 2010",
+          "Lotus Domino 9"
+        ]
+      },
+      {
+        "category": "Security",
+        "items": [
+          "SIEM"
+        ]
+      },
+      {
+        "category": "Languages & Scripting",
+        "items": [
+          "PowerShell"
+        ]
+      },
+      {
+        "category": "Identity & Access Management",
+        "items": [
+          "Active Directory"
+        ]
+      }
+    ]
+  }
+}

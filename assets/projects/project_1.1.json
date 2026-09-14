@@ -1,63 +1,74 @@
 {
   "project": {
     "number": 1.1,
-    "title": "[Client Redacted] - IT Integration of Automated Production Systems",
+    "title": "IT Integration of fully automated production systems (Fond du Lac, Wisconsin)",
     "client": {
-      "name": "[Client Redacted]",
-      "department": "",
+      "name": "Central Wire Industries",
+      "department": "Infrastructure & Operations",
       "team": ""
     },
     "role": "Operations and Infrastructure Management",
+    "parentsummary": {
+      "deliverables": "Architected and delivered full IT integration of a newly acquired GE Fanuc smart-factory, encompassing SCADA systems, ERP/MRP connectivity to centralized AS/400 infrastructure, SNMP monitoring, and lights-out automation routines across the Fond du Lac, Wisconsin facility.",
+      "outcomes": "Successfully unified smart-factory automation and SCADA systems with corporate Lawson Movex (M3) and Info BPCS ERP/MRP suites, delivering lights-out manufacturing capability and implementing IT security controls meeting US DOD NOFORN classification with ISO:27001 and NIST compliance."
+    },
+    "date_range": {
+      "start": "January 2010",
+      "end": "March 2011"
+    },
     "challenge": {
-      "summary": "Integrate $500M enterprise with fully automated smart-factory production systems while managing ERP/MRP integration and supporting \"lights-out\" manufacturing operations."
+      "summary": "Central Wire Industries, as a $500 million annual revenue enterprise, expanded its operations with purchase of a smart-factory requiring integration of all aspects of automation, including IT Systems, ERP and MRP systems."
     },
     "solution": {
-      "summary": "Strategic approach to smart-factory IT integration:",
+      "summary": "Key activities and deliverables:",
       "deliverables": [
-        "GE Fanuc Smart Automation and SCADA systems integration",
-        "Automated data transfer to centralized AS/400 systems",
-        "Lawson Movex (M3) and Info BPCS ERP/MRP integration",
-        "SNMP monitoring of smart-factory and IT infrastructure",
-        "Fail-over testing and documentation for non-technical staff",
-        "US DOD NOFORN classification compliance"
+        "Project Management using waterfall methodologies",
+        "Needs analysis, define requirements, and trusted vendors",
+        "Identify additional requirements to support lights-out manufacturing plant",
+        "Vendor Management and advisory services for integration",
+        "Management and facilitation of on-premise automation system configuration with Plant Manager",
+        "Architect, design, and implement IT automation routines for data transfer to centralized AS/400 systems",
+        "Integration of SNMP monitoring to smart-factory systems plus regular IT Infrastructure",
+        "Fail-over testing planning and testing to verify on-site documentation comprehensiveness",
+        "Facilitated requirements gathering between facility production, management, corporate production, material purchasing, external vendors, and IT teams",
+        "Implementation of IT Security and Cyber Protection Controls including US DOD NOFORN classification. Compliance required for ISO:27001 and NIST",
+        "Generate final architecture and documentation",
+        "Go-Live and release"
       ]
     },
     "outcomes": [
-      "✅ Successful smart-factory integration with minimal downtime",
-      "✅ Automated data transfer and system integration",
-      "✅ Lights-out manufacturing operations enabled",
-      "✅ 60% growth in organizational staff supported",
-      "✅ Multi-location payroll consolidation achieved",
-      "✅ US DOD compliance maintained (NOFORN classification)"
+      "Delivered IT infrastructure enabling fully automated lights-out manufacturing operations at the Fond du Lac facility, integrating GE Fanuc SCADA systems with centralized AS/400-based Lawson Movex and Info BPCS ERP/MRP suites",
+      "Implemented IT security controls meeting US DOD NOFORN classification with ISO:27001 and NIST compliance"
     ],
     "technologies": [
       {
-        "category": "Automation",
-        "items": ["GE Fanuc Smart Automation", "SCADA systems"]
+        "category": "Business Applications",
+        "items": [
+          "Lawson Movex (M3)",
+          "Info BPCS"
+        ]
       },
       {
-        "category": "ERP/MRP",
-        "items": ["Lawson MOVEX (M3)", "Info BPCS", "Infor Syteline"]
+        "category": "Industrial Automation & SCADA",
+        "items": [
+          "GE Fanuc",
+          "SCADA",
+          "SNMP"
+        ]
       },
       {
-        "category": "Infrastructure",
-        "items": ["Windows 2003", "Windows 2008", "AS/400", "IBM WebSphere"]
+        "category": "Servers & Operating Systems",
+        "items": [
+          "IBM AS/400"
+        ]
       },
       {
-        "category": "Applications",
-        "items": ["SharePoint", "Salesforce", "MS SQL", "MySQL", "Oracle"]
-      },
-      {
-        "category": "Networking",
-        "items": ["Cisco Catalyst", "Cisco IOS Routers"]
-      },
-      {
-        "category": "Security",
-        "items": ["Cisco ASA", "Nagios", "SolarWinds"]
-      },
-      {
-        "category": "Monitoring",
-        "items": ["SNMP monitoring", "remote infrastructure management"]
+        "category": "Compliance Frameworks",
+        "items": [
+          "US DOD NOFORN",
+          "ISO:27001",
+          "NIST"
+        ]
       }
     ]
   }

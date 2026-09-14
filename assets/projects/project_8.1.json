@@ -1,56 +1,58 @@
 {
   "project": {
     "number": 8.1,
-    "title": "[Client Redacted] - Office 365 & Skype for Business Migration",
+    "title": "SharePoint 2016 Design",
     "client": {
-      "name": "[Client Redacted]",
-      "department": "",
+      "name": "Shared Services Canada",
+      "department": "CITS - Infrastructure Security",
       "team": ""
     },
-    "role": "Cloud Architecture",
+    "role": "Senior Business / Technical Architect",
+    "parentsummary": {
+      "deliverables": "Designed a SharePoint 2016 solution for SSC's Security Management and Governance teams to replace ad hoc Excel-based processes, delivering business process mapping and gap analysis, standardized metadata schema, Business Intake through Security Assessment milestone and funding recovery tracking workflows, and knowledge transfer to internal FTE staff.",
+      "outcomes": "Replaced non-standardized Excel reporting with a structured SharePoint-based project management and reporting system covering Security Assessment and Audit processes across all Government of Canada departments, delivering improved data integrity, consistent metadata, and measurable workflow governance for SM&G teams."
+    },
+    "date_range": {
+      "start": "July 2018",
+      "end": "February 2019"
+    },
     "challenge": {
-      "summary": "Migrate on-premises communication systems to cloud platform ensuring zero downtime, enhanced security, and compliance with public sector standards."
+      "summary": "The client was implementing a SharePoint solution for managing and tracking tasks performed by a number of Security Management and Governance teams. Existing processes relied heavily on Microsoft Excel spreadsheets for reporting, with non-standardized content."
     },
     "solution": {
-      "summary": "Strategic approach to communication systems migration:",
+      "summary": "Key activities and deliverables:",
       "deliverables": [
-        "Cloud environment preparation and configuration",
-        "Data migration using Microsoft native tools",
-        "Security and compliance adjustments within Office 365",
-        "Comprehensive training and post-migration support"
+        "Review the 'as-is' implementation and align it with the work methodologies and requirements for all SM&G teams",
+        "Using a simplified business process mapping and gap analysis strategy, created and refined key workflows to track the process from Business Intake, through Security Assessment (SA) process, and completion with milestone tracking and funding recovery tracking",
+        "Designed and enforced a standardized metadata schema and controlled vocabulary across the SharePoint system, eliminating non-standardized content and ensuring data integrity and reporting consistency",
+        "Implementation of consolidated data project management and reporting system for Security Assessment and Audit of projects across all GC departments",
+        "Facilitated requirements gathering with management and Director level to understand scope and high-level business process",
+        "Provided knowledge transfer and training to internal FTE staff"
       ]
     },
     "outcomes": [
-      "✅ Enhanced communication capabilities with cloud-based systems",
-      "✅ Increased reliability and scalability of services",
-      "✅ Secure and compliant environment meeting government standards",
-      "✅ Successful cloud transition with zero downtime",
-      "✅ Smooth transition with minimal operational disruption"
+      "Designed and delivered a SharePoint 2016 project management system replacing Excel-based ad hoc reporting for SSC Security Management and Governance teams across all Government of Canada departments",
+      "Standardized SM&G metadata schema and enforced data integrity, eliminating non-standardized content that had previously prevented consolidated reporting",
+      "Implemented Business Intake through Security Assessment milestone tracking and funding recovery workflows, providing end-to-end visibility into the SA process lifecycle for the first time"
     ],
     "technologies": [
       {
-        "category": "Public Cloud",
-        "items": ["Microsoft Office 365", "Cloudflare"]
+        "category": "Collaboration & Productivity",
+        "items": [
+          "SharePoint 2016"
+        ]
       },
       {
-        "category": "Security",
-        "items": ["Azure Security Center", "Azure Policy", "Blueprints"]
+        "category": "Identity & Access Management",
+        "items": [
+          "Active Directory"
+        ]
       },
       {
-        "category": "Databases",
-        "items": ["PostgreSQL"]
-      },
-      {
-        "category": "Monitoring",
-        "items": ["Azure Monitor", "Application Insights"]
-      },
-      {
-        "category": "Applications",
-        "items": ["Java", "Tomcat", "Apache", "Elasticsearch"]
-      },
-      {
-        "category": "Languages",
-        "items": ["PowerShell", "Azure CLI"]
+        "category": "Languages & Scripting",
+        "items": [
+          "PowerShell"
+        ]
       }
     ]
   }
