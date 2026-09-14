@@ -42,14 +42,14 @@
     ],
     "technologies": [
       {
-        "category": "Cloud Services",
+        "category": "Public Cloud",
         "items": [
           "Amazon AWS",
           "RackSpace"
         ]
       },
       {
-        "category": "Identity & Access",
+        "category": "Identity & Access Management",
         "items": [
           "RBAC"
         ]

@@ -38,17 +38,12 @@
       {
         "category": "Public Cloud",
         "items": [
-          "Amazon AWS (AWS CDK v1/v2, AWS CodeCommit, AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy, AWS Cloud9, AWS Glue, AWS DMS, AWS Lambda)"
-        ]
-      },
-      {
-        "category": "Public Cloud (Azure)",
-        "items": [
+          "Amazon AWS (AWS CDK v1/v2, AWS CodeCommit, AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy, AWS Cloud9, AWS Glue, AWS DMS, AWS Lambda)",
           "Azure DevOps"
         ]
       },
       {
-        "category": "Applications",
+        "category": "Applications & Development Tools",
         "items": [
           "Bash",
           "Azure DevOps",

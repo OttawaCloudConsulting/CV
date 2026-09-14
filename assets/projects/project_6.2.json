@@ -40,7 +40,7 @@
     ],
     "technologies": [
       {
-        "category": "Email & Collaboration",
+        "category": "Collaboration & Productivity",
         "items": [
           "Microsoft Office 365",
           "Exchange Online",
@@ -49,19 +49,19 @@
         ]
       },
       {
-        "category": "Security & Monitoring",
+        "category": "Security",
         "items": [
           "SIEM"
         ]
       },
       {
-        "category": "Scripting & Automation",
+        "category": "Languages & Scripting",
         "items": [
           "PowerShell"
         ]
       },
       {
-        "category": "Directory Services",
+        "category": "Identity & Access Management",
         "items": [
           "Active Directory"
         ]

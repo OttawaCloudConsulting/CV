@@ -39,15 +39,16 @@
     ],
     "technologies": [
       {
-        "category": "ERP/MRP Systems",
+        "category": "Business Applications",
         "items": [
           "Lawson MOVEX (M3)",
           "INFOR BPCS",
-          "Syteline (decommissioned)"
+          "Syteline (decommissioned)",
+          "ADP"
         ]
       },
       {
-        "category": "Automation & SCADA",
+        "category": "Industrial Automation & SCADA",
         "items": [
           "GE Fanuc",
           "SCADA",
@@ -55,13 +56,13 @@
         ]
       },
       {
-        "category": "Infrastructure",
+        "category": "Servers & Operating Systems",
         "items": [
           "IBM AS/400"
         ]
       },
       {
-        "category": "Backup & Recovery",
+        "category": "Storage & Backup",
         "items": [
           "Veritas Backup Exec",
           "LTO-5 Tape Libraries",
@@ -69,7 +70,7 @@
         ]
       },
       {
-        "category": "Unified Communications",
+        "category": "Unified Communications & Telephony",
         "items": [
           "Avaya IP Telephony",
           "Avaya Follow-Me",
@@ -83,13 +84,7 @@
         ]
       },
       {
-        "category": "Payroll Platform",
-        "items": [
-          "ADP"
-        ]
-      },
-      {
-        "category": "Identity & Access",
+        "category": "Identity & Access Management",
         "items": [
           "Microsoft Active Directory",
           "RBAC"

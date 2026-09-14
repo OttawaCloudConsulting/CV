@@ -42,7 +42,7 @@
     ],
     "technologies": [
       {
-        "category": "Cloud Services",
+        "category": "Public Cloud",
         "items": [
           "Amazon AWS",
           "AWS EC2",

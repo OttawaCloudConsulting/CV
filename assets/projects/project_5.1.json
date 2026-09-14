@@ -44,7 +44,7 @@
     ],
     "technologies": [
       {
-        "category": "Email & Collaboration",
+        "category": "Collaboration & Productivity",
         "items": [
           "Microsoft Office 365",
           "Exchange Online",
@@ -52,7 +52,7 @@
         ]
       },
       {
-        "category": "Scripting & Automation",
+        "category": "Languages & Scripting",
         "items": [
           "PowerShell"
         ]

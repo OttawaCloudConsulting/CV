@@ -39,7 +39,7 @@
     ],
     "technologies": [
       {
-        "category": "Backup & Recovery",
+        "category": "Storage & Backup",
         "items": [
           "Veritas Backup Exec",
           "LTO-5 Tape Libraries",
@@ -47,13 +47,13 @@
         ]
       },
       {
-        "category": "Infrastructure",
+        "category": "Servers & Operating Systems",
         "items": [
           "IBM AS/400"
         ]
       },
       {
-        "category": "File Services & WAN",
+        "category": "Networking & WAN",
         "items": [
           "Microsoft DFS (Distributed File System)",
           "T1 WAN Connectivity",

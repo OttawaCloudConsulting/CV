@@ -42,7 +42,7 @@
     ],
     "technologies": [
       {
-        "category": "ERP/MRP Systems",
+        "category": "Business Applications",
         "items": [
           "Lawson MOVEX (M3)",
           "INFOR BPCS",
@@ -50,13 +50,13 @@
         ]
       },
       {
-        "category": "Infrastructure",
+        "category": "Servers & Operating Systems",
         "items": [
           "IBM AS/400"
         ]
       },
       {
-        "category": "Identity & Access",
+        "category": "Identity & Access Management",
         "items": [
           "Microsoft Active Directory"
         ]

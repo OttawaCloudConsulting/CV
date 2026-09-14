@@ -43,7 +43,7 @@
         ]
       },
       {
-        "category": "Networking",
+        "category": "Networking & WAN",
         "items": [
           "VLAN",
           "Layer 3 Switching"
@@ -56,7 +56,7 @@
         ]
       },
       {
-        "category": "Payment Systems",
+        "category": "Business Applications",
         "items": [
           "ADP PIN Pads",
           "POS"

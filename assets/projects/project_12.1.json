@@ -42,19 +42,14 @@
       {
         "category": "Public Cloud",
         "items": [
-          "Amazon AWS (AWS Organizations, AWS Control Tower, AWS SSO, AWS Config, AWS CloudTrail, AWS GuardDuty, AWS IAM, AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy, AWS CloudFormation, Terraform)"
-        ]
-      },
-      {
-        "category": "Public Cloud (Azure)",
-        "items": [
+          "Amazon AWS (AWS Organizations, AWS Control Tower, AWS SSO, AWS Config, AWS CloudTrail, AWS GuardDuty, AWS IAM, AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy, AWS CloudFormation, Terraform)",
           "Azure DevOps",
           "Azure Active Directory",
           "Azure Sentinel"
         ]
       },
       {
-        "category": "Applications",
+        "category": "Applications & Development Tools",
         "items": [
           "Microsoft Active Directory",
           "Bash",
@@ -66,7 +61,7 @@
         ]
       },
       {
-        "category": "Servers",
+        "category": "Servers & Operating Systems",
         "items": [
           "Microsoft Windows 2019",
           "AWS Linux",

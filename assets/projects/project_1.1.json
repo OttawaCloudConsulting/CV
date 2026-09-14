@@ -42,14 +42,14 @@
     ],
     "technologies": [
       {
-        "category": "ERP/MRP Systems",
+        "category": "Business Applications",
         "items": [
           "Lawson Movex (M3)",
           "Info BPCS"
         ]
       },
       {
-        "category": "Automation & SCADA",
+        "category": "Industrial Automation & SCADA",
         "items": [
           "GE Fanuc",
           "SCADA",
@@ -57,7 +57,7 @@
         ]
       },
       {
-        "category": "Infrastructure",
+        "category": "Servers & Operating Systems",
         "items": [
           "IBM AS/400"
         ]

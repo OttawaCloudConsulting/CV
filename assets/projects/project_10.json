@@ -69,7 +69,7 @@
         ]
       },
       {
-        "category": "Applications",
+        "category": "Applications & Development Tools",
         "items": [
           "PostgreSQL",
           "Docker Containers",
@@ -89,7 +89,7 @@
         ]
       },
       {
-        "category": "Servers",
+        "category": "Servers & Operating Systems",
         "items": [
           "Microsoft Windows 2016",
           "AWS Linux",

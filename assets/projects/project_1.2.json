@@ -52,13 +52,13 @@
         ]
       },
       {
-        "category": "Payroll Platform",
+        "category": "Business Applications",
         "items": [
           "ADP"
         ]
       },
       {
-        "category": "Identity & Access",
+        "category": "Identity & Access Management",
         "items": [
           "Active Directory",
           "RBAC"

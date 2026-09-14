@@ -67,7 +67,7 @@
         ]
       },
       {
-        "category": "Applications",
+        "category": "Applications & Development Tools",
         "items": [
           "Microsoft Active Directory",
           "Bash",
@@ -77,7 +77,7 @@
         ]
       },
       {
-        "category": "Servers",
+        "category": "Servers & Operating Systems",
         "items": [
           "Microsoft Windows 2019",
           "AWS Linux"

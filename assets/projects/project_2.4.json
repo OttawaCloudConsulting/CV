@@ -49,7 +49,7 @@
         ]
       },
       {
-        "category": "Identity & Access",
+        "category": "Identity & Access Management",
         "items": [
           "Active Directory",
           "RBAC"

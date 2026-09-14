@@ -46,20 +46,20 @@
     ],
     "technologies": [
       {
-        "category": "Project Management & Collaboration",
+        "category": "Collaboration & Productivity",
         "items": [
           "Atlassian JIRA",
           "Atlassian Confluence"
         ]
       },
       {
-        "category": "Cloud Services",
+        "category": "Public Cloud",
         "items": [
           "Amazon AWS"
         ]
       },
       {
-        "category": "Scripting & Automation",
+        "category": "Languages & Scripting",
         "items": [
           "Bash",
           "SQL"

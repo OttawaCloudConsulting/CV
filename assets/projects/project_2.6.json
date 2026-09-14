@@ -45,20 +45,20 @@
     ],
     "technologies": [
       {
-        "category": "Productivity & Collaboration",
+        "category": "Collaboration & Productivity",
         "items": [
           "Microsoft Office 365",
           "Microsoft Exchange"
         ]
       },
       {
-        "category": "Identity & Access",
+        "category": "Identity & Access Management",
         "items": [
           "Active Directory"
         ]
       },
       {
-        "category": "Languages/Scripting",
+        "category": "Languages & Scripting",
         "items": [
           "PowerShell"
         ]

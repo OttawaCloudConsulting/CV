@@ -44,7 +44,7 @@
         ]
       },
       {
-        "category": "Container Orchestration",
+        "category": "Containers & Kubernetes",
         "items": [
           "Amazon EKS",
           "Docker",
@@ -53,7 +53,7 @@
         ]
       },
       {
-        "category": "GitOps & CI/CD",
+        "category": "CI/CD & GitOps",
         "items": [
           "ArgoCD",
           "Argo Workflows",
@@ -71,7 +71,7 @@
         ]
       },
       {
-        "category": "Security & Compliance",
+        "category": "Security",
         "items": [
           "AWS IAM",
           "IRSA",
@@ -82,7 +82,7 @@
         ]
       },
       {
-        "category": "Observability",
+        "category": "Observability & Monitoring",
         "items": [
           "Prometheus",
           "Grafana",
@@ -90,14 +90,14 @@
         ]
       },
       {
-        "category": "Networking",
+        "category": "Networking & WAN",
         "items": [
           "Cilium",
           "AWS VPC"
         ]
       },
       {
-        "category": "Applications",
+        "category": "Applications & Development Tools",
         "items": [
           "Azure DevOps Git",
           "Argo Workflows",
@@ -106,7 +106,7 @@
         ]
       },
       {
-        "category": "Servers",
+        "category": "Servers & Operating Systems",
         "items": [
           "Kubernetes (kind, k3d, kubeadm)",
           "AWS Linux",
@@ -115,7 +115,7 @@
         ]
       },
       {
-        "category": "Languages",
+        "category": "Languages & Scripting",
         "items": [
           "Bash",
           "Python 3.x",

@@ -41,7 +41,7 @@
     ],
     "technologies": [
       {
-        "category": "Cloud Services",
+        "category": "Public Cloud",
         "items": [
           "Microsoft Azure",
           "Office 365",
@@ -49,13 +49,13 @@
         ]
       },
       {
-        "category": "Mobile & Device Management",
+        "category": "End-User Computing",
         "items": [
           "Microsoft Intune"
         ]
       },
       {
-        "category": "Telephony",
+        "category": "Unified Communications & Telephony",
         "items": [
           "Cisco CUCM"
         ]

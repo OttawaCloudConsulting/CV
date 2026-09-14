@@ -53,16 +53,19 @@
         ]
       },
       {
-        "category": "Container Orchestration",
+        "category": "Containers & Kubernetes",
         "items": [
           "Amazon EKS",
           "Docker",
           "Kubernetes",
-          "Helm"
+          "Helm",
+          "OCI Bundles",
+          "Helm Charts",
+          "Docker Images"
         ]
       },
       {
-        "category": "GitOps & CI/CD",
+        "category": "CI/CD & GitOps",
         "items": [
           "ArgoCD",
           "Argo Workflows",
@@ -92,7 +95,7 @@
         ]
       },
       {
-        "category": "Networking",
+        "category": "Networking & WAN",
         "items": [
           "Cilium",
           "AWS VPC",
@@ -101,7 +104,7 @@
         ]
       },
       {
-        "category": "Security & Compliance",
+        "category": "Security",
         "items": [
           "AWS IAM",
           "IRSA",
@@ -112,7 +115,7 @@
         ]
       },
       {
-        "category": "Observability",
+        "category": "Observability & Monitoring",
         "items": [
           "CloudWatch",
           "Prometheus",
@@ -122,7 +125,7 @@
         ]
       },
       {
-        "category": "Languages",
+        "category": "Languages & Scripting",
         "items": [
           "Python",
           "Golang",
@@ -131,14 +134,6 @@
           "YAML",
           "JSON",
           "KCL"
-        ]
-      },
-      {
-        "category": "Package Management",
-        "items": [
-          "OCI Bundles",
-          "Helm Charts",
-          "Docker Images"
         ]
       }
     ]

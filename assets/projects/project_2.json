@@ -45,14 +45,14 @@
     ],
     "technologies": [
       {
-        "category": "Cloud Services",
+        "category": "Public Cloud",
         "items": [
           "Amazon AWS",
           "RackSpace"
         ]
       },
       {
-        "category": "Storage",
+        "category": "Storage & Backup",
         "items": [
           "NexentaStor",
           "IBM FC SAN"
@@ -66,35 +66,30 @@
         ]
       },
       {
-        "category": "Productivity & Collaboration",
+        "category": "Collaboration & Productivity",
         "items": [
           "Microsoft Office 365",
           "Microsoft Exchange"
         ]
       },
       {
-        "category": "Identity & Access",
+        "category": "Identity & Access Management",
         "items": [
           "Active Directory",
           "RBAC"
         ]
       },
       {
-        "category": "Languages/Scripting",
+        "category": "Languages & Scripting",
         "items": [
           "PowerShell"
         ]
       },
       {
-        "category": "ITSM Platform",
+        "category": "IT Service Management & Governance",
         "items": [
           "ManageEngine ServiceDesk",
-          "ManageEngine Asset Management"
-        ]
-      },
-      {
-        "category": "Service Management Frameworks",
-        "items": [
+          "ManageEngine Asset Management",
           "ITIL",
           "SLA/SLO Definition",
           "KPI Reporting"

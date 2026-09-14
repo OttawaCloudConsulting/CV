@@ -55,7 +55,7 @@
         ]
       },
       {
-        "category": "Applications",
+        "category": "Applications & Development Tools",
         "items": [
           "Java",
           "Tomcat",
@@ -67,7 +67,7 @@
         ]
       },
       {
-        "category": "Servers",
+        "category": "Servers & Operating Systems",
         "items": [
           "CentOS 6/7",
           "Windows 2012 R2",

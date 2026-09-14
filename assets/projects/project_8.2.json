@@ -43,7 +43,7 @@
     ],
     "technologies": [
       {
-        "category": "Project Management & Collaboration",
+        "category": "Collaboration & Productivity",
         "items": [
           "Atlassian JIRA",
           "Atlassian Confluence",
@@ -51,7 +51,7 @@
         ]
       },
       {
-        "category": "Infrastructure",
+        "category": "Servers & Operating Systems",
         "items": [
           "VMware ESXi 6",
           "NGINX",
@@ -59,7 +59,7 @@
         ]
       },
       {
-        "category": "Database",
+        "category": "Databases",
         "items": [
           "PostgreSQL"
         ]
@@ -72,7 +72,7 @@
         ]
       },
       {
-        "category": "Scripting & Automation",
+        "category": "Languages & Scripting",
         "items": [
           "Bash"
         ]

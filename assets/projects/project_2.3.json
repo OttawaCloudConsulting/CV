@@ -45,14 +45,14 @@
     ],
     "technologies": [
       {
-        "category": "Storage",
+        "category": "Storage & Backup",
         "items": [
           "NexentaStor",
           "IBM SAN"
         ]
       },
       {
-        "category": "Data Centre",
+        "category": "Data Centre & Hosting",
         "items": [
           "Tier II Data Centre",
           "Tier III Data Centre"

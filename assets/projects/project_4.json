@@ -35,7 +35,7 @@
     ],
     "technologies": [
       {
-        "category": "Cloud Services",
+        "category": "Public Cloud",
         "items": [
           "Amazon AWS",
           "AWS EC2",
@@ -50,14 +50,14 @@
         ]
       },
       {
-        "category": "CI/CD",
+        "category": "CI/CD & GitOps",
         "items": [
           "Jenkins",
           "Git"
         ]
       },
       {
-        "category": "Containerization",
+        "category": "Containers & Kubernetes",
         "items": [
           "Docker"
         ]

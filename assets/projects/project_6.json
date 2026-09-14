@@ -32,49 +32,44 @@
     ],
     "technologies": [
       {
-        "category": "Email & Collaboration",
+        "category": "Collaboration & Productivity",
         "items": [
           "Microsoft Office 365",
           "Exchange Online",
           "Microsoft Exchange 2010",
-          "Lotus Domino 9"
-        ]
-      },
-      {
-        "category": "Project Management & Collaboration",
-        "items": [
+          "Lotus Domino 9",
           "Atlassian JIRA",
           "Atlassian Confluence",
           "ITIL ServiceDesk"
         ]
       },
       {
-        "category": "Development Platforms",
+        "category": "Applications & Development Tools",
         "items": [
           "IBM WebSphere",
           "Java"
         ]
       },
       {
-        "category": "Cloud Services",
+        "category": "Public Cloud",
         "items": [
           "Amazon AWS"
         ]
       },
       {
-        "category": "Security & Monitoring",
+        "category": "Security",
         "items": [
           "SIEM"
         ]
       },
       {
-        "category": "Scripting & Automation",
+        "category": "Languages & Scripting",
         "items": [
           "PowerShell"
         ]
       },
       {
-        "category": "Print & Media Platforms",
+        "category": "Business Applications",
         "items": [
           "Xerox XMPie"
         ]

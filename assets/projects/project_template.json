@@ -40,7 +40,7 @@
     ],
     "technologies": [
       {
-        "category": "Container Orchestration",
+        "category": "Containers & Kubernetes",
         "items": [
           "AWS EKS",
           "Kubernetes",
@@ -48,7 +48,7 @@
         ]
       },
       {
-        "category": "GitOps & CI/CD",
+        "category": "CI/CD & GitOps",
         "items": [
           "ArgoCD",
           "Argo Workflows",
@@ -67,7 +67,7 @@
         ]
       },
       {
-        "category": "Security & Compliance",
+        "category": "Security",
         "items": [
           "AWS IAM",
           "IRSA",
@@ -77,7 +77,7 @@
         ]
       },
       {
-        "category": "Languages",
+        "category": "Languages & Scripting",
         "items": [
           "Python",
           "Golang",

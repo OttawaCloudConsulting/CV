@@ -134,15 +134,15 @@ SSC's Hosting Services Branch required an enterprise-class Kubernetes/EKS GitOps
 **Technical Environment:**
 
 - **Public Cloud:** Amazon AWS Cloud, Azure DevOps
-- **Container Orchestration:** Amazon EKS, Docker, Kubernetes, Helm
-- **GitOps & CI/CD:** ArgoCD, Argo Workflows, Azure DevOps, Git
+- **Containers & Kubernetes:** Amazon EKS, Docker, Kubernetes, Helm
+- **CI/CD & GitOps:** ArgoCD, Argo Workflows, Azure DevOps, Git
 - **Infrastructure as Code:** Terraform, Crossplane, KCL, CloudFormation
-- **Security & Compliance:** AWS IAM, IRSA, RBAC, CIS Controls, NIST Frameworks, Checkov Security Scanning
-- **Observability:** Prometheus, Grafana, CloudWatch
-- **Networking:** Cilium, AWS VPC
-- **Applications:** Azure DevOps Git, Argo Workflows, JIRA, Confluence
-- **Servers:** Kubernetes (kind, k3d, kubeadm), AWS Linux, CentOS, CIS Hardened Images
-- **Languages:** Bash, Python 3.x, Typescript, Golang, Helm, CDK, CDK8s, YAML, JSON, KCL
+- **Security:** AWS IAM, IRSA, RBAC, CIS Controls, NIST Frameworks, Checkov Security Scanning
+- **Observability & Monitoring:** Prometheus, Grafana, CloudWatch
+- **Networking & WAN:** Cilium, AWS VPC
+- **Applications & Development Tools:** Azure DevOps Git, Argo Workflows, JIRA, Confluence
+- **Servers & Operating Systems:** Kubernetes (kind, k3d, kubeadm), AWS Linux, CentOS, CIS Hardened Images
+- **Languages & Scripting:** Bash, Python 3.x, Typescript, Golang, Helm, CDK, CDK8s, YAML, JSON, KCL
 
 ### Project 13.2 — Cloud Services Directorate, Automation and Orchestration Framework
 
@@ -173,15 +173,14 @@ At engagement start, SSC's Cloud Services Directorate had no standardized automa
 **Technical Environment:**
 
 - **Public Cloud:** Amazon AWS Organizations, AWS Control Tower, AWS SSO, AWS Config, AWS CloudTrail, AWS GuardDuty
-- **Container Orchestration:** Amazon EKS, Docker, Kubernetes, Helm
-- **GitOps & CI/CD:** ArgoCD, Argo Workflows, Azure DevOps, Git
+- **Containers & Kubernetes:** Amazon EKS, Docker, Kubernetes, Helm, OCI Bundles, Helm Charts, Docker Images
+- **CI/CD & GitOps:** ArgoCD, Argo Workflows, Azure DevOps, Git
 - **Infrastructure as Code:** Crossplane, KCL, Terraform, AWS CDK, CloudFormation
 - **Serverless & Event-Driven:** AWS Lambda, Step Functions, EventBridge, SQS, SNS, API Gateway
-- **Networking:** Cilium, AWS VPC, Transit Gateway, Load Balancers
-- **Security & Compliance:** AWS IAM, IRSA, RBAC, Service Control Policies, CIS Controls, NIST Frameworks
-- **Observability:** CloudWatch, Prometheus, Grafana, AWS X-Ray, Elasticsearch
-- **Languages:** Python, Golang, Typescript, Bash, YAML, JSON, KCL
-- **Package Management:** OCI Bundles, Helm Charts, Docker Images
+- **Networking & WAN:** Cilium, AWS VPC, Transit Gateway, Load Balancers
+- **Security:** AWS IAM, IRSA, RBAC, Service Control Policies, CIS Controls, NIST Frameworks
+- **Observability & Monitoring:** CloudWatch, Prometheus, Grafana, AWS X-Ray, Elasticsearch
+- **Languages & Scripting:** Python, Golang, Typescript, Bash, YAML, JSON, KCL
 
 ## 12. Project 12 - Agriculture Canada - Cloud Centre of Expertise / Cloud Operations
 
@@ -230,10 +229,9 @@ The Cloud Operations workstream needed to design and implement IaC-driven govern
 
 **Technical Environment:**
 
-- **Public Cloud:** Amazon AWS (AWS Organizations, AWS Control Tower, AWS SSO, AWS Config, AWS CloudTrail, AWS GuardDuty, AWS IAM, AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy, AWS CloudFormation, Terraform)
-- **Public Cloud (Azure):** Azure DevOps, Azure Active Directory, Azure Sentinel
-- **Applications:** Microsoft Active Directory, Bash, Azure DevOps Git, Azure DevOps Pipelines, CloudFormation, Checkov Security Scanning (BridgeCrew/Prisma), TerraScan Security Scanning (Tenable)
-- **Servers:** Microsoft Windows 2019, AWS Linux, CentOS, CIS Hardened Images
+- **Public Cloud:** Amazon AWS (AWS Organizations, AWS Control Tower, AWS SSO, AWS Config, AWS CloudTrail, AWS GuardDuty, AWS IAM, AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy, AWS CloudFormation, Terraform), Azure DevOps, Azure Active Directory, Azure Sentinel
+- **Applications & Development Tools:** Microsoft Active Directory, Bash, Azure DevOps Git, Azure DevOps Pipelines, CloudFormation, Checkov Security Scanning (BridgeCrew/Prisma), TerraScan Security Scanning (Tenable)
+- **Servers & Operating Systems:** Microsoft Windows 2019, AWS Linux, CentOS, CIS Hardened Images
 
 ### Project 12.2 — DevOps & AWS Development
 
@@ -257,9 +255,8 @@ The AAFC Analytics team required cloud-native application development on AWS to 
 
 **Technical Environment:**
 
-- **Public Cloud:** Amazon AWS (AWS CDK v1/v2, AWS CodeCommit, AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy, AWS Cloud9, AWS Glue, AWS DMS, AWS Lambda)
-- **Public Cloud (Azure):** Azure DevOps
-- **Applications:** Bash, Azure DevOps, Git, Atlassian Jira, Code & IaC Security Scanning, JFROG Artifactory, SonarQube & Dependency Checker, AWS CDK v1.x, AWS CDK v2.x
+- **Public Cloud:** Amazon AWS (AWS CDK v1/v2, AWS CodeCommit, AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy, AWS Cloud9, AWS Glue, AWS DMS, AWS Lambda), Azure DevOps
+- **Applications & Development Tools:** Bash, Azure DevOps, Git, Atlassian Jira, Code & IaC Security Scanning, JFROG Artifactory, SonarQube & Dependency Checker, AWS CDK v1.x, AWS CDK v2.x
 
 ## 11. Project 11 - SSC CSD R&D
 
@@ -310,8 +307,8 @@ The specific technical challenge was to design, code, and deploy the CSD Landing
 **Technical Environment:**
 
 - **Public Cloud:** Amazon AWS Cloud, AWS VPC, AWS CloudFront, AWS CloudWatch, AWS CloudTrail, AWS IAM, AWS EC2, AWS ECS, AWS SES, AWS S3, AWS RDS, AWS CloudFormation, AWS Service Catalog, AWS Route 53, AWS Systems Manager, AWS Trusted Advisor, AWS VPN, AWS ELB (Load Balancer), AWS ALB (Load Balancer), AWS Transit Gateway, AWS Transit Peering, AWS GuardDuty, AWS WAF & Shield, AWS Inspector, AWS Certificate Manager, AWS Auto-Scaling, AWS EBS Storage, AWS Managed SSO, AWS CodeBuild, AWS CodePipeline, AWS Organizations, AWS Config
-- **Applications:** Microsoft Active Directory, Bash, GitLab, GitHub, CloudFormation
-- **Servers:** Microsoft Windows 2019, AWS Linux
+- **Applications & Development Tools:** Microsoft Active Directory, Bash, GitLab, GitHub, CloudFormation
+- **Servers & Operating Systems:** Microsoft Windows 2019, AWS Linux
 
 ## 10. Project 10 - DND DPDCS SMMS Replacement Project
 
@@ -363,8 +360,8 @@ The technical challenge was to architect a containerized, cloud-native replaceme
 **Technical Environment:**
 
 - **Public Cloud:** Amazon AWS Cloud, AWS VPC, AWS CloudFront, AWS CloudWatch, AWS CloudTrail, AWS IAM, AWS EC2, AWS ECS, AWS ECR, AWS SES, AWS S3, AWS EFS, AWS RDS, AWS CloudFormation, AWS Service Catalog, AWS Route 53, AWS Systems Manager, AWS Trusted Advisor, AWS VPN, AWS ELB (Load Balancer), AWS ALB (Load Balancer), AWS Transit Gateway, AWS Transit Peering, AWS GuardDuty, AWS WAF & Shield, AWS Inspector, AWS Certificate Manager, AWS Auto-Scaling, AWS EBS Storage, AWS Service Discovery, AWS Transfer Service (SFTP), AWS Parameter Store, AWS Secrets Store
-- **Applications:** PostgreSQL, Docker Containers, Bash, Terraform 0.12.7, Java 8.x, Tomcat 8.x, Atlassian JIRA, Atlassian Confluence, WSO2, Kafka, PHP, Git, OpenLDAP, SOGO, ManageEngine Desktop Central
-- **Servers:** Microsoft Windows 2016, AWS Linux, CentOS 7.x
+- **Applications & Development Tools:** PostgreSQL, Docker Containers, Bash, Terraform 0.12.7, Java 8.x, Tomcat 8.x, Atlassian JIRA, Atlassian Confluence, WSO2, Kafka, PHP, Git, OpenLDAP, SOGO, ManageEngine Desktop Central
+- **Servers & Operating Systems:** Microsoft Windows 2016, AWS Linux, CentOS 7.x
 
 ## 9. Project 9 - IDS Data Systems (New Democratic Party)
 
@@ -441,8 +438,8 @@ The NDP's bespoke server workload — comprising a local database, compute servi
 **Technical Environment:**
 
 - **Public Cloud:** Microsoft Azure, Azure Resource Manager (ARM), Azure Resource Groups, Azure Virtual Machines, Azure Virtual Machine Scale Sets, Azure Availability Sets, Azure Images, Azure Virtual Networks, Azure Load Balancers, Azure Network Security Groups, Azure Application Gateways, Azure Storage Accounts, Azure PostgreSQL Database, Cloudflare DNS, CloudFlare CDN
-- **Applications:** Java, Tomcat, Apache, Elasticsearch, PowerShell, Azure PowerShell, Azure CLI
-- **Servers:** CentOS 6/7, Windows 2012 R2, VMWare 6
+- **Applications & Development Tools:** Java, Tomcat, Apache, Elasticsearch, PowerShell, Azure PowerShell, Azure CLI
+- **Servers & Operating Systems:** CentOS 6/7, Windows 2012 R2, VMWare 6
 - **Security:** WatchGuard (next-gen firewall), Cloudflare WAF
 
 ## 8. Project 8 - SSC CITS SMG & CTMS
@@ -489,9 +486,9 @@ The client was implementing a SharePoint solution for managing and tracking task
 
 **Technical Environment:**
 
-- **Collaboration Platforms:** SharePoint 2016
-- **Directory Services:** Active Directory
-- **Scripting & Automation:** PowerShell
+- **Collaboration & Productivity:** SharePoint 2016
+- **Identity & Access Management:** Active Directory
+- **Languages & Scripting:** PowerShell
 
 ### Project 8.2 — Atlassian JIRA Implementation
 
@@ -522,11 +519,11 @@ The client was implementing JIRA for managing and tracking tasks performed by a 
 
 **Technical Environment:**
 
-- **Project Management & Collaboration:** Atlassian JIRA, Atlassian Confluence, HipChat
-- **Infrastructure:** VMware ESXi 6, NGINX, CentOS 7
-- **Database:** PostgreSQL
+- **Collaboration & Productivity:** Atlassian JIRA, Atlassian Confluence, HipChat
+- **Servers & Operating Systems:** VMware ESXi 6, NGINX, CentOS 7
+- **Databases:** PostgreSQL
 - **Security:** LUKS Encryption, SSL/TLS
-- **Scripting & Automation:** Bash
+- **Languages & Scripting:** Bash
 
 ## 7. Project 7 - Brookfield Renewable Energy Cloud Delivery
 
@@ -574,9 +571,9 @@ Brookfield Renewable Energy was executing a live MSP vendor consolidation while 
 
 **Technical Environment:**
 
-- **Cloud Services:** Microsoft Azure, Office 365, Azure Active Directory
-- **Mobile & Device Management:** Microsoft Intune
-- **Telephony:** Cisco CUCM
+- **Public Cloud:** Microsoft Azure, Office 365, Azure Active Directory
+- **End-User Computing:** Microsoft Intune
+- **Unified Communications & Telephony:** Cisco CUCM
 - **Compliance Frameworks:** NIST
 
 ## 6. Project 6 - Lowe Martin DevOps
@@ -628,9 +625,9 @@ The client was performing extensive internal change, which required the re-organ
 
 **Technical Environment:**
 
-- **Project Management & Collaboration:** Atlassian JIRA, Atlassian Confluence, ITIL ServiceDesk
-- **Development Platforms:** IBM WebSphere, Java
-- **Print & Media Platforms:** Xerox XMPie
+- **Collaboration & Productivity:** Atlassian JIRA, Atlassian Confluence, ITIL ServiceDesk
+- **Applications & Development Tools:** IBM WebSphere, Java
+- **Business Applications:** Xerox XMPie
 
 ### Project 6.2 — Office 365 Migration from Exchange & Domino Environments
 
@@ -658,10 +655,10 @@ The client was performing a planned migration from an on-premise mixed environme
 
 **Technical Environment:**
 
-- **Email & Collaboration:** Microsoft Office 365, Exchange Online, Microsoft Exchange 2010, Lotus Domino 9
-- **Security & Monitoring:** SIEM
-- **Scripting & Automation:** PowerShell
-- **Directory Services:** Active Directory
+- **Collaboration & Productivity:** Microsoft Office 365, Exchange Online, Microsoft Exchange 2010, Lotus Domino 9
+- **Security:** SIEM
+- **Languages & Scripting:** PowerShell
+- **Identity & Access Management:** Active Directory
 
 ## 5. Project 5 - HighRoads US Cloud Migration
 
@@ -714,8 +711,8 @@ HighRoads US required a full Exchange to Office 365 mailbox migration to be comp
 
 **Technical Environment:**
 
-- **Email & Collaboration:** Microsoft Office 365, Exchange Online, Active Directory
-- **Scripting & Automation:** PowerShell
+- **Collaboration & Productivity:** Microsoft Office 365, Exchange Online, Active Directory
+- **Languages & Scripting:** PowerShell
 - **Compliance Frameworks:** HIPAA, NIST, ISO:27001
 
 ### Project 5.2 — Atlassian Project Management Cloud Migration
@@ -750,9 +747,9 @@ HighRoads US was executing an IT strategy shift to eliminate on-premises infrast
 
 **Technical Environment:**
 
-- **Project Management & Collaboration:** Atlassian JIRA, Atlassian Confluence
-- **Cloud Services:** Amazon AWS
-- **Scripting & Automation:** Bash, SQL
+- **Collaboration & Productivity:** Atlassian JIRA, Atlassian Confluence
+- **Public Cloud:** Amazon AWS
+- **Languages & Scripting:** Bash, SQL
 - **Compliance Frameworks:** HIPAA, NIST, ISO:27001
 
 ## 4. Project 4 - HighRoads Canada Inc. Infrastructure Operations Manager
@@ -808,7 +805,7 @@ Architected and managed the migration and implementation of on-premise systems i
 
 **Technical Environment:**
 
-- **Cloud Services:** Amazon AWS, AWS EC2, AWS VPC, AWS RDS
+- **Public Cloud:** Amazon AWS, AWS EC2, AWS VPC, AWS RDS
 - **Virtualization:** VMware
 - **Compliance Frameworks:** HIPAA, NIST, ISO:27001
 
@@ -837,9 +834,9 @@ A traditional hosted customer facing CMS system was in production. Highroads was
 
 **Technical Environment:**
 
-- **Cloud Services:** Amazon AWS
-- **CI/CD:** Jenkins, Git
-- **Containerization:** Docker
+- **Public Cloud:** Amazon AWS
+- **CI/CD & GitOps:** Jenkins, Git
+- **Containers & Kubernetes:** Docker
 - **Compliance Frameworks:** HIPAA, NIST, ISO:27001
 
 ### Project 4.3 — Infrastructure Decommission & Migration
@@ -904,7 +901,7 @@ In Q4 2016 Highroads announced the closure of their Canadian offices. IT Operati
 
 **Technical Environment:**
 
-- **Identity & Access:** RBAC
+- **Identity & Access Management:** RBAC
 - **Compliance Frameworks:** HIPAA, NIST
 
 ## 3. Project 3 - Dymon Corporation - Infrastructure Manager
@@ -958,7 +955,7 @@ The Dymon corporate infrastructure was operating on unique physical hardware per
 **Technical Environment:**
 
 - **Virtualization:** Citrix XenServer
-- **Networking:** VLAN, Layer 3 Switching
+- **Networking & WAN:** VLAN, Layer 3 Switching
 - **Compliance Frameworks:** PCI-DSS 3.0
 
 ### Project 3.2 — Remote Desktop Services (RDS) / Thin Client Implementation
@@ -1016,7 +1013,7 @@ A vendor driven change to end-user credit transaction PIN pads required Dymon St
 
 **Technical Environment:**
 
-- **Payment Systems:** ADP PIN Pads, POS
+- **Business Applications:** ADP PIN Pads, POS
 - **Compliance Frameworks:** PCI-DSS 3.0
 
 ## 2. Project 2 - GeoDigital International Inc. IT Infrastructure and Cloud Services Manager
@@ -1080,8 +1077,8 @@ GeoDigital created a market pioneering SaaS application utilized by premium US i
 
 **Technical Environment:**
 
-- **Cloud Services:** Amazon AWS, RackSpace
-- **Identity & Access:** RBAC
+- **Public Cloud:** Amazon AWS, RackSpace
+- **Identity & Access Management:** RBAC
 - **Compliance Frameworks:** ISO:27001, NERC, FISMA, NIST
 
 ### Project 2.2 — Data Centre Migration (Vancouver, BC - Ottawa, ON)
@@ -1113,9 +1110,9 @@ The client required the migration of physical data centre from Vancouver On-Prem
 
 **Technical Environment:**
 
-- **Storage:** IBM FC SAN
+- **Storage & Backup:** IBM FC SAN
 - **Virtualization:** VMware 5.0, IBM Cluster
-- **Infrastructure:** Windows Server 2008 R2, Ottawa Tier 2 Data Centre
+- **Servers & Operating Systems:** Windows Server 2008 R2, Ottawa Tier 2 Data Centre
 - **Compliance Frameworks:** ISO:27001, NERC, NIST
 
 ### Project 2.3 — Corporate Private Cloud (Data Centre Architecture)
@@ -1149,8 +1146,8 @@ As a multi-petabyte data handling organization, GeoDigital required a robust sol
 
 **Technical Environment:**
 
-- **Storage:** NexentaStor, IBM SAN
-- **Data Centre:** Tier II Data Centre, Tier III Data Centre
+- **Storage & Backup:** NexentaStor, IBM SAN
+- **Data Centre & Hosting:** Tier II Data Centre, Tier III Data Centre
 - **Compliance Frameworks:** ISO:27001, NERC, FISMA, NIST
 
 ### Project 2.4 — On-Premise Data Centre Virtualization
@@ -1183,7 +1180,7 @@ Due to growth by corporate acquisitions, the client operated multiple physical l
 **Technical Environment:**
 
 - **Virtualization:** Microsoft Hyper-V
-- **Identity & Access:** Active Directory, RBAC
+- **Identity & Access Management:** Active Directory, RBAC
 - **Compliance Frameworks:** ISO:27001, NERC, NIST
 
 ### Project 2.5 — Corporate Hybrid Cloud (Production & Field Acquisition Systems)
@@ -1215,9 +1212,9 @@ The client expanded operations into the Australasia region. Leveraging public cl
 
 **Technical Environment:**
 
-- **Cloud Services:** Amazon AWS US, RackSpace Sydney
-- **Colocation:** Rogers Data Centre
-- **Networking:** Hybrid Cloud, Cross-Region Networking
+- **Public Cloud:** Amazon AWS US, RackSpace Sydney
+- **Data Centre & Hosting:** Rogers Data Centre
+- **Networking & WAN:** Hybrid Cloud, Cross-Region Networking
 - **Compliance Frameworks:** ISO:27001, NERC, FISMA, NIST
 
 ### Project 2.6 — Office 365 Cloud Migration
@@ -1251,9 +1248,9 @@ The client intended to manage risk and centralize mail management into a streaml
 
 **Technical Environment:**
 
-- **Productivity & Collaboration:** Microsoft Office 365, Microsoft Exchange
-- **Identity & Access:** Active Directory
-- **Languages/Scripting:** PowerShell
+- **Collaboration & Productivity:** Microsoft Office 365, Microsoft Exchange
+- **Identity & Access Management:** Active Directory
+- **Languages & Scripting:** PowerShell
 - **Compliance Frameworks:** ISO:27001, NIST
 
 ### Project 2.7 — Enterprise Service Management — Helpdesk Implementation and Expansion
@@ -1284,11 +1281,9 @@ IT support across GeoDigital's 8 sites operated independently with no centralize
 
 **Technical Environment:**
 
-- **ITSM Platform:** ManageEngine ServiceDesk
-- **Asset Management:** ManageEngine Asset Management, Remote Monitoring Agent
-- **Collaboration & Documentation:** Microsoft SharePoint
-- **Identity & Access:** Active Directory
-- **Service Management Frameworks:** ITIL, SLA/SLO Definition, KPI Reporting
+- **IT Service Management & Governance:** ManageEngine ServiceDesk, ManageEngine Asset Management, Remote Monitoring Agent, ITIL, SLA/SLO Definition, KPI Reporting
+- **Collaboration & Productivity:** Microsoft SharePoint
+- **Identity & Access Management:** Active Directory
 
 ### Project 2.8 — IT Organizational Modernization — IT Operations and Corporate Applications Restructuring
 
@@ -1315,8 +1310,8 @@ GeoDigital's IT function across 8 sites operated without defined roles or organi
 
 **Technical Environment:**
 
-- **Organizational Frameworks:** ITIL, Functional Team Design, Role Definition and RACI, Career Development Frameworks
-- **Collaboration & Documentation:** Microsoft SharePoint
+- **IT Service Management & Governance:** ITIL, Functional Team Design, Role Definition and RACI, Career Development Frameworks
+- **Collaboration & Productivity:** Microsoft SharePoint
 
 ## 1. Project 1 - Central Wire Industries Infrastructure Manager
 
@@ -1373,9 +1368,9 @@ Central Wire Industries, as a $500 million annual revenue enterprise, expanded i
 
 **Technical Environment:**
 
-- **ERP/MRP Systems:** Lawson Movex (M3), Info BPCS
-- **Automation & SCADA:** GE Fanuc, SCADA, SNMP
-- **Infrastructure:** IBM AS/400
+- **Business Applications:** Lawson Movex (M3), Info BPCS
+- **Industrial Automation & SCADA:** GE Fanuc, SCADA, SNMP
+- **Servers & Operating Systems:** IBM AS/400
 - **Compliance Frameworks:** US DOD NOFORN, ISO:27001, NIST
 
 ### Project 1.2 — ADP Payroll Systems Migration (Citrix Virtualization, Platform Upgrade, Database Migration)
@@ -1411,8 +1406,8 @@ The client had expanded its market share and physical locations by 60%, onboardi
 **Technical Environment:**
 
 - **Virtualization:** Citrix Desktop Streaming
-- **Payroll Platform:** ADP
-- **Identity & Access:** Active Directory, RBAC
+- **Business Applications:** ADP
+- **Identity & Access Management:** Active Directory, RBAC
 - **Compliance Frameworks:** ISO:27001, NIST
 
 ### Project 1.3 — M&A IT Integration — TechAlloy Inc. Acquisition (ArcelorMittal Divestiture)
@@ -1443,9 +1438,9 @@ Central Wire Industries acquired TechAlloy Inc. from ArcelorMittal, adding three
 
 **Technical Environment:**
 
-- **ERP/MRP Systems:** Lawson MOVEX (M3), INFOR BPCS, Syteline (decommissioned)
-- **Infrastructure:** IBM AS/400
-- **Identity & Access:** Microsoft Active Directory
+- **Business Applications:** Lawson MOVEX (M3), INFOR BPCS, Syteline (decommissioned)
+- **Servers & Operating Systems:** IBM AS/400
+- **Identity & Access Management:** Microsoft Active Directory
 - **Networking & WAN:** Cisco VPN, T1 WAN Connectivity, Microsoft DFS (Distributed File System)
 
 ### Project 1.4 — Enterprise Backup Standardization & WAN File Services (8-Site LTO-5 / Veritas / DFS Rollout)
@@ -1473,9 +1468,9 @@ Central Wire Industries had no enterprise backup standard across its eight sites
 
 **Technical Environment:**
 
-- **Backup & Recovery:** Veritas Backup Exec, LTO-5 Tape Libraries, Vital Records Inc. (VRI) Offsite Vaulting
-- **Infrastructure:** IBM AS/400
-- **File Services & WAN:** Microsoft DFS (Distributed File System), T1 WAN Connectivity, Cisco VPN
+- **Storage & Backup:** Veritas Backup Exec, LTO-5 Tape Libraries, Vital Records Inc. (VRI) Offsite Vaulting
+- **Servers & Operating Systems:** IBM AS/400
+- **Networking & WAN:** Microsoft DFS (Distributed File System), T1 WAN Connectivity, Cisco VPN
 
 ### Project 1.5 — Enterprise Telephony Consolidation — Avaya Unified Communications (9-Site Rollout)
 
@@ -1502,7 +1497,7 @@ Central Wire Industries operated nine physical sites — spanning the United Sta
 
 **Technical Environment:**
 
-- **Unified Communications:** Avaya IP Telephony, Avaya Follow-Me, Avaya Intelligent Call Routing
+- **Unified Communications & Telephony:** Avaya IP Telephony, Avaya Follow-Me, Avaya Intelligent Call Routing
 - **Networking & WAN:** T1 WAN Connectivity, Cisco VPN
 
 

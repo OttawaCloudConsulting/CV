@@ -42,36 +42,26 @@
     ],
     "technologies": [
       {
-        "category": "ITSM Platform",
+        "category": "IT Service Management & Governance",
         "items": [
-          "ManageEngine ServiceDesk"
-        ]
-      },
-      {
-        "category": "Asset Management",
-        "items": [
+          "ManageEngine ServiceDesk",
           "ManageEngine Asset Management",
-          "Remote Monitoring Agent"
+          "Remote Monitoring Agent",
+          "ITIL",
+          "SLA/SLO Definition",
+          "KPI Reporting"
         ]
       },
       {
-        "category": "Collaboration & Documentation",
+        "category": "Collaboration & Productivity",
         "items": [
           "Microsoft SharePoint"
         ]
       },
       {
-        "category": "Identity & Access",
+        "category": "Identity & Access Management",
         "items": [
           "Active Directory"
-        ]
-      },
-      {
-        "category": "Service Management Frameworks",
-        "items": [
-          "ITIL",
-          "SLA/SLO Definition",
-          "KPI Reporting"
         ]
       }
     ]

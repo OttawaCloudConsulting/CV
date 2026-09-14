@@ -43,20 +43,20 @@
     ],
     "technologies": [
       {
-        "category": "Cloud Services",
+        "category": "Public Cloud",
         "items": [
           "Amazon AWS US",
           "RackSpace Sydney"
         ]
       },
       {
-        "category": "Colocation",
+        "category": "Data Centre & Hosting",
         "items": [
           "Rogers Data Centre"
         ]
       },
       {
-        "category": "Networking",
+        "category": "Networking & WAN",
         "items": [
           "Hybrid Cloud",
           "Cross-Region Networking"

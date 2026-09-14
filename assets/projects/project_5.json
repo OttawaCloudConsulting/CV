@@ -32,28 +32,23 @@
     ],
     "technologies": [
       {
-        "category": "Email & Collaboration",
+        "category": "Collaboration & Productivity",
         "items": [
           "Microsoft Office 365",
           "Exchange Online",
-          "Active Directory"
-        ]
-      },
-      {
-        "category": "Project Management & Collaboration",
-        "items": [
+          "Active Directory",
           "Atlassian JIRA",
           "Atlassian Confluence"
         ]
       },
       {
-        "category": "Cloud Services",
+        "category": "Public Cloud",
         "items": [
           "Amazon AWS"
         ]
       },
       {
-        "category": "Scripting & Automation",
+        "category": "Languages & Scripting",
         "items": [
           "PowerShell",
           "Bash",

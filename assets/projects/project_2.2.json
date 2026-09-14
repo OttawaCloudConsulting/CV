@@ -43,7 +43,7 @@
     ],
     "technologies": [
       {
-        "category": "Storage",
+        "category": "Storage & Backup",
         "items": [
           "IBM FC SAN"
         ]
@@ -56,7 +56,7 @@
         ]
       },
       {
-        "category": "Infrastructure",
+        "category": "Servers & Operating Systems",
         "items": [
           "Windows Server 2008 R2",
           "Ottawa Tier 2 Data Centre"

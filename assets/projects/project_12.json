@@ -36,19 +36,14 @@
         "category": "Public Cloud",
         "items": [
           "Amazon AWS (AWS Organizations, AWS Control Tower, AWS SSO, AWS Config, AWS CloudTrail, AWS GuardDuty, AWS IAM, AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy, AWS CloudFormation, Terraform)",
-          "Amazon AWS (AWS CDK v1/v2, AWS CodeCommit, AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy, AWS Cloud9, AWS Glue, AWS DMS, AWS Lambda)"
-        ]
-      },
-      {
-        "category": "Public Cloud (Azure)",
-        "items": [
+          "Amazon AWS (AWS CDK v1/v2, AWS CodeCommit, AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy, AWS Cloud9, AWS Glue, AWS DMS, AWS Lambda)",
           "Azure DevOps",
           "Azure Active Directory",
           "Azure Sentinel"
         ]
       },
       {
-        "category": "Applications",
+        "category": "Applications & Development Tools",
         "items": [
           "Microsoft Active Directory",
           "Bash",
@@ -67,7 +62,7 @@
         ]
       },
       {
-        "category": "Servers",
+        "category": "Servers & Operating Systems",
         "items": [
           "Microsoft Windows 2019",
           "AWS Linux",

@@ -37,19 +37,19 @@
     ],
     "technologies": [
       {
-        "category": "Collaboration Platforms",
+        "category": "Collaboration & Productivity",
         "items": [
           "SharePoint 2016"
         ]
       },
       {
-        "category": "Directory Services",
+        "category": "Identity & Access Management",
         "items": [
           "Active Directory"
         ]
       },
       {
-        "category": "Scripting & Automation",
+        "category": "Languages & Scripting",
         "items": [
           "PowerShell"
         ]
