@@ -18,7 +18,6 @@ Adding a new role:
 """
 
 import json
-import math
 import re
 import argparse
 from collections import defaultdict
@@ -57,19 +56,37 @@ def load_projects():
     return projects
 
 
+def split_number(number):
+    """
+    Split a stored project number into (parent, sub_index).
+
+    Stored numbers are two-place decimals: 13 is a parent role, 13.01 is the
+    first sub-project of 13, and 13.10 is the tenth. Rounding to hundredths
+    avoids float error, e.g. (13.07 - 13) * 100 is not exactly 7.
+    """
+    return divmod(round(number * 100), 100)
+
+
 def is_parent(number):
     """Return True if the project number is an integer (parent role)."""
-    return number == math.floor(number)
+    return split_number(number)[1] == 0
+
+
+def number_key(number):
+    """Numeric sort key for a stored project number."""
+    return split_number(number)
 
 
 def number_to_str(number):
-    """Format a project number for display: 13 -> '13', 13.1 -> '13.1'."""
-    if is_parent(number):
-        return str(int(number))
-    # Format decimal numbers cleanly
-    s = f"{number:.1f}"
-    # Handle cases like 2.10 -> still 2.1
-    return s.rstrip("0").rstrip(".")
+    """Format a stored project number for display: 13 -> '13', 13.01 -> '13.1', 13.10 -> '13.10'."""
+    parent, sub = split_number(number)
+    return str(parent) if sub == 0 else f"{parent}.{sub}"
+
+
+def label_key(label):
+    """Numeric sort key for a display label such as '13', '13.2' or '13.10'."""
+    parent, _, sub = label.partition(".")
+    return (int(parent), int(sub) if sub else 0)
 
 
 def parse_month_year(date_str):
@@ -103,14 +120,14 @@ def build_project_groups(projects):
     for p in projects:
         num = p["number"]
         if is_parent(num):
-            parents[int(num)] = p
+            parents[split_number(num)[0]] = p
         else:
-            parent_num = int(math.floor(num))
+            parent_num = split_number(num)[0]
             sub_projects[parent_num].append(p)
 
     # Sort sub-projects within each group by number ascending
     for parent_num in sub_projects:
-        sub_projects[parent_num].sort(key=lambda p: p["number"])
+        sub_projects[parent_num].sort(key=lambda p: number_key(p["number"]))
 
     # Build all group numbers (union of parent keys and sub-project parent keys)
     all_parent_nums = sorted(
@@ -469,7 +486,7 @@ def build_grouped_tech_index(groups):
     grouped = defaultdict(list)
     for tech, proj_nums in sorted(tech_map.items(), key=lambda x: x[0].upper()):
         category = _resolve_tech_group(tech)
-        sorted_nums = sorted(proj_nums, key=lambda x: float(x))
+        sorted_nums = sorted(proj_nums, key=label_key)
         grouped[category].append((tech, sorted_nums))
 
     # Return in defined order, skipping empty groups
@@ -506,7 +523,7 @@ def build_tech_index(groups):
     index = defaultdict(list)
     for tech, proj_nums in sorted(tech_map.items(), key=lambda x: x[0].upper()):
         letter = tech[0].upper()
-        sorted_nums = sorted(proj_nums, key=lambda x: float(x))
+        sorted_nums = sorted(proj_nums, key=label_key)
         index[letter].append((tech, sorted_nums))
 
     # Sort letters
@@ -531,7 +548,7 @@ def render(output_path=None, template_name=DEFAULT_TEMPLATE):
 
     def project_refs(num_set):
         """Format a set of project number strings into 'Project N' or 'Projects N, M'."""
-        nums = sorted(num_set, key=lambda x: float(x))
+        nums = sorted(num_set, key=label_key)
         if len(nums) == 1:
             return f"Project {nums[0]}"
         return "Projects " + ", ".join(nums)

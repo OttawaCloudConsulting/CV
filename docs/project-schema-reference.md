@@ -55,17 +55,22 @@ All project files in `assets/projects/` must conform to the schema defined here.
 |-----------|-------|
 | Type | Number |
 | Required | Yes |
-| Constraints | Greater than 0; valid decimal (integer or one decimal place) |
+| Constraints | Greater than 0; whole number or two-place decimal; must match the file name |
 
 The project number determines both sort order (descending = most recent first) and parent/child relationship.
 
 - **Integer** (`13`, `12`) → parent role file
-- **Decimal** (`13.1`, `13.2`) → sub-project deliverable file; child of `floor(number)`
+- **Two-place decimal** (`13.01`, `13.02`, … `13.10`, `13.11`) → sub-project deliverable file; child of `floor(number)`
+
+The two digits after the point are the sub-project index, so a parent can have up to 99 sub-projects. Always write both digits: `13.10` is the tenth sub-project, and as a JSON number it is equal to `13.1`, which is not a valid sub-project number. The build trims the leading zero for display: `13.01` renders as `13.1`, `13.10` renders as `13.10`.
 
 ```json
-"number": 13      // parent
-"number": 13.1    // sub-project of parent 13
+"number": 13       // parent
+"number": 13.01    // first sub-project of parent 13, displayed as 13.1
+"number": 13.10    // tenth sub-project of parent 13, displayed as 13.10
 ```
+
+The file name must carry the same number: `project_13.01.json` holds `"number": 13.01`.
 
 ---
 
@@ -336,8 +341,9 @@ All of the following fields must be present:
 
 | Field | Constraint |
 |-------|------------|
-| `project.number` | Valid decimal (e.g., `13`, `2.1`, `1.2`) |
-| `project.number` | Range: `0 < number ≤ 999.9` |
+| `project.number` | Whole number or two-place decimal (e.g., `13`, `2.01`, `13.10`) |
+| `project.number` | Range: `0 < number ≤ 999.99` |
+| `project.number` | Matches the file name (`project_13.01.json` holds `13.01`) |
 | `project.solution.deliverables` | All items are non-empty strings |
 | `project.outcomes` | All items are non-empty strings |
 | `project.outcomes` | Every item starts with `✅` |
