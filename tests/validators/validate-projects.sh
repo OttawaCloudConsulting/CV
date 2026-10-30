@@ -329,7 +329,8 @@ validate_constraints() {
     # Handle constraint-type validations (for scalar fields)
     if [[ "${constraint}" != "null" ]]; then
       if [[ "${constraint}" == "valid_decimal" ]]; then
-        if jq -r "${field} | type == \"number\"" "${file}" 2>/dev/null | grep -q "true"; then
+        # Two-place decimal: n * 100 must be a whole number (13, 13.01, 13.10 — not 13.001)
+        if jq -r "${field} | type == \"number\" and (((. * 100) - ((. * 100) | round)) | fabs) < 0.000001" "${file}" 2>/dev/null | grep -q "true"; then
           success "${description}"
         else
           local value
@@ -337,6 +338,20 @@ validate_constraints() {
           local field_type
           field_type=$(jq -r "${field} | type" "${file}")
           add_error "${description}" "Value: ${value} (type: ${field_type})"
+        fi
+      elif [[ "${constraint}" == "matches_filename" ]]; then
+        # project_13.01.json -> 13.01; project_13.json -> 13. Compare numerically (13.10 == 13.1 as a JSON number).
+        local base file_number
+        base=$(basename "${file}" .json)
+        file_number="${base#project_}"
+        # The file name must itself use the two-place form, so an old-style project_13.1.json fails.
+        if [[ "${base}" == "project_template" ]] \
+           || { [[ "${file_number}" =~ ^[0-9]+(\.[0-9]{2})?$ ]] && jq -e "${field} == ${file_number}" "${file}" >/dev/null 2>&1; }; then
+          success "${description}"
+        else
+          local value
+          value=$(get_field_value "${file}" "${field}")
+          add_error "${description}" "Value: ${value} (file: $(basename "${file}"))"
         fi
       elif [[ "${constraint}" == "within_range" ]]; then
         local min max

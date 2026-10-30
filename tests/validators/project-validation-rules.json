@@ -261,15 +261,21 @@
       {
         "field": ".project.number",
         "constraint": "valid_decimal",
-        "description": "Project number must be valid decimal (e.g., 13, 2.1, 1.2)",
+        "description": "Project number must be a whole number or a two-place decimal (e.g., 13, 2.01, 13.10)",
         "type": "error"
       },
       {
         "field": ".project.number",
         "constraint": "within_range",
         "min": 0,
-        "max": 999.9,
-        "description": "Project number must be between 0 and 999.9 (supports future growth)",
+        "max": 999.99,
+        "description": "Project number must be between 0 and 999.99 (up to 99 sub-projects per parent)",
+        "type": "error"
+      },
+      {
+        "field": ".project.number",
+        "constraint": "matches_filename",
+        "description": "Project number must match the file name (project_13.01.json holds number 13.01)",
         "type": "error"
       },
       {

@@ -54,7 +54,7 @@ CV/
 │   └── projects/               # Source of truth: project JSON files
 │       ├── project_template.json
 │       ├── project_13.json     # Parent role file
-│       ├── project_13.1.json   # Sub-project deliverable (if exists)
+│       ├── project_13.01.json  # Sub-project deliverable (if exists)
 │       └── ...
 ├── data/
 │   ├── personal.json           # Personal info, certs, executive summary

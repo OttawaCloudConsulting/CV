@@ -1,4 +1,4 @@
-.PHONY: build validate pdf all install
+.PHONY: build validate test pdf all install
 
 # Build CV.md from project JSON files
 build:
@@ -18,6 +18,11 @@ validate:
 	done; \
 	echo "Validation complete: $$passed passed, $$failed failed"; \
 	exit $$failed
+
+# Run unit tests and the sub-project date range check
+test:
+	python3 tests/unit/test_numbering.py
+	python3 tests/validators/validate_date_ranges.py
 
 # Generate PDF from CV.md using Pandoc + XeLaTeX
 pdf:

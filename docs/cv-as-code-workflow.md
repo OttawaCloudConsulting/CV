@@ -56,13 +56,14 @@ project_13.json    →  Project 13 (Shared Services Canada)
 project_12.json    →  Project 12 (Agriculture Canada)
 ```
 
-### Sub-project deliverable files — `project_N.M.json`
+### Sub-project deliverable files — `project_N.MM.json`
 
 A file with a **decimal** project number is a **sub-project deliverable file**. It captures specific technical work within a parent engagement, with its own challenge, solution, outcomes, and technologies.
 
 ```
-project_13.1.json  →  Sub-project 13.1 (Cloud Platform Engineering)
-project_13.2.json  →  Sub-project 13.2 (Automation and Orchestration Framework)
+project_13.01.json  →  Sub-project 13.1 (Cloud Platform Engineering)
+project_13.02.json  →  Sub-project 13.2 (Automation and Orchestration Framework)
+project_13.10.json  →  Sub-project 13.10 (tenth; up to 99 per parent)
 ```
 
 ### Discovery rule
@@ -101,10 +102,10 @@ Edit `project_14.json`. At minimum fill in:
 For engagements with distinct technical work streams:
 
 ```bash
-cp assets/projects/project_template.json assets/projects/project_14.1.json
+cp assets/projects/project_template.json assets/projects/project_14.01.json
 ```
 
-Set `"number": 14.1` and fill in the deliverable-specific details. Repeat for `14.2`, `14.3`, etc.
+Set `"number": 14.01` and fill in the deliverable-specific details. Repeat for `14.02`, `14.03`, etc. Always use two digits after the point; the build displays `14.01` as `14.1`.
 
 ### Step 3 — Validate
 

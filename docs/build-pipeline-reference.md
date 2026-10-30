@@ -69,8 +69,8 @@ python3 scripts/build_cv.py --template custom.md.j2
 2. **Glob project files** — all `assets/projects/project_*.json` excluding `project_template.json`
 3. **Classify files**:
    - Integer `number` (e.g., `13`) → parent role file
-   - Decimal `number` (e.g., `13.1`) → sub-project deliverable file
-4. **Group sub-projects under parents** by matching `floor(sub.number) == parent.number`
+   - Two-place decimal `number` (e.g., `13.01`) → sub-project deliverable file
+4. **Group sub-projects under parents** by matching the integer part of `sub.number` to `parent.number`
 5. **Handle orphan sub-projects** — sub-projects with no matching parent file get a synthesized parent derived from:
    - Client info: first sub-project's `client` object
    - Role: first sub-project's `role`
@@ -86,8 +86,10 @@ python3 scripts/build_cv.py --template custom.md.j2
 |----------|-------------|
 | `load_personal()` | Reads `data/personal.json` |
 | `load_projects()` | Globs and deserializes all project files |
-| `is_parent(number)` | Returns `True` if number is an integer |
-| `number_to_str(number)` | Formats `13.0 → "13"`, `13.1 → "13.1"` |
+| `split_number(number)` | Splits a stored number into `(parent, sub_index)`; `13.10 → (13, 10)` |
+| `is_parent(number)` | Returns `True` if the sub-index is 0 |
+| `number_to_str(number)` | Display label: `13 → "13"`, `13.01 → "13.1"`, `13.10 → "13.10"` |
+| `number_key(number)` / `label_key(label)` | Numeric sort keys for stored numbers and display labels |
 | `build_project_groups(projects)` | Groups, synthesizes orphans, sorts |
 | `build_tech_index(groups)` | Aggregates technologies alphabetically |
 | `render(output_path, template_name)` | Full pipeline orchestration |
