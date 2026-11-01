@@ -1,0 +1,106 @@
+{
+  "project": {
+    "number": 13.03,
+    "title": "Host Based Sensor Endpoint Monitoring Platform (Crossplane and XRDs)",
+    "client": {
+      "name": "Shared Services Canada",
+      "department": "Hosting Services Branch",
+      "team": "Cloud Platform Engineering"
+    },
+    "role": "AWS Cloud Infrastructure as Code DevOps Engineer & Architect",
+    "competencies": [
+      "Serverless & Event-Driven Architecture",
+      "Infrastructure as Code & Automation",
+      "Software Supply Chain Security"
+    ],
+    "parentsummary": {
+      "deliverables": "Built an event-driven platform that installs and updates the Snyk-based Host Based Sensor on every Windows and Linux EC2 instance using AWS Config and Systems Manager automation, packaged as Crossplane XRDs and deployed by ArgoCD.",
+      "outcomes": "Automated sensor coverage across 40+ workload accounts and any newly created account, with Systems Manager compliance dashboards and an ITSG-33 ATO control marked compliant."
+    },
+    "date_range": {
+      "start": "September 2025",
+      "end": "December 2025"
+    },
+    "challenge": {
+      "summary": "The Host Based Sensor was a new, mandated security requirement with only installer runbooks to start from. It had to cover every EC2 instance in every workload account, including future accounts, on both Windows and Linux, resist accidental or deliberate removal, and still allow security-approved account-level configuration and opt-out. Without it, the Authority to Operate (ATO) was at risk."
+    },
+    "solution": {
+      "summary": "Key deliverables:",
+      "deliverables": [
+        "Designed an event-driven deployment that detects new EC2 instances through AWS Config and triggers Systems Manager automation to install the sensor",
+        "Built a single automation document that detects Windows or Linux, installs and updates the sensor, and fails gracefully on non-installable appliance VMs",
+        "Built a central Automation account that shares the automation documents to all environments, with versioned Windows and Linux installers stored in S3",
+        "Implemented account-level configuration and agent version pinning through Parameter Store, including security-approved opt-out",
+        "Automated daily version validation with Systems Manager SBOM evidence of compliance, and immediate reconfiguration when versions or documents change",
+        "Wrote IAM policies and SCPs that prevent workload changes to the sensor and secure the process",
+        "Packaged the platform as custom Crossplane XRDs and compositions built with the Upbound CLI, deployed by ArgoCD from the Automation EKS cluster"
+      ]
+    },
+    "outcomes": [
+      "Replaced per-workload sensor installs with tenant-wide automation covering 40+ workload accounts and any new account created through automated deployment",
+      "Installed the sensor within seconds to minutes of EC2 instance creation; a new version marked instances out of compliance and triggered automatic reinstall",
+      "ITSG-33 ATO control marked compliant, supported by the deployment methodology, compliance report, automated remediation of non-compliant instances, and evidence documentation",
+      "Gave Operations and Security teams Systems Manager dashboards and event-driven notifications of change and non-compliance, where sensor state had previously been known only to the security monitoring team"
+    ],
+    "technologies": [
+      {
+        "category": "Public Cloud",
+        "items": [
+          "Amazon AWS Cloud",
+          "AWS Config",
+          "AWS Systems Manager",
+          "AWS Systems Manager Parameter Store",
+          "Amazon S3",
+          "AWS EC2"
+        ]
+      },
+      {
+        "category": "Serverless & Event-Driven",
+        "items": [
+          "EventBridge"
+        ]
+      },
+      {
+        "category": "Containers & Kubernetes",
+        "items": [
+          "Amazon EKS",
+          "Crossplane"
+        ]
+      },
+      {
+        "category": "CI/CD & GitOps",
+        "items": [
+          "ArgoCD"
+        ]
+      },
+      {
+        "category": "Infrastructure as Code",
+        "items": [
+          "Upbound CLI",
+          "KCL"
+        ]
+      },
+      {
+        "category": "Languages & Scripting",
+        "items": [
+          "PowerShell",
+          "Bash"
+        ]
+      },
+      {
+        "category": "Security",
+        "items": [
+          "AWS IAM",
+          "Service Control Policies",
+          "Snyk"
+        ]
+      },
+      {
+        "category": "Compliance Frameworks",
+        "items": [
+          "ITSG-33"
+        ]
+      }
+    ]
+  }
+}

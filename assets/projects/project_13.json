@@ -8,6 +8,11 @@
       "team": "Cloud Platform Engineering"
     },
     "role": "AWS Cloud Infrastructure as Code DevOps Engineer & Architect",
+    "competencies": [
+      "Serverless & Event-Driven Architecture",
+      "Infrastructure as Code & Automation",
+      "Software Supply Chain Security"
+    ],
     "role_overview": {
       "summary": "Shared Services Canada's Hosting Services Branch Cloud Platform Engineering team delivers and operates an enterprise-class AWS cloud tenancy supporting multiple Government of Canada departments through AWS Secure Environment Accelerator (ASEA) and Landing Zone Accelerator (LZA) platforms. Christian serves as AWS Cloud Infrastructure as Code DevOps Engineer and Architect through Ottawa Cloud Consulting, operating across two concurrent workstreams — the platform engineering track responsible for Kubernetes/EKS GitOps architecture and IaC standards, and the automation and orchestration framework track responsible for multi-account AWS Organizations governance, serverless and event-driven workload design, EKS cluster engineering, and developer Golden Path tooling. This is the current active engagement as of 2026."
     },
@@ -44,7 +49,11 @@
           "AWS SSO",
           "AWS Config",
           "AWS CloudTrail",
-          "AWS GuardDuty"
+          "AWS GuardDuty",
+          "AWS Systems Manager",
+          "AWS Systems Manager Parameter Store",
+          "Amazon S3",
+          "AWS EC2"
         ]
       },
       {
@@ -82,7 +91,8 @@
           "Python",
           "YAML",
           "JSON",
-          "KCL"
+          "KCL",
+          "PowerShell"
         ]
       },
       {
@@ -113,7 +123,8 @@
           "KCL",
           "Terraform",
           "AWS CDK",
-          "CloudFormation"
+          "CloudFormation",
+          "Upbound CLI"
         ]
       },
       {
@@ -144,7 +155,8 @@
           "RBAC",
           "Service Control Policies",
           "CIS Controls",
-          "NIST Frameworks"
+          "NIST Frameworks",
+          "Snyk"
         ]
       },
       {
@@ -155,6 +167,12 @@
           "Grafana",
           "AWS X-Ray",
           "Elasticsearch"
+        ]
+      },
+      {
+        "category": "Compliance Frameworks",
+        "items": [
+          "ITSG-33"
         ]
       }
     ]

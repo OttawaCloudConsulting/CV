@@ -318,6 +318,7 @@ TECH_GROUP_MAP = {
     # Infrastructure as Code
     "KCL": "Infrastructure as Code",
     "Terraform": "Infrastructure as Code",
+    "Upbound CLI": "Infrastructure as Code",
     "Terraform 0.12.7": "Infrastructure as Code",
     "YAML": "Infrastructure as Code",
     "JSON": "Infrastructure as Code",
@@ -341,6 +342,7 @@ TECH_GROUP_MAP = {
     "Code & IaC Security Scanning": "Security Tooling",
     "LUKS Encryption": "Security Tooling",
     "SIEM": "Security Tooling",
+    "Snyk": "Security Tooling",
     "SonarQube & Dependency Checker": "Security Tooling",
     "SSL/TLS": "Security Tooling",
     "TerraScan Security Scanning (Tenable)": "Security Tooling",
@@ -350,6 +352,7 @@ TECH_GROUP_MAP = {
     "FISMA": "Compliance Frameworks",
     "HIPAA": "Compliance Frameworks",
     "ISO:27001": "Compliance Frameworks",
+    "ITSG-33": "Compliance Frameworks",
     "Microsoft Office 365 Compliance": "Compliance Frameworks",
     "NERC": "Compliance Frameworks",
     "NIST": "Compliance Frameworks",
