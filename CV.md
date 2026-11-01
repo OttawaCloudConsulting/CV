@@ -40,6 +40,7 @@ His experience includes successful cloud migrations across healthcare, utilities
   - [13. Project 13 - SSC - Cloud Platform Engineering / Hosting Services Branch](#13-project-13---ssc---cloud-platform-engineering-hosting-services-branch)
     - [Project 13.1 — Cloud Services Directorate, Cloud Platform Engineering](#project-131-cloud-services-directorate-cloud-platform-engineering)
     - [Project 13.2 — Cloud Services Directorate, Automation and Orchestration Framework](#project-132-cloud-services-directorate-automation-and-orchestration-framework)
+    - [Project 13.3 — Host Based Sensor Endpoint Monitoring Platform (Crossplane and XRDs)](#project-133-host-based-sensor-endpoint-monitoring-platform-crossplane-and-xrds)
   - [12. Project 12 - Agriculture Canada - Cloud Centre of Expertise / Cloud Operations](#12-project-12---agriculture-canada---cloud-centre-of-expertise-cloud-operations)
     - [Project 12.1 — Cloud Centre of Expertise / Cloud Operations](#project-121-cloud-centre-of-expertise-cloud-operations)
     - [Project 12.2 — DevOps & AWS Development](#project-122-devops-aws-development)
@@ -104,11 +105,13 @@ Shared Services Canada's Hosting Services Branch Cloud Platform Engineering team
 
 - Designed and delivered the enterprise-class AWS EKS-based GitOps platform for SSC's Hosting Services Branch Cloud Platform Engineering team, implementing Kubernetes architecture patterns with ArgoCD and Argo Workflows, Security By Design controls, Infrastructure as Code development using Terraform and Crossplane, source code management via Azure DevOps, and workload onboarding support across multiple government departments.
 - Developed and delivered comprehensive cloud automation and orchestration frameworks for SSC's Cloud Services Directorate, encompassing multi-account AWS Organizations design with Service Control Policies and governance frameworks, IAM identity models with compliance baselines, GitOps automation with ArgoCD and Azure DevOps, production EKS cluster engineering, Crossplane and KCL provisioning frameworks, serverless and event-driven architectures, developer Golden Path tooling, observability via Prometheus and Grafana, and NIST/CIS/ITSG compliance alignment.
+- Built an event-driven platform that installs and updates the Snyk-based Host Based Sensor on every Windows and Linux EC2 instance using AWS Config and Systems Manager automation, packaged as Crossplane XRDs and deployed by ArgoCD.
 
 **Engagement Outcomes:**
 
 - Architected and deployed an enterprise-class GitOps platform serving multiple government departments through AWS EKS and ArgoCD, and established Infrastructure as Code standards using Terraform and Crossplane enabling rapid deployment of NIST 800-53 compliant workloads across SSC's AWS Landing Zone Accelerator platform.
 - Architected 3 multi-account AWS organizations managing 200+ workloads, improved deployment frequency by 30% through GitOps automation managing 50+ microservices, designed 30+ serverless and containerized workloads reducing operational overhead by 40% and infrastructure costs by $25K annually, and engineered 3 production EKS clusters achieving 99.9% uptime while reducing Kubernetes onboarding time by over 60%.
+- Automated sensor coverage across 40+ workload accounts and any newly created account, with Systems Manager compliance dashboards and an ITSG-33 ATO control marked compliant.
 
 ### Project 13.1 — Cloud Services Directorate, Cloud Platform Engineering
 
@@ -181,6 +184,40 @@ At engagement start, SSC's Cloud Services Directorate had no standardized automa
 - **Security:** AWS IAM, IRSA, RBAC, Service Control Policies, CIS Controls, NIST Frameworks
 - **Observability & Monitoring:** CloudWatch, Prometheus, Grafana, AWS X-Ray, Elasticsearch
 - **Languages & Scripting:** Python, Golang, Typescript, Bash, YAML, JSON, KCL
+
+### Project 13.3 — Host Based Sensor Endpoint Monitoring Platform (Crossplane and XRDs)
+
+**September 2025 - December 2025**
+
+The Host Based Sensor was a new, mandated security requirement with only installer runbooks to start from. It had to cover every EC2 instance in every workload account, including future accounts, on both Windows and Linux, resist accidental or deliberate removal, and still allow security-approved account-level configuration and opt-out. Without it, the Authority to Operate (ATO) was at risk.
+
+**Key deliverables:**
+
+- Designed an event-driven deployment that detects new EC2 instances through AWS Config and triggers Systems Manager automation to install the sensor
+- Built a single automation document that detects Windows or Linux, installs and updates the sensor, and fails gracefully on non-installable appliance VMs
+- Built a central Automation account that shares the automation documents to all environments, with versioned Windows and Linux installers stored in S3
+- Implemented account-level configuration and agent version pinning through Parameter Store, including security-approved opt-out
+- Automated daily version validation with Systems Manager SBOM evidence of compliance, and immediate reconfiguration when versions or documents change
+- Wrote IAM policies and SCPs that prevent workload changes to the sensor and secure the process
+- Packaged the platform as custom Crossplane XRDs and compositions built with the Upbound CLI, deployed by ArgoCD from the Automation EKS cluster
+
+**Project Outcomes:**
+
+- Replaced per-workload sensor installs with tenant-wide automation covering 40+ workload accounts and any new account created through automated deployment
+- Installed the sensor within seconds to minutes of EC2 instance creation; a new version marked instances out of compliance and triggered automatic reinstall
+- ITSG-33 ATO control marked compliant, supported by the deployment methodology, compliance report, automated remediation of non-compliant instances, and evidence documentation
+- Gave Operations and Security teams Systems Manager dashboards and event-driven notifications of change and non-compliance, where sensor state had previously been known only to the security monitoring team
+
+**Technical Environment:**
+
+- **Public Cloud:** Amazon AWS Cloud, AWS Config, AWS Systems Manager, AWS Systems Manager Parameter Store, Amazon S3, AWS EC2
+- **Serverless & Event-Driven:** EventBridge
+- **Containers & Kubernetes:** Amazon EKS, Crossplane
+- **CI/CD & GitOps:** ArgoCD
+- **Infrastructure as Code:** Upbound CLI, KCL
+- **Languages & Scripting:** PowerShell, Bash
+- **Security:** AWS IAM, Service Control Policies, Snyk
+- **Compliance Frameworks:** ITSG-33
 
 ## 12. Project 12 - Agriculture Canada - Cloud Centre of Expertise / Cloud Operations
 
