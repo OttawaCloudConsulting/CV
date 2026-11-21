@@ -1,61 +1,94 @@
 {
   "project": {
     "number": 12.01,
-    "title": "Cloud Centre of Expertise / Cloud Operations",
+    "title": "Landing Zone Governance, Azure AD SSO Federation and ATO Delivery",
     "client": {
       "name": "Agriculture Canada",
       "department": "Cloud Centre of Expertise",
       "team": "Cloud Operations"
     },
     "role": "AWS Cloud DevOps Architect (Part-Time)",
+    "competencies": [
+      "Landing Zones & Multi-Account Governance",
+      "Compliance & ATO",
+      "Policy as Code"
+    ],
     "parentsummary": {
-      "deliverables": "Architected, implemented, and maintained the AAFC Cloud Centre of Expertise managed AWS Landing Zone environment, delivering IaC governance resources, ITSG-22/33/38-aligned security and compliance tooling, automated Security Control Systems and Posture Management, Azure AD SSO federation, and CI/CD pipelines via Azure DevOps and AWS CodePipeline — achieving full ATO status for production workloads.",
-      "outcomes": "Achieved full Authority to Operate (ATO) for Agriculture Canada's AWS Cloud environment, implementing automated security and governance compliance tooling that exceeded GoC cloud guardrails and enabling secure, scalable cloud adoption across the department with integrated Azure AD SSO federation."
+      "deliverables": "Built governance and compliance tooling for the managed AWS Landing Zone at Agriculture and Agri-Food Canada (AAFC) and federated Azure Active Directory (Azure AD) SSO to support full Authority to Operate (ATO) approval.",
+      "outcomes": "The AAFC Enterprise Tenant received full ATO approval, and its workloads inherit the controls; without the automated checks, manual console audits would take weeks or months, and without auto-remediation, remediation gaps would last days to weeks."
     },
     "date_range": {
       "start": "January 2021",
-      "end": "September 2023"
+      "end": "July 2021"
     },
     "challenge": {
-      "summary": "The Cloud Operations workstream needed to design and implement IaC-driven governance and compliance tooling that met ITSG-22, ITSG-33, and ITSG-38 requirements across the AAFC AWS Landing Zone environment — including automated security posture management, Azure AD SSO federation, and full ATO evidence packages for production workloads — on a part-time engagement model requiring disciplined delivery management across a 32-month period."
+      "summary": "AAFC's Cloud Centre of Expertise (CCoE) needed a governed AWS Landing Zone (a multi-account AWS foundation with governance layers) with centralised identity access and compliance evidence for a full ATO of the AAFC Enterprise Tenant, where workloads in the tenant would inherit the ATO controls. Under a part-time engagement, the Landing Zone needed to meet applicable Government of Canada (GoC) Information Technology Security Guidance (ITSG) controls and Treasury Board of Canada Secretariat (TBS) cloud guardrails. Without automated checks, manual cloud-console (\"click-ops\") audits would take weeks or months of labour; without auto-remediation, remediation gaps would last days to weeks."
     },
     "solution": {
-      "summary": "Key activities and deliverables:",
+      "summary": "Governance, identity, and ATO deliverables:",
       "deliverables": [
-        "Infrastructure as Code (IaC) development and review",
-        "CI/CD pipeline implementation via Azure DevOps Repos, Azure Pipelines, AWS CodeBuild, and CodeDeploy",
-        "Implementation of IT Security Program to meet ITSG-22, ITSG-33 and ITSG-38 and TBS driven cloud guardrails and achieve Full ATO",
-        "Implemented and secured SSO Federation to Azure Active Directory, enabling centralized identity management across the AAFC AWS Landing Zone",
-        "Developed and implemented Security Control Systems and Posture Management for AWS Cloud Identity components, validating continuously against ITSG Controls",
-        "Design and integration of automated Security and Governance compliance tooling, meeting and exceeding GoC ITSG requirements",
-        "Facilitated requirements gathering with technical team, architecture team, and security team",
-        "Source Code Management within Azure DevOps (Git) Repos",
-        "DevOps integration with DevOps tooling, methodology, and processes",
-        "Documentation, Knowledge transfer and cross-training with team, new staff and onboarded clients"
+        "Implemented the platform's security program and tooling aligned to GoC ITSG controls and TBS cloud guardrails in support of the AAFC Enterprise Tenant ATO",
+        "Designed and integrated automated security and governance compliance tooling across the managed AWS Landing Zone",
+        "Developed security control systems and posture management for AWS cloud identity components, validating configurations continuously against ITSG controls",
+        "Configured and secured SSO federation with Azure Active Directory to centralise identity management across the Landing Zone",
+        "Engineered IaC and CI/CD pipelines using Azure DevOps Repos and Pipelines, AWS CodeBuild, and AWS CodeDeploy",
+        "Gathered platform requirements with the technical, architecture, and security teams",
+        "Produced operational documentation and ran knowledge transfer and cross-training for the Cloud Operations team, new staff, and onboarded clients"
       ]
     },
     "outcomes": [
-      "Achieved full ATO (Authority to Operate) status for Agriculture Canada's AWS Cloud environment, meeting ITSG-22/33/38 requirements",
-      "Successfully implemented automated security and governance compliance tooling that exceeded GoC cloud guardrails, enabling secure cloud adoption across the department with integrated Azure AD SSO federation"
+      "Full ATO approval achieved for the AAFC Enterprise Tenant, where workloads inherit the ATO controls",
+      "Christian implemented automated compliance checks and auto-remediation for the Landing Zone; without automated checks, manual console audits would take weeks or months, and without auto-remediation, remediation gaps would last days to weeks",
+      "Azure AD single sign-on (SSO) federation implemented for the AWS Landing Zone"
     ],
     "technologies": [
       {
         "category": "Public Cloud",
         "items": [
-          "Amazon AWS (AWS Organizations, AWS Control Tower, AWS SSO, AWS Config, AWS CloudTrail, AWS GuardDuty, AWS IAM, AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy, AWS CloudFormation, Terraform)",
-          "Azure DevOps",
-          "Azure Active Directory",
+          "AWS Organizations",
+          "AWS Control Tower",
+          "AWS SSO",
+          "AWS Config",
+          "AWS CloudTrail",
+          "AWS GuardDuty",
           "Azure Sentinel"
         ]
       },
       {
-        "category": "Applications & Development Tools",
+        "category": "Identity & Access Management",
         "items": [
-          "Microsoft Active Directory",
-          "Bash",
+          "AWS IAM",
+          "Azure Active Directory",
+          "Microsoft Active Directory"
+        ]
+      },
+      {
+        "category": "CI/CD & GitOps",
+        "items": [
+          "Azure DevOps",
           "Azure DevOps Git",
           "Azure DevOps Pipelines",
-          "CloudFormation",
+          "AWS CodePipeline",
+          "AWS CodeBuild",
+          "AWS CodeDeploy"
+        ]
+      },
+      {
+        "category": "Infrastructure as Code",
+        "items": [
+          "Terraform",
+          "CloudFormation"
+        ]
+      },
+      {
+        "category": "Languages & Scripting",
+        "items": [
+          "Bash"
+        ]
+      },
+      {
+        "category": "Security",
+        "items": [
           "Checkov Security Scanning (BridgeCrew/Prisma)",
           "TerraScan Security Scanning (Tenable)"
         ]
