@@ -1,0 +1,96 @@
+{
+  "project": {
+    "number": 12.03,
+    "title": "ITSG-33 Compliance Monitoring with AWS Security Hub",
+    "client": {
+      "name": "Agriculture Canada",
+      "department": "Cloud Centre of Expertise",
+      "team": "Cloud Operations"
+    },
+    "role": "AWS Cloud DevOps Architect (Part-Time)",
+    "competencies": [
+      "Policy as Code",
+      "Serverless & Event-Driven Architecture",
+      "Infrastructure as Code & Automation"
+    ],
+    "parentsummary": {
+      "deliverables": "Built a bespoke ITSG-33 control pack for AWS Security Hub, forked from NIST, with EventBridge and Lambda triage, alerting, and auto-remediation, deployed across the entire AWS Organization via Terraform and CloudFormation StackSets.",
+      "outcomes": "Automated scanning and immediate auto-remediation across the entire AWS Organization replaced manual and scripted compliance audits, providing part of the evidence for the full ATO."
+    },
+    "date_range": {
+      "start": "February 2021",
+      "end": "August 2021"
+    },
+    "challenge": {
+      "summary": "During an internal Cloud Centre of Expertise (CCoE) review of the cloud environment at Agriculture and Agri-Food Canada (AAFC), the team found that AWS Security Hub offered basic compliance packs but lacked a standard for ITSG-33, the Government of Canada (GoC) IT security risk management framework under Information Technology Security Guidance (ITSG). Compliance instead depended on manual resource checks, scripted audits that could miss issues, and manual console validation (\"click-ops\") prone to human error. Relying on these manual and scripted checks created the risk that compliance gaps could remain open for extended periods."
+    },
+    "solution": {
+      "summary": "ITSG-33 compliance monitoring deliverables:",
+      "deliverables": [
+        "Built a bespoke ITSG-33 control pack for AWS Security Hub, forked from the National Institute of Standards and Technology (NIST) standard to maintain a flexible approach to compliance standards",
+        "Engineered auto-remediation on an \"immediate patch, fix later\" model, such as applying a pre-provisioned account-level default AWS Key Management Service (KMS) key to unencrypted resources while notifying teams to fix the root cause, with the most serious findings able to terminate traffic",
+        "Developed EventBridge-triggered AWS Lambda functions to customise and triage AWS Security Hub findings, routing alerts to a CloudWatch dashboard and by email to security operations (SecOps) teams",
+        "Deployed the monitoring stack across the entire AWS Organization using Terraform-managed CloudFormation StackSets in an AWS CodePipeline stage from the central automation account, supplying separate values for the Dev, Prod, and Core organizational units (OUs) in AWS Organizations from one codebase",
+        "Defined an internal severity matrix grounded in internal standards to classify AWS Security Hub findings",
+        "Designed the automated monitoring approach after identifying the ITSG-33 gap in AWS Security Hub during the CCoE's internal review of AAFC's cloud setup"
+      ]
+    },
+    "outcomes": [
+      "Deployment covered the entire AWS Organization with CloudFormation StackSets enrolling new accounts automatically; the build took about six months and was followed by maintenance only",
+      "Automated scanning and remediation replaced manual checks and scripted audits, closing compliance gaps immediately",
+      "The ITSG-33 compliance monitoring system served as part of the evidence for the full Authority to Operate (ATO)"
+    ],
+    "technologies": [
+      {
+        "category": "Public Cloud",
+        "items": [
+          "AWS Security Hub",
+          "AWS Config",
+          "AWS Organizations",
+          "AWS KMS",
+          "AWS CloudFormation StackSets"
+        ]
+      },
+      {
+        "category": "Serverless & Event-Driven",
+        "items": [
+          "EventBridge",
+          "AWS Lambda",
+          "Amazon SNS"
+        ]
+      },
+      {
+        "category": "Infrastructure as Code",
+        "items": [
+          "Terraform"
+        ]
+      },
+      {
+        "category": "CI/CD & GitOps",
+        "items": [
+          "AWS CodePipeline",
+          "AWS CodeBuild"
+        ]
+      },
+      {
+        "category": "Observability & Monitoring",
+        "items": [
+          "CloudWatch"
+        ]
+      },
+      {
+        "category": "Languages & Scripting",
+        "items": [
+          "Python"
+        ]
+      },
+      {
+        "category": "Compliance Frameworks",
+        "items": [
+          "ITSG-33",
+          "NIST"
+        ]
+      }
+    ]
+  }
+}

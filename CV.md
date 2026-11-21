@@ -42,8 +42,9 @@ His experience includes successful cloud migrations across healthcare, utilities
     - [Project 13.2 — Cloud Services Directorate, Automation and Orchestration Framework](#project-132-cloud-services-directorate-automation-and-orchestration-framework)
     - [Project 13.3 — Host Based Sensor Endpoint Monitoring Platform (Crossplane and XRDs)](#project-133-host-based-sensor-endpoint-monitoring-platform-crossplane-and-xrds)
   - [12. Project 12 - Agriculture Canada - Cloud Centre of Expertise / Cloud Operations](#12-project-12---agriculture-canada---cloud-centre-of-expertise-cloud-operations)
-    - [Project 12.1 — Cloud Centre of Expertise / Cloud Operations](#project-121-cloud-centre-of-expertise-cloud-operations)
-    - [Project 12.2 — DevOps & AWS Development](#project-122-devops-aws-development)
+    - [Project 12.1 — Landing Zone Governance, Azure AD SSO Federation and ATO Delivery](#project-121-landing-zone-governance-azure-ad-sso-federation-and-ato-delivery)
+    - [Project 12.2 — Analytics Platform on AWS](#project-122-analytics-platform-on-aws)
+    - [Project 12.3 — ITSG-33 Compliance Monitoring with AWS Security Hub](#project-123-itsg-33-compliance-monitoring-with-aws-security-hub)
   - [11. Project 11 - SSC CSD R&D](#11-project-11---ssc-csd-rd)
     - [Project 11.1 — Cloud Services Directorate, Cloud Platform Engineering Project](#project-111-cloud-services-directorate-cloud-platform-engineering-project)
   - [10. Project 10 - DND DPDCS SMMS Replacement Project](#10-project-10---dnd-dpdcs-smms-replacement-project)
@@ -228,72 +229,113 @@ The Host Based Sensor was a new, mandated security requirement with only install
 
 **January 2021 - September 2023**
 
-Agriculture and Agri-Food Canada's (AAFC) Cloud Centre of Expertise (CCoE) is mandated to deliver a secure, scalable, and governable public cloud environment to support departmental business users and analytics workloads. Christian served as AWS Cloud DevOps Architect on a part-time basis across two concurrent tracks — the Cloud Operations platform team responsible for the managed AWS Landing Zone environment and full ATO achievement, and the Analytics team responsible for cloud-native application development and DevSecOps pipeline delivery. The engagement spanned 32 months, delivering ITSG-22/33/38-aligned compliance tooling, Azure AD SSO federation, and a comprehensive DevSecOps pipeline with automated code and IaC security scanning.
+Christian served as AWS Cloud DevOps Architect, part-time, at Agriculture and Agri-Food Canada (AAFC) from January 2021 to September 2023, supporting the Cloud Centre of Expertise (CCoE) in its mandate to provide a secure, scalable, and governed public cloud environment for departmental business users and analytics workloads. Working within that mandate on AWS, his engagement spanned two tracks: the Cloud Operations platform team, which was responsible for AAFC's managed AWS Landing Zone (a multi-account AWS foundation with governance layers) and the full Authority to Operate (ATO) effort, and the Analytics team, which developed cloud-native applications for departmental data analysis. On the platform track, he built compliance tooling aligned to Government of Canada (GoC) Information Technology Security Guidance (ITSG) controls, created bespoke monitoring in AWS Security Hub for ITSG-33 (the GoC IT security risk management framework), and integrated Azure Active Directory (Azure AD) single sign-on (SSO) federation. On the analytics track, he built a cloud-native AWS analytics stack and a DevSecOps pipeline with automated code and Infrastructure as Code (IaC) security scanning. The platform work contributed to the AAFC Enterprise Tenant receiving full ATO approval, allowing workloads in the tenant to inherit the ATO controls, while the analytics work gave the Analytics team continuous, auditable cloud delivery.
 
 **Workstream Deliverables:**
 
-- Architected, implemented, and maintained the AAFC Cloud Centre of Expertise managed AWS Landing Zone environment, delivering IaC governance resources, ITSG-22/33/38-aligned security and compliance tooling, automated Security Control Systems and Posture Management, Azure AD SSO federation, and CI/CD pipelines via Azure DevOps and AWS CodePipeline — achieving full ATO status for production workloads.
-- Designed, developed, and maintained cloud-native analytics applications for Agriculture Canada's Analytics team, delivering IaC development using AWS CDK v1/v2, AWS CodePipeline-based CI/CD pipelines, DevSecOps security and governance reporting with automated code and IaC scanning via Checkov, Terrascan, SonarQube, and JFROG Artifactory integration, and continuous improvement of deployment practices and release management.
+- Built governance and compliance tooling for the managed AWS Landing Zone at Agriculture and Agri-Food Canada (AAFC) and federated Azure Active Directory (Azure AD) SSO to support full Authority to Operate (ATO) approval.
+- Built a cloud-native analytics platform on AWS using AWS Glue, AWS Database Migration Service (DMS), AWS Lambda, and AWS Cloud Development Kit (CDK) v2, backed by an automated CI/CD and DevSecOps security-scanning pipeline.
+- Built a bespoke ITSG-33 control pack for AWS Security Hub, forked from NIST, with EventBridge and Lambda triage, alerting, and auto-remediation, deployed across the entire AWS Organization via Terraform and CloudFormation StackSets.
 
 **Engagement Outcomes:**
 
-- Achieved full Authority to Operate (ATO) for Agriculture Canada's AWS Cloud environment, implementing automated security and governance compliance tooling that exceeded GoC cloud guardrails and enabling secure, scalable cloud adoption across the department with integrated Azure AD SSO federation.
-- Delivered a secure, cloud-native analytics platform on AWS supporting Agriculture Canada's departmental data analysis requirements, with a comprehensive DevSecOps pipeline providing automated security scanning and supply chain management enabling consistent, compliant, and auditable deployments.
+- The AAFC Enterprise Tenant received full ATO approval, and its workloads inherit the controls; without the automated checks, manual console audits would take weeks or months, and without auto-remediation, remediation gaps would last days to weeks.
+- Departmental data analysis workloads gained a cloud-native AWS analytics platform with continuous delivery, an auditable deployment history, and automated code and IaC security scanning.
+- Automated scanning and immediate auto-remediation across the entire AWS Organization replaced manual and scripted compliance audits, providing part of the evidence for the full ATO.
 
-### Project 12.1 — Cloud Centre of Expertise / Cloud Operations
+### Project 12.1 — Landing Zone Governance, Azure AD SSO Federation and ATO Delivery
 
-**January 2021 - September 2023**
+**January 2021 - July 2021**
 
-The Cloud Operations workstream needed to design and implement IaC-driven governance and compliance tooling that met ITSG-22, ITSG-33, and ITSG-38 requirements across the AAFC AWS Landing Zone environment — including automated security posture management, Azure AD SSO federation, and full ATO evidence packages for production workloads — on a part-time engagement model requiring disciplined delivery management across a 32-month period.
+AAFC's Cloud Centre of Expertise (CCoE) needed a governed AWS Landing Zone (a multi-account AWS foundation with governance layers) with centralised identity access and compliance evidence for a full ATO of the AAFC Enterprise Tenant, where workloads in the tenant would inherit the ATO controls. Under a part-time engagement, the Landing Zone needed to meet applicable Government of Canada (GoC) Information Technology Security Guidance (ITSG) controls and Treasury Board of Canada Secretariat (TBS) cloud guardrails. Without automated checks, manual cloud-console ("click-ops") audits would take weeks or months of labour; without auto-remediation, remediation gaps would last days to weeks.
 
-**Key activities and deliverables:**
+**Governance, identity, and ATO deliverables:**
 
-- Infrastructure as Code (IaC) development and review
-- CI/CD pipeline implementation via Azure DevOps Repos, Azure Pipelines, AWS CodeBuild, and CodeDeploy
-- Implementation of IT Security Program to meet ITSG-22, ITSG-33 and ITSG-38 and TBS driven cloud guardrails and achieve Full ATO
-- Implemented and secured SSO Federation to Azure Active Directory, enabling centralized identity management across the AAFC AWS Landing Zone
-- Developed and implemented Security Control Systems and Posture Management for AWS Cloud Identity components, validating continuously against ITSG Controls
-- Design and integration of automated Security and Governance compliance tooling, meeting and exceeding GoC ITSG requirements
-- Facilitated requirements gathering with technical team, architecture team, and security team
-- Source Code Management within Azure DevOps (Git) Repos
-- DevOps integration with DevOps tooling, methodology, and processes
-- Documentation, Knowledge transfer and cross-training with team, new staff and onboarded clients
+- Implemented the platform's security program and tooling aligned to GoC ITSG controls and TBS cloud guardrails in support of the AAFC Enterprise Tenant ATO
+- Designed and integrated automated security and governance compliance tooling across the managed AWS Landing Zone
+- Developed security control systems and posture management for AWS cloud identity components, validating configurations continuously against ITSG controls
+- Configured and secured SSO federation with Azure Active Directory to centralise identity management across the Landing Zone
+- Engineered IaC and CI/CD pipelines using Azure DevOps Repos and Pipelines, AWS CodeBuild, and AWS CodeDeploy
+- Gathered platform requirements with the technical, architecture, and security teams
+- Produced operational documentation and ran knowledge transfer and cross-training for the Cloud Operations team, new staff, and onboarded clients
 
 **Project Outcomes:**
 
-- Achieved full ATO (Authority to Operate) status for Agriculture Canada's AWS Cloud environment, meeting ITSG-22/33/38 requirements
-- Successfully implemented automated security and governance compliance tooling that exceeded GoC cloud guardrails, enabling secure cloud adoption across the department with integrated Azure AD SSO federation
+- Full ATO approval achieved for the AAFC Enterprise Tenant, where workloads inherit the ATO controls
+- Christian implemented automated compliance checks and auto-remediation for the Landing Zone; without automated checks, manual console audits would take weeks or months, and without auto-remediation, remediation gaps would last days to weeks
+- Azure AD single sign-on (SSO) federation implemented for the AWS Landing Zone
 
 **Technical Environment:**
 
-- **Public Cloud:** Amazon AWS (AWS Organizations, AWS Control Tower, AWS SSO, AWS Config, AWS CloudTrail, AWS GuardDuty, AWS IAM, AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy, AWS CloudFormation, Terraform), Azure DevOps, Azure Active Directory, Azure Sentinel
-- **Applications & Development Tools:** Microsoft Active Directory, Bash, Azure DevOps Git, Azure DevOps Pipelines, CloudFormation, Checkov Security Scanning (BridgeCrew/Prisma), TerraScan Security Scanning (Tenable)
+- **Public Cloud:** AWS Organizations, AWS Control Tower, AWS SSO, AWS Config, AWS CloudTrail, AWS GuardDuty, Azure Sentinel
+- **Identity & Access Management:** AWS IAM, Azure Active Directory, Microsoft Active Directory
+- **CI/CD & GitOps:** Azure DevOps, Azure DevOps Git, Azure DevOps Pipelines, AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy
+- **Infrastructure as Code:** Terraform, CloudFormation
+- **Languages & Scripting:** Bash
+- **Security:** Checkov Security Scanning (BridgeCrew/Prisma), TerraScan Security Scanning (Tenable)
 - **Servers & Operating Systems:** Microsoft Windows 2019, AWS Linux, CentOS, CIS Hardened Images
 
-### Project 12.2 — DevOps & AWS Development
+### Project 12.2 — Analytics Platform on AWS
 
 **January 2021 - September 2023**
 
-The AAFC Analytics team required cloud-native application development on AWS to support departmental data analysis workloads, with a mature DevSecOps pipeline providing automated code and IaC security scanning, supply chain management, and compliant CI/CD deployment practices consistent with GoC security requirements.
+The Analytics team at Agriculture and Agri-Food Canada (AAFC) needed cloud-native applications on AWS to support departmental data analysis. Under a part-time architecture engagement, releases had to meet Government of Canada (GoC) security requirements, with both application code and Infrastructure as Code (IaC) scanned.
 
-**Key activities and deliverables:**
+**Analytics platform and DevSecOps deliverables:**
 
-- Infrastructure as Code (IaC) development and review using AWS CDK v1/v2
-- CI/CD Pipelines - AWS CodeCommit, AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy
-- Implementation and maintenance of CI/CD AWS Resources meeting best practices and agile deployment
-- Security and Governance reporting on Code and IaC to support DevSecOps compliance
-- Continuous improvement of Deployment Practices and Release Management
-- CDK v1 to v2 migration and IaC development for analytics application stack
+- Built the cloud-native analytics application stack on AWS using AWS Glue, AWS DMS, and AWS Lambda
+- Authored the platform's IaC in AWS CDK and migrated the CDK infrastructure code from v1 to v2
+- Engineered automated CI/CD pipelines using AWS CodeCommit, AWS CodePipeline, AWS CodeBuild, and AWS CodeDeploy
+- Integrated automated code and IaC security scanning into a DevSecOps deployment pipeline
+- Produced security and governance reporting on application code and IaC
+- Improved deployment practices and release management procedures over the course of the engagement
 
 **Project Outcomes:**
 
-- Delivered a cloud-native analytics platform on AWS for Agriculture Canada's departmental data analysis workloads, leveraging AWS Glue, DMS, Lambda, and CDK v2 with a fully automated CI/CD pipeline providing continuous delivery and auditable deployment history
-- Implemented comprehensive DevSecOps pipeline with automated security scanning and supply chain management, enabling secure data analysis capabilities
+- Cloud-native AWS analytics platform delivered for departmental data analysis workloads, built with AWS Glue, AWS DMS, AWS Lambda, and AWS CDK v2
+- Fully automated CI/CD pipelines gave the Analytics team continuous delivery and an auditable deployment history
+- Application code and IaC security scanning automated by the deployment pipeline, alongside security and governance reporting produced by Christian on both
 
 **Technical Environment:**
 
-- **Public Cloud:** Amazon AWS (AWS CDK v1/v2, AWS CodeCommit, AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy, AWS Cloud9, AWS Glue, AWS DMS, AWS Lambda), Azure DevOps
-- **Applications & Development Tools:** Bash, Azure DevOps, Git, Atlassian Jira, Code & IaC Security Scanning, JFROG Artifactory, SonarQube & Dependency Checker, AWS CDK v1.x, AWS CDK v2.x
+- **Public Cloud:** AWS Glue, AWS DMS, AWS Cloud9, AWS CodeCommit
+- **Serverless & Event-Driven:** AWS Lambda
+- **CI/CD & GitOps:** Azure DevOps, Git, AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy, JFROG Artifactory
+- **Infrastructure as Code:** AWS CDK v1.x, AWS CDK v2.x
+- **Languages & Scripting:** Bash
+- **Security:** Code & IaC Security Scanning, SonarQube & Dependency Checker
+- **Applications & Development Tools:** Atlassian Jira
+
+### Project 12.3 — ITSG-33 Compliance Monitoring with AWS Security Hub
+
+**February 2021 - August 2021**
+
+During an internal Cloud Centre of Expertise (CCoE) review of the cloud environment at Agriculture and Agri-Food Canada (AAFC), the team found that AWS Security Hub offered basic compliance packs but lacked a standard for ITSG-33, the Government of Canada (GoC) IT security risk management framework under Information Technology Security Guidance (ITSG). Compliance instead depended on manual resource checks, scripted audits that could miss issues, and manual console validation ("click-ops") prone to human error. Relying on these manual and scripted checks created the risk that compliance gaps could remain open for extended periods.
+
+**ITSG-33 compliance monitoring deliverables:**
+
+- Built a bespoke ITSG-33 control pack for AWS Security Hub, forked from the National Institute of Standards and Technology (NIST) standard to maintain a flexible approach to compliance standards
+- Engineered auto-remediation on an "immediate patch, fix later" model, such as applying a pre-provisioned account-level default AWS Key Management Service (KMS) key to unencrypted resources while notifying teams to fix the root cause, with the most serious findings able to terminate traffic
+- Developed EventBridge-triggered AWS Lambda functions to customise and triage AWS Security Hub findings, routing alerts to a CloudWatch dashboard and by email to security operations (SecOps) teams
+- Deployed the monitoring stack across the entire AWS Organization using Terraform-managed CloudFormation StackSets in an AWS CodePipeline stage from the central automation account, supplying separate values for the Dev, Prod, and Core organizational units (OUs) in AWS Organizations from one codebase
+- Defined an internal severity matrix grounded in internal standards to classify AWS Security Hub findings
+- Designed the automated monitoring approach after identifying the ITSG-33 gap in AWS Security Hub during the CCoE's internal review of AAFC's cloud setup
+
+**Project Outcomes:**
+
+- Deployment covered the entire AWS Organization with CloudFormation StackSets enrolling new accounts automatically; the build took about six months and was followed by maintenance only
+- Automated scanning and remediation replaced manual checks and scripted audits, closing compliance gaps immediately
+- The ITSG-33 compliance monitoring system served as part of the evidence for the full Authority to Operate (ATO)
+
+**Technical Environment:**
+
+- **Public Cloud:** AWS Security Hub, AWS Config, AWS Organizations, AWS KMS, AWS CloudFormation StackSets
+- **Serverless & Event-Driven:** EventBridge, AWS Lambda, Amazon SNS
+- **Infrastructure as Code:** Terraform
+- **CI/CD & GitOps:** AWS CodePipeline, AWS CodeBuild
+- **Observability & Monitoring:** CloudWatch
+- **Languages & Scripting:** Python
+- **Compliance Frameworks:** ITSG-33, NIST
 
 ## 11. Project 11 - SSC CSD R&D
 

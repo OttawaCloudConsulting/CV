@@ -5,32 +5,39 @@
 ## Amazon Web Services
 
 - **Amazon AWS** — Projects 2, 2.1, 4, 4.1, 4.2, 5, 5.2, 6
-- **Amazon AWS (AWS CDK v1/v2, AWS CodeCommit, AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy, AWS Cloud9, AWS Glue, AWS DMS, AWS Lambda)** — Projects 12, 12.2
-- **Amazon AWS (AWS Organizations, AWS Control Tower, AWS SSO, AWS Config, AWS CloudTrail, AWS GuardDuty, AWS IAM, AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy, AWS CloudFormation, Terraform)** — Projects 12, 12.1
 - **Amazon AWS Cloud** — Projects 10, 10.1, 11, 11.1, 13, 13.1, 13.3
 - **Amazon AWS Organizations** — Projects 13, 13.2
 - **Amazon AWS US** — Project 2.5
 - **Amazon S3** — Projects 13, 13.3
+- **Amazon SNS** — Projects 12, 12.3
 - **API Gateway** — Projects 13, 13.2
 - **AWS ALB (Load Balancer)** — Projects 10, 10.1, 11, 11.1
 - **AWS Auto-Scaling** — Projects 10, 10.1, 11, 11.1
 - **AWS Certificate Manager** — Projects 10, 10.1, 11, 11.1
+- **AWS Cloud9** — Projects 12, 12.2
+- **AWS CloudFormation StackSets** — Projects 12, 12.3
 - **AWS CloudFront** — Projects 10, 10.1, 11, 11.1
-- **AWS CloudTrail** — Projects 10, 10.1, 11, 11.1, 13, 13.2
-- **AWS Config** — Projects 11, 11.1, 13, 13.2, 13.3
-- **AWS Control Tower** — Projects 13, 13.2
+- **AWS CloudTrail** — Projects 10, 10.1, 11, 11.1, 12, 12.1, 13, 13.2
+- **AWS CodeCommit** — Projects 12, 12.2
+- **AWS CodeDeploy** — Projects 12, 12.1, 12.2
+- **AWS Config** — Projects 11, 11.1, 12, 12.1, 12.3, 13, 13.2, 13.3
+- **AWS Control Tower** — Projects 12, 12.1, 13, 13.2
+- **AWS DMS** — Projects 12, 12.2
 - **AWS EBS Storage** — Projects 10, 10.1, 11, 11.1
 - **AWS EC2** — Projects 4, 4.1, 10, 10.1, 11, 11.1, 13, 13.3
 - **AWS ECR** — Projects 10, 10.1
 - **AWS ECS** — Projects 10, 10.1, 11, 11.1
 - **AWS EFS** — Projects 10, 10.1
 - **AWS ELB (Load Balancer)** — Projects 10, 10.1, 11, 11.1
-- **AWS GuardDuty** — Projects 10, 10.1, 11, 11.1, 13, 13.2
+- **AWS Glue** — Projects 12, 12.2
+- **AWS GuardDuty** — Projects 10, 10.1, 11, 11.1, 12, 12.1, 13, 13.2
 - **AWS Inspector** — Projects 10, 10.1, 11, 11.1
-- **AWS Lambda** — Projects 13, 13.2
-- **AWS Organizations** — Projects 11, 11.1
+- **AWS KMS** — Projects 12, 12.3
+- **AWS Lambda** — Projects 12, 12.2, 12.3, 13, 13.2
+- **AWS Organizations** — Projects 11, 11.1, 12, 12.1, 12.3
 - **AWS Parameter Store** — Projects 10, 10.1
 - **AWS Secrets Store** — Projects 10, 10.1
+- **AWS Security Hub** — Projects 12, 12.3
 - **AWS Service Catalog** — Projects 10, 10.1, 11, 11.1
 - **AWS Service Discovery** — Projects 10, 10.1
 - **AWS Systems Manager** — Projects 10, 10.1, 11, 11.1, 13, 13.3
@@ -80,7 +87,7 @@
 - **CloudFormation** — Projects 11, 11.1, 12, 12.1, 13, 13.1, 13.2
 - **JSON** — Projects 13, 13.1, 13.2
 - **KCL** — Projects 13, 13.1, 13.2, 13.3
-- **Terraform** — Projects 13, 13.1, 13.2
+- **Terraform** — Projects 12, 12.1, 12.3, 13, 13.1, 13.2
 - **Terraform 0.12.7** — Projects 10, 10.1
 - **Upbound CLI** — Projects 13, 13.3
 - **YAML** — Projects 13, 13.1, 13.2
@@ -90,8 +97,8 @@
 - **Atlassian Confluence** — Projects 5, 5.2, 6, 6.1, 8, 8.2, 10, 10.1
 - **Atlassian Jira** — Projects 12, 12.2
 - **Atlassian JIRA** — Projects 5, 5.2, 6, 6.1, 8, 8.2, 10, 10.1
-- **AWS CodeBuild** — Projects 11, 11.1
-- **AWS CodePipeline** — Projects 11, 11.1
+- **AWS CodeBuild** — Projects 11, 11.1, 12, 12.1, 12.2, 12.3
+- **AWS CodePipeline** — Projects 11, 11.1, 12, 12.1, 12.2, 12.3
 - **Azure DevOps** — Projects 12, 12.1, 12.2, 13, 13.1, 13.2
 - **Azure DevOps Git** — Projects 12, 12.1, 13, 13.1
 - **Azure DevOps Pipelines** — Projects 12, 12.1
@@ -127,10 +134,10 @@
 - **FISMA** — Projects 2, 2.1, 2.3, 2.5
 - **HIPAA** — Projects 4, 4.1, 4.2, 4.3, 4.4, 5, 5.1, 5.2
 - **ISO:27001** — Projects 1, 1.1, 1.2, 2, 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 4, 4.1, 4.2, 4.3, 5, 5.1, 5.2
-- **ITSG-33** — Projects 13, 13.3
+- **ITSG-33** — Projects 12, 12.3, 13, 13.3
 - **Microsoft Office 365 Compliance** — Projects 9, 9.1
 - **NERC** — Projects 2, 2.1, 2.2, 2.3, 2.4, 2.5
-- **NIST** — Projects 1, 1.1, 1.2, 2, 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 4, 4.1, 4.2, 4.3, 4.4, 5, 5.1, 5.2, 7, 7.1
+- **NIST** — Projects 1, 1.1, 1.2, 2, 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 4, 4.1, 4.2, 4.3, 4.4, 5, 5.1, 5.2, 7, 7.1, 12, 12.3
 - **NIST Frameworks** — Projects 13, 13.1, 13.2
 - **PCI-DSS 3.0** — Projects 3, 3.1, 3.3
 - **PIPEDA** — Projects 3, 3.2
@@ -139,9 +146,9 @@
 ## Identity & Access Management
 
 - **Active Directory** — Projects 1.2, 2, 2.4, 2.6, 2.7, 5, 5.1, 6.2, 8, 8.1
-- **AWS IAM** — Projects 10, 10.1, 11, 11.1, 13, 13.1, 13.2, 13.3
+- **AWS IAM** — Projects 10, 10.1, 11, 11.1, 12, 12.1, 13, 13.1, 13.2, 13.3
 - **AWS Managed SSO** — Projects 11, 11.1
-- **AWS SSO** — Projects 13, 13.2
+- **AWS SSO** — Projects 12, 12.1, 13, 13.2
 - **Azure Active Directory** — Projects 7, 7.1, 12, 12.1
 - **Microsoft Active Directory** — Projects 1, 1.3, 11, 11.1, 12, 12.1
 - **Microsoft Intune** — Projects 7, 7.1
@@ -153,7 +160,7 @@
 - **AWS CloudWatch** — Projects 10, 10.1, 11, 11.1
 - **AWS Trusted Advisor** — Projects 10, 10.1, 11, 11.1
 - **AWS X-Ray** — Projects 13, 13.2
-- **CloudWatch** — Projects 13, 13.1, 13.2
+- **CloudWatch** — Projects 12, 12.3, 13, 13.1, 13.2
 - **Elasticsearch** — Projects 9, 9.2, 13, 13.2
 - **Grafana** — Projects 13, 13.1, 13.2
 - **ManageEngine Desktop Central** — Projects 10, 10.1
@@ -186,7 +193,7 @@
 - **Java 8.x** — Projects 10, 10.1
 - **PHP** — Projects 10, 10.1
 - **PowerShell** — Projects 2, 2.6, 5, 5.1, 6, 6.2, 8, 8.1, 9, 9.2, 13, 13.3
-- **Python** — Projects 13, 13.2
+- **Python** — Projects 12, 12.3, 13, 13.2
 - **Python 3.x** — Projects 13, 13.1
 - **SQL** — Projects 5, 5.2
 - **Typescript** — Projects 13, 13.1, 13.2
@@ -205,7 +212,7 @@
 ## Messaging & Eventing
 
 - **AWS SES** — Projects 10, 10.1, 11, 11.1
-- **EventBridge** — Projects 13, 13.2, 13.3
+- **EventBridge** — Projects 12, 12.3, 13, 13.2, 13.3
 - **Kafka** — Projects 10, 10.1
 - **SNS** — Projects 13, 13.2
 - **SQS** — Projects 13, 13.2
