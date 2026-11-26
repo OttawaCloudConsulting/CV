@@ -1,0 +1,94 @@
+{
+  "project": {
+    "number": 10.03,
+    "title": "ITSG-33 Security Controls, Access Posture, and iATO Readiness",
+    "client": {
+      "name": "Department of National Defence",
+      "department": "DPDCS",
+      "team": "SMMS Replacement Project"
+    },
+    "role": "Cloud Architect - Resilient Systems",
+    "competencies": [
+      "Security & Identity",
+      "Compliance & ATO"
+    ],
+    "parentsummary": {
+      "deliverables": "Engineered defense-in-depth perimeter controls, least-privilege IAM/WSO2/OpenLDAP access posture, KMS/ACM encryption, and ITSG-33-aligned security controls with pre-migratory security reporting toward iATO.",
+      "outcomes": "Aligned the SAR replacement platform to ITSG-33, DND, and TBS cloud security controls and delivered pre-migratory security assessment reporting to support interim Authority to Operate (iATO) readiness."
+    },
+    "date_range": {
+      "start": "February 2019",
+      "end": "December 2020"
+    },
+    "challenge": {
+      "summary": "Because the SMMS replacement supported critical national Search and Rescue (SAR) operations for the Department of National Defence (DND), the cloud platform had to satisfy stringent Information Technology Security Guidance (ITSG-33), DND, and Treasury Board of Canada Secretariat (TBS) cloud compliance requirements to support an interim Authority to Operate (iATO). Securing a multi-tier AWS environment with external web access, live-data ingestion, and remote operational sites required strict perimeter protection, least-privilege identity controls, end-to-end encryption, and continuous audit visibility. Unresolved control gaps or incomplete security evidence would block operational approval and cut-over from SARMASTER."
+    },
+    "solution": {
+      "summary": "Key deliverables:",
+      "deliverables": [
+        "Aligned the AWS cloud architecture and security controls to Information Technology Security Guidance (ITSG-33), Department of National Defence (DND), and Treasury Board of Canada Secretariat (TBS) cloud compliance requirements",
+        "Engineered the platform access control and identity posture using AWS IAM least-privilege roles, WSO2 Identity and Access Management and API Manager, OpenLDAP, SAML Service Provider integration, and hardened Multi-AZ Bastion hosts",
+        "Architected a layered single-point-of-access perimeter combining Amazon Route 53, F5 Web Application Firewall (WAF), AWS WAF and Shield, AWS GuardDuty, and per-service security group segmentation across VPC tiers",
+        "Designed TLS in-transit encryption at ingress and CloudFront endpoints with AWS Certificate Manager (ACM), alongside AWS Key Management Service (KMS) data encryption keys for containerized compute, Amazon EFS, Amazon MSK, and segregated Amazon S3 buckets (backups, logging, deployment artifacts, and disaster replay)",
+        "Enabled continuous auditing, configuration tracking, and vulnerability scanning with AWS CloudTrail, AWS Config, AWS GuardDuty, AWS Inspector, and centralized Amazon CloudWatch Logs",
+        "Executed staged security testing with inline remediation and produced pre-migratory security assessment reports to support the interim Authority to Operate (iATO) package",
+        "Coordinated security requirements and architecture reviews across DND security teams, project management, technical teams, and external stakeholders"
+      ]
+    },
+    "outcomes": [
+      "Delivered ITSG-33-aligned security controls, inline remediation from staged security testing, and pre-migratory security reporting to support interim Authority to Operate (iATO) readiness for the SAR replacement platform",
+      "Defined a segmented AWS security design combining layered WAF and DDoS protection, least-privilege IAM and directory access controls, continuous CloudTrail and Config auditing, ACM-managed TLS at ingress and CloudFront endpoints, and AWS KMS encryption keys across four workload and storage classes (containerized compute, EFS, MSK, and segregated S3 buckets)"
+    ],
+    "technologies": [
+      {
+        "category": "Public Cloud",
+        "items": [
+          "AWS CloudTrail",
+          "AWS Config",
+          "AWS KMS",
+          "AWS Certificate Manager"
+        ]
+      },
+      {
+        "category": "Identity & Access Management",
+        "items": [
+          "AWS IAM",
+          "OpenLDAP"
+        ]
+      },
+      {
+        "category": "Security",
+        "items": [
+          "F5 WAF",
+          "AWS WAF & Shield",
+          "AWS GuardDuty",
+          "AWS Inspector"
+        ]
+      },
+      {
+        "category": "Compliance Frameworks",
+        "items": [
+          "ITSG-33"
+        ]
+      },
+      {
+        "category": "Storage & Backup",
+        "items": [
+          "AWS S3"
+        ]
+      },
+      {
+        "category": "Observability & Monitoring",
+        "items": [
+          "AWS CloudWatch"
+        ]
+      },
+      {
+        "category": "Applications & Development Tools",
+        "items": [
+          "WSO2"
+        ]
+      }
+    ]
+  }
+}

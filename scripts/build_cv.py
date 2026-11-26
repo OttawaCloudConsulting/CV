@@ -340,6 +340,7 @@ TECH_GROUP_MAP = {
     "CIS Hardened Images": "Security Tooling",
     "Cloudflare WAF": "Security Tooling",
     "Code & IaC Security Scanning": "Security Tooling",
+    "F5 WAF": "Security Tooling",
     "Fortinet FortiGate (NGFW)": "Security Tooling",
     "LUKS Encryption": "Security Tooling",
     "SIEM": "Security Tooling",
@@ -401,7 +402,9 @@ TECH_GROUP_MAP = {
     "Kafka": "Messaging & Eventing",
     # Application Servers & Middleware
     "Apache": "Application Servers & Middleware",
+    "GeoServer": "Application Servers & Middleware",
     "IBM WebSphere": "Application Servers & Middleware",
+    "NextCloud": "Application Servers & Middleware",
     "NGINX": "Application Servers & Middleware",
     "SOGO": "Application Servers & Middleware",
     "Tomcat": "Application Servers & Middleware",

@@ -8,84 +8,170 @@
       "team": "SMMS Replacement Project"
     },
     "role": "Cloud Architect - Resilient Systems",
+    "competencies": [
+      "Cloud Architecture & Design",
+      "Disaster Recovery & Resilience",
+      "Cloud Migration",
+      "Infrastructure as Code & Automation",
+      "DevOps",
+      "Developer Experience & Golden Paths",
+      "Security & Identity",
+      "Compliance & ATO"
+    ],
     "role_overview": {
-      "summary": "The Department of National Defence's DPDCS division manages critical operational systems supporting Search and Rescue (SAR) coordination across Canada. Christian served as Cloud Architect for Resilient Systems on the SMMS Replacement Project — a high-consequence initiative to replace the legacy SARMASTER software and hardware platform with a modern cloud architecture capable of 24/7 availability, GIS and live data integration, and long-term operational supportability. The engagement required alignment to stringent ITSG-33, DND, and TSB cloud compliance requirements to achieve iATO, and was delivered over a 22-month engagement using Agile methodologies with continuous development cycles."
+      "summary": "The Department of National Defence's (DND) DPDCS division manages critical operational systems supporting Search and Rescue (SAR) coordination across Canada. Christian served as Cloud Architect for Resilient Systems over a 22-month Agile engagement on the SMMS Replacement Project to replace the legacy SARMASTER hardware and software platform with a resilient AWS architecture capable of 24/7 high availability, Geographic Information System (GIS) and live-data integration, and reliable backup-site capability. He architected the segmented multi-VPC AWS network and containerized application and data platform, built reusable AWS CloudFormation and AWS Service Catalog environment automation alongside integrated CI/CD delivery pipelines, and engineered the defense-in-depth security and access control posture aligned to Information Technology Security Guidance (ITSG-33), DND, and Treasury Board of Canada Secretariat (TBS) cloud compliance requirements. Across the engagement, his work reduced on-demand environment provisioning from weeks to hours, established a zero-downtime migration strategy, and produced pre-migratory security reporting to support interim Authority to Operate (iATO) readiness."
     },
     "date_range": {
       "start": "February 2019",
       "end": "December 2020"
     },
     "challenge": {
-      "summary": "DND's DPDCS division operated on the aging SARMASTER platform for national Search and Rescue management — a legacy system that lacked cloud resilience, GIS integration, live-data interface capability, and a credible long-term support path. The replacement initiative required a modern cloud architecture capable of 24/7 availability, real-time data integration, and full compliance with ITSG-33, DND, and TSB cloud security standards to achieve iATO."
+      "summary": "The Department of National Defence's (DND) DPDCS division operated national Search and Rescue (SAR) management on the aging SARMASTER platform, which lacked cloud resilience, Geographic Information System (GIS) integration, live-data interface capability, and a viable long-term support path. The replacement platform required 24/7 high availability, backup-site capability, and alignment to Information Technology Security Guidance (ITSG-33), DND, and Treasury Board of Canada Secretariat (TBS) cloud security requirements within a 22-month delivery window."
     },
     "solution": {
-      "summary": "Delivered comprehensive cloud and infrastructure solutions across:",
+      "summary": "Delivered across three workstreams:",
       "deliverables": [
-        "SMMS Search and Rescue Replacement Project"
+        "Multi-VPC AWS Network and Containerized SAR Platform Architecture",
+        "Infrastructure as Code, AWS Service Catalog, and CI/CD Automation",
+        "ITSG-33 Security Controls, Access Posture, and iATO Readiness"
       ]
     },
     "outcomes": [
-      "Successfully modernized critical Search and Rescue operations infrastructure with zero downtime migration strategy to AWS cloud infrastructure",
-      "Delivered containerized architecture using Docker/ECS with PostgreSQL, ensuring 24/7 availability for life-saving SAR operations across Canada while meeting stringent DND security requirements",
-      "Created Service Catalogue for creating on-demand environments for development, testing, production, and disaster replay, reducing environment provisioning time from weeks to hours"
+      "Reduced on-demand environment provisioning for development, testing, production, and disaster replay from weeks to hours using AWS Service Catalog products",
+      "Architected a Multi-AZ containerized AWS platform using Docker, Amazon ECS, and PostgreSQL with a zero-downtime migration strategy to support 24/7 Search and Rescue operations across Canada",
+      "Aligned security controls, access posture, and pre-migratory security reporting to ITSG-33, DND, and Treasury Board of Canada Secretariat (TBS) cloud requirements toward interim Authority to Operate (iATO)"
     ],
     "technologies": [
       {
         "category": "Public Cloud",
         "items": [
           "Amazon AWS Cloud",
-          "AWS VPC",
-          "AWS CloudFront",
-          "AWS CloudWatch",
-          "AWS CloudTrail",
-          "AWS IAM",
           "AWS EC2",
-          "AWS ECS",
-          "AWS ECR",
-          "AWS SES",
-          "AWS S3",
-          "AWS EFS",
-          "AWS RDS",
-          "AWS CloudFormation",
-          "AWS Service Catalog",
-          "AWS Route 53",
-          "AWS Systems Manager",
-          "AWS Trusted Advisor",
-          "AWS VPN",
-          "AWS ELB (Load Balancer)",
+          "AWS Auto-Scaling",
           "AWS ALB (Load Balancer)",
+          "AWS ELB (Load Balancer)",
+          "AWS CloudFront",
+          "AWS Transfer Service (SFTP)",
+          "AWS SES",
+          "AWS Service Catalog",
+          "AWS Service Discovery",
+          "AWS Systems Manager",
+          "AWS Parameter Store",
+          "AWS Secrets Manager",
+          "AWS CloudTrail",
+          "AWS Config",
+          "AWS KMS",
+          "AWS Certificate Manager"
+        ]
+      },
+      {
+        "category": "Networking & WAN",
+        "items": [
+          "AWS VPC",
           "AWS Transit Gateway",
           "AWS Transit Peering",
-          "AWS GuardDuty",
+          "AWS VPN",
+          "AWS Route 53"
+        ]
+      },
+      {
+        "category": "Containers & Kubernetes",
+        "items": [
+          "AWS ECS",
+          "AWS ECR",
+          "Docker Containers"
+        ]
+      },
+      {
+        "category": "Infrastructure as Code",
+        "items": [
+          "AWS CloudFormation",
+          "Terraform 0.12.7"
+        ]
+      },
+      {
+        "category": "CI/CD & GitOps",
+        "items": [
+          "Git",
+          "Jenkins",
+          "AWS CodeCommit",
+          "AWS CodeBuild",
+          "AWS CodeDeploy",
+          "AWS CodePipeline"
+        ]
+      },
+      {
+        "category": "Serverless & Event-Driven",
+        "items": [
+          "EventBridge",
+          "Kafka",
+          "Amazon MSK"
+        ]
+      },
+      {
+        "category": "Databases",
+        "items": [
+          "AWS RDS",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "category": "Storage & Backup",
+        "items": [
+          "AWS S3",
+          "AWS EFS",
+          "AWS EBS Storage"
+        ]
+      },
+      {
+        "category": "Identity & Access Management",
+        "items": [
+          "AWS IAM",
+          "OpenLDAP"
+        ]
+      },
+      {
+        "category": "Security",
+        "items": [
+          "F5 WAF",
           "AWS WAF & Shield",
-          "AWS Inspector",
-          "AWS Certificate Manager",
-          "AWS Auto-Scaling",
-          "AWS EBS Storage",
-          "AWS Service Discovery",
-          "AWS Transfer Service (SFTP)",
-          "AWS Parameter Store",
-          "AWS Secrets Store"
+          "AWS GuardDuty",
+          "AWS Inspector"
+        ]
+      },
+      {
+        "category": "Compliance Frameworks",
+        "items": [
+          "ITSG-33"
+        ]
+      },
+      {
+        "category": "Observability & Monitoring",
+        "items": [
+          "AWS CloudWatch",
+          "AWS Trusted Advisor",
+          "ManageEngine Desktop Central"
         ]
       },
       {
         "category": "Applications & Development Tools",
         "items": [
-          "PostgreSQL",
-          "Docker Containers",
-          "Bash",
-          "Terraform 0.12.7",
-          "Java 8.x",
-          "Tomcat 8.x",
-          "Atlassian JIRA",
-          "Atlassian Confluence",
+          "GeoServer",
+          "NextCloud",
           "WSO2",
-          "Kafka",
-          "PHP",
-          "Git",
-          "OpenLDAP",
           "SOGO",
-          "ManageEngine Desktop Central"
+          "Tomcat 8.x",
+          "Apache",
+          "Atlassian JIRA",
+          "Atlassian Confluence"
+        ]
+      },
+      {
+        "category": "Languages & Scripting",
+        "items": [
+          "Bash",
+          "Java 8.x",
+          "PHP"
         ]
       },
       {
