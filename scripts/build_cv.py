@@ -340,6 +340,7 @@ TECH_GROUP_MAP = {
     "CIS Hardened Images": "Security Tooling",
     "Cloudflare WAF": "Security Tooling",
     "Code & IaC Security Scanning": "Security Tooling",
+    "Fortinet FortiGate (NGFW)": "Security Tooling",
     "LUKS Encryption": "Security Tooling",
     "SIEM": "Security Tooling",
     "Snyk": "Security Tooling",
@@ -372,6 +373,7 @@ TECH_GROUP_MAP = {
     "ManageEngine Desktop Central": "Observability & Monitoring",
     "Prometheus": "Observability & Monitoring",
     "SNMP": "Observability & Monitoring",
+    "Syslog": "Observability & Monitoring",
     # Networking
     "CloudFlare CDN": "Networking",
     "Cloudflare DNS": "Networking",

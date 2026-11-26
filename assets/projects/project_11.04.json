@@ -1,0 +1,65 @@
+{
+  "project": {
+    "number": 11.04,
+    "title": "Interim Authority to Operate Security Program for the Cloud Services Directorate (CSD) Landing Zone",
+    "client": {
+      "name": "Shared Services Canada",
+      "department": "Cloud Services Directorate",
+      "team": "Cloud Platform Engineering"
+    },
+    "role": "AWS Cloud Infrastructure as Code DevOps Engineer & Architect",
+    "competencies": [
+      "Compliance & ATO",
+      "Policy as Code"
+    ],
+    "parentsummary": {
+      "deliverables": "Mapped platform controls to Information Technology Security Guidance (ITSG-33), enforced guardrails with service control policies (SCPs) and AWS Config rules, and built evidence packages from AWS Config, CloudTrail, and Security Hub.",
+      "outcomes": "Interim Authority to Operate (iATO) was granted in September 2020, and the platform went on to receive full Authority to Operate (ATO) in 2021 after the engagement ended."
+    },
+    "date_range": {
+      "start": "July 2020",
+      "end": "January 2021"
+    },
+    "challenge": {
+      "summary": "Shared Services Canada (SSC) needed an Authority to Operate (ATO) for its AWS platform against Information Technology Security Guidance (ITSG-22, ITSG-33, and ITSG-38) and the Treasury Board of Canada Secretariat (TBS) cloud guardrails, with no precedent for authorising cloud systems. Because ITSG guidance was written for on-premises systems and application scope, its controls did not translate easily to cloud processes, and the AWS shared responsibility model was especially hard to reconcile with them. Without an ATO, production releases could be blocked."
+    },
+    "solution": {
+      "summary": "Key deliverables:",
+      "deliverables": [
+        "Mapped platform security controls to ITSG-33",
+        "Allocated control responsibilities among AWS, the SSC platform team, and workload teams under the AWS shared responsibility model",
+        "Enforced guardrails as code using service control policies (SCPs) and AWS Config rules",
+        "Built assessment evidence packages from AWS Config, AWS CloudTrail, and AWS Security Hub",
+        "Wrote process documentation and runbooks that fed recurring evidence packages",
+        "Collaborated with security assessors throughout the assessment",
+        "Tracked remediation of control gaps"
+      ]
+    },
+    "outcomes": [
+      "Interim Authority to Operate (iATO) was granted for the platform in September 2020",
+      "The platform went on to receive full ATO in 2021, after this engagement ended"
+    ],
+    "technologies": [
+      {
+        "category": "Public Cloud",
+        "items": [
+          "AWS Organizations",
+          "AWS Config",
+          "AWS CloudTrail"
+        ]
+      },
+      {
+        "category": "Security",
+        "items": [
+          "AWS Security Hub"
+        ]
+      },
+      {
+        "category": "Compliance Frameworks",
+        "items": [
+          "ITSG-33"
+        ]
+      }
+    ]
+  }
+}

@@ -8,79 +8,96 @@
       "team": "Cloud Platform Engineering"
     },
     "role": "AWS Cloud Infrastructure as Code DevOps Engineer & Architect",
+    "competencies": [
+      "Landing Zones & Multi-Account Governance",
+      "Cloud Architecture & Design",
+      "Platform Engineering",
+      "Developer Experience & Golden Paths",
+      "Infrastructure as Code & Automation",
+      "Security & Identity",
+      "Compliance & ATO",
+      "Policy as Code"
+    ],
     "role_overview": {
-      "summary": "Shared Services Canada's Cloud Services Directorate (CSD) R&D group is mandated to create reusable, government-grade Infrastructure as Code for adoption across SSC and its federal partner departments. Christian served as AWS Cloud Infrastructure as Code DevOps Engineer and Architect, leading the design and delivery of the CSD Landing Zone — an ASEA-integrated, multi-account AWS architecture with codified security guardrails, SSO federation with Azure Active Directory, and ITSG-22/33/38-aligned controls — culminating in SSC becoming the first team to achieve ATO status using the AWS Secure Environment Accelerator. The engagement also supported the onboarding of critical government workloads including SCED, DX, Vocalls, and Email."
+      "summary": "Within Shared Services Canada (SSC), the Cloud Services Directorate (CSD) Research and Development (R&D) group carried a mandate to create reusable, government-grade Infrastructure as Code for adoption across SSC and its federal partner departments. Christian served as AWS Cloud Infrastructure as Code DevOps Engineer and Architect on this engagement, leading the design and delivery of the CSD Landing Zone, a multi-account AWS foundation built first on AWS Landing Zone and later on the AWS Secure Environment Accelerator (ASEA). He also built an organization-shared AWS Service Catalog offering blueprint and operational products, and federated AWS access with Azure Active Directory through AWS Identity and Access Management (IAM) Identity Center. In addition, Christian implemented the information technology (IT) security program that achieved interim Authority to Operate (iATO) in September 2020, and the CSD Landing Zone became SSC's standard AWS landing zone."
     },
     "date_range": {
       "start": "September 2019",
       "end": "January 2021"
     },
     "challenge": {
-      "summary": "SSC's Cloud Services Directorate R&D group needed to establish a reusable, government-grade AWS cloud foundation — codified entirely as Infrastructure as Code — capable of meeting ITSG-22, ITSG-33, and ITSG-38 security requirements and achieving ATO status using the newly available AWS Secure Environment Accelerator. No prior government team had achieved ATO through ASEA, making this both a technical delivery challenge and a compliance pathfinding exercise."
+      "summary": "Across Shared Services Canada (SSC), teams operated AWS workloads in stand-alone or loosely coupled accounts with no shared standard for security, governance, or financial accountability. The Cloud Services Directorate (CSD) needed a reusable cloud platform that could meet Information Technology Security Guidance (ITSG-22, ITSG-33, and ITSG-38) and Treasury Board of Canada Secretariat (TBS) cloud guardrails and gain an Authority to Operate (ATO), despite having no precedent for authorising cloud systems."
     },
     "solution": {
-      "summary": "Delivered comprehensive cloud and infrastructure solutions across:",
+      "summary": "Delivered across four workstreams:",
       "deliverables": [
-        "Cloud Services Directorate, Cloud Platform Engineering Project"
+        "Multi-Account Build of the Cloud Services Directorate (CSD) Landing Zone",
+        "Self-Service AWS Service Catalog Products",
+        "AWS IAM Identity Center Federation with Azure Active Directory",
+        "Interim Authority to Operate Security Program for the Cloud Services Directorate (CSD) Landing Zone"
       ]
     },
     "outcomes": [
-      "First team to achieve ATO status using AWS Secure Environment Accelerator (ASEA), establishing reusable Infrastructure as Code templates for government-wide adoption",
-      "Created foundational 'CSD Landing Zone' architecture that became the standard for SSC cloud deployments, supporting critical workloads including SCED, DX, Vocalls, and Email systems"
+      "Interim Authority to Operate (iATO) was granted for the Cloud Services Directorate (CSD) Landing Zone in September 2020",
+      "The CSD Landing Zone became Shared Services Canada's (SSC) standard AWS landing zone, with 3 early adopter workload clients onboarded"
     ],
     "technologies": [
       {
         "category": "Public Cloud",
         "items": [
-          "Amazon AWS Cloud",
-          "AWS VPC",
-          "AWS CloudFront",
-          "AWS CloudWatch",
-          "AWS CloudTrail",
-          "AWS IAM",
-          "AWS EC2",
-          "AWS ECS",
-          "AWS SES",
-          "AWS S3",
-          "AWS RDS",
-          "AWS CloudFormation",
-          "AWS Service Catalog",
-          "AWS Route 53",
-          "AWS Systems Manager",
-          "AWS Trusted Advisor",
-          "AWS VPN",
-          "AWS ELB (Load Balancer)",
-          "AWS ALB (Load Balancer)",
-          "AWS Transit Gateway",
-          "AWS Transit Peering",
-          "AWS GuardDuty",
-          "AWS WAF & Shield",
-          "AWS Inspector",
-          "AWS Certificate Manager",
-          "AWS Auto-Scaling",
-          "AWS EBS Storage",
-          "AWS Managed SSO",
-          "AWS CodeBuild",
-          "AWS CodePipeline",
           "AWS Organizations",
-          "AWS Config"
+          "AWS Landing Zone",
+          "AWS Secure Environment Accelerator (ASEA)",
+          "AWS CodeCommit",
+          "AWS VPC",
+          "AWS Transit Gateway",
+          "AWS VPN",
+          "AWS Service Catalog",
+          "AWS KMS",
+          "AWS Config",
+          "AWS CloudTrail"
         ]
       },
       {
-        "category": "Applications & Development Tools",
+        "category": "Infrastructure as Code",
         "items": [
-          "Microsoft Active Directory",
-          "Bash",
-          "GitLab",
-          "GitHub",
-          "CloudFormation"
+          "AWS CloudFormation"
         ]
       },
       {
-        "category": "Servers & Operating Systems",
+        "category": "CI/CD & GitOps",
         "items": [
-          "Microsoft Windows 2019",
-          "AWS Linux"
+          "AWS CodePipeline",
+          "AWS CodeBuild",
+          "GitLab"
+        ]
+      },
+      {
+        "category": "Identity & Access Management",
+        "items": [
+          "AWS IAM",
+          "AWS IAM Identity Center (SSO)",
+          "Azure Active Directory"
+        ]
+      },
+      {
+        "category": "Security",
+        "items": [
+          "Fortinet FortiGate (NGFW)",
+          "AWS Security Hub"
+        ]
+      },
+      {
+        "category": "Observability & Monitoring",
+        "items": [
+          "AWS CloudWatch",
+          "Syslog"
+        ]
+      },
+      {
+        "category": "Compliance Frameworks",
+        "items": [
+          "ITSG-33"
         ]
       }
     ]

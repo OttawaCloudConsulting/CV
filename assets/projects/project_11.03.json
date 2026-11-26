@@ -1,0 +1,60 @@
+{
+  "project": {
+    "number": 11.03,
+    "title": "AWS IAM Identity Center Federation with Azure Active Directory",
+    "client": {
+      "name": "Shared Services Canada",
+      "department": "Cloud Services Directorate",
+      "team": "Cloud Platform Engineering"
+    },
+    "role": "AWS Cloud Infrastructure as Code DevOps Engineer & Architect",
+    "competencies": [
+      "Security & Identity",
+      "Landing Zones & Multi-Account Governance"
+    ],
+    "parentsummary": {
+      "deliverables": "Federated AWS IAM Identity Center (SSO) with Azure Active Directory across all access groups, codifying about 7 default permission sets plus 5 to 10 per workload in ASEA configuration.",
+      "outcomes": "Removed all per-account IAM users (previously 5 to 20 per account), moving every access group to federated single sign-on through Azure Active Directory."
+    },
+    "date_range": {
+      "start": "February 2020",
+      "end": "February 2020"
+    },
+    "challenge": {
+      "summary": "Access across AWS accounts depended on local AWS Identity and Access Management (IAM) users—5 to 20 per account—which was insecure and did not scale. Moving away from per-account credentials required coordinating with external service lines on new technology, as Azure Active Directory was still new to Shared Services Canada's (SSC) directory service lines and federating it with AWS was unfamiliar."
+    },
+    "solution": {
+      "summary": "Key deliverables:",
+      "deliverables": [
+        "Federated AWS IAM Identity Center (SSO) with Azure Active Directory for every access group, including administrators, platform, security operations (SecOps), development, QA, and project teams",
+        "Designed the access framework and codified it in AWS Secure Environment Accelerator (ASEA) configuration, defining about 7 default permission sets plus 5 to 10 permission sets per workload for roles such as Developer and QA and for custom access",
+        "Mapped Azure Active Directory groups to AWS permission sets",
+        "Enforced MFA and conditional access through Azure Active Directory",
+        "Coordinated with SSC's Azure Active Directory service line to set up the federation",
+        "Removed all per-account IAM users across the landing zone accounts",
+        "Documented the federated access model"
+      ]
+    },
+    "outcomes": [
+      "All per-account IAM users (previously 5 to 20 per account) were removed, shifting all AWS access to federated SSO",
+      "Every access group, from administrators to workload QA teams, signed in through Azure Active Directory rather than per-account credentials"
+    ],
+    "technologies": [
+      {
+        "category": "Identity & Access Management",
+        "items": [
+          "AWS IAM Identity Center (SSO)",
+          "AWS IAM",
+          "Azure Active Directory"
+        ]
+      },
+      {
+        "category": "Public Cloud",
+        "items": [
+          "AWS Organizations",
+          "AWS Secure Environment Accelerator (ASEA)"
+        ]
+      }
+    ]
+  }
+}

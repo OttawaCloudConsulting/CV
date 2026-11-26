@@ -46,7 +46,10 @@ His experience includes successful cloud migrations across healthcare, utilities
     - [Project 12.2 — Analytics Platform on AWS](#project-122-analytics-platform-on-aws)
     - [Project 12.3 — ITSG-33 Compliance Monitoring with AWS Security Hub](#project-123-itsg-33-compliance-monitoring-with-aws-security-hub)
   - [11. Project 11 - SSC CSD R&D](#11-project-11---ssc-csd-rd)
-    - [Project 11.1 — Cloud Services Directorate, Cloud Platform Engineering Project](#project-111-cloud-services-directorate-cloud-platform-engineering-project)
+    - [Project 11.1 — Multi-Account Build of the Cloud Services Directorate (CSD) Landing Zone](#project-111-multi-account-build-of-the-cloud-services-directorate-csd-landing-zone)
+    - [Project 11.2 — Self-Service AWS Service Catalog Products](#project-112-self-service-aws-service-catalog-products)
+    - [Project 11.3 — AWS IAM Identity Center Federation with Azure Active Directory](#project-113-aws-iam-identity-center-federation-with-azure-active-directory)
+    - [Project 11.4 — Interim Authority to Operate Security Program for the Cloud Services Directorate (CSD) Landing Zone](#project-114-interim-authority-to-operate-security-program-for-the-cloud-services-directorate-csd-landing-zone)
   - [10. Project 10 - DND DPDCS SMMS Replacement Project](#10-project-10---dnd-dpdcs-smms-replacement-project)
     - [Project 10.1 — SMMS Search and Rescue Replacement Project](#project-101-smms-search-and-rescue-replacement-project)
   - [9. Project 9 - IDS Data Systems (New Democratic Party)](#9-project-9---ids-data-systems-new-democratic-party)
@@ -346,48 +349,131 @@ During an internal Cloud Centre of Expertise (CCoE) review of the cloud environm
 
 **September 2019 - January 2021**
 
-Shared Services Canada's Cloud Services Directorate (CSD) R&D group is mandated to create reusable, government-grade Infrastructure as Code for adoption across SSC and its federal partner departments. Christian served as AWS Cloud Infrastructure as Code DevOps Engineer and Architect, leading the design and delivery of the CSD Landing Zone — an ASEA-integrated, multi-account AWS architecture with codified security guardrails, SSO federation with Azure Active Directory, and ITSG-22/33/38-aligned controls — culminating in SSC becoming the first team to achieve ATO status using the AWS Secure Environment Accelerator. The engagement also supported the onboarding of critical government workloads including SCED, DX, Vocalls, and Email.
+Within Shared Services Canada (SSC), the Cloud Services Directorate (CSD) Research and Development (R&D) group carried a mandate to create reusable, government-grade Infrastructure as Code for adoption across SSC and its federal partner departments. Christian served as AWS Cloud Infrastructure as Code DevOps Engineer and Architect on this engagement, leading the design and delivery of the CSD Landing Zone, a multi-account AWS foundation built first on AWS Landing Zone and later on the AWS Secure Environment Accelerator (ASEA). He also built an organization-shared AWS Service Catalog offering blueprint and operational products, and federated AWS access with Azure Active Directory through AWS Identity and Access Management (IAM) Identity Center. In addition, Christian implemented the information technology (IT) security program that achieved interim Authority to Operate (iATO) in September 2020, and the CSD Landing Zone became SSC's standard AWS landing zone.
 
 **Workstream Deliverables:**
 
-- Designed, coded, and deployed the SSC CSD Landing Zone as reusable Infrastructure as Code, integrating AWS Landing Zone customization, ASEA Security Guard Rails, SSO federation with Azure Active Directory, AWS IAM access control frameworks, CI/CD pipeline via CodePipeline and GitLab, and ITSG-22/33/38 and TBS cloud guardrail-aligned security controls to achieve iATO — supporting onboarding of critical government workloads including SCED, DX, Vocalls, and Email.
+- Led the design and delivery of the CSD Landing Zone—a codified multi-account AWS foundation built first on AWS Landing Zone and then on ASEA—deployed through a CodePipeline, CodeBuild, and GitLab pipeline.
+- Built an organization-shared AWS Service Catalog portfolio of versioned CloudFormation blueprint products (3-tier web application, backup and archival) and operational products (monitoring, encryption) with launch constraints.
+- Federated AWS IAM Identity Center (SSO) with Azure Active Directory across all access groups, codifying about 7 default permission sets plus 5 to 10 per workload in ASEA configuration.
+- Mapped platform controls to Information Technology Security Guidance (ITSG-33), enforced guardrails with service control policies (SCPs) and AWS Config rules, and built evidence packages from AWS Config, CloudTrail, and Security Hub.
 
 **Engagement Outcomes:**
 
-- Became the first SSC team to achieve ATO status using the AWS Secure Environment Accelerator, establishing the CSD Landing Zone as the reusable standard architecture for government-wide SSC cloud deployments and successfully onboarding multiple critical government workloads onto the compliant platform.
+- Adopted as SSC's standard AWS landing zone, onboarding 3 early adopter workload clients and completing landing zone upgrades in about 4 hours including testing and validation.
+- Reduced infrastructure deployment time for workload teams from weeks for new AWS users—and days for quicker teams—down to hours using pre-approved catalogue products.
+- Removed all per-account IAM users (previously 5 to 20 per account), moving every access group to federated single sign-on through Azure Active Directory.
+- Interim Authority to Operate (iATO) was granted in September 2020, and the platform went on to receive full Authority to Operate (ATO) in 2021 after the engagement ended.
 
-### Project 11.1 — Cloud Services Directorate, Cloud Platform Engineering Project
+### Project 11.1 — Multi-Account Build of the Cloud Services Directorate (CSD) Landing Zone
 
-**September 2019 - January 2021**
+**September 2019 - May 2020**
 
-The specific technical challenge was to design, code, and deploy the CSD Landing Zone entirely as IaC — integrating ASEA Security Guard Rails, multi-account AWS Organizations structures, SSO federation with Azure Active Directory, and ITSG-22/33/38-aligned controls — in a domain where no established government reference architecture or prior ATO precedent existed for the ASEA toolchain.
+Shared Services Canada (SSC) teams previously operated AWS workloads in stand-alone or loosely coupled accounts, with no shared standard or central control across the department and often none between projects in the same directorate. Standing up a net-new Cloud Services Directorate (CSD) Landing Zone spanned two platform iterations—starting on AWS Landing Zone before moving to the AWS Secure Environment Accelerator (ASEA)—while in-house Government of Canada expertise centred on on-premises data-centre models that did not translate directly to hyperscale cloud. Without a unified multi-account foundation, SSC had no consistent security, governance, or financial accountability over its AWS platforms.
 
-**Key activities and deliverables:**
+**Key deliverables:**
 
-- Infrastructure as Code (IaC) development and deployment using CloudFormation and ASEA
-- CI/CD CodePipeline, CodeCommit, CodeBuild, CodeDeploy
-- GitLab, GitHub
-- Implementation of IT Security Program to meet ITSG-22, ITSG-33 and ITSG-38 and TBS driven cloud guardrails and achieve iATO
-- Designed, secured, and implemented SSO Federation with Azure Active Directory, establishing centralized identity access management for the CSD Landing Zone
-- Designed and codified the AWS IAM access control framework for the CSD Landing Zone
-- Facilitated requirements gathering with technical team, architecture team, and security team
-- Client Deployment of AWS Native resources to provide governance and generate iATO evidence packages
-- Source Code Management within GitLab
-- DevOps integration with DevOps tooling, methodology, and processes
-- Documentation, Knowledge transfer and cross-training with team, new staff and onboarded clients
-- Achieve ATO status for AWS Cloud
-- Supporting onboarding of workloads (SCED, DX, Vocalls, Email)
+- Designed the CSD Landing Zone multi-account structure using AWS Organizations and core accounts, with Core, Maintenance, Quarantine, and Custom organizational units (OUs) plus workload profile OUs each divided into production (Prod) and non-production (NonProd)
+- Built the first landing zone iteration on AWS Landing Zone and the second on ASEA with its Security Guard Rails, working in close partnership with the AWS Canada ASEA team
+- Configured ASEA Security Guard Rails to meet the Treasury Board of Canada Secretariat (TBS) cloud guardrails
+- Codified the AWS Landing Zone and ASEA configuration, including organization-specific custom code, stored in GitLab and AWS CodeCommit
+- Built the CI/CD deployment pipeline for the landing zone using AWS CodePipeline, AWS CodeBuild, and GitLab
+- Collaborated on and contributed to the cloud network design across Virtual Private Cloud (VPC), AWS Transit Gateway, and Virtual Private Network (VPN) connectivity for traffic entering and leaving the cloud (north-south) and moving between networks (east-west), and supported the design and integration of FortiGate next-generation firewall appliances
+- Produced documentation and ran knowledge transfer for the team, new staff, and onboarded clients
 
 **Project Outcomes:**
 
-- First team to achieve ATO status using AWS Secure Environment Accelerator (ASEA), establishing reusable Infrastructure as Code templates for government-wide adoption
-- Created foundational 'CSD Landing Zone' architecture that became the standard for SSC cloud deployments, supporting critical workloads including SCED, DX, Vocalls, and Email systems
+- 3 early adopter workload clients were onboarded onto the CSD Landing Zone
+- Landing zone upgrades completed in about 4 hours, including testing and validation
+- The platform became SSC's standard AWS landing zone, later iterated on by the AWS ASEA team, SSC teams, and other government departments
 
 **Technical Environment:**
 
-- **Public Cloud:** Amazon AWS Cloud, AWS VPC, AWS CloudFront, AWS CloudWatch, AWS CloudTrail, AWS IAM, AWS EC2, AWS ECS, AWS SES, AWS S3, AWS RDS, AWS CloudFormation, AWS Service Catalog, AWS Route 53, AWS Systems Manager, AWS Trusted Advisor, AWS VPN, AWS ELB (Load Balancer), AWS ALB (Load Balancer), AWS Transit Gateway, AWS Transit Peering, AWS GuardDuty, AWS WAF & Shield, AWS Inspector, AWS Certificate Manager, AWS Auto-Scaling, AWS EBS Storage, AWS Managed SSO, AWS CodeBuild, AWS CodePipeline, AWS Organizations, AWS Config
-- **Applications & Development Tools:** Microsoft Active Directory, Bash, GitLab, GitHub, CloudFormation
-- **Servers & Operating Systems:** Microsoft Windows 2019, AWS Linux
+- **Public Cloud:** AWS Organizations, AWS Landing Zone, AWS Secure Environment Accelerator (ASEA), AWS CodeCommit, AWS VPC, AWS Transit Gateway, AWS VPN
+- **Infrastructure as Code:** AWS CloudFormation
+- **CI/CD & GitOps:** AWS CodePipeline, AWS CodeBuild, GitLab
+- **Security:** Fortinet FortiGate (NGFW)
+
+### Project 11.2 — Self-Service AWS Service Catalog Products
+
+**December 2019 - January 2020**
+
+Many early adopter workload teams were new to AWS and provisioned cloud infrastructure by hand through the web console. Without repeatable, pre-approved templates, this manual approach caused slow onboarding, inconsistent builds, and non-compliant resources.
+
+**Key deliverables:**
+
+- Created an AWS Service Catalog portfolio shared across the AWS Organization so workload teams could self-serve pre-approved infrastructure
+- Built reusable blueprint products for a 3-tier web application and for backup and archival
+- Built operational monitoring products for AWS CloudWatch configuration and a syslog forwarder
+- Packaged operational encryption products providing AWS Key Management Service (KMS) customer managed keys with their key policies and AWS Identity and Access Management (IAM) roles
+- Authored the catalogue products as versioned AWS CloudFormation templates
+- Applied AWS Service Catalog launch constraints so workload teams could deploy products without holding broad IAM permissions
+- Wrote documentation and onboarding guides for workload teams
+
+**Project Outcomes:**
+
+- Infrastructure deployments that previously took weeks for teams new to AWS, and days for quicker teams, were reduced to hours using catalogue products
+- Workload teams shifted from manual console provisioning to standard, pre-approved catalogue products
+
+**Technical Environment:**
+
+- **Public Cloud:** AWS Service Catalog, AWS Organizations, AWS KMS
+- **Identity & Access Management:** AWS IAM
+- **Infrastructure as Code:** AWS CloudFormation
+- **Observability & Monitoring:** AWS CloudWatch, Syslog
+
+### Project 11.3 — AWS IAM Identity Center Federation with Azure Active Directory
+
+**February 2020 - February 2020**
+
+Access across AWS accounts depended on local AWS Identity and Access Management (IAM) users—5 to 20 per account—which was insecure and did not scale. Moving away from per-account credentials required coordinating with external service lines on new technology, as Azure Active Directory was still new to Shared Services Canada's (SSC) directory service lines and federating it with AWS was unfamiliar.
+
+**Key deliverables:**
+
+- Federated AWS IAM Identity Center (SSO) with Azure Active Directory for every access group, including administrators, platform, security operations (SecOps), development, QA, and project teams
+- Designed the access framework and codified it in AWS Secure Environment Accelerator (ASEA) configuration, defining about 7 default permission sets plus 5 to 10 permission sets per workload for roles such as Developer and QA and for custom access
+- Mapped Azure Active Directory groups to AWS permission sets
+- Enforced MFA and conditional access through Azure Active Directory
+- Coordinated with SSC's Azure Active Directory service line to set up the federation
+- Removed all per-account IAM users across the landing zone accounts
+- Documented the federated access model
+
+**Project Outcomes:**
+
+- All per-account IAM users (previously 5 to 20 per account) were removed, shifting all AWS access to federated SSO
+- Every access group, from administrators to workload QA teams, signed in through Azure Active Directory rather than per-account credentials
+
+**Technical Environment:**
+
+- **Identity & Access Management:** AWS IAM Identity Center (SSO), AWS IAM, Azure Active Directory
+- **Public Cloud:** AWS Organizations, AWS Secure Environment Accelerator (ASEA)
+
+### Project 11.4 — Interim Authority to Operate Security Program for the Cloud Services Directorate (CSD) Landing Zone
+
+**July 2020 - January 2021**
+
+Shared Services Canada (SSC) needed an Authority to Operate (ATO) for its AWS platform against Information Technology Security Guidance (ITSG-22, ITSG-33, and ITSG-38) and the Treasury Board of Canada Secretariat (TBS) cloud guardrails, with no precedent for authorising cloud systems. Because ITSG guidance was written for on-premises systems and application scope, its controls did not translate easily to cloud processes, and the AWS shared responsibility model was especially hard to reconcile with them. Without an ATO, production releases could be blocked.
+
+**Key deliverables:**
+
+- Mapped platform security controls to ITSG-33
+- Allocated control responsibilities among AWS, the SSC platform team, and workload teams under the AWS shared responsibility model
+- Enforced guardrails as code using service control policies (SCPs) and AWS Config rules
+- Built assessment evidence packages from AWS Config, AWS CloudTrail, and AWS Security Hub
+- Wrote process documentation and runbooks that fed recurring evidence packages
+- Collaborated with security assessors throughout the assessment
+- Tracked remediation of control gaps
+
+**Project Outcomes:**
+
+- Interim Authority to Operate (iATO) was granted for the platform in September 2020
+- The platform went on to receive full ATO in 2021, after this engagement ended
+
+**Technical Environment:**
+
+- **Public Cloud:** AWS Organizations, AWS Config, AWS CloudTrail
+- **Security:** AWS Security Hub
+- **Compliance Frameworks:** ITSG-33
 
 ## 10. Project 10 - DND DPDCS SMMS Replacement Project
 
