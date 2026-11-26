@@ -51,7 +51,9 @@ His experience includes successful cloud migrations across healthcare, utilities
     - [Project 11.3 — AWS IAM Identity Center Federation with Azure Active Directory](#project-113-aws-iam-identity-center-federation-with-azure-active-directory)
     - [Project 11.4 — Interim Authority to Operate Security Program for the Cloud Services Directorate (CSD) Landing Zone](#project-114-interim-authority-to-operate-security-program-for-the-cloud-services-directorate-csd-landing-zone)
   - [10. Project 10 - DND DPDCS SMMS Replacement Project](#10-project-10---dnd-dpdcs-smms-replacement-project)
-    - [Project 10.1 — SMMS Search and Rescue Replacement Project](#project-101-smms-search-and-rescue-replacement-project)
+    - [Project 10.1 — Multi-VPC AWS Network and Containerized SAR Platform Architecture](#project-101-multi-vpc-aws-network-and-containerized-sar-platform-architecture)
+    - [Project 10.2 — Infrastructure as Code, AWS Service Catalog, and CI/CD Automation](#project-102-infrastructure-as-code-aws-service-catalog-and-cicd-automation)
+    - [Project 10.3 — ITSG-33 Security Controls, Access Posture, and iATO Readiness](#project-103-itsg-33-security-controls-access-posture-and-iato-readiness)
   - [9. Project 9 - IDS Data Systems (New Democratic Party)](#9-project-9---ids-data-systems-new-democratic-party)
     - [Project 9.1 — Office 365 Skype Migration - New Democratic Party of Canada](#project-91-office-365-skype-migration---new-democratic-party-of-canada)
     - [Project 9.2 — Server Workload Cloud Migration - New Democratic Party of Canada](#project-92-server-workload-cloud-migration---new-democratic-party-of-canada)
@@ -484,49 +486,115 @@ Shared Services Canada (SSC) needed an Authority to Operate (ATO) for its AWS pl
 
 **February 2019 - December 2020**
 
-The Department of National Defence's DPDCS division manages critical operational systems supporting Search and Rescue (SAR) coordination across Canada. Christian served as Cloud Architect for Resilient Systems on the SMMS Replacement Project — a high-consequence initiative to replace the legacy SARMASTER software and hardware platform with a modern cloud architecture capable of 24/7 availability, GIS and live data integration, and long-term operational supportability. The engagement required alignment to stringent ITSG-33, DND, and TSB cloud compliance requirements to achieve iATO, and was delivered over a 22-month engagement using Agile methodologies with continuous development cycles.
+The Department of National Defence's (DND) DPDCS division manages critical operational systems supporting Search and Rescue (SAR) coordination across Canada. Christian served as Cloud Architect for Resilient Systems over a 22-month Agile engagement on the SMMS Replacement Project to replace the legacy SARMASTER hardware and software platform with a resilient AWS architecture capable of 24/7 high availability, Geographic Information System (GIS) and live-data integration, and reliable backup-site capability. He architected the segmented multi-VPC AWS network and containerized application and data platform, built reusable AWS CloudFormation and AWS Service Catalog environment automation alongside integrated CI/CD delivery pipelines, and engineered the defense-in-depth security and access control posture aligned to Information Technology Security Guidance (ITSG-33), DND, and Treasury Board of Canada Secretariat (TBS) cloud compliance requirements. Across the engagement, his work reduced on-demand environment provisioning from weeks to hours, established a zero-downtime migration strategy, and produced pre-migratory security reporting to support interim Authority to Operate (iATO) readiness.
 
 **Workstream Deliverables:**
 
-- Architected and delivered the AWS cloud replacement for the DND SARMASTER Search and Rescue management system, designing containerized ECS/Docker infrastructure with PostgreSQL, implementing ITSG-33 and DND-aligned security controls to achieve iATO, delivering IaC via CloudFormation Service Catalog products, and executing CI/CD pipeline integration with full GIS and live-data interface capability and 24/7 high-availability architecture.
+- Architected a five-VPC hub-and-spoke AWS network with site-to-site VPN design for 10 remote sites and a Multi-AZ containerized ECS, PostgreSQL, Kafka/MSK, GIS, and SFTP SAR platform with a zero-downtime migration strategy.
+- Authored CloudFormation templates packaged as AWS Service Catalog products for on-demand Dev, Test, Prod, and Disaster Replay environments, alongside CI/CD pipeline integration and CloudWatch/EventBridge monitoring.
+- Engineered defense-in-depth perimeter controls, least-privilege IAM/WSO2/OpenLDAP access posture, KMS/ACM encryption, and ITSG-33-aligned security controls with pre-migratory security reporting toward iATO.
 
 **Engagement Outcomes:**
 
-- Modernized Canada's critical Search and Rescue operations management system with zero-downtime migration to AWS, achieving iATO status under stringent DND and TSB security requirements and delivering a containerized 24/7 available architecture supporting life-saving SAR operations across Canada.
+- Modernized the SAR replacement architecture from legacy SARMASTER hardware to a Multi-AZ containerized AWS design across two Availability Zones supporting backup-site capability and a zero-downtime migration strategy.
+- Reduced on-demand environment provisioning for development, testing, production, and disaster replay from weeks to hours via AWS Service Catalog while supporting continuous Agile delivery.
+- Aligned the SAR replacement platform to ITSG-33, DND, and TBS cloud security controls and delivered pre-migratory security assessment reporting to support interim Authority to Operate (iATO) readiness.
 
-### Project 10.1 — SMMS Search and Rescue Replacement Project
+### Project 10.1 — Multi-VPC AWS Network and Containerized SAR Platform Architecture
 
 **February 2019 - December 2020**
 
-The technical challenge was to architect a containerized, cloud-native replacement for SARMASTER on AWS — capable of 24/7 high availability for life-safety SAR operations, real-time GIS and live-data interface integration, backup site capability, and full alignment to ITSG-33, DND, and TSB security standards sufficient to achieve iATO within a 22-month delivery timeline.
+DND's national Search and Rescue (SAR) operations relied on the legacy SARMASTER software and hardware platform, which lacked cloud resilience, Geographic Information System (GIS) integration, live-data ingestion interfaces, and reliable backup-site capability. Replacing a life-safety operational platform demanded 24/7 high availability across Availability Zones, network segmentation across shared and workload tiers, remote-site connectivity, and long-term operational supportability within a 22-month Agile engagement. Without a resilient multi-tier cloud architecture and zero-downtime cut-over plan, national SAR readiness faced prolonged outage risk and ongoing hardware obsolescence.
 
-**Key activities and deliverables:**
+**Key deliverables:**
 
-- Architectural design and PoC implementation with modernization of infrastructure
-- Security Coordination and architectural alignment to required Guidelines (ITSG-33, DND & TSB Cloud Compliance)
-- Implementation of IT Security to meet ITSG controls and achieve iATO
-- Engineered the access control posture for the SAR replacement platform
-- Facilitated requirements gathering with technical and systems team, business team and project management, external stakeholders, and security teams
-- Review and realign infrastructure as required from continuous development cycles
-- Staged implementation testing of services with inline remediation
-- Internal feedback to development and operations for change coordination
-- Integration to CI/CD pipeline, automation, and management systems
-- Infrastructure as Code (IaC) deliverables in CloudFormation, deployed as Service Catalog Products
-- Provide final architecture and documentation
-- Pre-migratory testing and security reporting, and failure/high-availability testing
-- Migration and cut-over processes
-- Documentation, knowledge transfer and cross-training with Operations staff, Development staff, and Management
+- Designed a segmented five-VPC hub-and-spoke AWS network architecture in Canada Central (ca-central-1) interconnected via AWS Transit Gateway across two Availability Zones covering perimeter/identity, common services, site transit, supporting applications, and core SMMS tiers
+- Architected site-to-site VPN connectivity through a dedicated Site Transit VPC to link 10 remote operational sites, paired with Auto Scaling web proxy, web filtering, and centralized desktop management (ManageEngine Desktop Central)
+- Designed a three-tier Multi-AZ workload VPC overlay integrating with DND's shared network and perimeter AWS accounts for SSL/TLS ingress, Amazon CloudFront static content delivery, and AWS Transfer for SFTP live-data ingestion
+- Engineered containerized Amazon ECS (Docker) clusters with EC2 and container Auto Scaling and Dual-AZ Amazon EFS storage to host the core SAR workload alongside nine supporting GIS (GeoServer with S3 spatial data), messaging, and collaboration applications
+- Architected resilient data and event-streaming tiers using Multi-AZ PostgreSQL on Amazon RDS with synchronous replication, standby failover, read replicas, and RDS snapshot backups alongside Dual-AZ high-availability Apache Kafka and Amazon MSK
+- Executed staged service testing, failure and high-availability testing, and defined a zero-downtime migration and cut-over strategy to replace legacy SARMASTER infrastructure with backup-site capability
+- Delivered final architecture documentation, knowledge transfer, and cross-training for Operations, Development, and Management staff
 
 **Project Outcomes:**
 
-- Successfully modernized critical Search and Rescue operations system with zero downtime migration to AWS cloud infrastructure
-- Delivered containerized architecture using Docker/ECS with PostgreSQL, ensuring 24/7 availability for life-saving SAR operations across Canada while meeting stringent DND security requirements
+- Modernized the SAR replacement architecture from legacy SARMASTER hardware to a Multi-AZ containerized AWS design across two Availability Zones, adding backup-site capability, GIS integration, and live-data interfaces for 24/7 Search and Rescue operations
+- Architected a segmented five-VPC hub-and-spoke network topology with site-to-site VPN design for 10 remote operational sites and nine isolated supporting applications, establishing clear network boundaries across shared and workload tiers
+- Completed failure and high-availability testing, documented a zero-downtime migration and cut-over strategy, and delivered operations, development, and management cross-training
 
 **Technical Environment:**
 
-- **Public Cloud:** Amazon AWS Cloud, AWS VPC, AWS CloudFront, AWS CloudWatch, AWS CloudTrail, AWS IAM, AWS EC2, AWS ECS, AWS ECR, AWS SES, AWS S3, AWS EFS, AWS RDS, AWS CloudFormation, AWS Service Catalog, AWS Route 53, AWS Systems Manager, AWS Trusted Advisor, AWS VPN, AWS ELB (Load Balancer), AWS ALB (Load Balancer), AWS Transit Gateway, AWS Transit Peering, AWS GuardDuty, AWS WAF & Shield, AWS Inspector, AWS Certificate Manager, AWS Auto-Scaling, AWS EBS Storage, AWS Service Discovery, AWS Transfer Service (SFTP), AWS Parameter Store, AWS Secrets Store
-- **Applications & Development Tools:** PostgreSQL, Docker Containers, Bash, Terraform 0.12.7, Java 8.x, Tomcat 8.x, Atlassian JIRA, Atlassian Confluence, WSO2, Kafka, PHP, Git, OpenLDAP, SOGO, ManageEngine Desktop Central
+- **Public Cloud:** Amazon AWS Cloud, AWS EC2, AWS Auto-Scaling, AWS ALB (Load Balancer), AWS ELB (Load Balancer), AWS CloudFront, AWS Transfer Service (SFTP), AWS SES
+- **Networking & WAN:** AWS VPC, AWS Transit Gateway, AWS Transit Peering, AWS VPN, AWS Route 53
+- **Containers & Kubernetes:** AWS ECS, Docker Containers
+- **Serverless & Event-Driven:** Kafka, Amazon MSK
+- **Databases:** AWS RDS, PostgreSQL
+- **Storage & Backup:** AWS S3, AWS EFS, AWS EBS Storage
+- **Observability & Monitoring:** ManageEngine Desktop Central
+- **Applications & Development Tools:** GeoServer, NextCloud, WSO2, SOGO, Tomcat 8.x, Apache, Atlassian JIRA, Atlassian Confluence
+- **Languages & Scripting:** Java 8.x, PHP
 - **Servers & Operating Systems:** Microsoft Windows 2016, AWS Linux, CentOS 7.x
+
+### Project 10.2 — Infrastructure as Code, AWS Service Catalog, and CI/CD Automation
+
+**February 2019 - December 2020**
+
+Continuous Agile development across the SMMS Replacement Project required frequent provisioning and realignment of development, testing, production, and disaster replay environments. Standing up multi-tier AWS environments took weeks before reusable Service Catalog templates were in place, slowing iteration across development, operations, and security teams.
+
+**Key deliverables:**
+
+- Authored reusable AWS CloudFormation Infrastructure as Code (IaC) templates and packaged them as AWS Service Catalog products for on-demand development, testing, production, and disaster replay environments
+- Integrated end-to-end CI/CD delivery and release automation pipelines using Git, Jenkins, AWS CodeCommit, AWS CodeBuild, AWS CodeDeploy, and AWS CodePipeline
+- Managed container image repositories and service routing across continuous Agile development cycles using Amazon ECR and AWS Service Discovery
+- Built event-driven operational monitoring and automated event response using Amazon CloudWatch and Amazon EventBridge, supplemented by AWS Trusted Advisor
+- Standardized application configuration, credential storage, and remote host management with AWS Systems Manager, AWS Parameter Store, and AWS Secrets Manager
+- Reviewed and realigned codified infrastructure across continuous development cycles, coordinating technical changes between development and operations teams
+
+**Project Outcomes:**
+
+- Reduced on-demand environment provisioning for development, testing, production, and disaster replay from weeks to hours using AWS Service Catalog products
+- Delivered reusable CloudFormation Infrastructure as Code templates, integrated CI/CD release pipelines, and CloudWatch/EventBridge event-driven monitoring to support continuous Agile development cycles
+
+**Technical Environment:**
+
+- **Public Cloud:** AWS Service Catalog, AWS Service Discovery, AWS Systems Manager, AWS Parameter Store, AWS Secrets Manager
+- **Containers & Kubernetes:** AWS ECS, AWS ECR, Docker Containers
+- **Infrastructure as Code:** AWS CloudFormation, Terraform 0.12.7
+- **CI/CD & GitOps:** Git, Jenkins, AWS CodeCommit, AWS CodeBuild, AWS CodeDeploy, AWS CodePipeline
+- **Serverless & Event-Driven:** EventBridge
+- **Observability & Monitoring:** AWS CloudWatch, AWS Trusted Advisor
+- **Languages & Scripting:** Bash
+
+### Project 10.3 — ITSG-33 Security Controls, Access Posture, and iATO Readiness
+
+**February 2019 - December 2020**
+
+Because the SMMS replacement supported critical national Search and Rescue (SAR) operations for the Department of National Defence (DND), the cloud platform had to satisfy stringent Information Technology Security Guidance (ITSG-33), DND, and Treasury Board of Canada Secretariat (TBS) cloud compliance requirements to support an interim Authority to Operate (iATO). Securing a multi-tier AWS environment with external web access, live-data ingestion, and remote operational sites required strict perimeter protection, least-privilege identity controls, end-to-end encryption, and continuous audit visibility. Unresolved control gaps or incomplete security evidence would block operational approval and cut-over from SARMASTER.
+
+**Key deliverables:**
+
+- Aligned the AWS cloud architecture and security controls to Information Technology Security Guidance (ITSG-33), Department of National Defence (DND), and Treasury Board of Canada Secretariat (TBS) cloud compliance requirements
+- Engineered the platform access control and identity posture using AWS IAM least-privilege roles, WSO2 Identity and Access Management and API Manager, OpenLDAP, SAML Service Provider integration, and hardened Multi-AZ Bastion hosts
+- Architected a layered single-point-of-access perimeter combining Amazon Route 53, F5 Web Application Firewall (WAF), AWS WAF and Shield, AWS GuardDuty, and per-service security group segmentation across VPC tiers
+- Designed TLS in-transit encryption at ingress and CloudFront endpoints with AWS Certificate Manager (ACM), alongside AWS Key Management Service (KMS) data encryption keys for containerized compute, Amazon EFS, Amazon MSK, and segregated Amazon S3 buckets (backups, logging, deployment artifacts, and disaster replay)
+- Enabled continuous auditing, configuration tracking, and vulnerability scanning with AWS CloudTrail, AWS Config, AWS GuardDuty, AWS Inspector, and centralized Amazon CloudWatch Logs
+- Executed staged security testing with inline remediation and produced pre-migratory security assessment reports to support the interim Authority to Operate (iATO) package
+- Coordinated security requirements and architecture reviews across DND security teams, project management, technical teams, and external stakeholders
+
+**Project Outcomes:**
+
+- Delivered ITSG-33-aligned security controls, inline remediation from staged security testing, and pre-migratory security reporting to support interim Authority to Operate (iATO) readiness for the SAR replacement platform
+- Defined a segmented AWS security design combining layered WAF and DDoS protection, least-privilege IAM and directory access controls, continuous CloudTrail and Config auditing, ACM-managed TLS at ingress and CloudFront endpoints, and AWS KMS encryption keys across four workload and storage classes (containerized compute, EFS, MSK, and segregated S3 buckets)
+
+**Technical Environment:**
+
+- **Public Cloud:** AWS CloudTrail, AWS Config, AWS KMS, AWS Certificate Manager
+- **Identity & Access Management:** AWS IAM, OpenLDAP
+- **Security:** F5 WAF, AWS WAF & Shield, AWS GuardDuty, AWS Inspector
+- **Compliance Frameworks:** ITSG-33
+- **Storage & Backup:** AWS S3
+- **Observability & Monitoring:** AWS CloudWatch
+- **Applications & Development Tools:** WSO2
 
 ## 9. Project 9 - IDS Data Systems (New Democratic Party)
 

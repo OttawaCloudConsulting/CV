@@ -1,0 +1,100 @@
+{
+  "project": {
+    "number": 10.02,
+    "title": "Infrastructure as Code, AWS Service Catalog, and CI/CD Automation",
+    "client": {
+      "name": "Department of National Defence",
+      "department": "DPDCS",
+      "team": "SMMS Replacement Project"
+    },
+    "role": "Cloud Architect - Resilient Systems",
+    "competencies": [
+      "Infrastructure as Code & Automation",
+      "DevOps",
+      "Developer Experience & Golden Paths"
+    ],
+    "parentsummary": {
+      "deliverables": "Authored CloudFormation templates packaged as AWS Service Catalog products for on-demand Dev, Test, Prod, and Disaster Replay environments, alongside CI/CD pipeline integration and CloudWatch/EventBridge monitoring.",
+      "outcomes": "Reduced on-demand environment provisioning for development, testing, production, and disaster replay from weeks to hours via AWS Service Catalog while supporting continuous Agile delivery."
+    },
+    "date_range": {
+      "start": "February 2019",
+      "end": "December 2020"
+    },
+    "challenge": {
+      "summary": "Continuous Agile development across the SMMS Replacement Project required frequent provisioning and realignment of development, testing, production, and disaster replay environments. Standing up multi-tier AWS environments took weeks before reusable Service Catalog templates were in place, slowing iteration across development, operations, and security teams."
+    },
+    "solution": {
+      "summary": "Key deliverables:",
+      "deliverables": [
+        "Authored reusable AWS CloudFormation Infrastructure as Code (IaC) templates and packaged them as AWS Service Catalog products for on-demand development, testing, production, and disaster replay environments",
+        "Integrated end-to-end CI/CD delivery and release automation pipelines using Git, Jenkins, AWS CodeCommit, AWS CodeBuild, AWS CodeDeploy, and AWS CodePipeline",
+        "Managed container image repositories and service routing across continuous Agile development cycles using Amazon ECR and AWS Service Discovery",
+        "Built event-driven operational monitoring and automated event response using Amazon CloudWatch and Amazon EventBridge, supplemented by AWS Trusted Advisor",
+        "Standardized application configuration, credential storage, and remote host management with AWS Systems Manager, AWS Parameter Store, and AWS Secrets Manager",
+        "Reviewed and realigned codified infrastructure across continuous development cycles, coordinating technical changes between development and operations teams"
+      ]
+    },
+    "outcomes": [
+      "Reduced on-demand environment provisioning for development, testing, production, and disaster replay from weeks to hours using AWS Service Catalog products",
+      "Delivered reusable CloudFormation Infrastructure as Code templates, integrated CI/CD release pipelines, and CloudWatch/EventBridge event-driven monitoring to support continuous Agile development cycles"
+    ],
+    "technologies": [
+      {
+        "category": "Public Cloud",
+        "items": [
+          "AWS Service Catalog",
+          "AWS Service Discovery",
+          "AWS Systems Manager",
+          "AWS Parameter Store",
+          "AWS Secrets Manager"
+        ]
+      },
+      {
+        "category": "Containers & Kubernetes",
+        "items": [
+          "AWS ECS",
+          "AWS ECR",
+          "Docker Containers"
+        ]
+      },
+      {
+        "category": "Infrastructure as Code",
+        "items": [
+          "AWS CloudFormation",
+          "Terraform 0.12.7"
+        ]
+      },
+      {
+        "category": "CI/CD & GitOps",
+        "items": [
+          "Git",
+          "Jenkins",
+          "AWS CodeCommit",
+          "AWS CodeBuild",
+          "AWS CodeDeploy",
+          "AWS CodePipeline"
+        ]
+      },
+      {
+        "category": "Serverless & Event-Driven",
+        "items": [
+          "EventBridge"
+        ]
+      },
+      {
+        "category": "Observability & Monitoring",
+        "items": [
+          "AWS CloudWatch",
+          "AWS Trusted Advisor"
+        ]
+      },
+      {
+        "category": "Languages & Scripting",
+        "items": [
+          "Bash"
+        ]
+      }
+    ]
+  }
+}

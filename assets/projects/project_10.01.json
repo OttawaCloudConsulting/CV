@@ -1,104 +1,123 @@
 {
   "project": {
     "number": 10.01,
-    "title": "SMMS Search and Rescue Replacement Project",
+    "title": "Multi-VPC AWS Network and Containerized SAR Platform Architecture",
     "client": {
       "name": "Department of National Defence",
       "department": "DPDCS",
       "team": "SMMS Replacement Project"
     },
     "role": "Cloud Architect - Resilient Systems",
+    "competencies": [
+      "Cloud Architecture & Design",
+      "Disaster Recovery & Resilience",
+      "Cloud Migration"
+    ],
     "parentsummary": {
-      "deliverables": "Architected and delivered the AWS cloud replacement for the DND SARMASTER Search and Rescue management system, designing containerized ECS/Docker infrastructure with PostgreSQL, implementing ITSG-33 and DND-aligned security controls to achieve iATO, delivering IaC via CloudFormation Service Catalog products, and executing CI/CD pipeline integration with full GIS and live-data interface capability and 24/7 high-availability architecture.",
-      "outcomes": "Modernized Canada's critical Search and Rescue operations management system with zero-downtime migration to AWS, achieving iATO status under stringent DND and TSB security requirements and delivering a containerized 24/7 available architecture supporting life-saving SAR operations across Canada."
+      "deliverables": "Architected a five-VPC hub-and-spoke AWS network with site-to-site VPN design for 10 remote sites and a Multi-AZ containerized ECS, PostgreSQL, Kafka/MSK, GIS, and SFTP SAR platform with a zero-downtime migration strategy.",
+      "outcomes": "Modernized the SAR replacement architecture from legacy SARMASTER hardware to a Multi-AZ containerized AWS design across two Availability Zones supporting backup-site capability and a zero-downtime migration strategy."
     },
     "date_range": {
       "start": "February 2019",
       "end": "December 2020"
     },
     "challenge": {
-      "summary": "The technical challenge was to architect a containerized, cloud-native replacement for SARMASTER on AWS — capable of 24/7 high availability for life-safety SAR operations, real-time GIS and live-data interface integration, backup site capability, and full alignment to ITSG-33, DND, and TSB security standards sufficient to achieve iATO within a 22-month delivery timeline."
+      "summary": "DND's national Search and Rescue (SAR) operations relied on the legacy SARMASTER software and hardware platform, which lacked cloud resilience, Geographic Information System (GIS) integration, live-data ingestion interfaces, and reliable backup-site capability. Replacing a life-safety operational platform demanded 24/7 high availability across Availability Zones, network segmentation across shared and workload tiers, remote-site connectivity, and long-term operational supportability within a 22-month Agile engagement. Without a resilient multi-tier cloud architecture and zero-downtime cut-over plan, national SAR readiness faced prolonged outage risk and ongoing hardware obsolescence."
     },
     "solution": {
-      "summary": "Key activities and deliverables:",
+      "summary": "Key deliverables:",
       "deliverables": [
-        "Architectural design and PoC implementation with modernization of infrastructure",
-        "Security Coordination and architectural alignment to required Guidelines (ITSG-33, DND & TSB Cloud Compliance)",
-        "Implementation of IT Security to meet ITSG controls and achieve iATO",
-        "Engineered the access control posture for the SAR replacement platform",
-        "Facilitated requirements gathering with technical and systems team, business team and project management, external stakeholders, and security teams",
-        "Review and realign infrastructure as required from continuous development cycles",
-        "Staged implementation testing of services with inline remediation",
-        "Internal feedback to development and operations for change coordination",
-        "Integration to CI/CD pipeline, automation, and management systems",
-        "Infrastructure as Code (IaC) deliverables in CloudFormation, deployed as Service Catalog Products",
-        "Provide final architecture and documentation",
-        "Pre-migratory testing and security reporting, and failure/high-availability testing",
-        "Migration and cut-over processes",
-        "Documentation, knowledge transfer and cross-training with Operations staff, Development staff, and Management"
+        "Designed a segmented five-VPC hub-and-spoke AWS network architecture in Canada Central (ca-central-1) interconnected via AWS Transit Gateway across two Availability Zones covering perimeter/identity, common services, site transit, supporting applications, and core SMMS tiers",
+        "Architected site-to-site VPN connectivity through a dedicated Site Transit VPC to link 10 remote operational sites, paired with Auto Scaling web proxy, web filtering, and centralized desktop management (ManageEngine Desktop Central)",
+        "Designed a three-tier Multi-AZ workload VPC overlay integrating with DND's shared network and perimeter AWS accounts for SSL/TLS ingress, Amazon CloudFront static content delivery, and AWS Transfer for SFTP live-data ingestion",
+        "Engineered containerized Amazon ECS (Docker) clusters with EC2 and container Auto Scaling and Dual-AZ Amazon EFS storage to host the core SAR workload alongside nine supporting GIS (GeoServer with S3 spatial data), messaging, and collaboration applications",
+        "Architected resilient data and event-streaming tiers using Multi-AZ PostgreSQL on Amazon RDS with synchronous replication, standby failover, read replicas, and RDS snapshot backups alongside Dual-AZ high-availability Apache Kafka and Amazon MSK",
+        "Executed staged service testing, failure and high-availability testing, and defined a zero-downtime migration and cut-over strategy to replace legacy SARMASTER infrastructure with backup-site capability",
+        "Delivered final architecture documentation, knowledge transfer, and cross-training for Operations, Development, and Management staff"
       ]
     },
     "outcomes": [
-      "Successfully modernized critical Search and Rescue operations system with zero downtime migration to AWS cloud infrastructure",
-      "Delivered containerized architecture using Docker/ECS with PostgreSQL, ensuring 24/7 availability for life-saving SAR operations across Canada while meeting stringent DND security requirements"
+      "Modernized the SAR replacement architecture from legacy SARMASTER hardware to a Multi-AZ containerized AWS design across two Availability Zones, adding backup-site capability, GIS integration, and live-data interfaces for 24/7 Search and Rescue operations",
+      "Architected a segmented five-VPC hub-and-spoke network topology with site-to-site VPN design for 10 remote operational sites and nine isolated supporting applications, establishing clear network boundaries across shared and workload tiers",
+      "Completed failure and high-availability testing, documented a zero-downtime migration and cut-over strategy, and delivered operations, development, and management cross-training"
     ],
     "technologies": [
       {
         "category": "Public Cloud",
         "items": [
           "Amazon AWS Cloud",
-          "AWS VPC",
-          "AWS CloudFront",
-          "AWS CloudWatch",
-          "AWS CloudTrail",
-          "AWS IAM",
           "AWS EC2",
-          "AWS ECS",
-          "AWS ECR",
-          "AWS SES",
-          "AWS S3",
-          "AWS EFS",
-          "AWS RDS",
-          "AWS CloudFormation",
-          "AWS Service Catalog",
-          "AWS Route 53",
-          "AWS Systems Manager",
-          "AWS Trusted Advisor",
-          "AWS VPN",
-          "AWS ELB (Load Balancer)",
+          "AWS Auto-Scaling",
           "AWS ALB (Load Balancer)",
+          "AWS ELB (Load Balancer)",
+          "AWS CloudFront",
+          "AWS Transfer Service (SFTP)",
+          "AWS SES"
+        ]
+      },
+      {
+        "category": "Networking & WAN",
+        "items": [
+          "AWS VPC",
           "AWS Transit Gateway",
           "AWS Transit Peering",
-          "AWS GuardDuty",
-          "AWS WAF & Shield",
-          "AWS Inspector",
-          "AWS Certificate Manager",
-          "AWS Auto-Scaling",
-          "AWS EBS Storage",
-          "AWS Service Discovery",
-          "AWS Transfer Service (SFTP)",
-          "AWS Parameter Store",
-          "AWS Secrets Store"
+          "AWS VPN",
+          "AWS Route 53"
+        ]
+      },
+      {
+        "category": "Containers & Kubernetes",
+        "items": [
+          "AWS ECS",
+          "Docker Containers"
+        ]
+      },
+      {
+        "category": "Serverless & Event-Driven",
+        "items": [
+          "Kafka",
+          "Amazon MSK"
+        ]
+      },
+      {
+        "category": "Databases",
+        "items": [
+          "AWS RDS",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "category": "Storage & Backup",
+        "items": [
+          "AWS S3",
+          "AWS EFS",
+          "AWS EBS Storage"
+        ]
+      },
+      {
+        "category": "Observability & Monitoring",
+        "items": [
+          "ManageEngine Desktop Central"
         ]
       },
       {
         "category": "Applications & Development Tools",
         "items": [
-          "PostgreSQL",
-          "Docker Containers",
-          "Bash",
-          "Terraform 0.12.7",
-          "Java 8.x",
-          "Tomcat 8.x",
-          "Atlassian JIRA",
-          "Atlassian Confluence",
+          "GeoServer",
+          "NextCloud",
           "WSO2",
-          "Kafka",
-          "PHP",
-          "Git",
-          "OpenLDAP",
           "SOGO",
-          "ManageEngine Desktop Central"
+          "Tomcat 8.x",
+          "Apache",
+          "Atlassian JIRA",
+          "Atlassian Confluence"
+        ]
+      },
+      {
+        "category": "Languages & Scripting",
+        "items": [
+          "Java 8.x",
+          "PHP"
         ]
       },
       {
