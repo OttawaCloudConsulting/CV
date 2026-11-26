@@ -626,8 +626,8 @@
             "start": "September 2019",
             "end": "January 2021"
           },
-          "description": "The CSD R&D Project group are focused on generating a set of deployable Infrastructure as Code (IaC) for re-use within SSC and partners. Infrastructure as Code (IaC) supports automation of 'CSD Landing Zone' integrating AWS Landing Zone customisation, SAA Security Guard Rails, and generic multi-purpose tools. Developed and drove success and security achievements to ATO with AWS Secure Environment Accelerator.",
-          "outcomes": "First team to achieve ATO status using AWS Secure Environment Accelerator (ASEA), establishing reusable Infrastructure as Code templates for government-wide adoption. Created foundational 'CSD Landing Zone' architecture that became the standard for SSC cloud deployments, supporting critical workloads including SCED, DX, and Email systems.",
+          "description": "The CSD R&D Project group are focused on generating a set of deployable Infrastructure as Code (IaC) for re-use within SSC and partners. Infrastructure as Code (IaC) supports automation of 'CSD Landing Zone' integrating AWS Landing Zone customisation, SAA Security Guard Rails, and generic multi-purpose tools. Implemented the IT security program that achieved interim Authority to Operate (iATO) with AWS Secure Environment Accelerator in September 2020.",
+          "outcomes": "Interim Authority to Operate (iATO) granted in September 2020. The 'CSD Landing Zone' became SSC's standard AWS landing zone, with 3 early adopter workload clients onboarded.",
           "tasks_performed": [
             {
               "task": "Needs analysis, define requirements, and strategize architecture with AWS team",
@@ -650,7 +650,7 @@
               "sub_tasks": []
             },
             {
-              "task": "GitLab, GitHub",
+              "task": "GitLab",
               "sub_tasks": []
             },
             {
@@ -686,11 +686,11 @@
               "sub_tasks": []
             },
             {
-              "task": "Achieve ATO status for AWS Cloud",
+              "task": "Achieve iATO status for AWS Cloud",
               "sub_tasks": []
             },
             {
-              "task": "Supporting onboarding of workloads (SCED, DX, Vocalls, Email)",
+              "task": "Supporting onboarding of 3 early adopter workload clients",
               "sub_tasks": []
             }
           ],
@@ -739,7 +739,6 @@
                 "Microsoft Active Directory",
                 "Bash",
                 "GitLab",
-                "GitHub",
                 "CloudFormation"
               ]
             },
