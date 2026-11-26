@@ -1,0 +1,73 @@
+{
+  "project": {
+    "number": 11.02,
+    "title": "Self-Service AWS Service Catalog Products",
+    "client": {
+      "name": "Shared Services Canada",
+      "department": "Cloud Services Directorate",
+      "team": "Cloud Platform Engineering"
+    },
+    "role": "AWS Cloud Infrastructure as Code DevOps Engineer & Architect",
+    "competencies": [
+      "Developer Experience & Golden Paths",
+      "Platform Engineering",
+      "Infrastructure as Code & Automation"
+    ],
+    "parentsummary": {
+      "deliverables": "Built an organization-shared AWS Service Catalog portfolio of versioned CloudFormation blueprint products (3-tier web application, backup and archival) and operational products (monitoring, encryption) with launch constraints.",
+      "outcomes": "Reduced infrastructure deployment time for workload teams from weeks for new AWS users—and days for quicker teams—down to hours using pre-approved catalogue products."
+    },
+    "date_range": {
+      "start": "December 2019",
+      "end": "January 2020"
+    },
+    "challenge": {
+      "summary": "Many early adopter workload teams were new to AWS and provisioned cloud infrastructure by hand through the web console. Without repeatable, pre-approved templates, this manual approach caused slow onboarding, inconsistent builds, and non-compliant resources."
+    },
+    "solution": {
+      "summary": "Key deliverables:",
+      "deliverables": [
+        "Created an AWS Service Catalog portfolio shared across the AWS Organization so workload teams could self-serve pre-approved infrastructure",
+        "Built reusable blueprint products for a 3-tier web application and for backup and archival",
+        "Built operational monitoring products for AWS CloudWatch configuration and a syslog forwarder",
+        "Packaged operational encryption products providing AWS Key Management Service (KMS) customer managed keys with their key policies and AWS Identity and Access Management (IAM) roles",
+        "Authored the catalogue products as versioned AWS CloudFormation templates",
+        "Applied AWS Service Catalog launch constraints so workload teams could deploy products without holding broad IAM permissions",
+        "Wrote documentation and onboarding guides for workload teams"
+      ]
+    },
+    "outcomes": [
+      "Infrastructure deployments that previously took weeks for teams new to AWS, and days for quicker teams, were reduced to hours using catalogue products",
+      "Workload teams shifted from manual console provisioning to standard, pre-approved catalogue products"
+    ],
+    "technologies": [
+      {
+        "category": "Public Cloud",
+        "items": [
+          "AWS Service Catalog",
+          "AWS Organizations",
+          "AWS KMS"
+        ]
+      },
+      {
+        "category": "Identity & Access Management",
+        "items": [
+          "AWS IAM"
+        ]
+      },
+      {
+        "category": "Infrastructure as Code",
+        "items": [
+          "AWS CloudFormation"
+        ]
+      },
+      {
+        "category": "Observability & Monitoring",
+        "items": [
+          "AWS CloudWatch",
+          "Syslog"
+        ]
+      }
+    ]
+  }
+}
