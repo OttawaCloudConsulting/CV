@@ -213,14 +213,14 @@ p11 = {
             "number": "11.1",
             "title": "Cloud Services Directorate, Cloud Platform Engineering Project",
             "date_range": {"start": "September 2019", "end": "January 2021"},
-            "description": "The CSD R&D Project group are focused on generating a set of deployable Infrastructure as Code (IaC) for re-use within SSC and partners. Infrastructure as Code (IaC) supports automation of 'CSD Landing Zone' integrating AWS Landing Zone customisation, SAA Security Guard Rails, and generic multi-purpose tools. Developed and drove success and security achievements to ATO with AWS Secure Environment Accelerator.",
-            "outcomes": "First team to achieve ATO status using AWS Secure Environment Accelerator (ASEA), establishing reusable Infrastructure as Code templates for government-wide adoption. Created foundational 'CSD Landing Zone' architecture that became the standard for SSC cloud deployments, supporting critical workloads including SCED, DX, and Email systems.",
+            "description": "The CSD R&D Project group are focused on generating a set of deployable Infrastructure as Code (IaC) for re-use within SSC and partners. Infrastructure as Code (IaC) supports automation of 'CSD Landing Zone' integrating AWS Landing Zone customisation, SAA Security Guard Rails, and generic multi-purpose tools. Implemented the IT security program that achieved interim Authority to Operate (iATO) with AWS Secure Environment Accelerator in September 2020.",
+            "outcomes": "Interim Authority to Operate (iATO) granted in September 2020. The 'CSD Landing Zone' became SSC's standard AWS landing zone, with 3 early adopter workload clients onboarded.",
             "tasks_performed": [
                 t("Needs analysis, define requirements, and strategize architecture with AWS team"),
                 t("Architectural design and Proof of Concept (PoC) implementation for design review sessions"),
                 t("Infrastructure as Code (IaC) Coding", ["AWS CLI, AWS SDK/API", "AWS CloudFormation", "Terraform"]),
                 t("CI/CD CodePipeline, CodeCommit, CodeBuild, CodeDeploy"),
-                t("GitLab, GitHub"),
+                t("GitLab"),
                 t("Implementation of IT Security Program to meet ITSG-22, ITSG-33 and ITSG-38 and TBS driven cloud guardrails and achieve iATO"),
                 t("Design, secure and implementation of SSO Federation with Azure Active Directory"),
                 t("Designed and codified the AWS IAM access control framework for the CSD Landing Zone"),
@@ -229,12 +229,12 @@ p11 = {
                 t("Source Code Management within GitLab"),
                 t("DevOps integration with DevOps tooling, methodology, and processes"),
                 t("Documentation, Knowledge transfer and cross-training with team, new staff and onboarded clients"),
-                t("Achieve ATO status for AWS Cloud"),
-                t("Supporting onboarding of workloads (SCED, DX, Vocalls, Email)")
+                t("Achieve iATO status for AWS Cloud"),
+                t("Supporting onboarding of 3 early adopter workload clients")
             ],
             "technical_environment": [
                 te("Public Cloud", ["Amazon AWS Cloud", "AWS VPC", "AWS CloudFront", "AWS CloudWatch", "AWS CloudTrail", "AWS IAM", "AWS EC2", "AWS ECS", "AWS SES", "AWS S3", "AWS RDS", "AWS CloudFormation", "AWS Service Catalog", "AWS Route 53", "AWS Systems Manager", "AWS Trusted Advisor", "AWS VPN", "AWS ELB (Load Balancer)", "AWS ALB (Load Balancer)", "AWS Transit Gateway", "AWS Transit Peering", "AWS GuardDuty", "AWS WAF & Shield", "AWS Inspector", "AWS Certificate Manager", "AWS Auto-Scaling", "AWS EBS Storage", "AWS Managed SSO", "AWS CodeBuild", "AWS CodePipeline", "AWS Organizations", "AWS Config", "AWS Systems Manager"]),
-                te("Applications", ["Microsoft Active Directory", "Bash", "GitLab", "GitHub", "CloudFormation"]),
+                te("Applications", ["Microsoft Active Directory", "Bash", "GitLab", "CloudFormation"]),
                 te("Servers", ["Microsoft Windows 2019", "AWS Linux"])
             ]
         }
@@ -1131,7 +1131,6 @@ tech_index = [
     {"name": "Gerrit GIT", "project_references": ["4"]},
     {"name": "Git", "project_references": ["9", "11", "12", "13"]},
     {"name": "GitLab", "project_references": ["10", "11"]},
-    {"name": "GitHub", "project_references": ["11"]},
     {"name": "GitOps", "project_references": ["13.1", "13.2"]},
     {"name": "Golang", "project_references": ["13.1", "13.2"]},
     {"name": "Grafana", "project_references": ["13.2"]},
